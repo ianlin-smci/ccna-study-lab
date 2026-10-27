@@ -1,0 +1,6 @@
+node_modules/
+.angular/
+build/
+out-tsc/
+*.log
+.DS_Store
