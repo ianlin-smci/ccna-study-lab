@@ -1,3 +1,4 @@
+import {GlossaryTextComponent} from './glossary-text.component';
 import {Component,ElementRef,ViewChild,inject,signal} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {ActivatedRoute,RouterLink} from '@angular/router';
@@ -6,7 +7,7 @@ import {LABS} from './data';
 import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
 import {subnetData,numIP,ipNum,ROUTES,bestRoute} from './network-utils';
-@Component({standalone:true,imports:[FormsModule,RouterLink,IconComponent],templateUrl:'./labs.component.html'})
+@Component({standalone:true,imports:[FormsModule,RouterLink,IconComponent,GlossaryTextComponent],templateUrl:'./labs.component.html'})
 export class LabsComponent {
  store=inject(ProgressService);tool=signal('subnet');tabs=[['subnet','Subnetting playground'],['cli','Guided CLI'],['routing','Route explorer'],['journey','Packet journey']];ip='192.168.10.77';prefix=26;subnet=signal(subnetData(this.ip,this.prefix));subnetError='';numIP=numIP;drill={ip:'',prefix:26,network:''};drillAnswer='';drillFeedback='';drillOK=false;labs=LABS;labIndex=0;step=0;command='';log:string[]=[];hint='';routes=ROUTES;destination='10.1.2.55';routeDestination=signal(this.destination);best=signal(bestRoute(this.destination));routeError='';journeyIndex=0;
  @ViewChild('terminalLog')terminalLog?:ElementRef<HTMLDivElement>;

@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {GlossaryMatcher} from '../src/app/glossary-matcher.ts';
+import {GLOSSARY} from '../src/app/glossary.data.ts';
+const matcher=new GlossaryMatcher(GLOSSARY),terms=text=>matcher.split(text).filter(x=>x.term).map(x=>x.term.abbreviation);
+test('the glossary has unique complete entries and deterministic ordering',()=>{assert.ok(GLOSSARY.length>=150);const seen=new Set();for(const t of GLOSSARY){assert.ok(t.fullName&&t.explanation);assert.ok(!seen.has(t.abbreviation.toUpperCase()));seen.add(t.abbreviation.toUpperCase());}});
+test('whole-term matches do not annotate substrings or identifiers',()=>{assert.deepEqual(terms('VLAN, IPv6, MAC-to-port; VLAN10 xVLAN MY_VLAN APIPA'),['VLAN','IPv6','MAC']);});
+test('overlapping and punctuation-bearing forms prefer the full term',()=>{assert.deepEqual(terms('IOS XE, IOS, SNMPv3, SNMP, TACACS+, PVST+, Rapid PVST+, CSMA/CD'),['IOS XE','IOS','SNMPv3','SNMP','TACACS+','PVST+','RPVST+','CSMA/CD']);});
+test('prose is not confused with ambiguous short initialisms',()=>{assert.deepEqual(terms('as a host, use AS 65001; Ad hoc is not AD. OSes run software.'),['AS','AD','OS']);});
+test('config case, aliases, and plurals map to the same entry',()=>{assert.deepEqual(terms('ip routing; vlan 10; ACLs APs SVIs; EUI 64; ospfv2'),['IP','VLAN','ACL','AP','SVI','EUI-64','OSPFv2']);});
+test('splitting preserves literal command text, spaces, and line breaks',()=>{const command='interface Vlan10\n ip address 10.1.1.1 255.255.255.0\n! VLAN ACLs <PLACEHOLDER> & text\n';assert.equal(matcher.split(command).map(x=>x.text).join(''),command);assert.deepEqual(terms(''),[]);assert.equal(matcher.split(123).map(x=>x.text).join(''),'123');});

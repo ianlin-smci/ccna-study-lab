@@ -1,0 +1,4 @@
+import {Component,ElementRef,effect,inject,viewChild} from '@angular/core';
+import {GlossaryService} from './glossary.service';
+@Component({selector:'pw-glossary-popover',standalone:true,template:`@if(glossary.active();as a){<aside #popup id="pw-glossary-popover" role="tooltip" class="term-popover" [style.left.px]="glossary.position().left" [style.top.px]="glossary.position().top" (pointerenter)="glossary.popupEnter()" (pointerleave)="glossary.popupLeave()"><div class="term-popover-label">{{a.term.abbreviation}}</div><strong>{{a.term.fullName}}</strong><p>{{a.term.explanation}}</p><small>Tap outside or press Esc to close</small></aside>}`})
+export class GlossaryPopoverComponent {glossary=inject(GlossaryService);popup=viewChild<ElementRef<HTMLElement>>('popup');constructor(){effect(()=>{const active=this.glossary.active(),box=this.popup();if(active&&box)requestAnimationFrame(()=>{if(this.glossary.active()===active)this.glossary.place(box.nativeElement);});});}}
