@@ -20,6 +20,8 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - name: Check curriculum documentation
+        run: npm run docs:check
       - run: npm test
       - name: Build Angular static site
         run: npm run build:pages

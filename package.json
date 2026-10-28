@@ -8,7 +8,9 @@
     "build:pages": "ng build --base-href ./",
     "check": "tsc --noEmit -p tsconfig.app.json",
     "package": "node scripts/package.mjs",
-    "test": "node --experimental-strip-types --test --test-isolation=none tests/*.test.mjs"
+    "test": "node --experimental-strip-types --test --test-isolation=none tests/*.test.mjs",
+    "docs:sync": "node --experimental-strip-types scripts/sync-docs.mjs",
+    "docs:check": "node --experimental-strip-types scripts/sync-docs.mjs --check"
   },
   "dependencies": {
     "@angular/common": "22.2.3",

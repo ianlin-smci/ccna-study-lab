@@ -1,68 +1,179 @@
-# Packetwise — Angular CCNA learning workspace
+# Packetwise — CCNA Study Lab
 
-An Angular 22 standalone, zoneless application for CCNA 200-301 **v1.1**. All content and interactions run in the browser; no backend, account database, or runtime secrets are required.
+An interactive Angular study workspace for **CCNA 200-301 v1.1**, organized by Cisco’s exam blueprint. Study the concepts, follow platform-labeled command examples, test your understanding, and track your progress in your browser.
 
-- 53 lessons and 136 platform-labeled IOS XE command modules
-- 136 original questions, timed 60-question mock exams, and flashcards
-- IPv4 subnet calculator/drills, longest-prefix lookup, a packet walkthrough, and five guided CLI labs
-- Complete multi-switch VLAN walkthrough with selected inter-VLAN permissions and an interactive policy model
-- Browser-local progress, notes, bookmarks, study dates, and JSON export/restore
+**[Open the website](https://ianlin-smci.github.io/ccna-study-lab/)** · **[Learning Path](https://ianlin-smci.github.io/ccna-study-lab/#/path)** · **[Markdown Learning Path](LEARNING_PATH.md)** · **[Textbook alignment review](public/textbook-alignment-review.md)**
 
-## Develop and build
+## What is included
 
-Use Node 24.15+ (or another version accepted by package.json).
+<!-- BEGIN GENERATED CURRICULUM STATS -->
+
+| Study material | Current content |
+| --- | --- |
+| Exam blueprint | 6 domains · 53 objectives · 58 lettered subtopics |
+| Commands | 136 platform-labeled command modules |
+| Practice | 136 original questions · 60-question, 120-minute mock exams |
+| Textbook support | 106 explanation sections · 53 worked review checks |
+| Glossary | 197 abbreviation entries with optional definition hints |
+| Guided CLI | 5 scripted lab exercises |
+
+<!-- END GENERATED CURRICULUM STATS -->
+
+- Continuous domain reading, with objective and subtopic highlights that follow scrolling.
+- A separate searchable abbreviation glossary. Dotted terms open definitions on hover, keyboard focus or tap; the fixed sidebar switch controls hints across the site.
+- Practice questions, flashcards and timed mock exams with the blueprint’s domain weighting.
+- A subnet calculator/drill, longest-prefix explorer, packet walkthrough and guided CLI exercises.
+- A multi-switch VLAN walkthrough with a policy model for selected inter-VLAN connectivity.
+- Notes, bookmarks, completion tracking, study planning and progress export/restore.
+- Static-site, Angular-source and single-file offline downloads.
+
+The application uses Angular 22 standalone components, signals, zoneless change detection and hash-based routing. It runs entirely in the browser and needs no backend or runtime credentials.
+
+## Run locally
+
+Use **Node.js 24.15.0 or newer within the 24.x line**, with npm. The other supported Node ranges are listed in [package.json](package.json). GitHub Actions uses Node 24.
 
 ```sh
+git clone https://github.com/ianlin-smci/ccna-study-lab.git
+cd ccna-study-lab
 npm ci
 npm start
+```
+
+Open <http://localhost:4200>. Stop the development server with `Ctrl+C`.
+
+## Project commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm start` | Start the Angular development server. |
+| `npm run check` | Check application TypeScript types. |
+| `npm test` | Validate curriculum structure, references, questions and network calculations. |
+| `npm run docs:sync` | Refresh the Markdown Learning Path and the counts in this README. |
+| `npm run docs:check` | Verify that the committed documentation matches the curriculum; writes no files. |
+| `npm run build:pages` | Build the production static site into `build/` with relative asset paths. |
+| `npm run package` | Add offline HTML, documentation and downloadable ZIPs to an existing build. |
+
+A complete local verification and release build is:
+
+```sh
+npm run docs:sync
+npm run docs:check
+npm run check
+npm test
 npm run build:pages
 npm run package
 ```
 
-Serve `build/` as static files. For a local production preview:
+Preview the packaged site with any static HTTP server. For example, with Python 3:
 
 ```sh
 python -m http.server 8000 --directory build
 ```
 
-The package step creates an offline HTML, a static ZIP, and a source ZIP inside `build/`. The source ZIP excludes dependencies, build output, and Git metadata.
+Open <http://localhost:8000>.
 
-## GitHub Pages
+## Markdown shadow copy
 
-The included `.github/workflows/pages.yml` installs locked dependencies, builds the site with the repository's Pages base path, packages the downloads and deploys a Pages artifact. In repository Settings → Pages, choose **GitHub Actions** as the publishing source. Push to `main` or run the workflow manually. Content will be publicly accessible at the configured Pages URL.
+[LEARNING_PATH.md](LEARNING_PATH.md) is generated from the same curriculum data as the website. It includes all six domains, numbered objectives, lettered subtopics, skill targets, core explanations, textbook supplements, worked checks, platform-labeled command blocks, troubleshooting tips, source links and lesson knowledge checks.
 
-Hash-based Angular routes (`/#/lesson/2.1`) work at both a user-site root and a repository subpath without server rewrite rules. Previous `#lesson/2.1` links are normalized on startup.
+The interactive VLAN model is represented by its address plan, policy rules and expected tests. Personal notes, bookmarks and completion state belong to the browser and are not included in this curriculum snapshot. Practice-bank questions, flashcards and the glossary remain separate website features; each lesson’s own knowledge check is included.
 
-Lessons in one domain form a continuous reading page. The “In this domain” highlight follows the lesson at the top of the reading viewport, including when scrolling upward or expanding command blocks. Numbered links and existing lesson/command URLs still jump to their target; browser history restores the reading position. Each lesson keeps its own answers, notes, bookmarks, and completion controls.
+After editing curriculum content, run:
 
-## Progress migration
+```sh
+npm run docs:sync
+```
 
-The browser-storage key remains `packetwise-v1`. Replacing the app at the same origin retains progress. Moving from a ChatGPT Site to a GitHub Pages hostname is a change of origin: export a JSON backup on the old site and restore it under My progress on the new site. Progress is never included in the repository or uploaded by the app. GitHub Pages sites sharing one hostname also share browser storage for that origin.
+Commit the updated source, `LEARNING_PATH.md` and any changed README counts together. The Pages workflow runs `docs:check` before building, so stale snapshots fail CI. Make lasting teaching changes in the source data: direct edits to generated content are replaced by the next sync. Keep personal study annotations in a separate file.
 
-## Curriculum and command assumptions
+The generator is [scripts/sync-docs.mjs](scripts/sync-docs.mjs). It produces deterministic output with a curriculum digest, so repeated runs with unchanged content create no diff. It uses Node’s TypeScript stripping and does not need a documentation framework.
 
-The current curriculum is v1.1 for exams before February 3, 2027. Confirm Cisco's objectives for your scheduled exam. Command references were checked against Cisco's IOS XE 26.x documentation on October 27, 2026; the latest supported build, available features, interface names and licenses depend on hardware. Examples were not executed on physical Cisco equipment. CLI labs and the VLAN policy explorer are educational models, not full network emulators.
+Published copies are also available as [README.md](https://ianlin-smci.github.io/ccna-study-lab/README.md) and [LEARNING_PATH.md](https://ianlin-smci.github.io/ccna-study-lab/LEARNING_PATH.md), and both are included in the packaged downloads.
 
-## Project structure
+## Content structure and editing
 
-`src/app` contains typed data/models, standalone route components, reusable command/UI components, a progress service and a quiz service. Templates use Angular bindings, control flow, and forms; the old imperative page renderer is not used. `scripts/package.mjs` packages portable downloads. There is no SSR or server runtime.
+AI contributors should read [AGENTS.md](AGENTS.md). [CLAUDE.md](CLAUDE.md) imports the same guide for Claude. These cover source ownership, curriculum rules, generated documentation, UI behavior, validation and deployment.
 
-## Abbreviation glossary and hints
+| File or directory | Responsibility |
+| --- | --- |
+| [src/app/blueprint.data.ts](src/app/blueprint.data.ts) | v1.1 hierarchy, objective skill verbs and lettered subtopic explanations. |
+| [src/app/data.ts](src/app/data.ts) | Domains, lesson overviews, questions, command guides, sources and guided labs. |
+| [src/app/textbook.data.ts](src/app/textbook.data.ts) | Second Edition chapter references, original depth notes and worked review checks. |
+| [src/app/glossary.data.ts](src/app/glossary.data.ts) | Abbreviations, full names, explanations and matching aliases. |
+| [src/app/lesson.component.ts](src/app/lesson.component.ts) | Continuous domain reader, deep links and scrolling highlights. |
+| [src/app/lesson-article.component.ts](src/app/lesson-article.component.ts) | Each objective’s questions, notes and completion controls. |
+| [src/app/progress.service.ts](src/app/progress.service.ts) | Browser-local study records and export/restore. |
+| [src/app/quiz.service.ts](src/app/quiz.service.ts) | Practice/mock sessions, scoring and timing. |
+| [src/styles.css](src/styles.css) | Shared and responsive styles. |
+| [tests/fixtures/ccna-v1.1-identifiers.json](tests/fixtures/ccna-v1.1-identifiers.json) | Published domain weights and identifier inventory, with its source URL. |
+| [public/](public/) | Static assets and the textbook review report. |
+| [scripts/package.mjs](scripts/package.mjs) | Portable offline and ZIP packaging. |
+| [.github/workflows/pages.yml](.github/workflows/pages.yml) | Validation, production build, packaging and Pages deployment. |
 
-The standalone `/#/glossary` table contains the abbreviation, full name, and explanation for each term in `src/app/glossary.data.ts`. Search covers all three fields and any aliases. This reference is separate from the Learning Path.
+Use the same objective ID and title in the blueprint and lesson records. Keep existing IDs stable to preserve saved progress and links. Inline scope terms are kept under their parent objective; the hierarchy does not invent lettered identifiers absent from Cisco’s outline. After content changes, sync the documentation and run the checks above.
 
-The sidebar's fixed **Term hints** switch applies across the application and persists under `packetwise-preferences-v1` independently of study progress. Hints start enabled. Reading-text matches support hover, keyboard focus, and tap; Escape or an outside tap dismisses the definition. The matcher recognizes complete terms, selected plurals, and punctuation-bearing aliases, while keeping ambiguous short initials case-sensitive.
+For new displayed text containing abbreviations, use `<pw-term-text [text]="value"/>`. Inside an existing link, button, label or summary, set `[interactive]="true"` to avoid nested buttons. Keep input values and editors as native text. Copy controls use the original command source. The definition pop-up uses plain text to avoid recursive hints.
 
-Use `<pw-term-text [text]="value"/>` for new displayed content that may contain terms. Inside existing links, buttons, labels, or summaries, set `[interactive]="true"` so hints do not introduce nested buttons or replace the control's action. Keep native form values and editor contents unchanged. Command rendering preserves its original characters, and copy buttons use the unmodified command source. The pop-up itself uses plain text to avoid recursively opening definitions.
+## Navigation
 
-`scripts/migrate-glossary-text.mjs` is an idempotent helper for converting additional reading-text templates. It leaves existing term components, native controls, and the pop-up template alone.
+Hash routes work on GitHub Pages without server rewrite rules:
 
-## Official Cert Guide alignment
+- `/#/path` — the complete blueprint-based Learning Path.
+- `/#/path/2` — one domain.
+- `/#/lesson/2.1` — an objective within its continuous domain page.
+- `/#/lesson/2.1/2.1.c` — a lettered subtopic; `/#/lesson/2.1.c` is also supported.
+- `/#/lesson/2.1/commands` — the objective’s command guide.
+- `/#/glossary` — abbreviation reference.
+- `/#/textbook` — Second Edition topic crosswalk and review findings.
+- `/#/progress` — study records and backup tools.
 
-`/#/textbook` supplies a searchable independent topic crosswalk to Second Edition Volumes 1 and 2. Every lesson adds two original explanation sections and a worked check with chapter references. The review uses public contents, selected OSPF/FHRP samples, published errata and Cisco documentation. Full paid volumes were not supplied; page-by-page completeness and exam readiness are not asserted. See `public/textbook-alignment-review.md` for the audit.
+Earlier links such as `#lesson/2.1` are normalized on startup. Browser history restores the reading position, and scrolling updates the visible highlights without adding a history entry for every section.
 
-## Cisco v1.1 Learning Path structure
+## Deploy to GitHub Pages
 
-The Learning Path follows all six domain numbers and weights, 53 numbered objectives and 58 explicit lettered subtopics from Cisco's v1.1 blueprint. Study labels and explanation text are independently worded. Inline scope terms are kept under their numbered objective; for example, 1.12 does not invent 1.12.a/b/c identifiers. The exam skill verb is shown per objective.
+The repository’s Pages source is **GitHub Actions**. Pushing to `main` runs the included workflow:
 
-Subtopics have anchors and links such as `/#/lesson/2.1/2.1.c`; short links like `/#/lesson/2.1.c` also resolve. Objective and subtopic highlights follow scrolling. Existing objective IDs, completion, notes, bookmarks, textbook references and command URLs remain valid. Completion is still recorded for each of the 53 objectives. The glossary and textbook alignment remain separate references. `src/app/blueprint.data.ts` is the hierarchy; `tests/fixtures/ccna-v1.1-identifiers.json` records the published identifier inventory and source URL.
+1. Install locked npm dependencies.
+2. Check documentation synchronization and run tests.
+3. Build Angular and package the downloads.
+4. Upload and deploy the `build/` Pages artifact.
+
+For a manual redeployment, open [Actions](https://github.com/ianlin-smci/ccna-study-lab/actions), select **Deploy Angular site to GitHub Pages**, and use **Run workflow**. Re-running an existing run republishes the code associated with that run.
+
+The public site is <https://ianlin-smci.github.io/ccna-study-lab/>. Static hosting does not require application secrets or server-side configuration.
+
+## Offline and source downloads
+
+Run `build:pages` before `package`. Packaging creates:
+
+| Artifact | Use |
+| --- | --- |
+| `build/packetwise-offline.html` | Open the self-contained study app directly in a browser. |
+| `build/ccna-study-site.zip` | Extract and serve the static files, or use the included offline HTML. |
+| `build/packetwise-angular-source.zip` | Angular source and documentation, excluding dependencies, build output and Git metadata. |
+| `build/README.md`, `build/LEARNING_PATH.md` | Standalone project documentation and curriculum snapshot. |
+
+The offline HTML embeds the application code and styles. Links to separate downloads and external references still need the corresponding files or network access. Browser storage for a local file can differ between browsers; export progress before moving between copies or website addresses.
+
+## Progress and privacy
+
+Study progress is saved under `packetwise-v1` in local storage. The hints preference uses `packetwise-preferences-v1`, independently of study progress. Replacing the app at the same origin retains these records, subject to browser storage settings.
+
+To move between domains, a previous private site, another browser or an offline copy, export a JSON backup under **My progress** and restore it at the destination. Pages hosted under the same hostname share an origin, even if their URL paths differ. Clearing browser data can remove study records.
+
+The app does not upload these records to an account service, and personal browser data is not included in repository documentation or release ZIPs.
+
+## Curriculum and textbook references
+
+The Learning Path targets [Cisco’s CCNA 200-301 v1.1 objectives](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf). Numbering and skill targets follow that inventory; study labels and teaching explanations are independently worded. Confirm the exam version for your testing date before using this curriculum.
+
+The [textbook alignment page](https://ianlin-smci.github.io/ccna-study-lab/#/textbook) maps lessons to **CCNA 200-301 Official Cert Guide, Second Edition, Volumes 1 and 2**. It uses the publisher’s public contents, selected public samples and errata, plus Cisco references. The complete paid books were not supplied for page-by-page comparison; chapter references establish suggested reading relationships, not equal coverage or exam readiness. Full findings and source links are in [the review report](public/textbook-alignment-review.md).
+
+The project is an independently authored study companion. Its questions are original and are not Cisco exam questions or Pearson’s question bank.
+
+## Lab and platform limits
+
+Command examples identify their intended switch, router, controller or management workstation. IOS XE support varies with hardware, image and license; interfaces and available syntax must be adapted to the lab. Older concept examples are labeled separately from current platform guides. The current reference set was checked against IOS XE 26.x documentation in October 2026.
+
+Examples were reviewed against documentation and were not executed on physical Cisco equipment. Guided CLI labs and the VLAN reachability explorer are educational models. Use the textbook exercises and a suitable Cisco simulator or supported equipment for hands-on configuration and troubleshooting practice.

@@ -1,10 +1,11 @@
 import fs from 'node:fs';import path from 'node:path';import {deflateRawSync} from 'node:zlib';
 const root=process.cwd(),build=path.join(root,'build');
 fs.writeFileSync(path.join(build,'.nojekyll'),'');
+for(const file of ['README.md','LEARNING_PATH.md'])fs.copyFileSync(path.join(root,file),path.join(build,file));
 let html=fs.readFileSync(path.join(build,'index.html'),'utf8').replace(/<base href="[^"]*">/,'<base href="./">');
 html=html.replace(/<link rel="stylesheet" href="([^"]+)"[^>]*>/g,(_,file)=>'<style>'+fs.readFileSync(path.join(build,file),'utf8')+'</style>');
-const svg='data:image/svg+xml;base64,'+fs.readFileSync(path.join(build,'network-hero.svg')).toString('base64');
-html=html.replace(/<script src="([^"]+)" type="module"><\/script>/g,(_,file)=>{let js=fs.readFileSync(path.join(build,file),'utf8').replaceAll('network-hero.svg',svg);if(/(?:from\s*|import\s*\()"\.\//.test(js))throw Error('Offline packaging requires a single eager-loaded application bundle.');return '<script type="module">'+js.replace(/<\/script/gi,'<\\/script')+'</script>';});
+const heroImage='data:image/png;base64,'+fs.readFileSync(path.join(build,'network-hero.png')).toString('base64');
+html=html.replace(/<script src="([^"]+)" type="module"><\/script>/g,(_,file)=>{let js=fs.readFileSync(path.join(build,file),'utf8').replaceAll('network-hero.png',heroImage);if(/(?:from\s*|import\s*\()"\.\//.test(js))throw Error('Offline packaging requires a single eager-loaded application bundle.');return '<script type="module">'+js.replace(/<\/script/gi,'<\\/script')+'</script>';});
 html=html.replace(/<link rel="modulepreload"[^>]*>/g,'').replace(/<link rel="stylesheet" href="([^"]+)"[^>]*>/g,(_,file)=>'<style>'+fs.readFileSync(path.join(build,file),'utf8')+'</style>');
 fs.writeFileSync(path.join(build,'packetwise-offline.html'),html);
 
