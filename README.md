@@ -49,7 +49,7 @@ The current curriculum is v1.1 for exams before February 3, 2027. Confirm Cisco'
 
 The standalone `/#/glossary` table contains the abbreviation, full name, and explanation for each term in `src/app/glossary.data.ts`. Search covers all three fields and any aliases. This reference is separate from the Learning Path.
 
-The header's **Term hints** switch applies across the application and persists under `packetwise-preferences-v1` independently of study progress. Hints start enabled. Reading-text matches support hover, keyboard focus, and tap; Escape or an outside tap dismisses the definition. The matcher recognizes complete terms, selected plurals, and punctuation-bearing aliases, while keeping ambiguous short initials case-sensitive.
+The sidebar's fixed **Term hints** switch applies across the application and persists under `packetwise-preferences-v1` independently of study progress. Hints start enabled. Reading-text matches support hover, keyboard focus, and tap; Escape or an outside tap dismisses the definition. The matcher recognizes complete terms, selected plurals, and punctuation-bearing aliases, while keeping ambiguous short initials case-sensitive.
 
 Use `<pw-term-text [text]="value"/>` for new displayed content that may contain terms. Inside existing links, buttons, labels, or summaries, set `[interactive]="true"` so hints do not introduce nested buttons or replace the control's action. Keep native form values and editor contents unchanged. Command rendering preserves its original characters, and copy buttons use the unmodified command source. The pop-up itself uses plain text to avoid recursively opening definitions.
 
