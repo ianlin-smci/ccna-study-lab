@@ -131,8 +131,10 @@ if(currentReadme.split(begin).length!==2||currentReadme.split(end).length!==2)th
 const start=currentReadme.indexOf(begin),finish=currentReadme.indexOf(end)+end.length;
 if(start>=finish)throw Error('README generated markers are out of order.');
 const readme=currentReadme.slice(0,start)+stats+currentReadme.slice(finish);
+const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
+const catalog=[['id','domain','objective','concept','question'],...QUESTIONS.map(q=>[q.id,DOMAINS.find(d=>d.id===q.d).name,q.lesson,q.concept,q.q])].map(row=>row.map(csvCell).join(',')).join('\n')+'\n';
 let stale=false;
-for(const [name,expected] of [['README.md',readme],['LEARNING_PATH.md',learning]]){
+for(const [name,expected] of [['README.md',readme],['LEARNING_PATH.md',learning],['public/question-bank-catalog.csv',catalog]]){
   const file=path.join(root,name),current=fs.existsSync(file)?fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'):null;
   if(current===expected){console.log(name+': current');continue;}
   if(check){console.error(name+': out of date');stale=true;}

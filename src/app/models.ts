@@ -1,6 +1,6 @@
 export interface Domain {id:number;name:string;weight:number;color:string;icon:string;desc:string}
 export interface Lesson {id:string;d:number;title:string;intro:string;points:string[];example:string;question:string;options:string[];answer:number;explanation:string}
-export interface Question {id:string;lesson:string;d:number;q:string;options:string[];answer:number;why:string}
+export interface Question {id:string;lesson:string;d:number;q:string;options:string[];answer:number;why:string;concept:string}
 export interface CommandBlock {title:string;where:string;code:string;why:string;kind:string;expected:string;covers:string}
 export interface Guide {scope:string;coverage:string[];blocks:CommandBlock[];tips:string[];sources:string[];note:string;topology?:{devices:string[];link:string;networks:{id:number;name:string;subnet:string;gateway:string;hosts:string;ports:string}[]};tests?:string[][]}
 export interface Source {title:string;url:string}

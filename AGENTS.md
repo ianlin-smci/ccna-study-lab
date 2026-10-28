@@ -22,6 +22,9 @@ This guide applies to the entire Packetwise CCNA Study Lab repository. Read it b
 | `src/app/lesson.component.*`, `src/app/lesson-article.component.*` | Continuous domain reader, deep links, scrolling highlights and lesson controls. |
 | `src/app/glossary*` | Abbreviation data, matching, hint rendering, preferences and pop-up. |
 | `src/app/progress.service.ts`, `src/app/quiz.service.ts` | Local study records and quiz sessions. |
+| `src/app/question-aliases.ts` | Retired-question ID aliases and current flashcard-rating consolidation. |
+| `public/question-bank-review.md`, `public/question-source-audit.csv` | Dated external-source review and topic-only classification; external question text is excluded. |
+| `public/question-bank-catalog.csv` | Generated catalog of the current original practice pool. |
 | `src/app/network-utils.ts`, `src/app/labs.component.*` | Network calculations and educational lab models. |
 | `tests/`, `tests/fixtures/ccna-v1.1-identifiers.json` | Content/logic tests and the sourced blueprint inventory. |
 | `scripts/sync-docs.mjs` | Generates the curriculum shadow copy and README statistics. |
@@ -40,6 +43,7 @@ Some data files contain very large single-line arrays. Inspect specific exported
 6. Verify any claim about the latest IOS XE release against current official documentation; compatibility depends on hardware, image and license. Never claim commands were executed on equipment when they were only reviewed against documentation or a simulator.
 7. Make network examples internally consistent. Distinguish switching within a VLAN from routing between VLANs. For selective inter-VLAN access, explain addressing, gateways, trunks, routing, filtering and expected allowed/denied tests. Keep worked answers consistent with the topology and command text.
 8. Keep guided CLI exercises and the VLAN explorer described as educational models. They are not full Cisco device emulators.
+9. Give every active question a unique `concept` learning-goal key and the correct objective reference. Review meaning as well as wording: changing only numbers, addresses or names does not justify another question. If retiring a duplicate, maintain a direct alias to its retained question in `question-aliases.ts`; preserve raw saved records and exports. The active review view merges legacy ratings without counting duplicates or unknown cards.
 
 ## Generated documentation
 
@@ -50,7 +54,7 @@ npm run docs:sync
 npm run docs:check
 ```
 
-Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text.
+Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md`, `public/question-bank-catalog.csv` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text. The external source audit is a frozen review snapshot, not a live import or dependency of the question bank.
 
 ## UI and data behavior to preserve
 

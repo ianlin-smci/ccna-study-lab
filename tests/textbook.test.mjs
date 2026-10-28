@@ -12,5 +12,4 @@ test('all objectives have second-edition references and original explained check
 test('question identifiers, objective references and answer structures remain valid',()=>{
  assert.equal(new Set(questions.map(q=>q.id)).size,questions.length);
  for(const q of questions){const l=lessons.find(l=>l.id===q.lesson);assert.ok(l);assert.equal(q.d,l.d);assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<4);assert.ok(q.why);}
- assert.equal(questions.filter(q=>q.id.startsWith('alignment-')).length,18);
 });

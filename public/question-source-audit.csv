@@ -1,0 +1,629 @@
+record,source_id,source_category,suggested_domain,objective,topic,scope,type,disposition,representative_record,exact_duplicate_of_record,similar_concept,flags,answer_review
+1,1,Network Fundamentals,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,1,,,,not-comprehensively-validated
+2,2,Network Access,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,keep-topic-representative,2,,fhrp-virtual-gateway-purpose,,not-comprehensively-validated
+3,3,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,3,,,,not-comprehensively-validated
+4,4,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,4,,,,not-comprehensively-validated
+5,5,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,5,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+6,6,Network Access,2,2.6,Wireless architectures and AP modes,supporting-or-platform-specific,multiple-choice,keep-topic-representative,6,,,,not-comprehensively-validated
+7,7,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,7,,southbound-api-relationship,,not-comprehensively-validated
+8,8,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,8,,,,not-comprehensively-validated
+9,9,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,9,,,,not-comprehensively-validated
+10,10,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,keep-topic-representative,10,,,,not-comprehensively-validated
+11,11,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,11,,,,not-comprehensively-validated
+12,12,Network Access,2,2.9,Wireless controller GUI settings,v1.1-topic,multiple-choice,keep-topic-representative,12,,,,not-comprehensively-validated
+13,13,Automation and Programmability,6,6.1,Automation and network management,v1.1-topic,multiple-choice,keep-topic-representative,13,,,,not-comprehensively-validated
+14,14,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,14,,,,not-comprehensively-validated
+15,15,Automation and Programmability,6,6.6,Ansible and Terraform capabilities,supporting-or-platform-specific,drag-drop,keep-topic-representative,15,,,,not-comprehensively-validated
+16,16,IP Services,4,4.9,TFTP and FTP capabilities,v1.1-topic,drag-drop,keep-topic-representative,16,,,,not-comprehensively-validated
+17,17,Network Access,2,2.7,WLAN component connections,v1.1-topic,drag-drop,keep-topic-representative,17,,,,not-comprehensively-validated
+18,18,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",v1.1-topic,drag-drop,keep-topic-representative,18,,,,not-comprehensively-validated
+19,19,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,drag-drop,keep-topic-representative,19,,,,not-comprehensively-validated
+20,20,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,drag-drop,keep-topic-representative,20,,,,not-comprehensively-validated
+21,21,IP Connectivity,1,1.6,IPv4 addresses and subnetting,v1.1-topic,drag-drop,keep-topic-representative,21,,,,not-comprehensively-validated
+22,22,Security Fundamentals,5,5.10,WPA2-PSK WLANs in a GUI,v1.1-topic,drag-drop,keep-topic-representative,22,,,,not-comprehensively-validated
+23,23,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,23,,,,not-comprehensively-validated
+24,24,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,24,,,,not-comprehensively-validated
+25,25,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,25,,,,not-comprehensively-validated
+26,26,Security Fundamentals,5,5.10,WPA2-PSK WLANs in a GUI,v1.1-topic,multiple-choice,keep-topic-representative,26,,,,not-comprehensively-validated
+27,27,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,27,,,,not-comprehensively-validated
+28,28,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,28,,,,not-comprehensively-validated
+29,29,Network Access,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,29,,,,not-comprehensively-validated
+30,30,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,30,,,,not-comprehensively-validated
+31,31,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,31,,,,not-comprehensively-validated
+32,32,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,32,,,,not-comprehensively-validated
+33,33,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,33,,,,not-comprehensively-validated
+34,34,Automation and Programmability,4,4.9,TFTP and FTP capabilities,v1.1-topic,multiple-choice,keep-topic-representative,34,,,,not-comprehensively-validated
+35,35,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,35,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+36,36,Network Access,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,36,,,,not-comprehensively-validated
+37,37,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,37,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+38,38,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,38,,,,not-comprehensively-validated
+39,39,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,39,,,,not-comprehensively-validated
+40,40,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,40,,,,not-comprehensively-validated
+41,41,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,41,,,,not-comprehensively-validated
+42,42,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,42,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+43,43,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,43,,,,not-comprehensively-validated
+44,44,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,44,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+45,45,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,45,,,,not-comprehensively-validated
+46,46,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,46,,,,not-comprehensively-validated
+47,47,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,47,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+48,48,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,48,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+49,49,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,49,,,,not-comprehensively-validated
+50,50,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,50,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+51,51,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,51,,,,not-comprehensively-validated
+52,52,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,52,,,,not-comprehensively-validated
+53,53,Network Access,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,keep-topic-representative,53,,,,not-comprehensively-validated
+54,54,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,54,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+55,55,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,keep-topic-representative,55,,tcp-versus-udp-delivery,,not-comprehensively-validated
+56,56,Security Fundamentals,5,5.5,Remote-access and site-to-site IPsec VPNs,v1.1-topic,multiple-choice,keep-topic-representative,56,,,,not-comprehensively-validated
+57,57,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,57,,portfast-endpoint-transition,,not-comprehensively-validated
+58,58,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,58,,,,not-comprehensively-validated
+59,59,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,59,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+60,60,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,60,,,,not-comprehensively-validated
+61,61,Network Fundamentals,1,1.10,Client operating-system IP settings,v1.1-topic,multiple-choice,keep-topic-representative,61,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+62,62,Security Fundamentals,5,5.4,Password policies and authentication alternatives,v1.1-topic,multiple-choice,keep-topic-representative,62,,,,not-comprehensively-validated
+63,63,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,63,,,,not-comprehensively-validated
+64,64,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,64,,,,not-comprehensively-validated
+65,65,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,65,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+66,66,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,66,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+67,67,Network Fundamentals,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,67,,,,not-comprehensively-validated
+68,68,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,68,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+69,69,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,drag-drop,keep-topic-representative,69,,,confirmed-dhcp-transport-error,not-comprehensively-validated
+70,70,Network Access,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,70,,,,not-comprehensively-validated
+71,71,Network Access,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,71,,,,not-comprehensively-validated
+72,72,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,72,,,,not-comprehensively-validated
+73,73,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,73,,,,not-comprehensively-validated
+74,74,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,74,,,,not-comprehensively-validated
+75,75,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,75,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+76,76,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,76,,,,not-comprehensively-validated
+77,77,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,77,,,,not-comprehensively-validated
+78,78,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,78,,,,not-comprehensively-validated
+79,79,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,79,,,,not-comprehensively-validated
+80,80,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,drag-drop,keep-topic-representative,80,,,,not-comprehensively-validated
+81,81,Network Fundamentals,2,2.3,CDP and LLDP discovery,supporting-or-platform-specific,multiple-choice,keep-topic-representative,81,,,,not-comprehensively-validated
+82,82,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,82,,,,not-comprehensively-validated
+83,83,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,83,,,,not-comprehensively-validated
+84,84,Network Access,2,2.9,Wireless controller GUI settings,supporting-or-platform-specific,multiple-choice,keep-topic-representative,84,,,,not-comprehensively-validated
+85,85,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,85,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+86,86,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,86,,,,not-comprehensively-validated
+87,87,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,87,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+88,88,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,88,,,,not-comprehensively-validated
+89,89,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,89,,,,not-comprehensively-validated
+90,90,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,90,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+91,91,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,91,,,,not-comprehensively-validated
+92,92,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,92,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+93,93,IP Services,4,4.7,QoS per-hop forwarding behavior,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,93,,,,not-comprehensively-validated
+94,94,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",v1.1-topic,multiple-choice,keep-topic-representative,94,,,,not-comprehensively-validated
+95,95,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,95,,unknown-unicast-flooding,,not-comprehensively-validated
+96,96,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,96,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+97,97,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,97,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+98,98,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,98,,,,not-comprehensively-validated
+99,99,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,99,,,,not-comprehensively-validated
+100,100,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,keep-topic-representative,100,,,duplicate-option-text,not-comprehensively-validated
+101,101,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,101,,,,not-comprehensively-validated
+102,102,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,102,,,,not-comprehensively-validated
+103,103,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,103,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+104,104,Network Access,2,2.1,Normal-range VLANs across switches,supporting-or-platform-specific,multiple-choice,keep-topic-representative,104,,,,not-comprehensively-validated
+105,105,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,105,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+106,106,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,106,,,,not-comprehensively-validated
+107,107,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,keep-topic-representative,107,,syslog-notification-level,,not-comprehensively-validated
+108,108,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,108,,,,not-comprehensively-validated
+109,109,Security Fundamentals,2,2.8,Network device management access,v1.1-topic,multiple-choice,keep-topic-representative,109,,,,not-comprehensively-validated
+110,110,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,110,,,,not-comprehensively-validated
+111,111,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,keep-topic-representative,111,,,,not-comprehensively-validated
+112,112,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,112,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+113,113,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,113,,,,not-comprehensively-validated
+114,114,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,114,,,,not-comprehensively-validated
+115,115,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,115,,,,not-comprehensively-validated
+116,116,Network Fundamentals,2,2.3,CDP and LLDP discovery,supporting-or-platform-specific,multiple-choice,keep-topic-representative,116,,,,not-comprehensively-validated
+117,117,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,117,,,,not-comprehensively-validated
+118,118,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,118,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+119,119,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,119,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+120,120,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,120,,,,not-comprehensively-validated
+121,121,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,121,,,,not-comprehensively-validated
+122,122,IP Services,4,4.7,QoS per-hop forwarding behavior,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,122,,,,not-comprehensively-validated
+123,123,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,123,,,,not-comprehensively-validated
+124,124,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,124,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+125,125,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,125,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+126,126,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,126,,,,not-comprehensively-validated
+127,127,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,127,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+128,128,Network Access,2,2.2,Links between switches,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,128,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+129,129,Network Fundamentals,1,1.10,Client operating-system IP settings,v1.1-topic,drag-drop,keep-topic-representative,129,,,,not-comprehensively-validated
+130,130,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,drag-drop,keep-topic-representative,130,,,ambiguous-process-id-uniqueness,not-comprehensively-validated
+131,131,Network Fundamentals,1,1.10,Client operating-system IP settings,v1.1-topic,drag-drop,keep-topic-representative,131,,,,not-comprehensively-validated
+132,132,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,132,,,,not-comprehensively-validated
+133,133,Network Access,2,2.9,Wireless controller GUI settings,v1.1-topic,multiple-choice,keep-topic-representative,133,,,,not-comprehensively-validated
+134,134,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,134,,,,not-comprehensively-validated
+135,135,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,135,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+136,136,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,136,,,,not-comprehensively-validated
+137,137,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,137,,,,not-comprehensively-validated
+138,138,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,138,,unique-local-address-category,,not-comprehensively-validated
+139,139,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,139,,,,not-comprehensively-validated
+140,140,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,140,,,,not-comprehensively-validated
+141,141,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,drag-drop,keep-topic-representative,141,,,,not-comprehensively-validated
+142,142,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,142,,,,not-comprehensively-validated
+143,143,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,143,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+144,144,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,144,,,,not-comprehensively-validated
+145,145,Network Fundamentals,1,1.2,Network topology architectures,supporting-or-platform-specific,multiple-choice,keep-topic-representative,145,,,,not-comprehensively-validated
+146,146,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,146,,,,not-comprehensively-validated
+147,147,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,keep-topic-representative,147,,json-object-representation,,not-comprehensively-validated
+148,148,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,keep-topic-representative,148,,,,not-comprehensively-validated
+149,149,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,149,,,,not-comprehensively-validated
+150,150,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,150,,,,not-comprehensively-validated
+151,151,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,151,,,,not-comprehensively-validated
+152,152,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,152,,,,not-comprehensively-validated
+153,153,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,153,,,,not-comprehensively-validated
+154,154,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,154,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+155,155,IP Connectivity,3,3.4,Single-area OSPFv2,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,155,,,,not-comprehensively-validated
+156,156,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,156,,,,not-comprehensively-validated
+157,157,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,157,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+158,158,Network Access,2,2.2,Links between switches,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,158,,,,not-comprehensively-validated
+159,159,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,159,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+160,160,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,keep-topic-representative,160,,rfc1918-purpose-and-use,,not-comprehensively-validated
+161,161,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,161,,,,not-comprehensively-validated
+162,162,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,162,,,,not-comprehensively-validated
+163,163,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,163,,,,not-comprehensively-validated
+164,164,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,164,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+165,165,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,165,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+166,166,Network Access,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,keep-topic-representative,166,,,,not-comprehensively-validated
+167,167,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,167,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+168,168,Network Access,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,168,,,,not-comprehensively-validated
+169,169,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,169,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+170,170,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,170,,,,not-comprehensively-validated
+171,171,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,171,,,,not-comprehensively-validated
+172,172,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,172,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+173,173,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,173,,,,not-comprehensively-validated
+174,174,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,174,,,,not-comprehensively-validated
+175,175,IP Connectivity,3,3.4,Single-area OSPFv2,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,175,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+176,176,IP Connectivity,3,3.4,Single-area OSPFv2,supporting-or-platform-specific,multiple-choice,keep-topic-representative,176,,,,not-comprehensively-validated
+177,177,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,177,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+178,178,IP Connectivity,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,178,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+179,179,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,179,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+180,180,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,180,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+181,181,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,181,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+182,182,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,182,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+183,183,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,183,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+184,184,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,184,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+185,185,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,185,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+186,186,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,186,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+187,187,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,187,,,,not-comprehensively-validated
+188,188,Network Access,2,2.2,Links between switches,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,188,,,,not-comprehensively-validated
+189,189,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,189,,,,not-comprehensively-validated
+190,190,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,190,,,,not-comprehensively-validated
+191,191,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,191,,,,not-comprehensively-validated
+192,192,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,192,,,,not-comprehensively-validated
+193,193,Network Access,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,193,,,,not-comprehensively-validated
+194,194,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,194,,,,not-comprehensively-validated
+195,195,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,195,,,,not-comprehensively-validated
+196,196,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,196,,,,not-comprehensively-validated
+197,197,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,197,,modified-eui64-derivation,,not-comprehensively-validated
+198,198,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,merge-similar-concept,55,,tcp-versus-udp-delivery,,not-comprehensively-validated
+199,199,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,199,,,,not-comprehensively-validated
+200,200,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,,not-comprehensively-validated
+201,201,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,201,,northbound-api-relationship,,not-comprehensively-validated
+202,202,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,202,,,,not-comprehensively-validated
+203,203,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,203,,,,not-comprehensively-validated
+204,204,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,204,,,,not-comprehensively-validated
+205,205,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,205,,,,not-comprehensively-validated
+206,206,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,206,,,,not-comprehensively-validated
+207,207,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,207,,,,not-comprehensively-validated
+208,208,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,merge-similar-concept,55,,tcp-versus-udp-delivery,,not-comprehensively-validated
+209,209,Network Fundamentals,1,1.3,Physical interfaces and cabling,v1.1-topic,multiple-choice,keep-topic-representative,209,,,,not-comprehensively-validated
+210,210,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,210,,,,not-comprehensively-validated
+211,211,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,211,,,,not-comprehensively-validated
+212,212,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,212,,,,not-comprehensively-validated
+213,213,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,213,,,,not-comprehensively-validated
+214,214,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,214,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+215,215,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,215,,,,not-comprehensively-validated
+216,216,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,216,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+217,217,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,217,,,,not-comprehensively-validated
+218,218,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,218,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+219,219,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,219,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+220,220,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,220,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+221,221,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,221,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+222,222,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,222,,,,not-comprehensively-validated
+223,223,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,223,,,,not-comprehensively-validated
+224,224,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,224,,,,not-comprehensively-validated
+225,225,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,225,,,,not-comprehensively-validated
+226,226,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,226,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+227,227,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,227,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+228,228,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,228,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+229,229,IP Connectivity,3,3.2,Default forwarding decisions,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,229,,,,not-comprehensively-validated
+230,230,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,230,,,,not-comprehensively-validated
+231,231,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,231,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+232,232,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,232,,,,not-comprehensively-validated
+233,233,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,233,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+234,234,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,234,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+235,235,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,235,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+236,236,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,236,,,,not-comprehensively-validated
+237,237,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,237,,,,not-comprehensively-validated
+238,238,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,238,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+239,239,Automation and Programmability,4,4.4,SNMP in network operations,v1.1-topic,multiple-choice,keep-topic-representative,239,,,,not-comprehensively-validated
+240,240,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,240,,,,not-comprehensively-validated
+241,241,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,241,,,,not-comprehensively-validated
+242,242,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,merge-similar-concept,107,,syslog-notification-level,,not-comprehensively-validated
+243,243,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,243,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+244,244,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,244,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+245,245,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,245,,,,not-comprehensively-validated
+246,246,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,246,,,,not-comprehensively-validated
+247,247,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,247,,,,not-comprehensively-validated
+248,248,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,248,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+249,249,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,249,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+250,250,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,250,,,,not-comprehensively-validated
+251,251,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,251,,,,not-comprehensively-validated
+252,252,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",v1.1-topic,drag-drop,keep-topic-representative,252,,,,not-comprehensively-validated
+253,253,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,drag-drop,keep-topic-representative,253,,,,not-comprehensively-validated
+254,254,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,254,,,,not-comprehensively-validated
+255,255,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,,not-comprehensively-validated
+256,256,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,256,,,,not-comprehensively-validated
+257,257,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,keep-topic-representative,257,,,,not-comprehensively-validated
+258,258,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,,not-comprehensively-validated
+259,259,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,259,,,,not-comprehensively-validated
+260,260,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,drag-drop,keep-topic-representative,260,,,,not-comprehensively-validated
+261,261,Network Access,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,merge-similar-concept,2,,fhrp-virtual-gateway-purpose,,not-comprehensively-validated
+262,262,Security Fundamentals,4,4.4,SNMP in network operations,v1.1-topic,multiple-choice,keep-topic-representative,262,,,,not-comprehensively-validated
+263,263,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,263,,,,not-comprehensively-validated
+264,264,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,264,,,,not-comprehensively-validated
+265,265,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,265,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+266,266,Network Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,266,,,,not-comprehensively-validated
+267,267,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,267,,,,not-comprehensively-validated
+268,268,Security Fundamentals,5,5.4,Password policies and authentication alternatives,v1.1-topic,multiple-choice,keep-topic-representative,268,,,,not-comprehensively-validated
+269,269,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,269,,,,not-comprehensively-validated
+270,270,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,270,,,,not-comprehensively-validated
+271,271,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,271,,,,not-comprehensively-validated
+272,272,Security Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,,not-comprehensively-validated
+273,273,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,273,,,,not-comprehensively-validated
+274,274,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,274,,,,not-comprehensively-validated
+275,275,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,275,,,,not-comprehensively-validated
+276,276,Security Fundamentals,5,5.10,WPA2-PSK WLANs in a GUI,v1.1-topic,multiple-choice,keep-topic-representative,276,,,,not-comprehensively-validated
+277,277,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,277,,,,not-comprehensively-validated
+278,278,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,merge-similar-concept,55,,tcp-versus-udp-delivery,,not-comprehensively-validated
+279,279,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,279,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+280,280,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,280,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+281,281,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,281,,,,not-comprehensively-validated
+282,282,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,282,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+283,283,Network Fundamentals,5,5.5,Remote-access and site-to-site IPsec VPNs,supporting-or-platform-specific,multiple-choice,keep-topic-representative,283,,,,not-comprehensively-validated
+284,284,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,284,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+285,285,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,285,,,,not-comprehensively-validated
+286,286,Security Fundamentals,5,5.4,Password policies and authentication alternatives,v1.1-topic,multiple-choice,keep-topic-representative,286,,,,not-comprehensively-validated
+287,287,Network Access,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,keep-topic-representative,287,,,,not-comprehensively-validated
+288,288,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,288,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+289,289,Network Fundamentals,2,2.3,CDP and LLDP discovery,supporting-or-platform-specific,multiple-choice,keep-topic-representative,289,,,,not-comprehensively-validated
+290,290,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,290,,,reused-source-id;exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+291,291,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,291,,stateful-firewall-role,reused-source-id,not-comprehensively-validated
+292,292,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,292,,,reused-source-id;incomplete-stem,not-comprehensively-validated
+293,290,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,293,,,reused-source-id;exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+294,291,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,merge-exact,291,291,stateful-firewall-role,reused-source-id;missing-explanation,not-comprehensively-validated
+295,292,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,295,,,reused-source-id;missing-explanation,not-comprehensively-validated
+296,293,Network Access,2,2.9,Wireless controller GUI settings,v1.1-topic,multiple-choice,keep-topic-representative,296,,,missing-explanation,not-comprehensively-validated
+297,294,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,297,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+298,295,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,298,,,missing-explanation,not-comprehensively-validated
+299,296,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,299,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+300,297,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,300,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+301,298,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,301,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+302,299,Automation and Programmability,4,4.9,TFTP and FTP capabilities,v1.1-topic,multiple-choice,keep-topic-representative,302,,,missing-explanation,not-comprehensively-validated
+303,300,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,303,,,missing-explanation,not-comprehensively-validated
+304,301,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,304,,,missing-explanation,not-comprehensively-validated
+305,302,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,305,,,missing-explanation,not-comprehensively-validated
+306,303,Network Access,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,306,,,missing-explanation,not-comprehensively-validated
+307,304,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,307,,,missing-explanation,not-comprehensively-validated
+308,305,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,308,,,missing-explanation,not-comprehensively-validated
+309,306,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,missing-explanation,not-comprehensively-validated
+310,307,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,310,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+311,308,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,7,,southbound-api-relationship,missing-explanation,not-comprehensively-validated
+312,309,Network Fundamentals,1,1.10,Client operating-system IP settings,v1.1-topic,drag-drop,keep-topic-representative,312,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+313,310,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,drag-drop,keep-topic-representative,313,,,missing-explanation,not-comprehensively-validated
+314,311,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,drag-drop,keep-topic-representative,314,,,missing-explanation,not-comprehensively-validated
+315,312,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,315,,,missing-explanation,not-comprehensively-validated
+316,313,Automation and Programmability,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,316,,,missing-explanation,not-comprehensively-validated
+317,314,Network Access,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,317,,,missing-explanation,not-comprehensively-validated
+318,315,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,keep-topic-representative,318,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+319,316,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,319,,,missing-explanation,not-comprehensively-validated
+320,317,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,,not-comprehensively-validated
+321,318,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,321,,,,not-comprehensively-validated
+322,319,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,322,,,missing-explanation,not-comprehensively-validated
+323,320,Network Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,323,,,missing-explanation,not-comprehensively-validated
+324,321,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,324,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+325,322,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,drag-drop,keep-topic-representative,325,,,missing-explanation,not-comprehensively-validated
+326,323,Network Access,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,326,,,missing-explanation,not-comprehensively-validated
+327,324,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+328,325,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,328,,,missing-explanation,not-comprehensively-validated
+329,326,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,329,,,,not-comprehensively-validated
+330,327,Security Fundamentals,2,2.8,Network device management access,supporting-or-platform-specific,multiple-choice,keep-topic-representative,330,,,missing-explanation,not-comprehensively-validated
+331,328,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,331,,,missing-explanation,not-comprehensively-validated
+332,329,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,332,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+333,330,Network Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,333,,,,not-comprehensively-validated
+334,331,Network Fundamentals,1,1.3,Physical interfaces and cabling,v1.1-topic,multiple-choice,keep-topic-representative,334,,,,not-comprehensively-validated
+335,332,Network Fundamentals,4,4.9,TFTP and FTP capabilities,v1.1-topic,multiple-choice,keep-topic-representative,335,,,missing-explanation,not-comprehensively-validated
+336,333,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,336,,,missing-explanation,not-comprehensively-validated
+337,334,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,337,,,missing-explanation,not-comprehensively-validated
+338,335,Security Fundamentals,5,5.5,Remote-access and site-to-site IPsec VPNs,v1.1-topic,multiple-choice,keep-topic-representative,338,,,missing-explanation,not-comprehensively-validated
+339,336,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,339,,dhcp-client-role,missing-explanation,not-comprehensively-validated
+340,337,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,340,,,,not-comprehensively-validated
+341,338,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,341,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+342,339,Automation and Programmability,6,6.6,Ansible and Terraform capabilities,v1.1-topic,multiple-choice,keep-topic-representative,342,,,missing-explanation,not-comprehensively-validated
+343,340,Security Fundamentals,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,343,,,missing-explanation,not-comprehensively-validated
+344,341,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,344,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+345,342,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,345,,,,not-comprehensively-validated
+346,343,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,346,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+347,344,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,347,,,,not-comprehensively-validated
+348,345,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,348,,source-mac-learning,missing-explanation,not-comprehensively-validated
+349,346,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,349,,,missing-explanation,not-comprehensively-validated
+350,347,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,drag-drop,keep-topic-representative,350,,,missing-explanation,not-comprehensively-validated
+351,348,Automation and Programmability,4,4.4,SNMP in network operations,v1.1-topic,drag-drop,keep-topic-representative,351,,,missing-explanation,not-comprehensively-validated
+352,349,Network Fundamentals,1,1.10,Client operating-system IP settings,v1.1-topic,drag-drop,keep-topic-representative,352,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+353,350,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,353,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+354,351,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,merge-similar-concept,348,,source-mac-learning,missing-explanation,not-comprehensively-validated
+355,352,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,merge-similar-concept,291,,stateful-firewall-role,missing-explanation,not-comprehensively-validated
+356,353,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,356,,,missing-explanation,not-comprehensively-validated
+357,354,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,357,,,missing-explanation,not-comprehensively-validated
+358,355,Network Access,2,2.6,Wireless architectures and AP modes,supporting-or-platform-specific,multiple-choice,keep-topic-representative,358,,,missing-explanation,not-comprehensively-validated
+359,356,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,359,,,missing-explanation,not-comprehensively-validated
+360,357,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,360,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+361,358,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,merge-similar-concept,95,,unknown-unicast-flooding,missing-explanation,not-comprehensively-validated
+362,359,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,missing-explanation,not-comprehensively-validated
+363,360,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,363,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+364,361,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,364,,,missing-explanation,not-comprehensively-validated
+365,362,IP Services,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,merge-similar-concept,2,,fhrp-virtual-gateway-purpose,missing-explanation,not-comprehensively-validated
+366,363,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,366,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+367,364,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,367,,,missing-explanation,not-comprehensively-validated
+368,365,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,368,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+369,366,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",supporting-or-platform-specific,multiple-choice,keep-topic-representative,369,,,missing-explanation,not-comprehensively-validated
+370,367,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,missing-explanation,not-comprehensively-validated
+371,368,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,371,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+372,369,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,372,,,missing-explanation,not-comprehensively-validated
+373,370,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,373,,,missing-explanation,not-comprehensively-validated
+374,371,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,374,,,missing-explanation,not-comprehensively-validated
+375,372,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,375,,,missing-explanation,not-comprehensively-validated
+376,373,Network Fundamentals,1,1.2,Network topology architectures,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,376,,,,not-comprehensively-validated
+377,374,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,377,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+378,375,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,378,,,missing-explanation,not-comprehensively-validated
+379,376,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,merge-similar-concept,197,,modified-eui64-derivation,missing-explanation,not-comprehensively-validated
+380,377,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,380,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+381,378,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,381,,,,not-comprehensively-validated
+382,379,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,382,,,missing-explanation,not-comprehensively-validated
+383,380,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,383,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+384,381,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,384,,,missing-explanation,not-comprehensively-validated
+385,382,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,385,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+386,383,Automation and Programmability,4,4.4,SNMP in network operations,v1.1-topic,multiple-choice,keep-topic-representative,386,,,missing-explanation,not-comprehensively-validated
+387,384,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,387,,,missing-explanation,not-comprehensively-validated
+388,385,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,388,,,missing-explanation,not-comprehensively-validated
+389,386,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,389,,,missing-explanation,not-comprehensively-validated
+390,387,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,390,,,missing-explanation,not-comprehensively-validated
+391,388,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,391,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+392,389,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,392,,,missing-explanation,not-comprehensively-validated
+393,390,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,merge-similar-concept,55,,tcp-versus-udp-delivery,missing-explanation,not-comprehensively-validated
+394,391,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,drag-drop,keep-topic-representative,394,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+395,392,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,drag-drop,keep-topic-representative,395,,,missing-explanation,not-comprehensively-validated
+396,393,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,drag-drop,keep-topic-representative,396,,,missing-explanation,not-comprehensively-validated
+397,394,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,397,,,,not-comprehensively-validated
+398,395,Automation and Programmability,4,4.4,SNMP in network operations,v1.1-topic,drag-drop,keep-topic-representative,398,,,missing-explanation,not-comprehensively-validated
+399,396,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,drag-drop,keep-topic-representative,399,,,missing-explanation,not-comprehensively-validated
+400,397,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,drag-drop,keep-topic-representative,400,,,missing-explanation,not-comprehensively-validated
+401,398,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,401,,,missing-explanation,not-comprehensively-validated
+402,399,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,402,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+403,400,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,403,,,missing-explanation,not-comprehensively-validated
+404,401,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,404,,,missing-explanation,not-comprehensively-validated
+405,402,Automation and Programmability,6,6.5,REST API characteristics,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,405,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+406,403,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,406,,,missing-explanation,not-comprehensively-validated
+407,404,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,407,,,missing-explanation,not-comprehensively-validated
+408,405,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,,not-comprehensively-validated
+409,406,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,409,,,missing-explanation,not-comprehensively-validated
+410,407,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,merge-similar-concept,291,,stateful-firewall-role,missing-explanation,not-comprehensively-validated
+411,408,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,411,,,missing-explanation,not-comprehensively-validated
+412,409,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,412,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+413,410,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,missing-explanation,not-comprehensively-validated
+414,411,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,merge-similar-concept,95,,unknown-unicast-flooding,missing-explanation,not-comprehensively-validated
+415,412,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,415,,,missing-explanation,not-comprehensively-validated
+416,413,Security Fundamentals,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,416,,,missing-explanation,not-comprehensively-validated
+417,414,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,7,,southbound-api-relationship,,not-comprehensively-validated
+418,415,Network Access,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,418,,,,not-comprehensively-validated
+419,416,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,,not-comprehensively-validated
+420,417,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,201,,northbound-api-relationship,missing-explanation,not-comprehensively-validated
+421,418,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,missing-explanation,not-comprehensively-validated
+422,419,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,422,,,,not-comprehensively-validated
+423,420,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+424,421,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,merge-similar-concept,339,,dhcp-client-role,missing-explanation,not-comprehensively-validated
+425,422,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,425,,,missing-explanation,not-comprehensively-validated
+426,423,Network Access,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,426,,,missing-explanation,not-comprehensively-validated
+427,424,Network Access,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,427,,,missing-explanation,not-comprehensively-validated
+428,425,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,428,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+429,426,Network Access,5,5.10,WPA2-PSK WLANs in a GUI,v1.1-topic,multiple-choice,keep-topic-representative,429,,,missing-explanation,not-comprehensively-validated
+430,427,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+431,428,Network Access,2,2.2,Links between switches,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,431,,,missing-explanation,not-comprehensively-validated
+432,429,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,432,,,missing-explanation,not-comprehensively-validated
+433,430,Network Fundamentals,1,1.3,Physical interfaces and cabling,v1.1-topic,multiple-choice,keep-topic-representative,433,,,missing-explanation,not-comprehensively-validated
+434,431,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,merge-similar-concept,147,,json-object-representation,missing-explanation,not-comprehensively-validated
+435,432,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,435,,,missing-explanation,not-comprehensively-validated
+436,433,IP Services,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,merge-similar-concept,2,,fhrp-virtual-gateway-purpose,missing-explanation,not-comprehensively-validated
+437,434,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,437,,,,not-comprehensively-validated
+438,435,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,438,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+439,436,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,439,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+440,437,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,440,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+441,438,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,keep-topic-representative,441,,syslog-informational-level,missing-explanation,not-comprehensively-validated
+442,439,Network Access,2,2.9,Wireless controller GUI settings,v1.1-topic,multiple-choice,keep-topic-representative,442,,,missing-explanation,not-comprehensively-validated
+443,440,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,443,,,,not-comprehensively-validated
+444,441,Automation and Programmability,6,6.1,Automation and network management,v1.1-topic,multiple-choice,keep-topic-representative,444,,,missing-explanation,not-comprehensively-validated
+445,442,Network Fundamentals,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,445,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+446,443,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,446,,,missing-explanation,not-comprehensively-validated
+447,444,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,447,,,missing-explanation,not-comprehensively-validated
+448,445,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,448,,,missing-explanation,not-comprehensively-validated
+449,446,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,449,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+450,447,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,450,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+451,448,Network Access,2,2.6,Wireless architectures and AP modes,supporting-or-platform-specific,multiple-choice,keep-topic-representative,451,,,missing-explanation,not-comprehensively-validated
+452,449,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,drag-drop,keep-topic-representative,452,,,missing-explanation,not-comprehensively-validated
+453,450,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,453,,,missing-explanation,not-comprehensively-validated
+454,451,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,454,,,missing-explanation,not-comprehensively-validated
+455,452,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,455,,,missing-explanation,not-comprehensively-validated
+456,453,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,merge-similar-concept,138,,unique-local-address-category,missing-explanation,not-comprehensively-validated
+457,454,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,keep-topic-representative,457,,,missing-explanation,not-comprehensively-validated
+458,455,Network Access,1,1.11,Wireless networking principles,supporting-or-platform-specific,drag-drop,keep-topic-representative,458,,,missing-explanation,not-comprehensively-validated
+459,456,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,459,,,,not-comprehensively-validated
+460,457,IP Services,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,merge-similar-concept,2,,fhrp-virtual-gateway-purpose,,not-comprehensively-validated
+461,458,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",supporting-or-platform-specific,multiple-choice,keep-topic-representative,461,,,missing-explanation,not-comprehensively-validated
+462,459,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,462,,,,not-comprehensively-validated
+463,460,Security Fundamentals,5,5.5,Remote-access and site-to-site IPsec VPNs,v1.1-topic,multiple-choice,keep-topic-representative,463,,,missing-explanation,not-comprehensively-validated
+464,461,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,464,,,missing-explanation,not-comprehensively-validated
+465,462,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,465,,,missing-explanation,not-comprehensively-validated
+466,463,Security Fundamentals,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,466,,,missing-explanation,not-comprehensively-validated
+467,464,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,467,,,missing-explanation,not-comprehensively-validated
+468,465,Automation and Programmability,6,6.1,Automation and network management,v1.1-topic,multiple-choice,keep-topic-representative,468,,,missing-explanation,not-comprehensively-validated
+469,466,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,469,,,missing-explanation,not-comprehensively-validated
+470,467,Network Fundamentals,4,4.9,TFTP and FTP capabilities,v1.1-topic,multiple-choice,keep-topic-representative,470,,,missing-explanation,not-comprehensively-validated
+471,468,Network Access,2,2.9,Wireless controller GUI settings,v1.1-topic,multiple-choice,keep-topic-representative,471,,,missing-explanation,not-comprehensively-validated
+472,469,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,472,,,missing-explanation,not-comprehensively-validated
+473,470,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,drag-drop,keep-topic-representative,473,,,missing-explanation,not-comprehensively-validated
+474,471,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,474,,,missing-explanation,not-comprehensively-validated
+475,472,Network Fundamentals,1,1.12,"Virtual machines, containers and VRFs",v1.1-topic,multiple-choice,keep-topic-representative,475,,,missing-explanation,not-comprehensively-validated
+476,473,Network Fundamentals,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,476,,,missing-explanation,not-comprehensively-validated
+477,474,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,477,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+478,475,Security Fundamentals,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,478,,,missing-explanation,not-comprehensively-validated
+479,476,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,479,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+480,477,Network Fundamentals,1,1.7,Private IPv4 address space,v1.1-topic,multiple-choice,merge-similar-concept,160,,rfc1918-purpose-and-use,missing-explanation,not-comprehensively-validated
+481,478,Automation and Programmability,6,6.5,REST API characteristics,v1.1-topic,multiple-choice,keep-topic-representative,481,,,missing-explanation,not-comprehensively-validated
+482,479,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,482,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+483,480,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,483,,,missing-explanation,not-comprehensively-validated
+484,481,Network Fundamentals,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,484,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+485,482,Automation and Programmability,6,6.6,Ansible and Terraform capabilities,v1.1-topic,multiple-choice,keep-topic-representative,485,,,,not-comprehensively-validated
+486,483,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,486,,,,not-comprehensively-validated
+487,484,IP Services,3,3.5,First-hop redundancy concepts,supporting-or-platform-specific,multiple-choice,keep-topic-representative,487,,,missing-explanation,not-comprehensively-validated
+488,485,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,488,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+489,486,Network Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,489,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+490,487,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+491,488,Automation and Programmability,4,4.5,Syslog facilities and severity,v1.1-topic,multiple-choice,merge-similar-concept,441,,syslog-informational-level,,not-comprehensively-validated
+492,489,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,492,,,,not-comprehensively-validated
+493,490,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,493,,,missing-explanation,not-comprehensively-validated
+494,491,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,494,,,missing-explanation,not-comprehensively-validated
+495,492,Network Fundamentals,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,495,,,missing-explanation,not-comprehensively-validated
+496,493,Network Fundamentals,1,1.3,Physical interfaces and cabling,v1.1-topic,multiple-choice,keep-topic-representative,496,,,missing-explanation,not-comprehensively-validated
+497,494,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,497,,,missing-explanation,not-comprehensively-validated
+498,495,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,multiple-choice,merge-similar-concept,55,,tcp-versus-udp-delivery,missing-explanation,not-comprehensively-validated
+499,496,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,499,,,missing-explanation,not-comprehensively-validated
+500,497,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,500,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+501,498,Security Fundamentals,2,2.8,Network device management access,v1.1-topic,multiple-choice,keep-topic-representative,501,,,missing-explanation,not-comprehensively-validated
+502,499,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,,not-comprehensively-validated
+503,500,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,503,,,,not-comprehensively-validated
+504,501,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,504,,,missing-explanation,not-comprehensively-validated
+505,502,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,drag-drop,keep-topic-representative,505,,,missing-explanation,not-comprehensively-validated
+506,503,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,506,,,missing-explanation,not-comprehensively-validated
+507,504,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,507,,,,not-comprehensively-validated
+508,505,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,missing-explanation,not-comprehensively-validated
+509,506,Network Fundamentals,4,4.3,DHCP and DNS roles,v1.1-topic,drag-drop,keep-topic-representative,509,,,missing-explanation,not-comprehensively-validated
+510,507,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,drag-drop,keep-topic-representative,510,,,,not-comprehensively-validated
+511,508,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,drag-drop,keep-topic-representative,511,,,,not-comprehensively-validated
+512,509,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,512,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+513,510,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,513,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+514,511,IP Connectivity,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,514,,,exhibit-dependent-review;image-flag-without-path,not-comprehensively-validated
+515,512,Network Fundamentals,1,1.2,Network topology architectures,v1.1-topic,multiple-choice,keep-topic-representative,515,,,,not-comprehensively-validated
+516,513,Network Fundamentals,4,4.9,TFTP and FTP capabilities,v1.1-topic,multiple-choice,keep-topic-representative,516,,,,not-comprehensively-validated
+517,514,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,517,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+518,515,Network Access,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,518,,,missing-explanation,not-comprehensively-validated
+519,516,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-exact,7,311,southbound-api-relationship,missing-explanation,not-comprehensively-validated
+520,517,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,drag-drop,keep-topic-representative,520,,,missing-explanation,not-comprehensively-validated
+521,518,Automation and Programmability,6,6.3,Software-defined network architecture,extension-beyond-explicit-v1.1,multiple-choice,keep-topic-representative,521,,,missing-explanation,not-comprehensively-validated
+522,519,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,522,,,missing-explanation,not-comprehensively-validated
+523,520,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,523,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+524,521,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,524,,,missing-explanation,not-comprehensively-validated
+525,522,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,525,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+526,523,Security Fundamentals,2,2.8,Network device management access,v1.1-topic,multiple-choice,keep-topic-representative,526,,,missing-explanation,not-comprehensively-validated
+527,524,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+528,525,Security Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,528,,,missing-explanation,not-comprehensively-validated
+529,526,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,529,,,missing-explanation,not-comprehensively-validated
+530,527,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,530,,,missing-explanation,not-comprehensively-validated
+531,528,Security Fundamentals,5,5.6,Access control lists,v1.1-topic,multiple-choice,keep-topic-representative,531,,,missing-explanation,not-comprehensively-validated
+532,529,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,532,,,missing-explanation,not-comprehensively-validated
+533,530,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,533,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+534,531,Network Access,2,2.9,Wireless controller GUI settings,supporting-or-platform-specific,multiple-choice,keep-topic-representative,534,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+535,532,Network Fundamentals,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,535,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+536,533,Network Fundamentals,2,2.3,CDP and LLDP discovery,v1.1-topic,multiple-choice,keep-topic-representative,536,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+537,534,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,537,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+538,535,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,538,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+539,536,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,539,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+540,537,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,540,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+541,538,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,541,,,missing-explanation,not-comprehensively-validated
+542,539,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,542,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+543,540,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,543,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+544,541,Security Fundamentals,2,2.8,Network device management access,v1.1-topic,multiple-choice,keep-topic-representative,544,,,missing-explanation,not-comprehensively-validated
+545,542,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,merge-similar-concept,57,,portfast-endpoint-transition,missing-explanation,not-comprehensively-validated
+546,543,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,546,,,missing-explanation,not-comprehensively-validated
+547,544,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,multiple-choice,keep-topic-representative,547,,,missing-explanation,not-comprehensively-validated
+548,545,Network Access,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,548,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+549,546,Network Access,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,549,,,missing-explanation,not-comprehensively-validated
+550,547,Automation and Programmability,6,6.1,Automation and network management,v1.1-topic,multiple-choice,keep-topic-representative,550,,,missing-explanation,not-comprehensively-validated
+551,548,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,551,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+552,549,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,552,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+553,550,Security Fundamentals,5,5.4,Password policies and authentication alternatives,supporting-or-platform-specific,multiple-choice,keep-topic-representative,553,,,missing-explanation,not-comprehensively-validated
+554,551,IP Services,3,3.5,First-hop redundancy concepts,v1.1-topic,multiple-choice,merge-similar-concept,2,,fhrp-virtual-gateway-purpose,missing-explanation,not-comprehensively-validated
+555,552,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,555,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+556,553,Network Access,5,5.7,Layer 2 security controls,v1.1-topic,multiple-choice,keep-topic-representative,556,,,missing-explanation,not-comprehensively-validated
+557,554,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,557,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+558,555,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,558,,,missing-explanation,not-comprehensively-validated
+559,556,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,559,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+560,557,IP Services,4,4.2,NTP clients and servers,v1.1-topic,multiple-choice,keep-topic-representative,560,,,missing-explanation,not-comprehensively-validated
+561,558,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,561,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+562,559,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,562,,,missing-explanation,not-comprehensively-validated
+563,560,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,merge-similar-concept,327,,data-plane-forwarding-role,missing-explanation,not-comprehensively-validated
+564,561,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,564,,,missing-explanation,not-comprehensively-validated
+565,562,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,565,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+566,563,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,566,,,missing-explanation,not-comprehensively-validated
+567,564,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,567,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+568,565,Security Fundamentals,5,5.1,"Security threats, weaknesses and mitigation",v1.1-topic,multiple-choice,keep-topic-representative,568,,,missing-explanation,not-comprehensively-validated
+569,566,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,569,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+570,567,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,570,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+571,568,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,571,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+572,569,Network Access,2,2.7,WLAN component connections,v1.1-topic,multiple-choice,keep-topic-representative,572,,,missing-explanation,not-comprehensively-validated
+573,570,Security Fundamentals,5,5.2,Security awareness and physical controls,v1.1-topic,multiple-choice,keep-topic-representative,573,,,missing-explanation,not-comprehensively-validated
+574,571,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,574,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+575,572,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,575,,,missing-explanation,not-comprehensively-validated
+576,573,Network Fundamentals,1,1.8,IPv6 addresses and prefixes,v1.1-topic,multiple-choice,keep-topic-representative,576,,,missing-explanation,not-comprehensively-validated
+577,574,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,577,,,missing-explanation,not-comprehensively-validated
+578,575,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,578,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+579,576,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,579,,,missing-explanation,not-comprehensively-validated
+580,577,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",supporting-or-platform-specific,multiple-choice,keep-topic-representative,580,,,missing-explanation,not-comprehensively-validated
+581,578,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,581,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+582,579,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,582,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+583,580,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,583,,,missing-explanation,not-comprehensively-validated
+584,581,Network Access,1,1.13,Ethernet switching behavior,v1.1-topic,multiple-choice,keep-topic-representative,584,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+585,582,Automation and Programmability,6,6.3,Software-defined network architecture,v1.1-topic,multiple-choice,keep-topic-representative,585,,,missing-explanation,not-comprehensively-validated
+586,583,Network Access,2,2.4,Layer 2 and Layer 3 LACP EtherChannels,v1.1-topic,multiple-choice,keep-topic-representative,586,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+587,584,Network Access,1,1.11,Wireless networking principles,v1.1-topic,multiple-choice,keep-topic-representative,587,,,missing-explanation,not-comprehensively-validated
+588,585,Network Fundamentals,1,1.9,IPv6 address categories,v1.1-topic,multiple-choice,keep-topic-representative,588,,,missing-explanation,not-comprehensively-validated
+589,586,IP Services,4,4.7,QoS per-hop forwarding behavior,v1.1-topic,multiple-choice,keep-topic-representative,589,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+590,587,Network Fundamentals,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,590,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+591,588,Network Fundamentals,1,1.4,Interface and cable faults,v1.1-topic,multiple-choice,keep-topic-representative,591,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+592,589,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,592,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+593,590,Security Fundamentals,5,5.3,Local-password device access,v1.1-topic,multiple-choice,keep-topic-representative,593,,,missing-explanation,not-comprehensively-validated
+594,591,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,594,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+595,592,Network Access,2,2.7,WLAN component connections,supporting-or-platform-specific,multiple-choice,keep-topic-representative,595,,,missing-explanation,not-comprehensively-validated
+596,593,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,596,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+597,594,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,multiple-choice,keep-topic-representative,597,,,missing-explanation,not-comprehensively-validated
+598,595,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,598,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+599,596,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,599,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+600,597,IP Connectivity,3,3.1,Routing-table entries,v1.1-topic,multiple-choice,keep-topic-representative,600,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+601,598,IP Services,4,4.1,Inside-source NAT: static mappings and pools,v1.1-topic,multiple-choice,keep-topic-representative,601,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+602,599,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,602,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+603,600,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,603,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+604,601,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,604,,,missing-explanation,not-comprehensively-validated
+605,602,Network Access,2,2.1,Normal-range VLANs across switches,v1.1-topic,multiple-choice,keep-topic-representative,605,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+606,603,Security Fundamentals,4,4.8,SSH remote access,v1.1-topic,multiple-choice,keep-topic-representative,606,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+607,604,IP Services,4,4.6,DHCP clients and relays,v1.1-topic,multiple-choice,keep-topic-representative,607,,,missing-explanation,not-comprehensively-validated
+608,605,IP Connectivity,3,3.3,IPv4 and IPv6 static routes,v1.1-topic,multiple-choice,keep-topic-representative,608,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+609,606,IP Services,4,4.3,DHCP and DNS roles,v1.1-topic,multiple-choice,keep-topic-representative,609,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+610,607,IP Connectivity,3,3.4,Single-area OSPFv2,v1.1-topic,multiple-choice,keep-topic-representative,610,,,missing-explanation,not-comprehensively-validated
+611,608,Network Fundamentals,1,1.6,IPv4 addresses and subnetting,v1.1-topic,multiple-choice,keep-topic-representative,611,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+612,609,Security Fundamentals,5,5.9,"WPA, WPA2 and WPA3 security",v1.1-topic,multiple-choice,keep-topic-representative,612,,,missing-explanation,not-comprehensively-validated
+613,610,Network Fundamentals,1,1.1,Network component roles,v1.1-topic,multiple-choice,keep-topic-representative,613,,,missing-explanation,not-comprehensively-validated
+614,611,IP Connectivity,3,3.2,Default forwarding decisions,v1.1-topic,multiple-choice,keep-topic-representative,614,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+615,612,Network Access,2,2.2,Links between switches,v1.1-topic,multiple-choice,keep-topic-representative,615,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+616,613,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,drag-drop,keep-topic-representative,616,,,missing-explanation,not-comprehensively-validated
+617,614,Network Access,2,2.6,Wireless architectures and AP modes,v1.1-topic,drag-drop,keep-topic-representative,617,,,missing-explanation,not-comprehensively-validated
+618,615,Security Fundamentals,5,5.7,Layer 2 security controls,v1.1-topic,drag-drop,keep-topic-representative,618,,,missing-explanation,not-comprehensively-validated
+619,616,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,drag-drop,keep-topic-representative,619,,,missing-explanation,not-comprehensively-validated
+620,617,Network Access,2,2.5,Rapid PVST+ operation,v1.1-topic,drag-drop,keep-topic-representative,620,,,missing-explanation,not-comprehensively-validated
+621,618,Network Fundamentals,1,1.5,TCP and UDP,v1.1-topic,drag-drop,keep-topic-representative,621,,,missing-explanation,not-comprehensively-validated
+622,619,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,drag-drop,keep-topic-representative,622,,,missing-explanation,not-comprehensively-validated
+623,620,Automation and Programmability,6,6.2,Traditional and controller-based networks,v1.1-topic,multiple-choice,keep-topic-representative,623,,,missing-explanation,not-comprehensively-validated
+624,621,Automation and Programmability,6,6.7,JSON data components,v1.1-topic,multiple-choice,keep-topic-representative,624,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+625,622,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,drag-drop,keep-topic-representative,625,,,missing-explanation,not-comprehensively-validated
+626,623,Network Access,2,2.9,Wireless controller GUI settings,supporting-or-platform-specific,multiple-choice,keep-topic-representative,626,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+627,624,Network Access,2,2.9,Wireless controller GUI settings,supporting-or-platform-specific,multiple-choice,keep-topic-representative,627,,,exhibit-dependent-review;image-flag-without-path;missing-explanation,not-comprehensively-validated
+628,625,Security Fundamentals,5,5.8,"Authentication, authorization and accounting",v1.1-topic,multiple-choice,keep-topic-representative,628,,,missing-explanation;incomplete-stem,not-comprehensively-validated
