@@ -31,65 +31,69 @@ Reviewed the publisher's public September 10, 2025 errata documents. Apply corre
 
 Older textbook commands remain useful for recognition. Current IOS XE support depends on release, hardware and license; use platform-labeled examples and supported secure alternatives.
 
+## Blueprint structure update
+
+The Learning Path now exposes 53 objectives and the 58 explicit lettered subtopics using Cisco v1.1 numbering and skill targets. Concise study labels are independently worded. Book references remain supplemental to the exam structure.
+
 ## Lesson-to-book crosswalk
 
 Website order follows the blueprint; book order differs. Chapters refer only to the Second Edition. These are suggested reading relationships; a chapter can support several objectives.
 
 | Objective | Website lesson | Suggested chapters | Added focus |
 | --- | --- | --- | --- |
-| 1.1 | Meet the network devices | Vol. 1: 1, 3; Vol. 2: 10, 18 | Layering, encapsulation and device roles |
-| 1.2 | Read network architectures | Vol. 1: 3; Vol. 2: 18, 19, 20, 21 | Campus, WAN and cloud design trade-offs |
-| 1.3 | Cables, optics & Ethernet links | Vol. 1: 2, 7; Vol. 2: 18 | Ethernet standards, framing and media |
-| 1.4 | Troubleshoot interface problems | Vol. 1: 7, 16, 20 | Interface state and counter interpretation |
-| 1.5 | TCP versus UDP | Vol. 1: 1; Vol. 2: 5 | Transport multiplexing and well-known ports |
-| 1.6 | IPv4 addressing & subnetting | Vol. 1: 11, 12, 13, 14, 15 | Binary masks, subnet design and VLSM |
-| 1.7 | Private IPv4 addressing | Vol. 1: 11, 12; Vol. 2: 14 | Private, public and special-use IPv4 |
-| 1.8 | Configure IPv6 addressing | Vol. 1: 25, 26, 27, 28 | IPv6 prefix math and router discovery |
-| 1.9 | IPv6 address types | Vol. 1: 25, 27, 28 | Neighbor Discovery and address scope |
-| 1.10 | Verify a client IP configuration | Vol. 1: 19, 20, 28 | Host forwarding and return-path diagnosis |
-| 1.11 | Wireless principles | Vol. 2: 1, 3 | Wireless topology, contention and RF |
-| 1.12 | Virtualization, containers & VRFs | Vol. 2: 20 | Virtual switching and cloud service responsibility |
-| 1.13 | How a switch learns & forwards | Vol. 1: 2, 5 | MAC-table decisions and per-hop encapsulation |
-| 2.1 | VLANs, access ports & inter-VLAN routing | Vol. 1: 8, 18 | VLAN membership versus routed policy |
-| 2.2 | 802.1Q trunks & native VLANs | Vol. 1: 8 | Trunk negotiation and operational VLAN checks |
-| 2.3 | Discover neighbors with CDP & LLDP | Vol. 2: 13 | Interpret neighbor advertisements as evidence |
-| 2.4 | Build EtherChannel with LACP | Vol. 1: 10, 18 | Bundling compatibility and logical forwarding |
-| 2.5 | Rapid PVST+ & spanning-tree protection | Vol. 1: 9, 10 | STP elections, roles and protection behavior |
-| 2.6 | Wireless architectures & AP modes | Vol. 2: 2 | Wireless management and data-path placement |
-| 2.7 | Connect APs, WLCs & wired networks | Vol. 2: 2, 4 | Physical links, LAG and WLAN-to-VLAN paths |
-| 2.8 | Manage network devices securely | Vol. 1: 4, 6, 16; Vol. 2: 10 | CLI modes, persistence and access transport |
-| 2.9 | Read a WLAN controller GUI | Vol. 2: 4 | Interpret controller GUI object relationships |
-| 3.1 | Interpret a routing table | Vol. 1: 17, 24, 29 | Route entries and recursive next-hop resolution |
-| 3.2 | Choose the best forwarding path | Vol. 1: 21, 24 | Route installation versus packet lookup |
-| 3.3 | IPv4 & IPv6 static routes | Vol. 1: 17, 29 | Route types and real backup activation |
+| 1.1 | Network component roles | Vol. 1: 1, 3; Vol. 2: 10, 18 | Layering, encapsulation and device roles |
+| 1.2 | Network topology architectures | Vol. 1: 3; Vol. 2: 18, 19, 20, 21 | Campus, WAN and cloud design trade-offs |
+| 1.3 | Physical interfaces and cabling | Vol. 1: 2, 7; Vol. 2: 18 | Ethernet standards, framing and media |
+| 1.4 | Interface and cable faults | Vol. 1: 7, 16, 20 | Interface state and counter interpretation |
+| 1.5 | TCP and UDP | Vol. 1: 1; Vol. 2: 5 | Transport multiplexing and well-known ports |
+| 1.6 | IPv4 addresses and subnetting | Vol. 1: 11, 12, 13, 14, 15 | Binary masks, subnet design and VLSM |
+| 1.7 | Private IPv4 address space | Vol. 1: 11, 12; Vol. 2: 14 | Private, public and special-use IPv4 |
+| 1.8 | IPv6 addresses and prefixes | Vol. 1: 25, 26, 27, 28 | IPv6 prefix math and router discovery |
+| 1.9 | IPv6 address categories | Vol. 1: 25, 27, 28 | Neighbor Discovery and address scope |
+| 1.10 | Client operating-system IP settings | Vol. 1: 19, 20, 28 | Host forwarding and return-path diagnosis |
+| 1.11 | Wireless networking principles | Vol. 2: 1, 3 | Wireless topology, contention and RF |
+| 1.12 | Virtual machines, containers and VRFs | Vol. 2: 20 | Virtual switching and cloud service responsibility |
+| 1.13 | Ethernet switching behavior | Vol. 1: 2, 5 | MAC-table decisions and per-hop encapsulation |
+| 2.1 | Normal-range VLANs across switches | Vol. 1: 8, 18 | VLAN membership versus routed policy |
+| 2.2 | Links between switches | Vol. 1: 8 | Trunk negotiation and operational VLAN checks |
+| 2.3 | CDP and LLDP discovery | Vol. 2: 13 | Interpret neighbor advertisements as evidence |
+| 2.4 | Layer 2 and Layer 3 LACP EtherChannels | Vol. 1: 10, 18 | Bundling compatibility and logical forwarding |
+| 2.5 | Rapid PVST+ operation | Vol. 1: 9, 10 | STP elections, roles and protection behavior |
+| 2.6 | Wireless architectures and AP modes | Vol. 2: 2 | Wireless management and data-path placement |
+| 2.7 | WLAN component connections | Vol. 2: 2, 4 | Physical links, LAG and WLAN-to-VLAN paths |
+| 2.8 | Network device management access | Vol. 1: 4, 6, 16; Vol. 2: 10 | CLI modes, persistence and access transport |
+| 2.9 | Wireless controller GUI settings | Vol. 2: 4 | Interpret controller GUI object relationships |
+| 3.1 | Routing-table entries | Vol. 1: 17, 24, 29 | Route entries and recursive next-hop resolution |
+| 3.2 | Default forwarding decisions | Vol. 1: 21, 24 | Route installation versus packet lookup |
+| 3.3 | IPv4 and IPv6 static routes | Vol. 1: 17, 29 | Route types and real backup activation |
 | 3.4 | Single-area OSPFv2 | Vol. 1: 21, 22, 23, 24 | OSPF adjacency states and configuration meaning |
-| 3.5 | First-hop redundancy | Vol. 2: 16 | Virtual gateways, tracking and load sharing |
-| 4.1 | Static & dynamic NAT | Vol. 2: 14 | NAT identities, capacity and policy |
-| 4.2 | NTP clients & servers | Vol. 2: 13 | NTP hierarchy, trust and synchronization |
-| 4.3 | DHCP & DNS roles | Vol. 1: 19, 28; Vol. 2: 5 | DHCP lease stages and DNS resolution |
-| 4.4 | SNMP monitoring | Vol. 2: 17 | SNMP operations, views and security levels |
-| 4.5 | Syslog severity & facilities | Vol. 2: 13 | Syslog fields, destinations and severity |
-| 4.6 | DHCP clients & relay | Vol. 1: 6, 19 | Relay placement and DHCP client roles |
-| 4.7 | QoS per-hop behavior | Vol. 2: 15 | QoS marking fields and delay/loss trade-offs |
-| 4.8 | Configure SSH management | Vol. 1: 6; Vol. 2: 10 | SSH prerequisites and management filtering |
-| 4.9 | TFTP & FTP file transfers | Vol. 2: 17 | Transfer data channels and image validation |
-| 5.1 | Security concepts & risk | Vol. 2: 9, 10 | Threat categories and control purpose |
-| 5.2 | Security awareness & physical controls | Vol. 2: 9 | People, physical access and incident workflow |
-| 5.3 | Protect local device access | Vol. 1: 4, 6; Vol. 2: 10 | Password storage versus transport protection |
-| 5.4 | Password policies & stronger authentication | Vol. 2: 9, 10 | Authentication factors and credential lifecycle |
-| 5.5 | IPsec VPN fundamentals | Vol. 2: 19 | IPsec protection and two-way verification |
-| 5.6 | Configure & verify ACLs | Vol. 2: 6, 7, 8 | ACL order, scope and infrastructure traffic |
+| 3.5 | First-hop redundancy concepts | Vol. 2: 16 | Virtual gateways, tracking and load sharing |
+| 4.1 | Inside-source NAT: static mappings and pools | Vol. 2: 14 | NAT identities, capacity and policy |
+| 4.2 | NTP clients and servers | Vol. 2: 13 | NTP hierarchy, trust and synchronization |
+| 4.3 | DHCP and DNS roles | Vol. 1: 19, 28; Vol. 2: 5 | DHCP lease stages and DNS resolution |
+| 4.4 | SNMP in network operations | Vol. 2: 17 | SNMP operations, views and security levels |
+| 4.5 | Syslog facilities and severity | Vol. 2: 13 | Syslog fields, destinations and severity |
+| 4.6 | DHCP clients and relays | Vol. 1: 6, 19 | Relay placement and DHCP client roles |
+| 4.7 | QoS per-hop forwarding behavior | Vol. 2: 15 | QoS marking fields and delay/loss trade-offs |
+| 4.8 | SSH remote access | Vol. 1: 6; Vol. 2: 10 | SSH prerequisites and management filtering |
+| 4.9 | TFTP and FTP capabilities | Vol. 2: 17 | Transfer data channels and image validation |
+| 5.1 | Security threats, weaknesses and mitigation | Vol. 2: 9, 10 | Threat categories and control purpose |
+| 5.2 | Security awareness and physical controls | Vol. 2: 9 | People, physical access and incident workflow |
+| 5.3 | Local-password device access | Vol. 1: 4, 6; Vol. 2: 10 | Password storage versus transport protection |
+| 5.4 | Password policies and authentication alternatives | Vol. 2: 9, 10 | Authentication factors and credential lifecycle |
+| 5.5 | Remote-access and site-to-site IPsec VPNs | Vol. 2: 19 | IPsec protection and two-way verification |
+| 5.6 | Access control lists | Vol. 2: 6, 7, 8 | ACL order, scope and infrastructure traffic |
 | 5.7 | Layer 2 security controls | Vol. 2: 11, 12 | Independent trust settings and static-host bindings |
-| 5.8 | Authentication, authorization & accounting | Vol. 1: 6; Vol. 2: 9 | AAA decisions and fallback semantics |
-| 5.9 | WPA, WPA2 & WPA3 | Vol. 2: 3 | Wireless authentication versus data protection |
-| 5.10 | Configure WPA2-PSK in a GUI | Vol. 2: 4 | Complete WPA2-Personal GUI workflow |
-| 6.1 | Why network automation matters | Vol. 2: 21, 24 | Intent, drift and safe automation workflow |
-| 6.2 | Traditional versus controller-based networking | Vol. 2: 21, 22 | Logical centralization and device autonomy |
-| 6.3 | SDN planes, overlays & APIs | Vol. 2: 21, 22 | Planes, overlays and fabric mechanisms |
-| 6.4 | AI & machine learning in operations | Vol. 2: 22 | Predictive, generative and validated operations |
-| 6.5 | REST APIs & HTTP methods | Vol. 2: 23 | REST resource semantics and authorization |
-| 6.6 | Ansible & Terraform | Vol. 2: 24 | Inventory, declarative intent and sensitive state |
-| 6.7 | Read JSON data | Vol. 2: 23 | JSON nesting, types and serialization |
+| 5.8 | Authentication, authorization and accounting | Vol. 1: 6; Vol. 2: 9 | AAA decisions and fallback semantics |
+| 5.9 | WPA, WPA2 and WPA3 security | Vol. 2: 3 | Wireless authentication versus data protection |
+| 5.10 | WPA2-PSK WLANs in a GUI | Vol. 2: 4 | Complete WPA2-Personal GUI workflow |
+| 6.1 | Automation and network management | Vol. 2: 21, 24 | Intent, drift and safe automation workflow |
+| 6.2 | Traditional and controller-based networks | Vol. 2: 21, 22 | Logical centralization and device autonomy |
+| 6.3 | Software-defined network architecture | Vol. 2: 21, 22 | Planes, overlays and fabric mechanisms |
+| 6.4 | Generative AI, predictive AI and ML in operations | Vol. 2: 22 | Predictive, generative and validated operations |
+| 6.5 | REST API characteristics | Vol. 2: 23 | REST resource semantics and authorization |
+| 6.6 | Ansible and Terraform capabilities | Vol. 2: 24 | Inventory, declarative intent and sensitive state |
+| 6.7 | JSON data components | Vol. 2: 23 | JSON nesting, types and serialization |
 
 ## Remaining study requirements
 

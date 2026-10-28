@@ -6,6 +6,7 @@ import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
 import {GlossaryTextComponent} from './glossary-text.component';
 import {LessonArticleComponent} from './lesson-article.component';
+import {BLUEPRINT} from './blueprint.data';
 
 @Component({
   standalone:true,imports:[RouterLink,IconComponent,GlossaryTextComponent,LessonArticleComponent],
@@ -15,6 +16,8 @@ export class LessonComponent {
   readonly store=inject(ProgressService);
   readonly id=signal('1.1');
   readonly activeId=signal('1.1');
+  readonly activeTopic=signal('');
+  readonly blueprint=BLUEPRINT;
   readonly lesson=computed(()=>LESSONS.find(l=>l.id===this.id()));
   readonly domain=computed(()=>DOMAINS[(this.lesson()?.d||1)-1]);
   readonly siblings=computed(()=>LESSONS.filter(l=>l.d===this.lesson()?.d));
@@ -27,7 +30,10 @@ export class LessonComponent {
 
   constructor(){
     inject(ActivatedRoute).paramMap.pipe(takeUntilDestroyed()).subscribe(p=>{
-      this.id.set(p.get('id')||'1.1');this.activeId.set(this.id());this.section=p.get('section')||'';
+      const raw=p.get('id')||'1.1',parent=raw.match(/^(\d+\.\d+)\.[a-z]$/)?.[1];
+      const alias=parent&&BLUEPRINT[parent]?.subtopics.some(t=>t.id===raw);
+      this.id.set(alias?parent!:raw);this.activeId.set(this.id());this.activeTopic.set('');
+      this.section=alias?raw:p.get('section')||'';
     });
     // Run after the router's normal viewport restoration, once the domain is rendered.
     inject(Router).events.pipe(takeUntilDestroyed()).subscribe(e=>{
@@ -35,7 +41,7 @@ export class LessonComponent {
         cancelAnimationFrame(this.navigationFrame);
         this.navigationFrame=requestAnimationFrame(()=>{
           if(e.position)window.scrollTo({left:e.position[0],top:e.position[1],behavior:'instant'});
-          else document.getElementById((this.section==='commands'?'command-guide-':'lesson-')+this.id())?.scrollIntoView({block:'start',behavior:'instant'});
+          else this.target()?.scrollIntoView({block:'start',behavior:'instant'});
           this.scheduleMeasurement();
         });
       }
@@ -46,6 +52,7 @@ export class LessonComponent {
       for(const article of articles)this.resizeObserver.observe(article.nativeElement);
       this.scheduleMeasurement();
     });
+    afterRenderEffect(()=>this.keepHighlightVisible(this.activeId(),this.activeTopic()));
     const onScroll=()=>this.scheduleMeasurement();
     window.addEventListener('scroll',onScroll,{passive:true});
     window.addEventListener('resize',onScroll,{passive:true});
@@ -56,10 +63,15 @@ export class LessonComponent {
     });
   }
 
-  jumpIfCurrent(event:MouseEvent,id:string){
+  jumpIfCurrent(event:MouseEvent,id:string,section=''){
     // RouterLink ignores a link to the current URL; it must still jump after manual scrolling.
-    if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||id!==this.id()||this.section)return;
-    document.getElementById('lesson-'+id)?.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||id!==this.id()||this.section!==section)return;
+    this.target(id,section)?.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  }
+
+  private target(id=this.id(),section=this.section){
+    const topic=BLUEPRINT[id]?.subtopics.some(t=>t.id===section);
+    return document.getElementById((section==='commands'?'command-guide-':topic?'topic-':'lesson-')+(topic?section:id))||document.getElementById('lesson-'+id);
   }
 
   private scheduleMeasurement(){
@@ -68,7 +80,7 @@ export class LessonComponent {
   }
 
   private updateActiveLesson(){
-    const articles=this.articles().map(a=>a.nativeElement);
+    const articles=this.articles().map(a=>a.nativeElement as HTMLElement);
     if(!articles.length)return;
     // Use a stable reading line near the top, including when a tall lesson fills the viewport.
     const readingLine=Math.min(140,innerHeight*.2);
@@ -79,13 +91,16 @@ export class LessonComponent {
     if(scrollY+innerHeight>=document.documentElement.scrollHeight-2&&last.getBoundingClientRect().top<innerHeight)active=last;
     const id=active.dataset['lessonId']!;
     this.activeId.set(id);
-    this.keepHighlightVisible(id);
+    const topic=Array.from(active.querySelectorAll<HTMLElement>('[data-blueprint-topic]')).find(t=>{
+      const box=t.getBoundingClientRect();return box.top<=readingLine&&box.bottom>readingLine;
+    });
+    this.activeTopic.set(topic?.dataset['blueprintTopic']||'');
   }
 
-  private keepHighlightVisible(id:string){
+  private keepHighlightVisible(id:string,topic:string){
     const nav=this.lessonNav()?.nativeElement;
     if(!nav?.clientHeight)return;
-    const link=Array.from(nav.querySelectorAll<HTMLAnchorElement>('a[data-lesson-id]')).find(a=>a.dataset['lessonId']===id);
+    const link=Array.from(nav.querySelectorAll<HTMLAnchorElement>('a')).find(a=>topic?a.dataset['subtopicId']===topic:a.dataset['lessonId']===id);
     if(!link)return;
     const box=nav.getBoundingClientRect(),item=link.getBoundingClientRect();
     if(item.top<box.top+8)nav.scrollTop+=item.top-box.top-8;

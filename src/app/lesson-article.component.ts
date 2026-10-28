@@ -6,11 +6,13 @@ import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
 import {CommandGuideComponent} from './commands.component';
 import {GlossaryTextComponent} from './glossary-text.component';
+import {BLUEPRINT} from './blueprint.data';
+import {BlueprintTopicsComponent} from './blueprint-topics.component';
 import {TextbookNoteComponent} from './textbook-note.component';
 
 @Component({
   selector:'pw-lesson-article',standalone:true,
-  imports:[FormsModule,RouterLink,IconComponent,CommandGuideComponent,GlossaryTextComponent,TextbookNoteComponent],
+  imports:[FormsModule,RouterLink,IconComponent,CommandGuideComponent,GlossaryTextComponent,TextbookNoteComponent,BlueprintTopicsComponent],
   host:{class:'lesson-anchor','[attr.id]':'"lesson-"+id()','[attr.data-lesson-id]':'id()'},
   templateUrl:'./lesson-article.component.html'
 })
@@ -20,6 +22,7 @@ export class LessonArticleComponent implements OnChanges {
   readonly lesson=computed(()=>LESSONS.find(l=>l.id===this.id()));
   readonly domain=computed(()=>DOMAINS[(this.lesson()?.d||1)-1]);
   readonly next=computed(()=>LESSONS[LESSONS.findIndex(l=>l.id===this.id())+1]);
+  readonly blueprint=computed(()=>BLUEPRINT[this.id()]);
   readonly answer=signal<number|null>(null);
   private readonly host=inject<ElementRef<HTMLElement>>(ElementRef);
   note='';

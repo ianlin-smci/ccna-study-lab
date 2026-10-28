@@ -60,3 +60,9 @@ Use `<pw-term-text [text]="value"/>` for new displayed content that may contain 
 ## Official Cert Guide alignment
 
 `/#/textbook` supplies a searchable independent topic crosswalk to Second Edition Volumes 1 and 2. Every lesson adds two original explanation sections and a worked check with chapter references. The review uses public contents, selected OSPF/FHRP samples, published errata and Cisco documentation. Full paid volumes were not supplied; page-by-page completeness and exam readiness are not asserted. See `public/textbook-alignment-review.md` for the audit.
+
+## Cisco v1.1 Learning Path structure
+
+The Learning Path follows all six domain numbers and weights, 53 numbered objectives and 58 explicit lettered subtopics from Cisco's v1.1 blueprint. Study labels and explanation text are independently worded. Inline scope terms are kept under their numbered objective; for example, 1.12 does not invent 1.12.a/b/c identifiers. The exam skill verb is shown per objective.
+
+Subtopics have anchors and links such as `/#/lesson/2.1/2.1.c`; short links like `/#/lesson/2.1.c` also resolve. Objective and subtopic highlights follow scrolling. Existing objective IDs, completion, notes, bookmarks, textbook references and command URLs remain valid. Completion is still recorded for each of the 53 objectives. The glossary and textbook alignment remain separate references. `src/app/blueprint.data.ts` is the hierarchy; `tests/fixtures/ccna-v1.1-identifiers.json` records the published identifier inventory and source URL.

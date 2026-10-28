@@ -1,9 +1,10 @@
 @if(lesson();as l){
-  <div class="section-heading"><a class="text-btn" [routerLink]="['/path',l.d]"><pw-icon name="back"/><pw-term-text [text]="domain().name" [interactive]="true"/></a><span class="tag"><pw-term-text text="OBJECTIVE {{activeId()}}"/></span></div>
+  <div class="section-heading"><a class="text-btn" [routerLink]="['/path',l.d]"><pw-icon name="back"/><pw-term-text [text]="domain().name" [interactive]="true"/></a><span class="tag"><pw-term-text text="OBJECTIVE {{activeTopic()||activeId()}}"/></span></div>
   <div class="content-split">
     <aside #lessonNav class="lesson-side" aria-label="Lessons in this domain"><h3>In this domain</h3>
       @for(x of siblings();track x.id){
-        <a [routerLink]="['/lesson',x.id]" (click)="jumpIfCurrent($event,x.id)" [class.current]="x.id===activeId()" [attr.aria-current]="x.id===activeId()?'location':null" [attr.data-lesson-id]="x.id"><span class="lesson-side-number"><pw-term-text text="{{store.state().done.includes(x.id)?'✓':x.id}}" [interactive]="true"/></span><pw-term-text class="lesson-side-title" [text]="x.title" [interactive]="true"/></a>
+        <a [routerLink]="['/lesson',x.id]" (click)="jumpIfCurrent($event,x.id)" [class.current]="x.id===activeId()" [attr.aria-current]="x.id===activeId()&&!activeTopic()?'location':null" [attr.data-lesson-id]="x.id"><span class="lesson-side-number"><pw-term-text text="{{store.state().done.includes(x.id)?'✓':x.id}}" [interactive]="true"/></span><pw-term-text class="lesson-side-title" [text]="x.title" [interactive]="true"/></a>
+        @if(x.id===activeId()&&blueprint[x.id].subtopics.length){<div class="lesson-subtopic-links" role="group" [attr.aria-label]="'Subtopics for objective '+x.id">@for(t of blueprint[x.id].subtopics;track t.id){<a [routerLink]="['/lesson',x.id,t.id]" (click)="jumpIfCurrent($event,x.id,t.id)" [class.subtopic-current]="activeTopic()===t.id" [attr.aria-current]="activeTopic()===t.id?'location':null" [attr.data-subtopic-id]="t.id"><span class="lesson-subtopic-number"><pw-term-text text="{{t.id}}" [interactive]="true"/></span><pw-term-text [text]="t.title" [interactive]="true"/></a>}</div>}
       }
     </aside>
     <div class="lesson-stack">
