@@ -6,10 +6,11 @@ import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
 import {CommandGuideComponent} from './commands.component';
 import {GlossaryTextComponent} from './glossary-text.component';
+import {TextbookNoteComponent} from './textbook-note.component';
 
 @Component({
   selector:'pw-lesson-article',standalone:true,
-  imports:[FormsModule,RouterLink,IconComponent,CommandGuideComponent,GlossaryTextComponent],
+  imports:[FormsModule,RouterLink,IconComponent,CommandGuideComponent,GlossaryTextComponent,TextbookNoteComponent],
   host:{class:'lesson-anchor','[attr.id]':'"lesson-"+id()','[attr.data-lesson-id]':'id()'},
   templateUrl:'./lesson-article.component.html'
 })

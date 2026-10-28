@@ -2,8 +2,8 @@
 
 An Angular 22 standalone, zoneless application for CCNA 200-301 **v1.1**. All content and interactions run in the browser; no backend, account database, or runtime secrets are required.
 
-- 53 lessons and 135 platform-labeled IOS XE command modules
-- 118 original questions, timed 60-question mock exams, and flashcards
+- 53 lessons and 136 platform-labeled IOS XE command modules
+- 136 original questions, timed 60-question mock exams, and flashcards
 - IPv4 subnet calculator/drills, longest-prefix lookup, a packet walkthrough, and five guided CLI labs
 - Complete multi-switch VLAN walkthrough with selected inter-VLAN permissions and an interactive policy model
 - Browser-local progress, notes, bookmarks, study dates, and JSON export/restore
@@ -56,3 +56,7 @@ The sidebar's fixed **Term hints** switch applies across the application and per
 Use `<pw-term-text [text]="value"/>` for new displayed content that may contain terms. Inside existing links, buttons, labels, or summaries, set `[interactive]="true"` so hints do not introduce nested buttons or replace the control's action. Keep native form values and editor contents unchanged. Command rendering preserves its original characters, and copy buttons use the unmodified command source. The pop-up itself uses plain text to avoid recursively opening definitions.
 
 `scripts/migrate-glossary-text.mjs` is an idempotent helper for converting additional reading-text templates. It leaves existing term components, native controls, and the pop-up template alone.
+
+## Official Cert Guide alignment
+
+`/#/textbook` supplies a searchable independent topic crosswalk to Second Edition Volumes 1 and 2. Every lesson adds two original explanation sections and a worked check with chapter references. The review uses public contents, selected OSPF/FHRP samples, published errata and Cisco documentation. Full paid volumes were not supplied; page-by-page completeness and exam readiness are not asserted. See `public/textbook-alignment-review.md` for the audit.
