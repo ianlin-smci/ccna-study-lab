@@ -33,6 +33,8 @@ The included `.github/workflows/pages.yml` installs locked dependencies, builds 
 
 Hash-based Angular routes (`/#/lesson/2.1`) work at both a user-site root and a repository subpath without server rewrite rules. Previous `#lesson/2.1` links are normalized on startup.
 
+Lessons in one domain form a continuous reading page. The “In this domain” highlight follows the lesson at the top of the reading viewport, including when scrolling upward or expanding command blocks. Numbered links and existing lesson/command URLs still jump to their target; browser history restores the reading position. Each lesson keeps its own answers, notes, bookmarks, and completion controls.
+
 ## Progress migration
 
 The browser-storage key remains `packetwise-v1`. Replacing the app at the same origin retains progress. Moving from a ChatGPT Site to a GitHub Pages hostname is a change of origin: export a JSON backup on the old site and restore it under My progress on the new site. Progress is never included in the repository or uploaded by the app. GitHub Pages sites sharing one hostname also share browser storage for that origin.

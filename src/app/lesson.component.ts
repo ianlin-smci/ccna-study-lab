@@ -1,11 +1,94 @@
-import {GlossaryTextComponent} from './glossary-text.component';
-import {Component,computed,inject,signal} from '@angular/core';
-import {FormsModule} from '@angular/forms';
-import {ActivatedRoute,RouterLink} from '@angular/router';
+import {Component,DestroyRef,ElementRef,afterRenderEffect,computed,inject,signal,viewChild,viewChildren} from '@angular/core';
+import {ActivatedRoute,Router,RouterLink,Scroll as RouterScroll} from '@angular/router';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {DOMAINS,LESSONS} from './data';
 import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
-import {CommandGuideComponent} from './commands.component';
-@Component({standalone:true,imports:[FormsModule,RouterLink,IconComponent,CommandGuideComponent,GlossaryTextComponent],templateUrl:'./lesson.component.html'})
-export class LessonComponent {store=inject(ProgressService);id=signal('1.1');lesson=computed(()=>LESSONS.find(l=>l.id===this.id()));domain=computed(()=>DOMAINS[(this.lesson()?.d||1)-1]);siblings=computed(()=>LESSONS.filter(l=>l.d===this.lesson()?.d));next=computed(()=>LESSONS[LESSONS.findIndex(l=>l.id===this.id())+1]);answer=signal<number|null>(null);note='';constructor(){inject(ActivatedRoute).paramMap.pipe(takeUntilDestroyed()).subscribe(p=>{this.id.set(p.get('id')||'1.1');this.answer.set(null);this.note=this.store.state().notes[this.id()]||'';if(p.get('section')==='commands')setTimeout(()=>this.jump(),100);});}choose(i:number){if(this.answer()!==null)return;this.answer.set(i);const l=this.lesson()!;this.store.answer({id:l.id+'-a',d:l.d,ok:i===l.answer});}saveNote(){this.store.note(this.id(),this.note);}jump(){document.getElementById('command-guide')?.scrollIntoView({block:'start',behavior:'smooth'});}}
+import {GlossaryTextComponent} from './glossary-text.component';
+import {LessonArticleComponent} from './lesson-article.component';
+
+@Component({
+  standalone:true,imports:[RouterLink,IconComponent,GlossaryTextComponent,LessonArticleComponent],
+  templateUrl:'./lesson.component.html'
+})
+export class LessonComponent {
+  readonly store=inject(ProgressService);
+  readonly id=signal('1.1');
+  readonly activeId=signal('1.1');
+  readonly lesson=computed(()=>LESSONS.find(l=>l.id===this.id()));
+  readonly domain=computed(()=>DOMAINS[(this.lesson()?.d||1)-1]);
+  readonly siblings=computed(()=>LESSONS.filter(l=>l.d===this.lesson()?.d));
+  private readonly articles=viewChildren(LessonArticleComponent,{read:ElementRef<HTMLElement>});
+  private readonly lessonNav=viewChild<ElementRef<HTMLElement>>('lessonNav');
+  private frame=0;
+  private navigationFrame=0;
+  private section='';
+  private readonly resizeObserver=new ResizeObserver(()=>this.scheduleMeasurement());
+
+  constructor(){
+    inject(ActivatedRoute).paramMap.pipe(takeUntilDestroyed()).subscribe(p=>{
+      this.id.set(p.get('id')||'1.1');this.activeId.set(this.id());this.section=p.get('section')||'';
+    });
+    // Run after the router's normal viewport restoration, once the domain is rendered.
+    inject(Router).events.pipe(takeUntilDestroyed()).subscribe(e=>{
+      if(e instanceof RouterScroll){
+        cancelAnimationFrame(this.navigationFrame);
+        this.navigationFrame=requestAnimationFrame(()=>{
+          if(e.position)window.scrollTo({left:e.position[0],top:e.position[1],behavior:'instant'});
+          else document.getElementById((this.section==='commands'?'command-guide-':'lesson-')+this.id())?.scrollIntoView({block:'start',behavior:'instant'});
+          this.scheduleMeasurement();
+        });
+      }
+    });
+    afterRenderEffect(()=>{
+      const articles=this.articles();
+      this.resizeObserver.disconnect();
+      for(const article of articles)this.resizeObserver.observe(article.nativeElement);
+      this.scheduleMeasurement();
+    });
+    const onScroll=()=>this.scheduleMeasurement();
+    window.addEventListener('scroll',onScroll,{passive:true});
+    window.addEventListener('resize',onScroll,{passive:true});
+    inject(DestroyRef).onDestroy(()=>{
+      cancelAnimationFrame(this.frame);cancelAnimationFrame(this.navigationFrame);
+      this.resizeObserver.disconnect();
+      window.removeEventListener('scroll',onScroll);window.removeEventListener('resize',onScroll);
+    });
+  }
+
+  jumpIfCurrent(event:MouseEvent,id:string){
+    // RouterLink ignores a link to the current URL; it must still jump after manual scrolling.
+    if(event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||id!==this.id()||this.section)return;
+    document.getElementById('lesson-'+id)?.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  }
+
+  private scheduleMeasurement(){
+    if(this.frame)return;
+    this.frame=requestAnimationFrame(()=>{this.frame=0;this.updateActiveLesson();});
+  }
+
+  private updateActiveLesson(){
+    const articles=this.articles().map(a=>a.nativeElement);
+    if(!articles.length)return;
+    // Use a stable reading line near the top, including when a tall lesson fills the viewport.
+    const readingLine=Math.min(140,innerHeight*.2);
+    let active=articles[0];
+    for(const article of articles){if(article.getBoundingClientRect().top<=readingLine)active=article;else break;}
+    // Short final lessons must still activate when the reader reaches the page's end.
+    const last=articles.at(-1)!;
+    if(scrollY+innerHeight>=document.documentElement.scrollHeight-2&&last.getBoundingClientRect().top<innerHeight)active=last;
+    const id=active.dataset['lessonId']!;
+    this.activeId.set(id);
+    this.keepHighlightVisible(id);
+  }
+
+  private keepHighlightVisible(id:string){
+    const nav=this.lessonNav()?.nativeElement;
+    if(!nav?.clientHeight)return;
+    const link=Array.from(nav.querySelectorAll<HTMLAnchorElement>('a[data-lesson-id]')).find(a=>a.dataset['lessonId']===id);
+    if(!link)return;
+    const box=nav.getBoundingClientRect(),item=link.getBoundingClientRect();
+    if(item.top<box.top+8)nav.scrollTop+=item.top-box.top-8;
+    else if(item.bottom>box.bottom-8)nav.scrollTop+=item.bottom-box.bottom+8;
+  }
+}
