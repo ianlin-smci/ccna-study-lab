@@ -6,6 +6,7 @@ import {DOMAINS,LESSONS,QUESTIONS,COMMAND_GUIDES,COMMAND_SOURCES,LABS} from '../
 import {BLUEPRINT,BLUEPRINT_SOURCE,BLUEPRINT_VERSION} from '../src/app/blueprint.data.ts';
 import {BOOKS,TEXTBOOK_REVIEWS} from '../src/app/textbook.data.ts';
 import {GLOSSARY} from '../src/app/glossary.data.ts';
+import {coverageDocuments} from './lib/assessment-coverage.mjs';
 
 const root=fileURLToPath(new URL('../',import.meta.url));
 const args=process.argv.slice(2);
@@ -133,8 +134,9 @@ if(start>=finish)throw Error('README generated markers are out of order.');
 const readme=currentReadme.slice(0,start)+stats+currentReadme.slice(finish);
 const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
 const catalog=[['id','domain','objective','concept','question'],...QUESTIONS.map(q=>[q.id,DOMAINS.find(d=>d.id===q.d).name,q.lesson,q.concept,q.q])].map(row=>row.map(csvCell).join(',')).join('\n')+'\n';
+const coverage=coverageDocuments();
 let stale=false;
-for(const [name,expected] of [['README.md',readme],['LEARNING_PATH.md',learning],['public/question-bank-catalog.csv',catalog]]){
+for(const [name,expected] of [['README.md',readme],['LEARNING_PATH.md',learning],['public/question-bank-catalog.csv',catalog],['public/assessment-coverage-report.md',coverage.markdown],['public/assessment-coverage.csv',coverage.csv]]){
   const file=path.join(root,name),current=fs.existsSync(file)?fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n'):null;
   if(current===expected){console.log(name+': current');continue;}
   if(check){console.error(name+': out of date');stale=true;}

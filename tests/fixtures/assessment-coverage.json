@@ -1,0 +1,3776 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-28",
+  "reviewer": "AI-assisted item-by-item content review",
+  "method": "Curated teaching references; own assessment explanations/solutions are excluded. Fingerprints require fresh review after relevant edits.",
+  "materialDigests": {
+    "lesson:1.1:point:0": "78c31341bbf20d59418a87b1daf9c62fd2a73dcb07e1bd8f3eae377eaf22b2ad",
+    "lesson:1.2:point:1": "f004e13992cff6bfe8887a04c0375f943afb8a39ca49da6810afa30ee96161c0",
+    "lesson:1.3:point:1": "11cdde7321489167b5da45996fd9745831c4af97743643e2228a68ecc6c91d3e",
+    "lesson:1.4:point:1": "26e50d9be8a7cf35ec7f59a9ccdef56f200ba322aad1650c68a8eb9753e80796",
+    "lesson:1.5:point:0": "7a9573a0af0b1659509d4948e27c15eb95766962bc91733686b5d2b98ef7cd5a",
+    "lesson:1.6:point:1": "d0027d6394d82a0414ea9ebe64a15df94be195a6f509a3ffad2d813f46993151",
+    "lesson:1.7:point:0": "2fafb811cf7742b6c63654af46ad18b45a2cca0febae10ad2db7df017b5093cf",
+    "lesson:1.8:point:0": "c49f1c82a0660042d6633aa7a77c83a524570109be883fc519eff24356e7e70b",
+    "lesson:1.9:point:0": "12fa56b7565bc5e6e9ebd18c6aa86b2cafea9b9e5a7aff53fda6a2acdb2fd265",
+    "lesson:1.10:point:1": "51b967371bcb80efe6eb3ccafa44911985e442cbb061b8f9ade58a09409c3a93",
+    "lesson:1.11:point:1": "b7acb337057e09103706f91f51533414c2defc65bb0bd20e49411410a5f9a346",
+    "lesson:1.12:point:2": "06279cc26b43e6c9bf7a256012a7f89c83bc24b7f8562bbf51b37cd8e725ccc1",
+    "lesson:1.13:point:0": "ea54e52f91264135d218cb387a6b3ba6a22c4b730aa4d31e3370b7bb3db64f54",
+    "lesson:2.1:intro": "7f3d7f80015d3431e6387b3d022486b458ad98a93f64f9996e2f0e385d0de970",
+    "lesson:2.2:point:1": "79ddbff92ce7e56337299be01899d9afec350bd2fe2540b9ba1e8149e4801c72",
+    "lesson:2.3:point:0": "3d4d409bda7a5551ab8ba9771e5fff4f35fe0e2f2520740756178dd3ee5bfb1f",
+    "lesson:2.4:point:0": "1d06faacb1022b493d7beb0e910f92d3b5467dc653484bd89da94f046ddc8ffd",
+    "lesson:2.5:point:0": "8bc5a1d05e3c1c4507157aa501a5332f8bd5e971f453398c50c0e1ac79107614",
+    "lesson:2.6:point:1": "48ec3aaef63c3539f76682adbd72595132ca47015fd4c44fe07f2e8c9ed93f82",
+    "lesson:2.7:point:2": "7af2ec943afb0946f5b11f1a20de528bf0fe2142e65e022949272167a2cb4538",
+    "lesson:4.3:point:0": "9b7ffa193a6667e9b92a33351ddad64fd35e6651e2ab218e6487f77d80a7cee2",
+    "lesson:2.8:point:0": "9c67320d20fab8d47491c52b4387767494eeb330cbc9a9ada77474125492841d",
+    "lesson:2.9:point:0": "061ad8532ad06ccd72d037a4c65cd7a40644532a66de336bd382d719e0cad52f",
+    "lesson:3.1:point:1": "21d026081131d0dea2fa18ceed8045fa7873827fdc12ebc35348985b4f434fa2",
+    "lesson:3.2:point:0": "e6d02fff4443df7da1fcc631f1e6cd94acfb0bc50725436403ee3650c5a0158e",
+    "lesson:3.3:point:1": "043fddfbe25f33b8d02df7b6ffaf7b48eddfc38abdd5c9f5a937b8c3bbba7c0b",
+    "lesson:3.4:point:1": "1c9f9ba11b63d6ab5ef6dfe092dd7e47c0952e5975463784193306779ce6898d",
+    "lesson:3.5:point:1": "28b1cd3e6d7be43949b54fec34ca23d3bc3101a1b795e8b2938853c1cbd4417f",
+    "lesson:4.1:point:0": "349b5cb70d26acbe833be5dadea7fb55b49bbcd215bb33b5ce55fa1fb750cdb8",
+    "lesson:4.2:point:0": "4892260c5eadb811d95d7b16f215371e7620e19dc107b7cd0e9ae80146bd0edd",
+    "lesson:4.3:point:1": "5c7e386445a3be9d96938d23da05acb0f114c59b64525379d2bde711177e7c11",
+    "lesson:4.4:point:2": "ff219406e1d891aac1b6129838665824f6adad184511c40473115a4510ebfa7b",
+    "textbook:4.5:section:1": "06bb6f27117d06fe8e3369c0a7ac0f2453f9439584a78ec6506cb7940b12ba1d",
+    "lesson:4.5:point:1": "daef9618cd31b0c49f6880cb7cd8b9e6462cfe3efdaf00f9fbe857472e0cba9a",
+    "lesson:4.6:point:0": "90852cfea09723ee6485a569b3380a2969c96c140f9f8ad04e4aad7fbb6465f8",
+    "lesson:4.7:point:2": "ddaf345660381c2fa1d365cb1221746e58fe6353dbacabb8636831952c2b98b7",
+    "lesson:4.8:point:1": "e8fc460e5cae81a2908f489ee0a2e0c786d117f03ffdb63aa3898183977e4242",
+    "lesson:4.9:point:0": "f7f74d4b5c842fbcef05e1014138822fbfd9425529672e012318a8696a381297",
+    "lesson:5.1:intro": "bc5a1ca78a5487d52164ff959cf6b2961e47f9be546978f6c0286eb28aadaeca",
+    "lesson:5.1:point:0": "6be9246c790ba558f7764fe09aa578736ce8b7710e868b420874b034af53ebec",
+    "lesson:5.2:point:0": "88582cfe279f3a2de51bd08f1d3b1688ad62341c8d4e7623a09efe2276492403",
+    "lesson:5.3:point:2": "f8d98c5d47e64fa7d5f4ca126992daac1cbee36dfb90d63c482f4ae7d6ff9006",
+    "lesson:5.4:point:1": "2268bbcd5b22c804e96cab364f02bf7d4f741f519e65da094d62f3acbdbdc1f5",
+    "lesson:5.5:point:0": "4d628c8b76dabe748fb018fa28d156bc2716b7e7775c3006f025969f044d96ee",
+    "lesson:5.6:intro": "5de44a3cfc604755fa5dfe9ce335ec17818974f14ff702725fdd0424385e2007",
+    "lesson:5.7:point:1": "87c927fee5fd656f124487dc301766753eaf4d30f2d4f7f7b29c0b2a269b5d36",
+    "lesson:5.8:point:0": "75d7c01d053127ec5b28eec8626a6eb86ab88494bdc533a3def47baac2e1019b",
+    "lesson:5.9:point:1": "5b88cb1190de8433dec8e9286f8f41de437485684d0a7d0c03f194e2d85abe00",
+    "lesson:5.10:point:0": "f5a50c4c4920f69fa85f258337049569685021e5882ff4cafacf7cf6f02023f3",
+    "guide:6.1:tip:0": "23ef686b32ef753cee5031773da80602946a8d40a482369abfe28a96bda05f37",
+    "lesson:6.2:point:0": "4558bd049205346f15b1bf25fa4adc41b552bd538dcd4693324193319c3bd03d",
+    "lesson:6.3:point:0": "c9d8e84b7141e513114427933f10eb98a9bbe851880e3fa42e076b3f2f14e38e",
+    "lesson:6.4:point:0": "22bc1963e80903dcf9af7fa3e192f1dc4e1244ae8528c9ce7e430f2401e2cdbf",
+    "lesson:6.5:point:0": "23e39e56d36fcd9d6df49464daf851865fb55d79826214bc51a49e2aeb304907",
+    "lesson:6.6:point:1": "2275fa537f055c2a5e4936e73f2ff7235b487f9c7e5f6fc995f77aec413cb094",
+    "lesson:6.7:point:0": "851ba0d5784abf58465b26abb0172fcb1744a3a6cc536dd715544a1de71b92df",
+    "lesson:1.6:point:0": "15b0c41b8cc8df1113b55c7f19a4ac3556c08f1798cc1a88d1a5f4eb65713157",
+    "guide:1.6:block:0:why": "ed1a45ae52fc0e2b52a0a33860a2f4a52fb3c082ba80a7fd820015d8f172edc6",
+    "lesson:1.6:point:3": "e78a64ec51617355a4bc78303f39645e46c97552b0f5b6eada159898b0246dd1",
+    "blueprint:1.9.c": "08125848847d6fed742c876a729128270d25190893171938a69d1d3e9656e508",
+    "blueprint:1.13.c": "db5b293830e5ff7967e634e24307e81d952c85600ac38262fe9efcee2428c268",
+    "lesson:2.4:point:2": "941b0aaf540032e045f2c945331139f1816d79a8240bbc92919fff2e8b78960d",
+    "blueprint:2.5.d": "4e049e953fa26858df08fdf8793bd9fd9e40c3bb78160e9bb3266032daa30e81",
+    "blueprint:2.5.b": "662fc70d521e3dcd2e89fff95454aa505285109005bae3742edd86f3ad67747c",
+    "lesson:3.2:point:1": "bf9340dd8bf61432414ea9f789a16d8e36aa5968845d93a41406e5370a18cb7e",
+    "blueprint:3.4.c": "d2fbe7255177cd99bdd9e87f961fee289c1d9dc33d84bdadd6efb164e9f6520b",
+    "blueprint:3.3.a": "511ebc1c5b161fca92fd5e27401b5c050e3b1477aba7f2bd0c9c7859ae3c1362",
+    "lesson:4.1:point:2": "7edd06da0156be86b16dacdcceddcaca9ba06c7b68c6f6fb26169664755a8039",
+    "lesson:4.2:intro": "cd8d2cf5f85ba32694332d5bdfee1a9726d0f97655e83b121613c80f11bbd448",
+    "lesson:4.4:point:1": "851c8ec20eb05284cc5aea82d8a0c614ef9467a57a9da0b837ab600b78dc2453",
+    "lesson:5.6:point:0": "b85063c6dcafa6af3f2c3241ba83f24158bdbb2094e24704ebb594fb7b172767",
+    "textbook:5.7:section:1": "f7a1a5f542eef646f7019037d9ab7956948b08ba343b163c9891012cd68b07a5",
+    "lesson:5.8:point:1": "df8071cba48b7431adb9226ae83d08a471078dd71606ff518849741b9f66cd6e",
+    "lesson:5.9:point:2": "5df3cd53b819bf354aaa658905939c52af137f1be0614057092b276d99b8a3fe",
+    "lesson:6.3:point:1": "dad4cc08391b46a8e8417fb4ab2cfd3ccf6411db1a890eb15b311ce185260e80",
+    "lesson:6.5:point:1": "ff632c0e54b30d6530e0b896ba5fd81c8f3d8eef290365a25ad1f42392c6ca95",
+    "lesson:6.7:point:1": "aa3ae4c93bc98f23584f6a723091d1d7794cdc3efe1c0c22aa80944c96e3580e",
+    "lesson:6.7:point:2": "dfa8cb98bcde42c96879ee0f836e7519536b1f1543e1aeb16f8f5465b4db3d81",
+    "textbook:1.6:section:0": "2b0245e3200e22853e27249460159fd38599919984a75f25ff64f46b49e4af18",
+    "textbook:1.13:section:1": "eecdbe73ebde047da5ea135935779118961867ec2ca9e4ee1a2ca4b26a454c05",
+    "textbook:1.10:section:1": "65b0114885ccd8ccbe146f9fcd28b6de4c556998dae9da9505e26340e90172c9",
+    "textbook:2.5:section:0": "2319db9f9d09221738a4931c4c51f0d58b7572aecc866dd094afab35da118886",
+    "textbook:2.9:section:0": "0e5aad2cf851d83c974b1dc8695f038ad2b856fa5fb0f904befa43944dd6a627",
+    "textbook:3.4:section:0": "9d4b274e6c41a3b8f68d0c90ed13da1761225c79d7589b202b5a90ae6778a759",
+    "textbook:3.4:section:1": "25a2733bd36b74e25982eb2b23e4f8bb6be9482d577d739534343112000663dd",
+    "textbook:4.1:section:0": "f34961064257bc6a901bea50a7f8e3aa745303a7965e94df874d13e5a3fd66cb",
+    "textbook:4.7:section:0": "dd3e68f6b3cbea18031a05ae2d496487e6a7a46a9a83410f2b1c255b0e7b7be5",
+    "textbook:5.6:section:0": "b10b3ce4bab2167c2121b05209ab289515a34c2fd7b5406cca439fbaf5387e86",
+    "textbook:5.7:section:0": "91311dde76907d7585b8113514aef26ce0336100fc37546eb10320ddf787cef5",
+    "guide:6.4:block:1:why": "ecd7cd4dc6993f8b31335e8ca61c75ac1d3e8d30e22a08dade6a76394528afe4",
+    "textbook:6.4:section:1": "faf177889278938463900d873407e65ac996b1a6656916787c4139003c3af473",
+    "blueprint:1.1.h": "3bb64bd47bdf3d259528a45f31350ae628ce65906ac30d79acdd1a0181dc2c9b",
+    "blueprint:1.1.c": "4caa1517a3abcfff0a947cd3da63aada0d1dc3202907d7ddca50b8cb97b8efdc",
+    "blueprint:1.1.g": "0b1f9c57725bcc5c335b597b17d009431b731289389472a2d5cc9e93a6239564",
+    "blueprint:1.2.a": "6470315ec63884a50b04febac4e3aecce0f0657749bae164a2db944d18a71fb8",
+    "lesson:1.2:point:3": "23cf363e10fdb12e0377bf65ced3c60f90610208d73ad86900fe8f039e80cff5",
+    "blueprint:1.2.b": "a63c35b665fd72bf468ec96c178450295f2ea5daea210b00b38e5e59457afca1",
+    "textbook:1.2:section:0": "737e724a520db8ac752563766703192ca7ef284b6e6467a4f5f3197bf871f81f",
+    "lesson:1.3:point:0": "7666fa1d1acc80f7751b831da81f38c1df4559ec2be49b0eecd683c0d92a8b68",
+    "lesson:1.4:point:2": "1edf266c7e8128d50c3e466f6e5323fb18f2fc9f11b36e2df10b6624c9aa0197",
+    "textbook:1.4:section:0": "87c59992084489a955b586d10df0e0b8d634dd75111ff6898824b8ed800443b2",
+    "lesson:1.5:point:1": "c8f75aad79b62a4855c9f2e6caebcbea16a11193baf6ec015d572c7f84ef4431",
+    "textbook:1.6:section:1": "124ad2ea13e3965cf2c6002e19f3b86d089d3c1f6ba991ed17a2909ad7b136df",
+    "lesson:1.6:point:2": "a904321db079ba5862da2b2080fb6abecee9c6e28cf54a4ab996dd2cdee53521",
+    "lesson:1.7:point:1": "3a1af3d707e147e81c00406bb1ea20988709a99d93146c2d798b1c50e86acbcb",
+    "textbook:1.7:section:1": "5394bc5a087c0f07b521207e8943a6012db7f206589bdf3d2564a3857f178687",
+    "lesson:1.8:point:3": "09cf25134240e514697aebb88d82966ae491547c71686f7c0c54c8f56a50548e",
+    "lesson:1.8:point:1": "9b0cae877917c7a3c21bcab185c5292a1b0e17b0a42861ba6062a84b21364c0e",
+    "blueprint:1.9.d": "02e03d6014ae70d76232356211c0aff84b93913308fd3a5acfbb8a34946d4b8e",
+    "blueprint:1.9.b": "980e388a77cd2c55a1be3f2f4399ad413bf8b543e6f73fa373dc8f2379a8aaa1",
+    "lesson:1.9:point:3": "e8dad7d81bc6c78372d385aa9a3c2d7e6c4929c0279648c82547099bc2b569e9",
+    "lesson:1.10:point:0": "2a569c244a80521b8434b8793e138326b2bb4866bb9cb2f965481b092427a5df",
+    "guide:1.10:block:1:code": "b01ac781578c55bd4f55bcae79cd331c3f9b7557147873b36f3e5962a638b1c8",
+    "blueprint:1.11.b": "35845e8015dec1b6abf4ff4c7b37947c6f8d2af226fd388a811ab1a5cfecd488",
+    "blueprint:1.11.a": "5fccc278180b36ea4b196bf33d6326e078dfe0c877e870d6cc30c043300c0b6e",
+    "lesson:1.12:point:1": "7f528d86659d83019cffa0fb47484e57f3f4db1c10cc4e718f9997d74506df51",
+    "textbook:1.12:section:0": "b9494c503bc5932d3790ae8ec0cbf27ea498283efb94d55fdd969fcd1e9f3108",
+    "lesson:1.12:point:3": "7fe745a93faaba040668795b72715206e008c49ce00601b37660b511804a85ec",
+    "lesson:1.13:point:2": "b7bb109f8fd7f6a6654307de05017b686cbb123e6b122759d1cf0475a4cf8ac5",
+    "blueprint:1.13.a": "cbd09b3406512cdaeba05f511972ea651d1233c44eea9b02cfa2aaddfd0502c0",
+    "lesson:2.1:point:2": "dbc6bd919b0de224d05da4f78b6943c544b7c73c47d4a22f57666f99e5043ee8",
+    "guide:2.1:block:5:code": "7a1f8da7e5950cb873e36e24b215ce46b18188e49f87d5d85daf842f77934298",
+    "blueprint:2.1.c": "8bd49cabc106b8263ab6bbcd2cd9d82caa47221d6becb73218dcc80f8ade158c",
+    "guide:2.1:block:4:why": "1ac4b0e2a8fac2d36d24474abaedf9d75d2c782f5d58773c9baf0dc48f345206",
+    "guide:2.2:block:2:code": "3b343081e6794fe678b83b50e9b98b4bba448e2f9f532ccfbe8494c110979316",
+    "guide:2.2:block:2:why": "4e3a10676b92c79feca11a50734511ab8e27289b06cdaa84e6132e80b9c378d6",
+    "guide:2.2:block:1:code": "8f3b2c17fab7ca102c384d56aaafdeea094fe16b0e927fae6d9892fb77d001b5",
+    "guide:2.2:block:1:why": "8a4e2302edb2d14adb8efa2b316000292d378a519a2b8b7b3cfc5f096c583dc3",
+    "lesson:2.3:intro": "948e6238ecba19c74c1dcbed3efba08c8648a315864fdbdb787d096abbeb9528",
+    "textbook:2.3:section:0": "41f05d17f92d134ed82fe89e9985aad29becb54a58965005e153df794505c797",
+    "lesson:2.3:point:3": "696ede248672bbca29ed27f3eb6176652d5915dc2de449f39c3c650fac2ed05f",
+    "textbook:2.4:section:1": "952614c3ea060fd2afc65d40c4511c1f9576a6632d2d978d58088fc17218d43a",
+    "lesson:2.4:point:1": "ce0b64605011a3979b3190476827741def5223517d385b338585f6535795a0dc",
+    "lesson:2.6:point:2": "b8eb370805bc12c4ecb0c098b7a0cfcbff672bd294219f3c01e4857529df8516",
+    "lesson:2.6:point:0": "42b7392ac9a85c938542d33e7cded73f713e452ee0c0a62bd3bb67d4d856d772",
+    "textbook:2.6:section:0": "dca0b1afe5a0c4b2c73a2c1c24d700954116f20c6ab617b8ce16dca589babe1d",
+    "textbook:2.7:section:0": "ab9efa9e6e5def1e2c672333feaf370a02eb56e1e5cbcca897cb5a7bb41974ff",
+    "lesson:1.11:point:0": "6ab1d27c688edb40e4441cd9766ec3e6f1bbd9aa4d007c81353aca066cfa6478",
+    "guide:5.10:block:0:why": "0a63ce9a7577df41fd9bd4a59c3d221f8a3874901c233915f4ae0a499cc963ee",
+    "lesson:2.9:point:2": "74ec2b8d0535649f25f81ae7cba5fb2e7db95d7ecf5d97b6419d780f6c9a6e00",
+    "textbook:3.1:section:0": "49668b985387e8ebf441a482709b605d3c1f228cb85da0744b7076d26a3f2ece",
+    "blueprint:3.1.d": "cee053ae058a261ba18d3cdc5c42ee4249ccabd3f949ca617cd074418837a97f",
+    "lesson:3.1:intro": "07b2d2f61a67e12454d304969dc1770e51dc2926bbb3e5a9ec1802ad3976fcf8",
+    "textbook:3.2:section:1": "73a6d364240de32e03df6683276e0fefa52c247f283b5b33a85fe5fbc3947cb4",
+    "lesson:3.2:point:3": "d6f591f48a0227f69ad5854312e680b2932df273686df7f75d5e8877540da505",
+    "guide:3.3:block:0:code": "0297955434075bd627296f61a455827aff7b032a1bc0eb3182e2870ce7206385",
+    "lesson:3.3:point:2": "fafbc96141c26f2d7830aa2a313752f4974ffc8e97bdbf59f7829049996833c5",
+    "lesson:3.4:point:0": "2a2cdbdc71dd7e7c76b277d91ed2480317fdd921da6281e9b6bf89d0a534f133",
+    "blueprint:3.4.d": "ec75057efa382d2fabeed076eaa6a1d0a84ed9218494d22251a723f43410bd69",
+    "blueprint:3.4.a": "a31fb68e47fa6693191caa3369dd7f1d0377f8b61e801d0ace9f6ef14ed239fd",
+    "textbook:3.5:section:1": "24e55c14458e06dab9177f6cda7c7a702c812ecf78476f82e9d589eb8e5fe12c",
+    "lesson:3.5:point:2": "299a1abb7953fc77a6a8b92a17fc078348b572f4673e7da746a3c04751332f3c",
+    "lesson:4.1:intro": "fb1f21f03655328b0e80bfa4db6df3fd6b44b9f4006bb038e179b51eecdd152e",
+    "lesson:4.1:point:1": "15cc95598bf85d9f2bc697e09ac5389d12be0e19f650de9f7c5bab7c8951b96f",
+    "lesson:4.2:point:3": "e08b6872171b6e022379892f16813acc11fb442bf7a6a927a8e6f78792f27bb3",
+    "textbook:4.2:section:0": "1e0f2e3e07098a019653f7ec259dc5c25633b235b426ea316a76c6c5bbc43cf1",
+    "guide:4.2:block:2:code": "d811e6df952834f99af6366c4f37ac0f632d5df4e3f94cc6ca5ce4066147b2e9",
+    "lesson:4.3:point:3": "e08b0d6b586e584d0b119337d4ae24307003ba2fbed7c23a713ab533bb1c3033",
+    "lesson:4.4:point:0": "de0365762e548f4ac39e51f2feea00b8e495f7b10e23f0159a3daefdd354f9d4",
+    "guide:4.4:block:0:why": "94661c198bbf59625869f17f5b99130a83adca9fb48457316b3e9438a62a27e3",
+    "textbook:4.4:section:1": "50c433dd4f67140f8344a446b2ef9363c731b18ecfebaab1b171c9e466925d2e",
+    "textbook:4.5:section:0": "46452d7604258f3ac2d82cebb257c1dcc0bd9058376d872ce6aad9f801a1c002",
+    "lesson:4.5:point:2": "a0e47cb783750443c8e2d0df8ac00f20243e3caeaeca9a0f1453cc3fd27835d0",
+    "lesson:4.6:point:1": "305d544552ced0c893817983d030070b6199d70de2e2af2a5d79d51dca6e8682",
+    "lesson:4.7:point:0": "079f0e7da753a5f706856ba37880cace5b8216f56946cf68070f2a86327269ae",
+    "lesson:4.7:point:1": "68a01c6e62251d30e0f019afd45d2205893efb1ea4c1b656ee4f6b9de8bcc022",
+    "lesson:4.8:point:3": "5ab0be4a78d49a4baad4b83f22501d3f375a595a5b65c70cd08ac26eee4c6f0c",
+    "textbook:4.9:section:0": "8611a90cfdcd82ff246edc27ae3c163e0e3c302b8936b32c31b2f7ceaf0e627a",
+    "lesson:4.9:point:1": "c4e7be3008dd08e4da7f3c1deb953f49ce2f08e7eea6d5966488808277637887",
+    "lesson:5.1:point:2": "5c612c4607e7631cec1cb943a968afca9469c84e54796d184ba91152ea2ff1dd",
+    "guide:5.1:block:1:why": "70855ceb457a7b540980706cb6a76971f620c4c6610ddd90c7893712d79612f1",
+    "lesson:5.2:point:1": "be4617d142409e908a72bf09701ce0f22313d022a849ef413124779a3aaae89f",
+    "lesson:5.3:point:0": "0ed5bfae5c61d0e8aa3b211d99fabdff3c471ac96efe1ad8a8d674b3bf5004a4",
+    "lesson:5.3:point:1": "88913322e9d94f147948194eca5d1e16d043a9b3319dad38be42a3699c151f93",
+    "lesson:5.4:point:0": "3f1b1c574699f32c00b7043cfef180e2a6594aa023a05acda330de31867eb02a",
+    "textbook:5.4:section:1": "8ec14040e0d50d1a568f63ec555618c0771061b8e4fb069a5c3a17905cd59df2",
+    "textbook:5.4:section:0": "2345f5e5861649571c0fd5dbc579357ac6d618b971058014cffd2fd73b9453b1",
+    "lesson:5.5:point:3": "4cf8fe732a86d7e92554e01a08c5e64df50e19277115b0a83c0978692fc0294b",
+    "lesson:5.6:point:1": "5ab8bdb92e881baf2f04d9d7ab60c8fb8051087da8e32f11204823b34898f950",
+    "lesson:5.6:point:2": "138efd7a7be65f1b2526570cca19181a4d28c4c7a70f60f5d2c2ce74c293efd0",
+    "guide:5.7:block:0:why": "8fcca64d6b802d1b667df5d1e1e74e81086ed13d81af4423a4467c4865f39965",
+    "lesson:5.7:point:0": "2c8b1c3ee687cdf42b6b653928dc8c8dcb09e48488dd8b69ee36b42f6994f08a",
+    "textbook:5.8:section:1": "79027815d5896352df6c632863243bda198820afad00b5e00f19b330bd5815c6",
+    "lesson:5.9:point:3": "80cdeb62b596fe15bbc45ac66140f210259937e2098af0df9dabb0c36bcc3333",
+    "textbook:5.10:section:1": "db89e63b8dde79a4e43405004d9a55e5dc7b4571df45edfca3cfdbf09d3f9893",
+    "textbook:5.9:section:0": "7194d28cb0852e17008712f6498b069a3a7e6b87a3310c20d4e7ffdaea7f1cd3",
+    "lesson:6.1:point:2": "76e128adc44f90d4ea74795c27e7852b8633f2142ee080d1eac88d2e84ee5065",
+    "lesson:6.1:point:1": "8e40d8163b4eb79f4a4e9030333bfb5f23c6e73631a632f5d3bad7ad3f20b9a3",
+    "textbook:6.1:section:1": "70c71397067734a11ddf5ca12bd5caecb7d59655b1032e875a02b59ad0a64464",
+    "textbook:6.2:section:1": "34aa9b191528c995a370489d603ce24e0bf3be2beb78c682686983937c94f9b7",
+    "lesson:6.2:point:3": "e0ea68adbb314f499da573feb25b515b0a3ba03a3aa75ad759aed00e7dca74a9",
+    "lesson:6.3:point:2": "ce45e65dc351a5ea71e978c321454a4a4071ff9b95202fd87f49b81cd76b263e",
+    "lesson:6.4:point:1": "3abad040554916fc3b0154e7d5f761757be05d09a4641d4827c1ed027c0560ba",
+    "lesson:6.5:point:3": "84cf7b7cd8d84ffd2c4b77aeeef096e427e4096ca7f1b2f4ab55dcc314d85879",
+    "textbook:6.5:section:1": "5969f612ea9110661cf1bd5bb141b4eeec602cdf2e9991c6d31f8252903bc0eb",
+    "lesson:6.5:point:4": "d47b451aea3d27f45b36c1c3cb2d0e03df9f8d79c5ff90773f3e85dab2385d90",
+    "lesson:6.6:point:0": "dd69329da8fce9214b58928ba623dc7086d6f91955c86aa81acbde9fd4e79069",
+    "textbook:6.6:section:1": "c5c27c8e10bca6896885fe694c1868ac2a570066c6d9d4ba97e318d890b6de6a",
+    "textbook:6.7:section:0": "b2f21742f2c74ea251d9886a9ab90b10747b99c0b12e1553e1eb57a4681cc03d",
+    "textbook:1.10:section:0": "76651aa8a8f3a57578e2f2553412f0d6a0bc403225578344c6cf1a175d70d02e",
+    "lesson:1.10:point:2": "55517c301eae79080861112932abe42b361241dc3968f0443ea7ba34bfe91133",
+    "blueprint:1.2.d": "2e0145d1563fffa856894d0e89af56a0fd6fbc78843a5940f2d8ba293790e7d0",
+    "textbook:1.3:section:0": "7b8c62d043e6f9ea7c5c754a15797a1b894f92238205d19a45fa009d5e15546f",
+    "guide:1.4:block:0:why": "b872005f88530d0625c2696c7eae029d28486b70adce28c6fbb950109f353425",
+    "textbook:1.4:section:1": "9a7602c0e12092ca044a2bebb44d82aff2e8c599994f4c0c9fa2a4d72e2c7ef9",
+    "lesson:1.5:point:3": "0b68b0791fe459181b074ae4aa9ef11f38c413f2d4388a3f45e33c0777ab4039",
+    "lesson:1.8:point:2": "ff40457771fbe1c66fc845edae589f4d45b6d72fbb8cbb74fe3f49eb2f7b34f9",
+    "textbook:1.9:section:1": "eefb1e4f5e95b9eb563bc2ca7c5faeb3615b7262c4deb619d98908badf5afc3c",
+    "textbook:1.11:section:1": "579b632aac1fa78be511e20edbaa3f246811d8bff1b75e407e5c2bd9d0dda262",
+    "blueprint:1.11.c": "795266af7c742d6728a3ee5c8e6e3d53406f035fa79cc71da04149505baef543",
+    "textbook:2.1:section:1": "febacca9b30aeeb3c922eb45f785357d6eb06cfeb94cb74ae117bfccc30541ae",
+    "lesson:2.1:point:1": "f0227e769602a9e89da1747d520553f701b6e98985306b892da3990d3599aa4c",
+    "textbook:2.3:section:1": "4f1f20c608411b0cb15531b5e2e7f1a13884f200c210ac148a9ba01e9335e9ea",
+    "blueprint:2.5.c": "6d420db1972b8efaf02a97a4a425c4400c61109877e8ffcda205c20e7b30e2eb",
+    "textbook:2.8:section:0": "1e15ec0515b82934b61c60ba0dbfbf1f41ea0b5c6b0b8164cbe54ed450ee47f6",
+    "blueprint:3.1.b": "663ef51c66ed75f4a871e8375618800f6c1b66fcc93177c5adedd8a6c63e8680",
+    "textbook:3.5:section:0": "2dd7a40ecef1f201fa302d84ff04bc7afd5eb302a2823491d135b716ce41db16",
+    "guide:3.5:tip:0": "cb57f548b4e42fe70a471c3b58fa1987ac10d11a5c2e085e4c4945a8bffeaca9",
+    "textbook:4.2:section:1": "7e304384857918745a75cc382978d86144626fde250c722210946cb83ca1b3ef",
+    "textbook:4.3:section:1": "c7d6c381971289e4797e3fbc5096fcc156912bc643b9b0c13e11772583b30c08",
+    "guide:4.6:block:1:why": "34bf37ea67cd4458dda1c577ebe28ad661a2e49eb3c089b69ffe9502a4075921",
+    "textbook:4.7:section:1": "2627c94ba4c17006afb8a293c3ee38fc7cd46054e7c143c615723ec8edfe67cb",
+    "textbook:4.8:section:1": "66e331fcc8ada413650bc877fbae82b4543eaa66b62158bf48da54868b9ed032",
+    "textbook:5.1:section:1": "bd1a0d2c03e914910db825348bbbdcc0fcaa82a73c66b5f3129de4fb7fd92e6e",
+    "textbook:5.2:section:0": "ecd2fbb312f85107f3654abf049d8e43a25ef9e140582dec24e6ef10005152fd",
+    "lesson:5.2:point:2": "f2649a16af69f0c9dbec6a0fefc42e3c08cfa3473b14b2f2bf0db0503c75d80d",
+    "textbook:5.3:section:0": "01f332d0cb1c0fac56e1458a7d81f64f6adf6689dce6b11ab47324992bb47adf",
+    "lesson:5.4:point:3": "5db53d43edce34b42a975d23aebc21a0ac13ea50177937a61e76552d25b50652",
+    "textbook:5.5:section:0": "454837ce05fc29d3f9e90a49d293c6d924e1b73cd82368fe85d740f83639ba91",
+    "textbook:5.5:section:1": "4c6635a038fbd9453513b5e00a2530097e4b0e6086ac02858cfc5db00f513080",
+    "textbook:5.9:section:1": "04ae26d5b2450cd46923619cccee2ebd1deddfa8002c2d2b359b121aeb55c352",
+    "lesson:5.10:point:1": "5a7bae93f334ae633c0b8c5652cf77e797db7db775ee7be1392c3f15c29a3b8f",
+    "lesson:5.10:point:2": "ec4189ce3241e5402550639c46518ee95adfd812bc4cca57c46318c96cb60571",
+    "textbook:5.10:section:0": "c215d9877233f7d5fbd0121fdfdf586d50da9e10126d5cbeb58d98c96e3d6af0",
+    "guide:6.3:block:1:why": "52cb2c0e8a5dc0863d7133ec6b3ab54043febea63316824cb3258a70da1605b5"
+  },
+  "items": [
+    {
+      "id": "1.1-a",
+      "pool": "practice",
+      "lesson": "1.1",
+      "itemDigest": "e4a7e2304d2f0da636239035fce73eb1e297b1ac266b0c49d32a6a18d18869fc",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.2-a",
+      "pool": "practice",
+      "lesson": "1.2",
+      "itemDigest": "c6bd28cfbb7167522cd4d569ee805516bccf1089c93ac0d21f6a8c9b8e4c17b9",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.3-a",
+      "pool": "practice",
+      "lesson": "1.3",
+      "itemDigest": "36a005fee5202821687ef8741ff48c0f5cc3a6bf427ed3cd56ebce4538ca20e7",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.4-a",
+      "pool": "practice",
+      "lesson": "1.4",
+      "itemDigest": "7b6b7709a03fa3f9ad06a5cdcdbd2f164dc465483052adbfb915a0921ca8bbf9",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.5-a",
+      "pool": "practice",
+      "lesson": "1.5",
+      "itemDigest": "8d66ba015d026ac3ab35f1282005a13f88b00e22fe0014be7b33b1041d67e0fd",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.6-a",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "044833ec7179bf3ca027b299af5fd0fd4752385eae406395276c030cfa0ec9a0",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.7-a",
+      "pool": "practice",
+      "lesson": "1.7",
+      "itemDigest": "f545bce9646c8b7509e1683ed6ba0ed28aa09a36599ea7541024e1125777bbd0",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.8-a",
+      "pool": "practice",
+      "lesson": "1.8",
+      "itemDigest": "5aa9bee399dd0e547f4e00685184fcb3807ae7b9a0b82b02c2493d0319260956",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.9-a",
+      "pool": "practice",
+      "lesson": "1.9",
+      "itemDigest": "f8a62510282ebb9a7376c01ed5e7394f609b16c73eefa6217fe12b5f033cb6c5",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.10-a",
+      "pool": "practice",
+      "lesson": "1.10",
+      "itemDigest": "66759ee3d3f48230087a648b95e00580954e73590f4f3d5cafe5455d3ed30067",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.10:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.11-a",
+      "pool": "practice",
+      "lesson": "1.11",
+      "itemDigest": "264130f2393614101eb8aa9582cadf9e899e6b5d455ab007587449ef7dcbccdb",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.11:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.12-a",
+      "pool": "practice",
+      "lesson": "1.12",
+      "itemDigest": "0a748ad7fc8765f0a9965878668ba6ca1ba1983d60a04e0d73b7f2a98b98fe25",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.12:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "1.13-a",
+      "pool": "practice",
+      "lesson": "1.13",
+      "itemDigest": "e0e1756c7ee11dd2fe797205b818df13cabeefdfeeae85f38b87eaa12f00006f",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.13:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.1-a",
+      "pool": "practice",
+      "lesson": "2.1",
+      "itemDigest": "f8bba1220af0bb8d3b420c4c325c6818189c88ab7482435fb6b07f38b7acab5d",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.1:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.2-a",
+      "pool": "practice",
+      "lesson": "2.2",
+      "itemDigest": "e44c29a253af0f2ab8fd7cb2e88bc67933232b1d2d7afd8c989ba7bf3f66efb7",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.3-a",
+      "pool": "practice",
+      "lesson": "2.3",
+      "itemDigest": "9a39c92a4223924153e9f94ae7b04346ffd3d25a9900838cddfc84b9ead67b32",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.4-a",
+      "pool": "practice",
+      "lesson": "2.4",
+      "itemDigest": "5761bb817f41587fd3aeb64050085b02dd0639b2929e3cefb70ab945ab41ec57",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.5-a",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "e7f42f88658693bf78aee45e7ec8172c3993c6715ea1aa68f91c9df557b35e8c",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.6-a",
+      "pool": "practice",
+      "lesson": "2.6",
+      "itemDigest": "1070034f7846fe507d71d6a92a2da7d5259d5d51c45a513532e285b2495e342b",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.7-a",
+      "pool": "practice",
+      "lesson": "2.7",
+      "itemDigest": "5917b7e49839c72654deab4caf143a1e4e36ee392d6fe5d3e2cbc9ef56d7adcb",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.7:point:2",
+        "lesson:4.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.8-a",
+      "pool": "practice",
+      "lesson": "2.8",
+      "itemDigest": "5f4626df6d440bcc7030428221123ae573bf8a176400611cde38915b7063a6ea",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "2.9-a",
+      "pool": "practice",
+      "lesson": "2.9",
+      "itemDigest": "4fa0a1e82c3f059f928727996d43bc3be06e9611d55237a04361b6be7bec0528",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "3.1-a",
+      "pool": "practice",
+      "lesson": "3.1",
+      "itemDigest": "537eede2c625fbaf1d79d0bc0d26ef2ec65edd80f91d844d0475693e4c2946c7",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.1:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "3.2-a",
+      "pool": "practice",
+      "lesson": "3.2",
+      "itemDigest": "e2a89b2b8ebeef7a05ab7f1b1e865570b37406f3e5e87c9abbb03cfcf398d20e",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "3.3-a",
+      "pool": "practice",
+      "lesson": "3.3",
+      "itemDigest": "d0febad882eebebd4992540a0d842ab1c52607f4ecac6406ad2e8bb1b483ee33",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "3.4-a",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "0b052300ff4547aa7dc583c09855f766dfa739eed1e4a781eeea2afa8c8a52c9",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "3.5-a",
+      "pool": "practice",
+      "lesson": "3.5",
+      "itemDigest": "d7b30467933a7efdbc2d64d98de6c871136db140964a727ea6b3b6831420d641",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.1-a",
+      "pool": "practice",
+      "lesson": "4.1",
+      "itemDigest": "66692f95f9e0724e13e026cdab4162904025b2007582403e350bbc14b76b278e",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.2-a",
+      "pool": "practice",
+      "lesson": "4.2",
+      "itemDigest": "9df6417f7ca14fc29f9094a26e3fcfca5b3f20fad92d139e6ed622ce5aecc731",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.3-a",
+      "pool": "practice",
+      "lesson": "4.3",
+      "itemDigest": "bff3c628317ab1cc31b67c233406ce85cef8af6aa25645bb07358681bde214aa",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.4-a",
+      "pool": "practice",
+      "lesson": "4.4",
+      "itemDigest": "1a42165a8652725a9daa2130c401ef7949bfd17885557f49a7b8df3aee688079",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.4:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.5-a",
+      "pool": "practice",
+      "lesson": "4.5",
+      "itemDigest": "8f52de0204578de513949d1d6f519294d35650c21c67e66af333d2e1dcab0e22",
+      "basis": "direct",
+      "sources": [
+        "textbook:4.5:section:1",
+        "lesson:4.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.6-a",
+      "pool": "practice",
+      "lesson": "4.6",
+      "itemDigest": "70a3d6e3200ab85789452361fbc0dad266c8d930987ee2b8a3137fe58fd2f2b8",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.7-a",
+      "pool": "practice",
+      "lesson": "4.7",
+      "itemDigest": "5e18e16296c3aa9e22703b8564a0d5feaf0ba39d42203d8cd5e240643eaade1e",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.8-a",
+      "pool": "practice",
+      "lesson": "4.8",
+      "itemDigest": "816560800a24fc61bbf993c060db62bb4516cd77c16bb1737d7153843d09bdb2",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.8:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "4.9-a",
+      "pool": "practice",
+      "lesson": "4.9",
+      "itemDigest": "45f33db4921f53b2cdeec9421dfe0f5d055e0571d5045cb8c645e332bdc1e8a0",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.1-a",
+      "pool": "practice",
+      "lesson": "5.1",
+      "itemDigest": "cd15ccb901cdccf828971b0011a8742d071d19e8380fe4c5f237afa2b1d0b54b",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.1:intro",
+        "lesson:5.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.2-a",
+      "pool": "practice",
+      "lesson": "5.2",
+      "itemDigest": "760e7b8bc28a7bf20c84276c7b58b2bec176d5fb734912fe6796a75ff2576323",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.3-a",
+      "pool": "practice",
+      "lesson": "5.3",
+      "itemDigest": "52e1cab2e922e6098db33aa9d216586e8654e5d2a861c45f32a0a3cc11b1186e",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.3:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.4-a",
+      "pool": "practice",
+      "lesson": "5.4",
+      "itemDigest": "6b6d816e7ad67d1d237f3105ee2cd7afc3467cf3d54b2295c99ec5f0d57715a7",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.5-a",
+      "pool": "practice",
+      "lesson": "5.5",
+      "itemDigest": "f87f50a58ed602c9aa1e70e8149b70b0e37e1ca99e6cdda5d216cd31190d2b22",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.6-a",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "571e6f48ad8aae290a70c174b59102d16d334709c3b85db7b7ca287ad554c89f",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.6:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.7-a",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "6c6cea4e3b3c2b7b3b503b1c218b68e1b3e32e1f38d24b3b090073f3c0692bd4",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.7:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.8-a",
+      "pool": "practice",
+      "lesson": "5.8",
+      "itemDigest": "956c4f918e4633c710a7c0d498abc4b58e576b8de7beb737785265349cea223a",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.9-a",
+      "pool": "practice",
+      "lesson": "5.9",
+      "itemDigest": "5b9aef2ccc531af124a888baae66b99114df98fc9221853edeaf60391753fd2c",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "5.10-a",
+      "pool": "practice",
+      "lesson": "5.10",
+      "itemDigest": "47f061aa84037d6f9e27813699c80b88e3c34cffaf06225f0a5e3af05b4bdbd3",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.10:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.1-a",
+      "pool": "practice",
+      "lesson": "6.1",
+      "itemDigest": "2791048c3af7327ec1bd690860cfbdc861059e4cde20c0b84ae764275f365d7a",
+      "basis": "direct",
+      "sources": [
+        "guide:6.1:tip:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.2-a",
+      "pool": "practice",
+      "lesson": "6.2",
+      "itemDigest": "9e6d2b3f95f22658372e3f292e0cc804819ae4805466510fb10ed2bedf4c6f3b",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.3-a",
+      "pool": "practice",
+      "lesson": "6.3",
+      "itemDigest": "bfc2893462d5a175f02fab8914732f85189969df6618b89100446a6e09818e95",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.4-a",
+      "pool": "practice",
+      "lesson": "6.4",
+      "itemDigest": "cb29f67dd0aa5ab3d8cbdd32b8b7d6a59151a056aa928065b906c5a29240867f",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.5-a",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "4239ca0fb450fcb99b025d44d74ef9732e703a045091f975dd30a0f9f479371e",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.6-a",
+      "pool": "practice",
+      "lesson": "6.6",
+      "itemDigest": "2006e09e5813124121cdfb22b9357346fe52a255f31e2f29b336f1149e18e8ad",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "6.7-a",
+      "pool": "practice",
+      "lesson": "6.7",
+      "itemDigest": "e048511aabed5f59fd0bc4f022ed97d5d5261c59dd34c8e1f6d887e925a9495f",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-0",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "050c7142cb4286638f815e1cca0fa6bd2d5f4c65e3ce6c9d6bbc713fe8fcd9c3",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-1",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "39ea68d746b19d2712582ad4b90b350864c6c357b78f7105daa527c80faa111f",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:1",
+        "guide:1.6:block:0:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-2",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "679b64308337435831c5d78376eb1688c8249b3f0cd4188eb92aba868a4b6fd9",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "Binary mask construction from octet bit weights, not merely a prefix/mask label."
+    },
+    {
+      "id": "extra-3",
+      "pool": "practice",
+      "lesson": "1.5",
+      "itemDigest": "5fcb78aebdb4a8bfd2ce655c66df99a11cc73750bca3ce3e11c65510e501cf46",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-4",
+      "pool": "practice",
+      "lesson": "1.9",
+      "itemDigest": "0534331a0cf0cf2fa614aa524f52e40e0b6b603795cdf8feb4156f14d5347c6a",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.9.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-5",
+      "pool": "practice",
+      "lesson": "1.13",
+      "itemDigest": "5544496a2cf278e77397b2a9a83bcb7046f6299493c8db0265036d231025ac64",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.13.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-6",
+      "pool": "practice",
+      "lesson": "2.2",
+      "itemDigest": "0460ca110de50a5315dd3b65fb8a404fd300cc39e557ec57ae858c88613c0947",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-7",
+      "pool": "practice",
+      "lesson": "2.4",
+      "itemDigest": "9df9b1010186c46056b5b98b897b1a5dbd4eb119808ff5cc25567e7c923963af",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.4:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-8",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "bb45af1408caefda51ab34a4780cbd78c153e3911fb3bedfa970b33009380295",
+      "basis": "direct",
+      "sources": [
+        "blueprint:2.5.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-9",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "babed2e3bcc7ad6cac98c667e7c7f6d466ab7d8a7275a98dc4012b7827a02891",
+      "basis": "direct",
+      "sources": [
+        "blueprint:2.5.b"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-10",
+      "pool": "practice",
+      "lesson": "3.2",
+      "itemDigest": "7e4547474d7841b0611966762161234dc84ae95b74d25c864ba12fed84a25741",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-11",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "9131945745bd4d7b81781136e1cae998bbd12afe6032522e482e297133761437",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-12",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "5fd336eecea760efc9bc380e63d670423b2de3e523525627aa98db84441c092c",
+      "basis": "direct",
+      "sources": [
+        "blueprint:3.4.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-13",
+      "pool": "practice",
+      "lesson": "3.3",
+      "itemDigest": "e9d6dd4177a5a8f02e6c50b8d0f1832194af593a212fbd03f1d8b29f304382d6",
+      "basis": "direct",
+      "sources": [
+        "blueprint:3.3.a"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-14",
+      "pool": "practice",
+      "lesson": "4.1",
+      "itemDigest": "ea7b5ccdf0823a24255a8ceb3243f9fcb95603aaff0f479d966be85972679934",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.1:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-15",
+      "pool": "practice",
+      "lesson": "4.2",
+      "itemDigest": "c235e923ee0da9aa97da06e38161dd463c49a49158649307dce66d0656fdf1bd",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.2:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-16",
+      "pool": "practice",
+      "lesson": "4.3",
+      "itemDigest": "0ddd34bf7256ee0d4d3695a00c9306e8deca7254d19e3b52a8090f97bc32b017",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-17",
+      "pool": "practice",
+      "lesson": "4.4",
+      "itemDigest": "e95631e08df2a929d95f201744c8fe397637eb8937cf835dfccd8f5362da758c",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-18",
+      "pool": "practice",
+      "lesson": "4.5",
+      "itemDigest": "5d0b26de489c0365b4f0ca4f807ff299452405589460b821d514f172400f1a8d",
+      "basis": "direct",
+      "sources": [
+        "textbook:4.5:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-19",
+      "pool": "practice",
+      "lesson": "4.7",
+      "itemDigest": "5b6f0b665118267d562a3502acb9e1281c50aed01563f47c111a9f90776cb9ff",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-20",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "369ad0635c2e3a33ca4939e1058b3fd4d0441bc8434eae0f38e7c9dcf485ac7c",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-21",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "49321b307262f4b7fcb3f7337a8f16f51e71452b92aad8b1046f23455de82d2a",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-22",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "e790925972f1002d1a2ba4d30b648b61900404ae4499c3688ebd955ab42d2f31",
+      "basis": "direct",
+      "sources": [
+        "textbook:5.7:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-23",
+      "pool": "practice",
+      "lesson": "5.8",
+      "itemDigest": "a44fbe299ef566a4a254005b07eff22abc9da0bc5af34ca76b06bb30b48cf44c",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.8:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-24",
+      "pool": "practice",
+      "lesson": "5.9",
+      "itemDigest": "8145368a73671b5874505c1a36d7aeba2f19c8f7f017460c6e72cc447226a68f",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.9:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-25",
+      "pool": "practice",
+      "lesson": "6.3",
+      "itemDigest": "31edcbaeaa46b8ff6d1a557e324c750e265c10e2c717575fe04f36f351503ae8",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-26",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "7b51601b8112d1913780e907c101b44b3fa92750e688929f370c937546bd8ec8",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-27",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "c7d6a3bb705510561153becd847a513047bfa8b3c239f01228199f1167cfb057",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "extra-28",
+      "pool": "practice",
+      "lesson": "6.7",
+      "itemDigest": "dd0a455042d5d3fc094cfea04c982bee90c12f8bf90e1ec828a6ef0606bfc7b2",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.7:point:0",
+        "lesson:6.7:point:1",
+        "lesson:6.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-1",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "dfba57279759583c5cea2a84494318a18e313d45d1601aa90e1389bde3ab3caf",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:0",
+        "textbook:1.6:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-2",
+      "pool": "practice",
+      "lesson": "1.13",
+      "itemDigest": "f8970f2f0d71619492760a4ac58f44dc99520c185deda1bd66cb9ea9461a9333",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.13:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-3",
+      "pool": "practice",
+      "lesson": "1.10",
+      "itemDigest": "fe79ebc8be6a3170ce5caf780638bd151da169d204016a0e574d53e38a82817e",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.10:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-5",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "dba11ae0bf25c3dc91cb13127ce7a9c3102b51661d6ed90c164ed44dec5e4c55",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.5:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-6",
+      "pool": "practice",
+      "lesson": "2.9",
+      "itemDigest": "9f3d94b311e2beb8f16f0ab64cbf64dd5462029aca056d9f7913b6c749de947d",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.9:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-8",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "bc9318f46576fdc6eed6a9e2ff1d697db83ac7b3a8697eb8006aa43556f0884c",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.4:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-9",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "99865bb50a0e13c973a082acd82921cc5df66ba1c0993c853d3dbb45f6e83373",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-10",
+      "pool": "practice",
+      "lesson": "4.1",
+      "itemDigest": "19bf3d558592a49757b07fd343caea730014a0156d5ad77c2f0f4d2cc59fc2a5",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.1:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-12",
+      "pool": "practice",
+      "lesson": "4.7",
+      "itemDigest": "d6a30cef59032541ccd79a584822bac2fe8391e3bf150afa18ca9e6958030afc",
+      "basis": "direct",
+      "sources": [
+        "textbook:4.7:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-13",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "03ba02c83b7fe4c229be8c7d538400e2706ccd006006c6f1653d287c13432133",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.6:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-14",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "c5350c6a37d8c1d1f46f6070a6b9e182027710fb1825e17b1110b1916d8d51c3",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.7:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-15",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "30969d80a0a7d0486802eb7ba4d47ad2301a61372d1aac1e030c41c1eb67ae08",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.7:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-16",
+      "pool": "practice",
+      "lesson": "6.4",
+      "itemDigest": "4dcae486ccefac3831ab39c7b5f17ef2f6e5448cfe07e321dfb79d68d5ce0fd2",
+      "basis": "derived",
+      "sources": [
+        "guide:6.4:block:1:why",
+        "textbook:6.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "alignment-17",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "8bf4c9909bc08ab0545b33213865ccd24c6080f0cb629d430008173048c7b7a7",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.1-poe-budget",
+      "pool": "practice",
+      "lesson": "1.1",
+      "itemDigest": "645e9c5fe0dadeefe69fbd8ee93c0c344bd22873bbb28ea7ae646d71dd73c434",
+      "basis": "derived",
+      "sources": [
+        "blueprint:1.1.h"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.1-inline-ips",
+      "pool": "practice",
+      "lesson": "1.1",
+      "itemDigest": "edf8347d68f0bb80dfdf9858a879ba3e7b270fc38bfe755287a917cbcb281f89",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.1.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.1-server-versus-network",
+      "pool": "practice",
+      "lesson": "1.1",
+      "itemDigest": "196019056240e48d90c02dfe98d53358e9d38a76a6749b691397322ddf17792c",
+      "basis": "derived",
+      "sources": [
+        "blueprint:1.1.g"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.2-collapsed-core-roles",
+      "pool": "practice",
+      "lesson": "1.2",
+      "itemDigest": "a08cbab65a2c0151759b6fb10f2d50cb4231520d4886e73d399ba1e378d68839",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.2.a"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.2-cloud-responsibility",
+      "pool": "practice",
+      "lesson": "1.2",
+      "itemDigest": "534489b2ac0062f0641bd3051b180fb8282f014ff4721ebc3174ba5942922b3c",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.2:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "IaaS guest-OS responsibility versus PaaS/SaaS service boundaries."
+    },
+    {
+      "id": "expanded-1.2-three-tier-core",
+      "pool": "practice",
+      "lesson": "1.2",
+      "itemDigest": "a77985b571d411946ee3e88b2bbf93c7df89604018571d8e870378393a71c0de",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.2.b",
+        "textbook:1.2:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.3-optical-compatibility",
+      "pool": "practice",
+      "lesson": "1.3",
+      "itemDigest": "1d477f55e1ac3d12a8ad402445978170087d33f1216c4812a1335288dd9bbfe0",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.3-copper-interference",
+      "pool": "practice",
+      "lesson": "1.3",
+      "itemDigest": "c1b5a0526b0cb738131e0d22f06765c7f477426dcd6384216c771cfd849002f6",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.3:point:0",
+        "lesson:1.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.4-duplex-mismatch",
+      "pool": "practice",
+      "lesson": "1.4",
+      "itemDigest": "897bce24f6ddfa22aad34430b5104328c6ea0ec4003ceb67e6934230f104021b",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.4:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.4-administrative-shutdown",
+      "pool": "practice",
+      "lesson": "1.4",
+      "itemDigest": "fe1b100f624e8711f745eb04351181c50185ad0a6ee17c8717a57c07513ac4e5",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.4:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.5-dhcp-udp",
+      "pool": "practice",
+      "lesson": "1.5",
+      "itemDigest": "4a5a2d3ca7ee703ec7f8419dbf9649077945aed018009318db02fde1a33dfa43",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:0",
+        "lesson:1.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.5-udp-application-reliability",
+      "pool": "practice",
+      "lesson": "1.5",
+      "itemDigest": "22b05e318c4145d42b725ebf1f3e78ee4cf6358e5d7cd0db2ef54075098b1af2",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.6-gateway-same-subnet",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "6315e77f68c85e6c94f7fdd0201ddcff7b1f7756e39eca8596e1fc8f60155aa8",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:1",
+        "guide:1.6:block:0:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.6-vlsm-nonoverlap",
+      "pool": "practice",
+      "lesson": "1.6",
+      "itemDigest": "c2d76d8538310b6fe277dad35aa1c2f1536a309df061dd911d33e23cff15bdb3",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.6:section:1",
+        "lesson:1.6:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.7-private-address-security",
+      "pool": "practice",
+      "lesson": "1.7",
+      "itemDigest": "c724c49629019254ba7937a962a658ec3107dc8e12208c40d50a17987d3aeb01",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.7:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.7-private-site-overlap",
+      "pool": "practice",
+      "lesson": "1.7",
+      "itemDigest": "5cd93ca0222d05f45bd6a4bad99970449b1df2376c8e4afc20270dbbb90eb088",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.7:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.8-ipv6-default-router-ra",
+      "pool": "practice",
+      "lesson": "1.8",
+      "itemDigest": "2cbbe8b8eac977eff62f43adbb577419790f41832934fa642e2b64f2ff3ccb50",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.8:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "The RA source is the link-local router identity; router lifetime controls default eligibility."
+    },
+    {
+      "id": "expanded-1.8-ios-ipv6-routing",
+      "pool": "practice",
+      "lesson": "1.8",
+      "itemDigest": "29b9a0bce18b9f46fc868ed774b5d1e602992de6ad505d23e92c67a7baf7fd6a",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.8:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.9-modified-eui64",
+      "pool": "practice",
+      "lesson": "1.9",
+      "itemDigest": "f45b15547a65b3013fef0cb2c435bf6394caff74f4bf81a48d38461ae8ba61a4",
+      "basis": "derived",
+      "sources": [
+        "blueprint:1.9.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.9-anycast-delivery",
+      "pool": "practice",
+      "lesson": "1.9",
+      "itemDigest": "e3a1712b8a67ccff6a7296727455ec8f9b304bea84b6844b8e2756f9035d0b18",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.9.b"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.9-unique-local-scope",
+      "pool": "practice",
+      "lesson": "1.9",
+      "itemDigest": "e9ae4dbbcf2add9fe75322e58c48feedce5dcd2ec53f7cdafe8c2829d1c63e46",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.9:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "Unique-local prefixes are routable internally without intended public Internet routing."
+    },
+    {
+      "id": "expanded-1.10-linux-route-check",
+      "pool": "practice",
+      "lesson": "1.10",
+      "itemDigest": "f600d0b993d68726d88aebd68e5a6e77f5e561bede3bae19b6c6d0ecd32360d5",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.10:point:0",
+        "guide:1.10:block:1:code"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.10-macos-interface-check",
+      "pool": "practice",
+      "lesson": "1.10",
+      "itemDigest": "61f4f245a34d62669442e4bfa28eb02e854c50e6f6d66490a09054d13ba876ba",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.10:point:0",
+        "guide:1.10:block:1:code"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.11-ssid-versus-encryption",
+      "pool": "practice",
+      "lesson": "1.11",
+      "itemDigest": "c55d0fab0242579483609260036fcce8515db7198182cac851dad847fa5d3b5a",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.11.b"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.11-channel-width-reuse",
+      "pool": "practice",
+      "lesson": "1.11",
+      "itemDigest": "d61104525342698dabc333305eb665da3d9a74900f27eb653b00e714288e4b6a",
+      "basis": "direct",
+      "sources": [
+        "blueprint:1.11.a"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.12-container-versus-vm",
+      "pool": "practice",
+      "lesson": "1.12",
+      "itemDigest": "c2638db86b20a3d649e9a8621bc77d21be43bf2ae11948709f6aba4b1453ad84",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.12:point:1",
+        "textbook:1.12:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.12-hypervisor-role",
+      "pool": "practice",
+      "lesson": "1.12",
+      "itemDigest": "1023714cd843c02f899bf819ab7f65f7175849dc0f51e861aa5472911415e1dc",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.12:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "A hypervisor allocates/schedules physical compute and I/O for VMs."
+    },
+    {
+      "id": "expanded-1.13-same-port-filter",
+      "pool": "practice",
+      "lesson": "1.13",
+      "itemDigest": "111fdde8ba893f79312b5b8ff9b52b6b86f926d3c69b5d280043803789d8338a",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.13:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-1.13-mac-move-and-aging",
+      "pool": "practice",
+      "lesson": "1.13",
+      "itemDigest": "efc1db6e2e402bdec987190d07075ff7f4db408ac737b2f1496bcc9fbc307aa2",
+      "basis": "derived",
+      "sources": [
+        "blueprint:1.13.a",
+        "lesson:1.13:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.1-access-membership-verification",
+      "pool": "practice",
+      "lesson": "2.1",
+      "itemDigest": "39da446dcdb6b890eb1e83c20cbf84bbb8b49600cf6871c90cd96bd38b88ccb7",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.1:point:2",
+        "guide:2.1:block:5:code"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.1-selective-intervlan-policy",
+      "pool": "practice",
+      "lesson": "2.1",
+      "itemDigest": "de9dcfcd2225ef1beff5a32c8af45ded35b7417827abbe06905cfcd30379a78c",
+      "basis": "derived",
+      "sources": [
+        "blueprint:2.1.c",
+        "guide:2.1:block:4:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.2-allowed-vlan-add",
+      "pool": "practice",
+      "lesson": "2.2",
+      "itemDigest": "8b57ec52d882fcbf8690e239e7a30bc6cf44266495525e112ffd878bbd935f59",
+      "basis": "derived",
+      "sources": [
+        "guide:2.2:block:2:code",
+        "guide:2.2:block:2:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.2-trunk-operational-check",
+      "pool": "practice",
+      "lesson": "2.2",
+      "itemDigest": "73a9770ed0feb7068d54953f6faca94824c5a74dfc435c5a231bff99ecdaf9a8",
+      "basis": "derived",
+      "sources": [
+        "guide:2.2:block:1:code",
+        "guide:2.2:block:1:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.3-neighbor-information-limit",
+      "pool": "practice",
+      "lesson": "2.3",
+      "itemDigest": "5316232185f588e3f21f3ff07972a78c85557cd50e03e05e86b1db8ac2c517b1",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.3:intro",
+        "textbook:2.3:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.3-interface-discovery-control",
+      "pool": "practice",
+      "lesson": "2.3",
+      "itemDigest": "b8ba217e3bc5128fdd30437e5c398fb1ba2d2101f1c415c170d0a267a474dad7",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.3:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "Interface no cdp enable differs from device-wide no cdp run."
+    },
+    {
+      "id": "expanded-2.4-routed-port-channel",
+      "pool": "practice",
+      "lesson": "2.4",
+      "itemDigest": "3ab53619181d5d791cb00a8a3da84a21a874fd0c9e9cef7fe1fc0110d59570b0",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.4:point:2",
+        "textbook:2.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.4-bundle-consistency",
+      "pool": "practice",
+      "lesson": "2.4",
+      "itemDigest": "9478eb8ca61ef194d07c61e7416fa8b70f6a762afe90180529b003bdca73cce5",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.5-root-guard-purpose",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "565f0153e20469640433633fec6469522cfb3e82e9f28f796c6ac8e562396028",
+      "basis": "direct",
+      "sources": [
+        "blueprint:2.5.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.5-loop-guard-purpose",
+      "pool": "practice",
+      "lesson": "2.5",
+      "itemDigest": "b6cfb2a631f09f87fc9d5acf0431d0339cc4098edb831222d9952f770b40599c",
+      "basis": "direct",
+      "sources": [
+        "blueprint:2.5.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.6-monitor-mode-ap",
+      "pool": "practice",
+      "lesson": "2.6",
+      "itemDigest": "ef07b1b09f74c35c8f46a628a56443d4b730297228f3e94229b4c570732fee15",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.6:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.6-controller-and-autonomous",
+      "pool": "practice",
+      "lesson": "2.6",
+      "itemDigest": "590bda3d4f926f1a13522d5d812d3526d9d9c1345832e7a6cf4320e81949d92f",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.6:point:0",
+        "textbook:2.6:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.7-ap-poe-and-uplink",
+      "pool": "practice",
+      "lesson": "2.7",
+      "itemDigest": "c84c127e149b79e0f0f805645e2e03851043c1a14c4a3d9c431d9f012d24ca1f",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.7:point:2",
+        "blueprint:1.1.h"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.7-central-switching-path",
+      "pool": "practice",
+      "lesson": "2.7",
+      "itemDigest": "29a91e1c5d3380617264e9bcb211f0ddd680b3859cbeabd23fa7ba97c4af5aea",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.7:section:0",
+        "lesson:2.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.8-https-management",
+      "pool": "practice",
+      "lesson": "2.8",
+      "itemDigest": "2a12d92b66b3f55615fca319149a0a574e20b6beeea16992b514287a09092df5",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.8-out-of-band-console",
+      "pool": "practice",
+      "lesson": "2.8",
+      "itemDigest": "8101980a4f0cc418382d07a768ad869741f49a5dc6ef0598cea30e2870e4cd1f",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.9-wlan-id-versus-ssid",
+      "pool": "practice",
+      "lesson": "2.9",
+      "itemDigest": "5c771864d555b5d9e632d69b225648e167da7800faec96a9dc2bbe8dffa602a9",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.11:point:0",
+        "guide:5.10:block:0:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-2.9-gui-change-verification",
+      "pool": "practice",
+      "lesson": "2.9",
+      "itemDigest": "0583af3224805f153598319e25b60da8a2f721a731ea2605c8f06169924575a9",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.9:point:2",
+        "textbook:2.9:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.1-connected-and-local-routes",
+      "pool": "practice",
+      "lesson": "3.1",
+      "itemDigest": "954b84958bf2b225979143e18f3cb542904dc94f859b974d618eaa6c14a72e18",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.1:section:0",
+        "lesson:1.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.1-next-hop-versus-exit",
+      "pool": "practice",
+      "lesson": "3.1",
+      "itemDigest": "cb25faa3010314d21f1ebf3a577b05e235d115b3656dc73576dabc209b3cb89e",
+      "basis": "direct",
+      "sources": [
+        "blueprint:3.1.d",
+        "lesson:3.1:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.2-no-match-no-default",
+      "pool": "practice",
+      "lesson": "3.2",
+      "itemDigest": "8c972e4021cae1be3311c439f95e1f881e76ea28d66d5f96533c5ec6fe6c2cab",
+      "basis": "direct",
+      "sources": [
+        "textbook:3.2:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.2-same-protocol-metric",
+      "pool": "practice",
+      "lesson": "3.2",
+      "itemDigest": "47eead98acbbe894e219c100fd3fa8ea32e620adb315da90b46439434dbf9fb6",
+      "basis": "derived",
+      "sources": [
+        "lesson:3.2:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "For comparable OSPF paths, lower accumulated cost is preferred."
+    },
+    {
+      "id": "expanded-3.3-ipv4-default-static-command",
+      "pool": "practice",
+      "lesson": "3.3",
+      "itemDigest": "14b08cdeb7827b12b81c61d11ec84bb7f3bdd74913ed48723873f529ef4406c8",
+      "basis": "derived",
+      "sources": [
+        "guide:3.3:block:0:code",
+        "blueprint:3.3.a"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.3-ipv6-link-local-next-hop",
+      "pool": "practice",
+      "lesson": "3.3",
+      "itemDigest": "91beb9c5c11c96b40ff6fbe9db8fd01372266cdc1ee4f6664945a9136494ef40",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.3:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.4-ospf-hello-area-mismatch",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "da66a1e885079c571d8863a6cd86efe18bc9101b60eefc10ad6b8ce8132afd90",
+      "basis": "derived",
+      "sources": [
+        "lesson:3.4:point:0",
+        "textbook:3.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.4-ospf-router-id-selection",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "15e5b7f81be632b3d3f1c384ebc714becf5e7aa59a381f539e9242939ceb0993",
+      "basis": "derived",
+      "sources": [
+        "blueprint:3.4.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.4-ospf-mtu-exchange",
+      "pool": "practice",
+      "lesson": "3.4",
+      "itemDigest": "d44366b06b0a24a1088b80847f185375b16d077fec64a89ec4b0be76a96b37ce",
+      "basis": "derived",
+      "sources": [
+        "blueprint:3.4.a",
+        "textbook:3.4:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.5-fhrp-failover-arp",
+      "pool": "practice",
+      "lesson": "3.5",
+      "itemDigest": "17c67c436c26e7528fc76b5e225900642d26363ed88619a9a550550221a92d7e",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-3.5-fhrp-upstream-health",
+      "pool": "practice",
+      "lesson": "3.5",
+      "itemDigest": "2ae1c6a17861964ad98a91acffa5ecaadd94c3ad6752c5fdb4cfcd88d8eba975",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.5:section:1",
+        "lesson:3.5:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.1-nat-address-perspective",
+      "pool": "practice",
+      "lesson": "4.1",
+      "itemDigest": "833cf4f1c4514861194a71953c9ca08c962bdd4ed3df0c0d5fd901017530120b",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.1:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.1-nat-acl-selection",
+      "pool": "practice",
+      "lesson": "4.1",
+      "itemDigest": "dbd645c4ea17eb016716b2b6808baf76ae0897569bb84486cd44fb55eeeaef45",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.1:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.2-ntp-stratum",
+      "pool": "practice",
+      "lesson": "4.2",
+      "itemDigest": "8960fea108f0f1a038e8b53979b9cea2551df8acd67632f3a3254740a00d41c0",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.2:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "A synchronized downstream device advertises its selected server stratum plus one."
+    },
+    {
+      "id": "expanded-4.2-ntp-association-verification",
+      "pool": "practice",
+      "lesson": "4.2",
+      "itemDigest": "8ee6f341b61ffdbf557a88e8cd701b9b2e26260a25058935801cda4417aaa85a",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.2:section:0",
+        "guide:4.2:block:2:code"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.3-dns-alias-record",
+      "pool": "practice",
+      "lesson": "4.3",
+      "itemDigest": "a80f45cc8ee8e27a7f972e0e8558b42298f8dadb9079d319a3b6dc0e9e8030c2",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.3-dhcp-offer-versus-ack",
+      "pool": "practice",
+      "lesson": "4.3",
+      "itemDigest": "fceb3a91e2244482f4bf37c6745d843c5d28463d0dadb06b34799078e22664ad",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "An OFFER proposes configuration; the ACK confirms assignment."
+    },
+    {
+      "id": "expanded-4.4-snmp-manager-agent",
+      "pool": "practice",
+      "lesson": "4.4",
+      "itemDigest": "bf204428f30b7a9c7e28dfa29c7874de2b431fd56d50ab8b977a6afa93d5694a",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.4-snmp-read-only-access",
+      "pool": "practice",
+      "lesson": "4.4",
+      "itemDigest": "00570c2103aa1374839d53d00990ec84b1b405f1f3034f71e526461c422fe5cf",
+      "basis": "direct",
+      "sources": [
+        "guide:4.4:block:0:why",
+        "textbook:4.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.5-syslog-facility-severity",
+      "pool": "practice",
+      "lesson": "4.5",
+      "itemDigest": "88e99c9da35afe0d0351eec3ad23f1535c27fadca131f7878237b4e963853362",
+      "basis": "direct",
+      "sources": [
+        "textbook:4.5:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.5-syslog-timestamps",
+      "pool": "practice",
+      "lesson": "4.5",
+      "itemDigest": "42f72947b5a60eeafa90be9b5a8dbaaf580620ca24366b8217f3a1f3429a2e15",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.5:point:2",
+        "lesson:4.2:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.6-relay-giaddr",
+      "pool": "practice",
+      "lesson": "4.6",
+      "itemDigest": "b25b78b8734c02cd3e19fa5d113985d8fecb8cd8d13f5e448bc019a68c24afde",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.6-ios-dhcp-client",
+      "pool": "practice",
+      "lesson": "4.6",
+      "itemDigest": "543cf949dd20b50dc8de51aa715211393116e766b9777b04599212651ed51b42",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.7-classification-versus-marking",
+      "pool": "practice",
+      "lesson": "4.7",
+      "itemDigest": "73e5dfda9b29167cf4e7d8cc39c36835917519f5cb91f5ac432ce525c2de161d",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.7-priority-queue-limits",
+      "pool": "practice",
+      "lesson": "4.7",
+      "itemDigest": "b0d010f93b427f2613bf5b458ba89a042982a4f7b03c5ab71cddc6b941aaef78",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.7:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.8-ssh-local-login",
+      "pool": "practice",
+      "lesson": "4.8",
+      "itemDigest": "a90e6c13f4e2b7453b93221c54f9f575928f91f1beaf0c7caad0f2720861b4c8",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.8:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.8-ssh-host-identity",
+      "pool": "practice",
+      "lesson": "4.8",
+      "itemDigest": "b87d382a3ce7104e9d6216607167fc3c513bf1574b32cc6173766cc0bde0f60b",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.8:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "Verify an unexpected SSH host-key change through a trusted channel."
+    },
+    {
+      "id": "expanded-4.9-ftp-control-data",
+      "pool": "practice",
+      "lesson": "4.9",
+      "itemDigest": "9d639038e60af429e225faa5fa7ea3acfa2599fd9322d84ad566145c47a872a4",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.9:section:0",
+        "lesson:4.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-4.9-plain-ftp-confidentiality",
+      "pool": "practice",
+      "lesson": "4.9",
+      "itemDigest": "558855254af6eb99760ae93a5ceed244a9652018cae32acc008c3d8b8bf4a03e",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.1-threat-versus-risk",
+      "pool": "practice",
+      "lesson": "5.1",
+      "itemDigest": "f7c7a3c5e981c2eaf577d94bb86db1712bf6eba66c2717598c8e1ddef3008d74",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.1:intro",
+        "lesson:5.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.1-mitigation-versus-elimination",
+      "pool": "practice",
+      "lesson": "5.1",
+      "itemDigest": "e7b8b782293e0ea3176bfba93be0044fc8a7cf6a10731c8774079f02bb728be1",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.1:point:2",
+        "guide:5.1:block:1:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.2-tailgating-control",
+      "pool": "practice",
+      "lesson": "5.2",
+      "itemDigest": "2b70ae4997aa5c43a10c8f4ea8023a090d8ae33a505d93530e5901f95e47002e",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.2-rack-physical-control",
+      "pool": "practice",
+      "lesson": "5.2",
+      "itemDigest": "1444430e75cd4c5bcd99d1467c970149678065d65dae8a3dd9738afabf2e3291",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.3-enable-secret-role",
+      "pool": "practice",
+      "lesson": "5.3",
+      "itemDigest": "f2915bbd08ad307d1459fc053f26b29e24e64fc53676adfc0dbffb78680b9bb5",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.3-console-login-local",
+      "pool": "practice",
+      "lesson": "5.3",
+      "itemDigest": "7d758a625fa96d39e3c2eab8341d895428326e6c85bf0f3fb354661d3020ba87",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.4-password-reuse-policy",
+      "pool": "practice",
+      "lesson": "5.4",
+      "itemDigest": "abbc23d08d418615ce355bd8170169451581baa1446b31bdc58c21d4961df05f",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.4:point:0",
+        "textbook:5.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.4-certificate-possession",
+      "pool": "practice",
+      "lesson": "5.4",
+      "itemDigest": "7fdeba452ff264c8a1efaea8ab44569ee5d13786f9775ad4b30ae0628bebf1a6",
+      "basis": "direct",
+      "sources": [
+        "textbook:5.4:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.5-ipsec-protection-scope",
+      "pool": "practice",
+      "lesson": "5.5",
+      "itemDigest": "a81456bbaca0d1e3b3c9408a5e8d63e6d9f33b25b566785aff491cb5297172ab",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.5:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "IPsec transit protection does not establish endpoint or application trust."
+    },
+    {
+      "id": "expanded-5.5-remote-access-vpn-user",
+      "pool": "practice",
+      "lesson": "5.5",
+      "itemDigest": "c5f8672bbf4916c0a61a99aadeeb7839125ba16efd66260b7cf83839b62b7246",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.6-acl-interface-direction",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "ec69d35bafd4b489cf42b277055b633d58eed7cd0a3715e79ce4d7372ad469bc",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.6-acl-defined-not-applied",
+      "pool": "practice",
+      "lesson": "5.6",
+      "itemDigest": "e0475ef7c42fdb0e5ed0a05164f0b1e3f325706f8af3154f0515d5d754a83772",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.6:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.7-port-security-restrict",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "5730cbc98aa6b5f2ac25012d50db1abf184ab97fe3bf585aa73d2ca7839c6375",
+      "basis": "derived",
+      "sources": [
+        "guide:5.7:block:0:why",
+        "lesson:5.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.7-sticky-mac-persistence",
+      "pool": "practice",
+      "lesson": "5.7",
+      "itemDigest": "a870d7ea896b3488a54f20d54668cb02f7f76c2bc4b3905782ad6c3484af71d8",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.7:section:1",
+        "guide:5.7:block:0:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.8-aaa-accounting",
+      "pool": "practice",
+      "lesson": "5.8",
+      "itemDigest": "8344a5114086c8e02a7e1f88f5e48cabf206b12eb5b6d664ab00591e6880d514",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.8-aaa-error-versus-reject",
+      "pool": "practice",
+      "lesson": "5.8",
+      "itemDigest": "116e6803c1c41ee5bbc945bcd1756a44aac98a7042c032e8917010605c29b220",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.8:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.9-sae-offline-resistance",
+      "pool": "practice",
+      "lesson": "5.9",
+      "itemDigest": "0f61b1ef148f5e10ae390ed08c0cb5bfb99c3dbed9fa6ce27a291e5aa70774ab",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.9-enterprise-server-validation",
+      "pool": "practice",
+      "lesson": "5.9",
+      "itemDigest": "4555eaaef507639648e052717fa227ec04788939241adace00bea66fe14f0e03",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.9:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "Validate the EAP server certificate chain and expected identity to resist impersonation."
+    },
+    {
+      "id": "expanded-5.10-psk-passphrase-validation",
+      "pool": "practice",
+      "lesson": "5.10",
+      "itemDigest": "54c34b7e4f2f125b136309e6d84d57a8432b2d029e12cbd3d28c4989b9fcb69b",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.10:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-5.10-personal-versus-8021x-gui",
+      "pool": "practice",
+      "lesson": "5.10",
+      "itemDigest": "972fab158eb1ae0419a98788223721b90268502724230422b11432b2bb976ea6",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.9:section:0",
+        "lesson:5.10:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.1-automation-drift",
+      "pool": "practice",
+      "lesson": "6.1",
+      "itemDigest": "5da47b14a5ea4289704ad2d89d1e8e99cf2ee3c04b471444d77f52df190f3c5a",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.1:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.1-automation-staged-change",
+      "pool": "practice",
+      "lesson": "6.1",
+      "itemDigest": "be5d5ee786c27016cce50620796ebfa9a94eb0d9a7126b2543e37379cefdfb20",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.1:point:1",
+        "textbook:6.1:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.2-controller-outage-forwarding",
+      "pool": "practice",
+      "lesson": "6.2",
+      "itemDigest": "6182cde74b3c95136fa5b9742d3fac02e191f5a21f4019e16688cd9604872d63",
+      "basis": "derived",
+      "sources": [
+        "textbook:6.2:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.2-managed-device-software",
+      "pool": "practice",
+      "lesson": "6.2",
+      "itemDigest": "9e0459d8c498055b5ec8309c9137a755194703fe95c0d73a87c23643cbf97e5c",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.2:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "Controller management does not replace managed-device image maintenance."
+    },
+    {
+      "id": "expanded-6.3-northbound-southbound-relationship",
+      "pool": "practice",
+      "lesson": "6.3",
+      "itemDigest": "a495e64dad579d88450dd25e0f52a36228aff3fc308c1bb848da8da2338a8879",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.3:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.3-management-plane-observation",
+      "pool": "practice",
+      "lesson": "6.3",
+      "itemDigest": "9994c89ab6d9e945a1640d4a83c68b578feb93f8746af00c16be959216a023e9",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.4-generative-ai-role",
+      "pool": "practice",
+      "lesson": "6.4",
+      "itemDigest": "bb603696aabc7a10140d28403258401b03e895f7d38a1ecc0978a29025735f7a",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.4-ml-training-coverage",
+      "pool": "practice",
+      "lesson": "6.4",
+      "itemDigest": "9ff3650d0ac73adfcdac85eb894447db7cb943f5f41e784797bedf6d6bd92274",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.4:point:1",
+        "textbook:6.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.5-http-media-headers",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "d6525fde00a71a1e7ae9c5ee2ca9e4a1b1a03be609d8edad5181deb372af8002",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.5:point:3",
+        "textbook:6.5:section:1"
+      ],
+      "baseline": "partial",
+      "gapNote": "application/json expresses the ordinary JSON media type; actual APIs can specify other types."
+    },
+    {
+      "id": "expanded-6.5-http-rate-limit",
+      "pool": "practice",
+      "lesson": "6.5",
+      "itemDigest": "236278fbed551a597526495cf0768ff24cb7e6620959630d48b874a16644f96b",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.5:point:4"
+      ],
+      "baseline": "missing",
+      "gapNote": "Retry-After supplies a delay/date; honor it and reduce request pressure."
+    },
+    {
+      "id": "expanded-6.6-ansible-inventory-playbook",
+      "pool": "practice",
+      "lesson": "6.6",
+      "itemDigest": "46a8b549142ec0d9922cef40bba6e51accc62c669a49bcfd5698b6f17e2f9d75",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.6-terraform-state-purpose",
+      "pool": "practice",
+      "lesson": "6.6",
+      "itemDigest": "71150d3de372140717234f19f292bc84d28db1e71dc9e9fbbaf3687b52de7dc0",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.6:point:1",
+        "textbook:6.6:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.7-json-boolean-string",
+      "pool": "practice",
+      "lesson": "6.7",
+      "itemDigest": "ef8edb5d2b44a1dbb017c14515cc3197ab358d28b33460c881128a7ceff48872",
+      "basis": "derived",
+      "sources": [
+        "textbook:6.7:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "expanded-6.7-json-null-versus-absent",
+      "pool": "practice",
+      "lesson": "6.7",
+      "itemDigest": "2b8bf7dadb426f066cbe168c1cda2eab2bc65628488712b3406aecbcfd5c192b",
+      "basis": "derived",
+      "sources": [
+        "textbook:6.7:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.1",
+      "pool": "lesson",
+      "lesson": "1.1",
+      "itemDigest": "af018b7c46da716325e78780ef4a392da7abd69b5d7d7a758ff3115b4853c7a2",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.2",
+      "pool": "lesson",
+      "lesson": "1.2",
+      "itemDigest": "19248d2a06b44b7458f633f621fbd481428e69fa5d7c23d2d559ff04bbfff8eb",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.3",
+      "pool": "lesson",
+      "lesson": "1.3",
+      "itemDigest": "6b09fec858bed26a906f85409515938032072aee01de39fc33ca5ad9e40a6ce7",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.4",
+      "pool": "lesson",
+      "lesson": "1.4",
+      "itemDigest": "dd2d0a0ddbe8613329d911cb77a1efe95c96d5b13afbfa0f7fcb0c0fda839a76",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.5",
+      "pool": "lesson",
+      "lesson": "1.5",
+      "itemDigest": "3704d82ecb08e370127ba8429b62da20c93219dba338031f9f4cff95107639ca",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.6",
+      "pool": "lesson",
+      "lesson": "1.6",
+      "itemDigest": "4d517a599c721d3ef674a19d2eaf3af661c5ff297ea0fccb36f67f95170b540c",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.7",
+      "pool": "lesson",
+      "lesson": "1.7",
+      "itemDigest": "8cea55769f97813d1a34c7684cf87ee18d6c02a25f0d3ea30d8dee7015a073e2",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.8",
+      "pool": "lesson",
+      "lesson": "1.8",
+      "itemDigest": "faf25753bdcc297bb22a1e169d3d354e0c376353f3e163fc37053462b76a2c89",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.9",
+      "pool": "lesson",
+      "lesson": "1.9",
+      "itemDigest": "4ebb4e0aa508731db54aa190ebfe535ae31b440adef93ba32d4badf0df93399d",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.10",
+      "pool": "lesson",
+      "lesson": "1.10",
+      "itemDigest": "82e154f1e2ae6dcfbebf8b6eb03766ab8a04c2833f927345d0c7f09e657717ad",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.10:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.11",
+      "pool": "lesson",
+      "lesson": "1.11",
+      "itemDigest": "b74b3df4bcc41c5e474e8955d471abf15e1f540a103465870e0d1cfb09df7be4",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.11:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.12",
+      "pool": "lesson",
+      "lesson": "1.12",
+      "itemDigest": "d87142ec54e7b474fe03987b070168598ca818cddd1df3f2f5ad600cad954f53",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.12:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-1.13",
+      "pool": "lesson",
+      "lesson": "1.13",
+      "itemDigest": "d13299e9ffefb0cc77fa2b5a8a2d573c0ef8fb8a53064f652be47be90848d042",
+      "basis": "direct",
+      "sources": [
+        "lesson:1.13:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.1",
+      "pool": "lesson",
+      "lesson": "2.1",
+      "itemDigest": "93337ba7925e617898a05eb12f3b663e016d2804673449813e37111444da20eb",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.1:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.2",
+      "pool": "lesson",
+      "lesson": "2.2",
+      "itemDigest": "4ad1865c1f7bcb52cbf488a7fa7e9d3b8cefe075575f6acfc7529f2d79eb7474",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.3",
+      "pool": "lesson",
+      "lesson": "2.3",
+      "itemDigest": "58ac46f116793e20aebed1b5646db7c9905ad3e59d18ccd3658ac7142837326b",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.4",
+      "pool": "lesson",
+      "lesson": "2.4",
+      "itemDigest": "63d9afefea062462861dc5c479e7bf62a1a4a958370f72b25d7227ebd54fec9d",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.5",
+      "pool": "lesson",
+      "lesson": "2.5",
+      "itemDigest": "149f09a51c071aeb4bbd6ce470f7b3f9be36946d8eb925383916257a087d681b",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.6",
+      "pool": "lesson",
+      "lesson": "2.6",
+      "itemDigest": "013ef5a1583a14f009df2cdce4b3057074638099218af27074619f1fb7664ebd",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.7",
+      "pool": "lesson",
+      "lesson": "2.7",
+      "itemDigest": "86ecd0c0aed165ba47717e30970d0c79f8e9380453f20e6f5b08978160cf618e",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.7:point:2",
+        "lesson:4.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.8",
+      "pool": "lesson",
+      "lesson": "2.8",
+      "itemDigest": "4a35d925e0135f160240c91bf2feccf0ee862a63c58c2b656805ea3a399778ec",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-2.9",
+      "pool": "lesson",
+      "lesson": "2.9",
+      "itemDigest": "601002e6762db3137084d87da777a57be6f96ff4fcec026996801a6eac281808",
+      "basis": "direct",
+      "sources": [
+        "lesson:2.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-3.1",
+      "pool": "lesson",
+      "lesson": "3.1",
+      "itemDigest": "7189328c0a12b72232ed5c293e8847ce38b238df2214de22ed8ee303f769237a",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.1:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-3.2",
+      "pool": "lesson",
+      "lesson": "3.2",
+      "itemDigest": "c89564f26a915e45a6d3baf5a2613a5459f1eb3aaf2cd93d7634c4735ac12924",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-3.3",
+      "pool": "lesson",
+      "lesson": "3.3",
+      "itemDigest": "f1865509a3786b89f7f2c4ad8ed9ee32de48fd65f944483adeddbd2e83729c53",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-3.4",
+      "pool": "lesson",
+      "lesson": "3.4",
+      "itemDigest": "d22bc9764496ac4f56669937883f21c137135f704da7e1e2979676f5f2b9f650",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-3.5",
+      "pool": "lesson",
+      "lesson": "3.5",
+      "itemDigest": "b8058d98fd8c715854f4d6409e654edcbeb3294e69b845e3d2404d6dfca8c994",
+      "basis": "direct",
+      "sources": [
+        "lesson:3.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.1",
+      "pool": "lesson",
+      "lesson": "4.1",
+      "itemDigest": "35bf101352b24a06a51c6c4e84f3beafc831457a1ba59020cf4b548270b2ebd7",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.2",
+      "pool": "lesson",
+      "lesson": "4.2",
+      "itemDigest": "d6a427446e17ca4072e8e8da70bc143c733fa9d781d9112934c4298b3d592bca",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.3",
+      "pool": "lesson",
+      "lesson": "4.3",
+      "itemDigest": "f8379ba93193a621e84ecdbb3b31ac3a1501df1166754b27d93471b4d9ba059c",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.3:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.4",
+      "pool": "lesson",
+      "lesson": "4.4",
+      "itemDigest": "628b5f8a7c6684ec211c04dabb9991ebab821fb1126d814b95233d95dce8ccf3",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.4:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.5",
+      "pool": "lesson",
+      "lesson": "4.5",
+      "itemDigest": "9f0e48dacdf007cf41ca044d7cf2300e1df6083615c906f1c317c5a8a0e65a0c",
+      "basis": "direct",
+      "sources": [
+        "textbook:4.5:section:1",
+        "lesson:4.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.6",
+      "pool": "lesson",
+      "lesson": "4.6",
+      "itemDigest": "f15e1091ad06a0b0d545d6ab8b6720090b92f6a6091d99448fa847e8497599eb",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.6:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.7",
+      "pool": "lesson",
+      "lesson": "4.7",
+      "itemDigest": "c2eca0c11219268b058e6a3db7dd409ee271e122a1dda7a1f018714657a0093f",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.8",
+      "pool": "lesson",
+      "lesson": "4.8",
+      "itemDigest": "2dcf9a34ffeb94d12f2e1eb08ae4e150104dd7e0156a056e03ec5fbe563c366d",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.8:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-4.9",
+      "pool": "lesson",
+      "lesson": "4.9",
+      "itemDigest": "ac0da15da12c4f3126d69dfc8ec4a3b6c78349de14756bb17e75e4cb1ed67055",
+      "basis": "direct",
+      "sources": [
+        "lesson:4.9:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.1",
+      "pool": "lesson",
+      "lesson": "5.1",
+      "itemDigest": "b8e61f63cb3d49db436cca79e7131bd6de49a44785442d6cbf96f256c2933554",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.1:intro",
+        "lesson:5.1:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.2",
+      "pool": "lesson",
+      "lesson": "5.2",
+      "itemDigest": "262ea2674bee47e6bdf60f5d177118765cbaca4c29f8d3fc97f03a737c6c1bc7",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.3",
+      "pool": "lesson",
+      "lesson": "5.3",
+      "itemDigest": "42fa86e0d430b4ddf85583aee9feb6b6d4e5c9aad7dfecfd6617875a36602859",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.3:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.4",
+      "pool": "lesson",
+      "lesson": "5.4",
+      "itemDigest": "f51137781c3cd2f0be263689914f0596fb5359ab80d8d215591d4b15fadd534d",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.4:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.5",
+      "pool": "lesson",
+      "lesson": "5.5",
+      "itemDigest": "b8f057fa6114b9fdf744203f491c61762570dc27e3dc6ced08081ed72fb071d4",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.6",
+      "pool": "lesson",
+      "lesson": "5.6",
+      "itemDigest": "ca7f1444be9153c39d35a1735478ed992e22bf965ba0ab0173c2207de08255d9",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.6:intro"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.7",
+      "pool": "lesson",
+      "lesson": "5.7",
+      "itemDigest": "a4c7ffdb569720180df6c7227de1860e2765dd83f8dd1a22865ca50fa2520a45",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.7:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.8",
+      "pool": "lesson",
+      "lesson": "5.8",
+      "itemDigest": "8d7870f26d2cd681608c4d03b25d294762ac2dd05eebf8a1f1551fac439f31c7",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.9",
+      "pool": "lesson",
+      "lesson": "5.9",
+      "itemDigest": "1491833ce0a9da20456b67c2c0c975467d2537d71762a0916c81de6ec47869f1",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-5.10",
+      "pool": "lesson",
+      "lesson": "5.10",
+      "itemDigest": "383563129c668fea1265d16afafd8873563c935509b9456d732e8b0b29d7ad98",
+      "basis": "direct",
+      "sources": [
+        "lesson:5.10:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.1",
+      "pool": "lesson",
+      "lesson": "6.1",
+      "itemDigest": "a492c7aa1758bcc439d1a30d3fa3734e31d83ee7b8461c0f5934f7708b3a1591",
+      "basis": "direct",
+      "sources": [
+        "guide:6.1:tip:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.2",
+      "pool": "lesson",
+      "lesson": "6.2",
+      "itemDigest": "15e57020ba3d7b7e1fef951636f8acd2130ebdfc1f1245e449daa4dab39448e1",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.3",
+      "pool": "lesson",
+      "lesson": "6.3",
+      "itemDigest": "e272aaa6e00fccbe82adbf7a69d75a75bde47658a4eb354b7a9399692ae8afd6",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.3:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.4",
+      "pool": "lesson",
+      "lesson": "6.4",
+      "itemDigest": "5578086741911291e8d39eaa86509a673629627ee175fb99f60348c3fa6ccfbc",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.5",
+      "pool": "lesson",
+      "lesson": "6.5",
+      "itemDigest": "f0b6c23101590c0165a293fc82f7b7ae34e13538f17b27f896d0e3ed5eab76c7",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.5:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.6",
+      "pool": "lesson",
+      "lesson": "6.6",
+      "itemDigest": "a704c09e20bb2c90774b7abc89ba009b39db8d8877faca6e982d7e3d1961741c",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.6:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "lesson-check-6.7",
+      "pool": "lesson",
+      "lesson": "6.7",
+      "itemDigest": "585e3b3ec16bfab3b6f3e70e74b7197f7d02930e26c5d19f3caa052fb0772e7e",
+      "basis": "direct",
+      "sources": [
+        "lesson:6.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.1",
+      "pool": "worked",
+      "lesson": "1.1",
+      "itemDigest": "2cbf2684f5fa29c4034be2b83df6291172b73852b2d1248a0d2a0c9e46ac2a78",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.10:section:0",
+        "lesson:1.10:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.2",
+      "pool": "worked",
+      "lesson": "1.2",
+      "itemDigest": "14b76445208527a8a25d44d4ce34bd0aadcf32849acc1ccd1112aaed2fffb302",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.7:point:1",
+        "blueprint:1.2.d"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.3",
+      "pool": "worked",
+      "lesson": "1.3",
+      "itemDigest": "82058137975fd775827ad17815f32b7fedd6b778293ef2e9a92973c88ade2845",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.3:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.4",
+      "pool": "worked",
+      "lesson": "1.4",
+      "itemDigest": "0a4d8e50470db36fd52d96cf6d673aad859c335b6d87c3bbb7e92f23ea10fe47",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.4:point:2",
+        "guide:1.4:block:0:why",
+        "textbook:1.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.5",
+      "pool": "worked",
+      "lesson": "1.5",
+      "itemDigest": "d453973bcb3ede514b85407cac5293f3c8783d920f915d1c8cd01feb20226578",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.5:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "HTTP/3 commonly uses UDP 443; a TCP-only rule excludes that transport."
+    },
+    {
+      "id": "worked-check-1.6",
+      "pool": "worked",
+      "lesson": "1.6",
+      "itemDigest": "a44c62a33a44c5c4f6951189d465081290d671b6bc6d0922abf8e34388b0db63",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.6:point:0",
+        "textbook:1.6:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.7",
+      "pool": "worked",
+      "lesson": "1.7",
+      "itemDigest": "0a850be4aaf166690dbc55d56e1416ea51f1e18d44e1f4acde580965d3f7c110",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.7:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.8",
+      "pool": "worked",
+      "lesson": "1.8",
+      "itemDigest": "4acc80913d9e67439fa612a49d28deb4ffa5ccef90fd337c368478f3fb487463",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.8:point:2",
+        "lesson:1.8:point:3"
+      ],
+      "baseline": "partial",
+      "gapNote": "A usable IPv6 default router depends on Router Advertisement lifetime and required ICMPv6 reachability."
+    },
+    {
+      "id": "worked-check-1.9",
+      "pool": "worked",
+      "lesson": "1.9",
+      "itemDigest": "039c1b983d4d95095884a51b9b04a14c2c2f2af441f0579fc9e45a85870b1198",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.9:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.10",
+      "pool": "worked",
+      "lesson": "1.10",
+      "itemDigest": "a95e7aeb3aaf2d5d2dce3b27cd6b0410e3f9acae0d01753bcc8a66447d470843",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.10:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.11",
+      "pool": "worked",
+      "lesson": "1.11",
+      "itemDigest": "8ae3800224d96f9716aea8e516a0b6d7f528f22f6d1aa1eed2c59f71b626c40d",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.11:section:1",
+        "blueprint:1.11.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.12",
+      "pool": "worked",
+      "lesson": "1.12",
+      "itemDigest": "fc90809dd060c15615103f9e15ce247a4cc3042ec645f48cee4330c9bbdba1c3",
+      "basis": "derived",
+      "sources": [
+        "textbook:1.12:section:0",
+        "blueprint:2.1.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-1.13",
+      "pool": "worked",
+      "lesson": "1.13",
+      "itemDigest": "d2512971806e33f4c879a8670fceda542c5b644a6ae6944542e982b8460b5ccd",
+      "basis": "derived",
+      "sources": [
+        "lesson:1.13:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.1",
+      "pool": "worked",
+      "lesson": "2.1",
+      "itemDigest": "1875fe508c33fa2f1ec51879d9a8b58410712f69afc34a2d9f024589505dce37",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.1:section:1",
+        "lesson:2.1:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.2",
+      "pool": "worked",
+      "lesson": "2.2",
+      "itemDigest": "3aee7b58e75c350f11a0834827792e89dc0d79a027b6e409269bb009d97e50b7",
+      "basis": "derived",
+      "sources": [
+        "guide:2.2:block:2:code",
+        "guide:2.2:block:2:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.3",
+      "pool": "worked",
+      "lesson": "2.3",
+      "itemDigest": "30161b2a04913102421da5dd2ba3e3880d69acbe75e80f2324c754ebb226b41c",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.3:section:0",
+        "textbook:2.3:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.4",
+      "pool": "worked",
+      "lesson": "2.4",
+      "itemDigest": "8d2906081cd7abdf9c449b742dc041cfa74ccbeb09fecc1e8cebc329bb101e42",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.4:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.5",
+      "pool": "worked",
+      "lesson": "2.5",
+      "itemDigest": "4bac0e7a4a37fdccc1d79f4b0045850408cda90b1cbf9f23767e27e32ce30b24",
+      "basis": "derived",
+      "sources": [
+        "blueprint:2.5.c"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.6",
+      "pool": "worked",
+      "lesson": "2.6",
+      "itemDigest": "42c76deb49d9cbe227c6b75c946dfecb9b5cc9959296525063bd8e7dab3b1f37",
+      "basis": "derived",
+      "sources": [
+        "lesson:2.6:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.7",
+      "pool": "worked",
+      "lesson": "2.7",
+      "itemDigest": "87ab20bfc3ff9e96c9e9053a651382e79b0ae213113e1c4daa7df94ac2b1082f",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.7:section:0",
+        "lesson:2.7:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.8",
+      "pool": "worked",
+      "lesson": "2.8",
+      "itemDigest": "8e16bc64e996e71ddeb8669fa09d41d5544fc2719cac4a727aa2d06972dd8d77",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.8:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-2.9",
+      "pool": "worked",
+      "lesson": "2.9",
+      "itemDigest": "d9eba4bdd35d59d48902753d1ac83f3598a0709b44ad17b2ae4353242310931a",
+      "basis": "derived",
+      "sources": [
+        "textbook:2.9:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-3.1",
+      "pool": "worked",
+      "lesson": "3.1",
+      "itemDigest": "3b0ff1f5851e35615cf705817a2bb91874184b124b986abd23c50db805f1520e",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.1:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-3.2",
+      "pool": "worked",
+      "lesson": "3.2",
+      "itemDigest": "97ecf5a8b0de12784e7a6390a672362a66a65252f31605eebcc63185b2a1f5a3",
+      "basis": "derived",
+      "sources": [
+        "blueprint:3.1.b",
+        "lesson:3.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-3.3",
+      "pool": "worked",
+      "lesson": "3.3",
+      "itemDigest": "3f30a235f8b6155f6af912aa82d74e58ffd9856ae38f0aba54f470fb4ff3fd35",
+      "basis": "derived",
+      "sources": [
+        "lesson:3.3:point:1",
+        "lesson:3.2:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-3.4",
+      "pool": "worked",
+      "lesson": "3.4",
+      "itemDigest": "6be8d20f327e78826ae1a61ec41898fb98ecfcaff83ded6c10bd42ffe09d99d0",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-3.5",
+      "pool": "worked",
+      "lesson": "3.5",
+      "itemDigest": "2a5542c7b635979326baf1fb9bce343f8ee1bf248445a6b0aa58950f22b72a97",
+      "basis": "derived",
+      "sources": [
+        "textbook:3.5:section:0",
+        "guide:3.5:tip:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.1",
+      "pool": "worked",
+      "lesson": "4.1",
+      "itemDigest": "bbadf668d61c1af3ebc9c799e89f6919dca55584d331483e6487e50e435dfecd",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.1:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.2",
+      "pool": "worked",
+      "lesson": "4.2",
+      "itemDigest": "9b1d6c15e649b5cfcc830a023a6b0c8facfa1d8395ecf6c0d88fa11110587c47",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.2:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.3",
+      "pool": "worked",
+      "lesson": "4.3",
+      "itemDigest": "474e124251a0ee6db97983af4ab9c111caeab73aa97d3ad2ca25e28a7d8c86b4",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.3:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.4",
+      "pool": "worked",
+      "lesson": "4.4",
+      "itemDigest": "e96b62ea2ef15a9a18254ec762ad027c53df4631506185af40ba7ee79b64fd05",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.4:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.5",
+      "pool": "worked",
+      "lesson": "4.5",
+      "itemDigest": "c496a0d8b9f23511de59d1968de9de308540c97555bd93975cf0f5aeadd9f3fe",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.5:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.6",
+      "pool": "worked",
+      "lesson": "4.6",
+      "itemDigest": "8826c47877cd463b4927bb8187f7426bba45987faf8378b89a09e7c30920e5be",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.6:point:0",
+        "guide:4.6:block:1:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.7",
+      "pool": "worked",
+      "lesson": "4.7",
+      "itemDigest": "2707cc52c0b39154d242241cb8308cb6628ed82f2e82e802d4ca4474f02c82f8",
+      "basis": "derived",
+      "sources": [
+        "lesson:4.7:point:2",
+        "textbook:4.7:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.8",
+      "pool": "worked",
+      "lesson": "4.8",
+      "itemDigest": "69b46ebafbbf5efcac10a7f1c367eed791a183f8363ca50e34a45c0977f2fa21",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.8:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-4.9",
+      "pool": "worked",
+      "lesson": "4.9",
+      "itemDigest": "fb86603c1fabce91bee03a23b0f11c532a858b1ff078469742ba1dc60925580b",
+      "basis": "derived",
+      "sources": [
+        "textbook:4.9:section:0",
+        "lesson:4.9:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.1",
+      "pool": "worked",
+      "lesson": "5.1",
+      "itemDigest": "a190841c5f24bb5369bb322918cbe67168d770ebf4dcad299092623f10a8e002",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.1:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.2",
+      "pool": "worked",
+      "lesson": "5.2",
+      "itemDigest": "e56a2b5513d020e9c31aefb6702e693a5444c5841be3a0fe51fd1d706a8cb6f8",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.2:section:0",
+        "lesson:5.2:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.3",
+      "pool": "worked",
+      "lesson": "5.3",
+      "itemDigest": "d3008845d00532325e6d19da699b71fc27fb0d01b7f6b328961d476ec7c20ccc",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.3:section:0",
+        "lesson:2.8:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.4",
+      "pool": "worked",
+      "lesson": "5.4",
+      "itemDigest": "b8108ae75dc7fa42db752f0717be3b372ffa7f8fb0a98eaad6f91f236ca88c1c",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.4:point:3"
+      ],
+      "baseline": "missing",
+      "gapNote": "MFA authenticates an event; session locking, authorization and revocation remain necessary."
+    },
+    {
+      "id": "worked-check-5.5",
+      "pool": "worked",
+      "lesson": "5.5",
+      "itemDigest": "257aff4f1f4ad9bd4d62290cfa34ca8136d5a2d50c89346f7317e24479b0d480",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.5:section:0",
+        "textbook:5.5:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.6",
+      "pool": "worked",
+      "lesson": "5.6",
+      "itemDigest": "976080c502f79e98becb8ea277b5a99bb14b241dcca7ca85ab67bf4cfe6564ae",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.6:intro",
+        "textbook:5.6:section:0",
+        "lesson:5.6:point:2"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.7",
+      "pool": "worked",
+      "lesson": "5.7",
+      "itemDigest": "9fd1afa65ff856a6ffe6462e1c67d063cb9efc81396b1142c5dbc3ec92acfd1c",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.7:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.8",
+      "pool": "worked",
+      "lesson": "5.8",
+      "itemDigest": "fe7c68c7f5b9f24648a48f439d415ea4e4e2666381396ee95e77a7126baba33e",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.8:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.9",
+      "pool": "worked",
+      "lesson": "5.9",
+      "itemDigest": "a0d7dbdb577574c43ef744516dd8ae111f516f17d64e0121b33e153e66cf0f90",
+      "basis": "derived",
+      "sources": [
+        "textbook:5.9:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-5.10",
+      "pool": "worked",
+      "lesson": "5.10",
+      "itemDigest": "889486f24793b899ace6f96c75760585dc38bc0b4588e16daa5b46ba0c233b2a",
+      "basis": "derived",
+      "sources": [
+        "lesson:5.10:point:1",
+        "lesson:5.10:point:2",
+        "textbook:5.10:section:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.1",
+      "pool": "worked",
+      "lesson": "6.1",
+      "itemDigest": "d02495d69056d9636500f84b1754ffb269343158364a3770617d8f2fcfd90819",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.1:point:1",
+        "textbook:6.1:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.2",
+      "pool": "worked",
+      "lesson": "6.2",
+      "itemDigest": "2d11d201c7899a0741cfb9bf495fcf6cd3a23b41dad7a385e484e6d437339d86",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.3:point:2",
+        "lesson:6.2:point:0"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.3",
+      "pool": "worked",
+      "lesson": "6.3",
+      "itemDigest": "a8f66611a22a1ed067871192d235f596ab2a4ed5893b4b22fdad26fd23bf6bb7",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.3:point:1",
+        "guide:6.3:block:1:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.4",
+      "pool": "worked",
+      "lesson": "6.4",
+      "itemDigest": "08e703e556aa36c14020cb28db0090ed1a8484706c340a6b67aa761768483b9b",
+      "basis": "derived",
+      "sources": [
+        "guide:6.4:block:1:why"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.5",
+      "pool": "worked",
+      "lesson": "6.5",
+      "itemDigest": "078be67ab319a656b58ae6d999cf6c0bf3323ba9aba86c2019aa51bee7ae8c5a",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.5:point:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.6",
+      "pool": "worked",
+      "lesson": "6.6",
+      "itemDigest": "687efbf050723497d43958d119cfc5665bd8816b08576d24b737da3275847b98",
+      "basis": "derived",
+      "sources": [
+        "textbook:6.6:section:1"
+      ],
+      "baseline": "supported"
+    },
+    {
+      "id": "worked-check-6.7",
+      "pool": "worked",
+      "lesson": "6.7",
+      "itemDigest": "24aa7200091c9c5ea508ad443b698497eac5222b38acae276c49b9b195da9b3e",
+      "basis": "derived",
+      "sources": [
+        "lesson:6.7:point:0",
+        "lesson:6.7:point:1",
+        "textbook:6.7:section:0"
+      ],
+      "baseline": "supported"
+    }
+  ]
+}

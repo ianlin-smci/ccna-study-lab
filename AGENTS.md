@@ -25,6 +25,8 @@ This guide applies to the entire Packetwise CCNA Study Lab repository. Read it b
 | `src/app/question-aliases.ts` | Retired-question ID aliases and current flashcard-rating consolidation. |
 | `public/question-bank-review.md`, `public/question-source-audit.csv` | Dated external-source review and topic-only classification; external question text is excluded. |
 | `public/question-bank-catalog.csv` | Generated catalog of the current original practice pool. |
+| `tests/fixtures/assessment-coverage.json`, `scripts/lib/assessment-coverage.mjs` | Curated answer-to-teaching evidence, review fingerprints and drift checks. |
+| `public/assessment-coverage-report.md`, `public/assessment-coverage.csv` | Generated self-test findings and complete teaching evidence. |
 | `src/app/network-utils.ts`, `src/app/labs.component.*` | Network calculations and educational lab models. |
 | `tests/`, `tests/fixtures/ccna-v1.1-identifiers.json` | Content/logic tests and the sourced blueprint inventory. |
 | `scripts/sync-docs.mjs` | Generates the curriculum shadow copy and README statistics. |
@@ -44,6 +46,7 @@ Some data files contain very large single-line arrays. Inspect specific exported
 7. Make network examples internally consistent. Distinguish switching within a VLAN from routing between VLANs. For selective inter-VLAN access, explain addressing, gateways, trunks, routing, filtering and expected allowed/denied tests. Keep worked answers consistent with the topology and command text.
 8. Keep guided CLI exercises and the VLAN explorer described as educational models. They are not full Cisco device emulators.
 9. Give every active question a unique `concept` learning-goal key and the correct objective reference. Review meaning as well as wording: changing only numbers, addresses or names does not justify another question. If retiring a duplicate, maintain a direct alias to its retained question in `question-aliases.ts`; preserve raw saved records and exports. The active review view merges legacy ratings without counting duplicates or unknown cards.
+10. Keep every bank, lesson and worked assessment supported by accessible teaching material. Review its decisive facts/reasoning and maintain the curated references in `tests/fixtures/assessment-coverage.json`. Never cite a quiz rationale, answer key or worked solution as its own teaching evidence. A new question, changed question/answer or changed cited paragraph requires fresh content review before updating the relevant fingerprints; do not bulk-refresh hashes merely to silence a failure. `coverage:check` checks evidence integrity and drift, not semantic truth or exam readiness.
 
 ## Generated documentation
 
@@ -54,7 +57,7 @@ npm run docs:sync
 npm run docs:check
 ```
 
-Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md`, `public/question-bank-catalog.csv` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text. The external source audit is a frozen review snapshot, not a live import or dependency of the question bank.
+Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md`, `public/question-bank-catalog.csv`, `public/assessment-coverage-report.md`, `public/assessment-coverage.csv` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text. Documentation sync validates the coverage fixture but never approves or rewrites its review fingerprints. The external source audit is a frozen review snapshot, not a live import or dependency of the question bank.
 
 ## UI and data behavior to preserve
 
