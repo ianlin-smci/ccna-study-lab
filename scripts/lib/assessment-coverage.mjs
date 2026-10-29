@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {DOMAINS,LESSONS,QUESTIONS,COMMAND_GUIDES} from '../../src/app/data.ts';
+import {BEGINNER_GUIDES} from '../../src/app/beginner.data.ts';
 import {BLUEPRINT} from '../../src/app/blueprint.data.ts';
 import {TEXTBOOK_REVIEWS} from '../../src/app/textbook.data.ts';
 
@@ -15,12 +16,16 @@ export function buildAssessmentCorpus(){
  for(const l of LESSONS){
   const add=(key,text,label,section='')=>materials.push({key,lesson:l.id,text,label,url:base+'#/lesson/'+l.id+(section?'/'+section:'')});
   add(`lesson:${l.id}:intro`,l.intro,'Lesson introduction');
+  const beginner=BEGINNER_GUIDES[l.id];
+  for(const field of ['idea','example','caption','remember','exampleCaption'])add(`beginner:${l.id}:${field}`,beginner[field],'Beginner guide · '+field);
+  beginner.steps.forEach((step,i)=>add(`beginner:${l.id}:step:${i}`,step.body,'Beginner walkthrough · '+step.title));
+  beginner.words.forEach((word,i)=>add(`beginner:${l.id}:word:${i}`,word.meaning,'Beginner word · '+word.term));
   l.points.forEach((p,i)=>add(`lesson:${l.id}:point:${i}`,p,`Core explanation ${i+1}`));
-  for(const t of BLUEPRINT[l.id].subtopics)add('blueprint:'+t.id,t.body,t.id+' '+t.title,t.id);
-  TEXTBOOK_REVIEWS[l.id].sections.forEach((s,i)=>add(`textbook:${l.id}:section:${i}`,s.body,s.heading));
+  for(const t of BLUEPRINT[l.id].subtopics){add('blueprint:'+t.id,t.body,t.id+' '+t.title,t.id);add('blueprint:'+t.id+':plain',t.plain,t.id+' · Plain-language lead',t.id);}
+  TEXTBOOK_REVIEWS[l.id].sections.forEach((s,i)=>{add(`textbook:${l.id}:section:${i}`,s.body,s.heading);add(`textbook:${l.id}:section:${i}:plain`,s.plain,s.heading+' · Plain-language lead');});
   const g=COMMAND_GUIDES[l.id];
   add(`guide:${l.id}:scope`,g.scope,'Command guide scope','commands');
-  g.blocks.forEach((b,i)=>{for(const field of ['code','why','expected'])if(b[field])add(`guide:${l.id}:block:${i}:${field}`,b[field],b.title+' · '+field,'commands');});
+  g.blocks.forEach((b,i)=>{for(const field of ['code','why','expected','plain'])if(b[field])add(`guide:${l.id}:block:${i}:${field}`,b[field],b.title+' · '+field,'commands');});
   g.tips.forEach((p,i)=>add(`guide:${l.id}:tip:${i}`,p,`Command guide check ${i+1}`,'commands'));
  }
  const items=[
@@ -88,7 +93,7 @@ Reviewed ${data.manifest.reviewedAt}. Target: CCNA 200-301 v1.1. **${data.items.
 
 The practice, mock-exam and flashcard modes share one question bank. Each bank question was checked once. The audit also includes every lesson knowledge check and worked review check. Lesson questions that repeat a bank item remain separate assessment occurrences; the evidence was reused only after comparing their question, options and answer.
 
-Only material rendered as lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
+Only material rendered as beginner guides and plain-language leads, lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
 
 ${table(['Pool','Items','Initially supported','Initially partial','Initially missing','Now supported'],coverageSummary(data).map(s=>[names[s.pool],s.total,s.initiallySupported,s.initiallyPartial,s.initiallyMissing,s.total]))}
 
@@ -99,6 +104,12 @@ ${table(['Pool','Items','Initially supported','Initially partial','Initially mis
 ${table(['Assessment','Initial finding','Teaching detail added'],gaps.map(r=>[r.id,r.baseline,r.gapNote]))}
 
 These findings led to 17 new teaching paragraphs in 16 objectives. Question IDs, options, correct answers and scoring were retained. The additions teach the underlying rules and operational distinctions rather than inserting a list of answer keys.
+
+## Beginner-language editorial review
+
+${data.manifest.editorialReview?.scope??'No later language review recorded.'}
+
+The site now includes an everyday-language introduction, local word definitions, numbered walkthrough and reading caption for every objective, plus plain-language leads for every subtopic, depth section and command module. These help introduce the technical vocabulary; they do not replace the detailed exam terminology. Editorial checks are not a measurement of how every reader will understand a passage. Novice-user testing has not been performed.
 
 ## All items and evidence
 

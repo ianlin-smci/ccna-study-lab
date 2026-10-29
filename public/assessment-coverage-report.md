@@ -6,7 +6,7 @@ Reviewed 2026-10-28. Target: CCNA 200-301 v1.1. **312/312 assessment items have 
 
 The practice, mock-exam and flashcard modes share one question bank. Each bank question was checked once. The audit also includes every lesson knowledge check and worked review check. Lesson questions that repeat a bank item remain separate assessment occurrences; the evidence was reused only after comparing their question, options and answer.
 
-Only material rendered as lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
+Only material rendered as beginner guides and plain-language leads, lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
 
 | Pool | Items | Initially supported | Initially partial | Initially missing | Now supported |
 | --- | --- | --- | --- | --- | --- |
@@ -40,6 +40,12 @@ Only material rendered as lesson introductions, core explanations, blueprint sub
 | worked-check-5.4 | missing | MFA authenticates an event; session locking, authorization and revocation remain necessary. |
 
 These findings led to 17 new teaching paragraphs in 16 objectives. Question IDs, options, correct answers and scoring were retained. The additions teach the underlying rules and operational distinctions rather than inserting a list of answer keys.
+
+## Beginner-language editorial review
+
+Beginner-language review of all 206 bank rationales, 53 lesson explanations and 53 worked answers. Prompts, choices, selected answer indexes, IDs and existing cited teaching passages were retained. Worked-answer wording was revised after checking its reasoning against the same teaching evidence.
+
+The site now includes an everyday-language introduction, local word definitions, numbered walkthrough and reading caption for every objective, plus plain-language leads for every subtopic, depth section and command module. These help introduce the technical vocabulary; they do not replace the detailed exam terminology. Editorial checks are not a measurement of how every reader will understand a passage. Novice-user testing has not been performed.
 
 ## All items and evidence
 

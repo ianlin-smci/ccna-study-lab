@@ -245,7 +245,7 @@
       "id": "1.1-a",
       "pool": "practice",
       "lesson": "1.1",
-      "itemDigest": "e4a7e2304d2f0da636239035fce73eb1e297b1ac266b0c49d32a6a18d18869fc",
+      "itemDigest": "a20655cb34c6386858d2b306dd73c98d4cd68ff91bbceb95cc304009073fc368",
       "basis": "direct",
       "sources": [
         "lesson:1.1:point:0"
@@ -256,7 +256,7 @@
       "id": "1.2-a",
       "pool": "practice",
       "lesson": "1.2",
-      "itemDigest": "c6bd28cfbb7167522cd4d569ee805516bccf1089c93ac0d21f6a8c9b8e4c17b9",
+      "itemDigest": "6714857377777de88e2fe19a3146b6fe6dac0f38bbc919e69f86ecd33edeee76",
       "basis": "direct",
       "sources": [
         "lesson:1.2:point:1"
@@ -267,7 +267,7 @@
       "id": "1.3-a",
       "pool": "practice",
       "lesson": "1.3",
-      "itemDigest": "36a005fee5202821687ef8741ff48c0f5cc3a6bf427ed3cd56ebce4538ca20e7",
+      "itemDigest": "46c59adca22e57a6a6a18cfafef8136919b30a5f58b8e6fe6560423aab3d75b5",
       "basis": "direct",
       "sources": [
         "lesson:1.3:point:1"
@@ -278,7 +278,7 @@
       "id": "1.4-a",
       "pool": "practice",
       "lesson": "1.4",
-      "itemDigest": "7b6b7709a03fa3f9ad06a5cdcdbd2f164dc465483052adbfb915a0921ca8bbf9",
+      "itemDigest": "d02f800e261230c3ece4616bd715ad9a14c4559065dc0b4fe8900d425858a592",
       "basis": "direct",
       "sources": [
         "lesson:1.4:point:1"
@@ -289,7 +289,7 @@
       "id": "1.5-a",
       "pool": "practice",
       "lesson": "1.5",
-      "itemDigest": "8d66ba015d026ac3ab35f1282005a13f88b00e22fe0014be7b33b1041d67e0fd",
+      "itemDigest": "629a45b269b44df1b7e73c48be787f5a53f3f1ff2bcb2100492f5f9fabf07f18",
       "basis": "direct",
       "sources": [
         "lesson:1.5:point:0"
@@ -300,7 +300,7 @@
       "id": "1.6-a",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "044833ec7179bf3ca027b299af5fd0fd4752385eae406395276c030cfa0ec9a0",
+      "itemDigest": "8c653bb3c7def7a0728fddaee5c3f8e960e8a22df8caa5798f00cdc97b17c2b4",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:1"
@@ -311,7 +311,7 @@
       "id": "1.7-a",
       "pool": "practice",
       "lesson": "1.7",
-      "itemDigest": "f545bce9646c8b7509e1683ed6ba0ed28aa09a36599ea7541024e1125777bbd0",
+      "itemDigest": "37aaddb46bd50a2e7f5553e4e807816f96712a926539190c450ff62cca7ccde5",
       "basis": "direct",
       "sources": [
         "lesson:1.7:point:0"
@@ -322,7 +322,7 @@
       "id": "1.8-a",
       "pool": "practice",
       "lesson": "1.8",
-      "itemDigest": "5aa9bee399dd0e547f4e00685184fcb3807ae7b9a0b82b02c2493d0319260956",
+      "itemDigest": "a98482497658f0c30da559fd8f247581e558889ac59f56a2f6ef71bc7bee2299",
       "basis": "direct",
       "sources": [
         "lesson:1.8:point:0"
@@ -333,7 +333,7 @@
       "id": "1.9-a",
       "pool": "practice",
       "lesson": "1.9",
-      "itemDigest": "f8a62510282ebb9a7376c01ed5e7394f609b16c73eefa6217fe12b5f033cb6c5",
+      "itemDigest": "a65a837d5ad731bda152ab3fff5271076d7d3538f0eee263fbe0c6a307fb76f3",
       "basis": "direct",
       "sources": [
         "lesson:1.9:point:0"
@@ -344,7 +344,7 @@
       "id": "1.10-a",
       "pool": "practice",
       "lesson": "1.10",
-      "itemDigest": "66759ee3d3f48230087a648b95e00580954e73590f4f3d5cafe5455d3ed30067",
+      "itemDigest": "8e2e77956f144ecab1ff04c76330870635381f98629c97895e4af90250c124dd",
       "basis": "direct",
       "sources": [
         "lesson:1.10:point:1"
@@ -355,7 +355,7 @@
       "id": "1.11-a",
       "pool": "practice",
       "lesson": "1.11",
-      "itemDigest": "264130f2393614101eb8aa9582cadf9e899e6b5d455ab007587449ef7dcbccdb",
+      "itemDigest": "d8368e1e5e82d68cda0aa65f763638049a64c9c811b1faef0c11cfb856ba6c64",
       "basis": "direct",
       "sources": [
         "lesson:1.11:point:1"
@@ -366,7 +366,7 @@
       "id": "1.12-a",
       "pool": "practice",
       "lesson": "1.12",
-      "itemDigest": "0a748ad7fc8765f0a9965878668ba6ca1ba1983d60a04e0d73b7f2a98b98fe25",
+      "itemDigest": "be38d043cfcbc9dcddfaacd07da6f9b0eba5d6647479067947225024ba22e7a4",
       "basis": "direct",
       "sources": [
         "lesson:1.12:point:2"
@@ -377,7 +377,7 @@
       "id": "1.13-a",
       "pool": "practice",
       "lesson": "1.13",
-      "itemDigest": "e0e1756c7ee11dd2fe797205b818df13cabeefdfeeae85f38b87eaa12f00006f",
+      "itemDigest": "e1501fbd8729157dbd2f9ac11a31ab26d350f573f21c5c8266ec0708821bc897",
       "basis": "direct",
       "sources": [
         "lesson:1.13:point:0"
@@ -388,7 +388,7 @@
       "id": "2.1-a",
       "pool": "practice",
       "lesson": "2.1",
-      "itemDigest": "f8bba1220af0bb8d3b420c4c325c6818189c88ab7482435fb6b07f38b7acab5d",
+      "itemDigest": "6767e27e2feefc3d0716195eb35968440666e86b764b3cb5685cc5039eb8f32f",
       "basis": "direct",
       "sources": [
         "lesson:2.1:intro"
@@ -399,7 +399,7 @@
       "id": "2.2-a",
       "pool": "practice",
       "lesson": "2.2",
-      "itemDigest": "e44c29a253af0f2ab8fd7cb2e88bc67933232b1d2d7afd8c989ba7bf3f66efb7",
+      "itemDigest": "49b520303ac789104392e35dbf3aceadac8cb0de3cb35267e975d99c52f45457",
       "basis": "direct",
       "sources": [
         "lesson:2.2:point:1"
@@ -410,7 +410,7 @@
       "id": "2.3-a",
       "pool": "practice",
       "lesson": "2.3",
-      "itemDigest": "9a39c92a4223924153e9f94ae7b04346ffd3d25a9900838cddfc84b9ead67b32",
+      "itemDigest": "a993738d79a84dccb93c9c24f0b1ef0c2001d9f804020ea65dd4b44fd3199716",
       "basis": "direct",
       "sources": [
         "lesson:2.3:point:0"
@@ -421,7 +421,7 @@
       "id": "2.4-a",
       "pool": "practice",
       "lesson": "2.4",
-      "itemDigest": "5761bb817f41587fd3aeb64050085b02dd0639b2929e3cefb70ab945ab41ec57",
+      "itemDigest": "a304c4fb9f05d5d063a553c5aff9a962f70a0010c4d711e1b7c0b268aa69e83f",
       "basis": "direct",
       "sources": [
         "lesson:2.4:point:0"
@@ -432,7 +432,7 @@
       "id": "2.5-a",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "e7f42f88658693bf78aee45e7ec8172c3993c6715ea1aa68f91c9df557b35e8c",
+      "itemDigest": "42b4c6bbe5713dbaef47367fc2be2d3721264aa1fc9c451366f4561b9fc13e71",
       "basis": "direct",
       "sources": [
         "lesson:2.5:point:0"
@@ -443,7 +443,7 @@
       "id": "2.6-a",
       "pool": "practice",
       "lesson": "2.6",
-      "itemDigest": "1070034f7846fe507d71d6a92a2da7d5259d5d51c45a513532e285b2495e342b",
+      "itemDigest": "bcc074b00afd47f5f5f32cc6386f95f5cbd7b0b8bff5ff2f9a441b63fda819c1",
       "basis": "direct",
       "sources": [
         "lesson:2.6:point:1"
@@ -454,7 +454,7 @@
       "id": "2.7-a",
       "pool": "practice",
       "lesson": "2.7",
-      "itemDigest": "5917b7e49839c72654deab4caf143a1e4e36ee392d6fe5d3e2cbc9ef56d7adcb",
+      "itemDigest": "27595f306ebaae1c06ba5fd289ad9475777eed2179223a520f0b54c9fc92db5e",
       "basis": "direct",
       "sources": [
         "lesson:2.7:point:2",
@@ -466,7 +466,7 @@
       "id": "2.8-a",
       "pool": "practice",
       "lesson": "2.8",
-      "itemDigest": "5f4626df6d440bcc7030428221123ae573bf8a176400611cde38915b7063a6ea",
+      "itemDigest": "58f7d9aa42481df722d4086dbc1b2135bc53852c6301637901d22ee859287f1a",
       "basis": "direct",
       "sources": [
         "lesson:2.8:point:0"
@@ -477,7 +477,7 @@
       "id": "2.9-a",
       "pool": "practice",
       "lesson": "2.9",
-      "itemDigest": "4fa0a1e82c3f059f928727996d43bc3be06e9611d55237a04361b6be7bec0528",
+      "itemDigest": "347e809209aa3e687cc6c63bc6563267e504736d22cfa2c787ca71fea4e9ab93",
       "basis": "direct",
       "sources": [
         "lesson:2.9:point:0"
@@ -488,7 +488,7 @@
       "id": "3.1-a",
       "pool": "practice",
       "lesson": "3.1",
-      "itemDigest": "537eede2c625fbaf1d79d0bc0d26ef2ec65edd80f91d844d0475693e4c2946c7",
+      "itemDigest": "8ab1fc120a485d17ddbe2903284122c2a237e65d0e75d1dbce19f9eeff3c7296",
       "basis": "direct",
       "sources": [
         "lesson:3.1:point:1"
@@ -499,7 +499,7 @@
       "id": "3.2-a",
       "pool": "practice",
       "lesson": "3.2",
-      "itemDigest": "e2a89b2b8ebeef7a05ab7f1b1e865570b37406f3e5e87c9abbb03cfcf398d20e",
+      "itemDigest": "826519bab92441cbb93cc40dda3e2ac75ec698bc524a64efc28ee348c738b351",
       "basis": "direct",
       "sources": [
         "lesson:3.2:point:0"
@@ -510,7 +510,7 @@
       "id": "3.3-a",
       "pool": "practice",
       "lesson": "3.3",
-      "itemDigest": "d0febad882eebebd4992540a0d842ab1c52607f4ecac6406ad2e8bb1b483ee33",
+      "itemDigest": "70c4031828e373764de9cc62532f59c4d0ef9afacb42795d4e1d6a8b5850df0c",
       "basis": "direct",
       "sources": [
         "lesson:3.3:point:1"
@@ -521,7 +521,7 @@
       "id": "3.4-a",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "0b052300ff4547aa7dc583c09855f766dfa739eed1e4a781eeea2afa8c8a52c9",
+      "itemDigest": "4aa887752cfc9cd35aedc2c652dcc05cf5457346f572549b532926decfb336e0",
       "basis": "direct",
       "sources": [
         "lesson:3.4:point:1"
@@ -532,7 +532,7 @@
       "id": "3.5-a",
       "pool": "practice",
       "lesson": "3.5",
-      "itemDigest": "d7b30467933a7efdbc2d64d98de6c871136db140964a727ea6b3b6831420d641",
+      "itemDigest": "3c94201d141900de9fcd3ea9c66ab6f56ffa7ac8dabae7120eac62a508d6c24d",
       "basis": "direct",
       "sources": [
         "lesson:3.5:point:1"
@@ -543,7 +543,7 @@
       "id": "4.1-a",
       "pool": "practice",
       "lesson": "4.1",
-      "itemDigest": "66692f95f9e0724e13e026cdab4162904025b2007582403e350bbc14b76b278e",
+      "itemDigest": "685f67a19b3e1f7b2f3798029cc1e451095ca69d8eb7a220b27e95b32698ecf8",
       "basis": "direct",
       "sources": [
         "lesson:4.1:point:0"
@@ -554,7 +554,7 @@
       "id": "4.2-a",
       "pool": "practice",
       "lesson": "4.2",
-      "itemDigest": "9df6417f7ca14fc29f9094a26e3fcfca5b3f20fad92d139e6ed622ce5aecc731",
+      "itemDigest": "fb44b98ba5c3c63cb1bcbff6cfb4aee040bc050c6277f42b7e9580bffac7e021",
       "basis": "direct",
       "sources": [
         "lesson:4.2:point:0"
@@ -565,7 +565,7 @@
       "id": "4.3-a",
       "pool": "practice",
       "lesson": "4.3",
-      "itemDigest": "bff3c628317ab1cc31b67c233406ce85cef8af6aa25645bb07358681bde214aa",
+      "itemDigest": "0dd330591c0d5c9aaa895af7e95fe61d4b42cd710a86cb3d255592f72b73bca1",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:1"
@@ -576,7 +576,7 @@
       "id": "4.4-a",
       "pool": "practice",
       "lesson": "4.4",
-      "itemDigest": "1a42165a8652725a9daa2130c401ef7949bfd17885557f49a7b8df3aee688079",
+      "itemDigest": "7dc73ef1d365858283f3992347470d12ed206c1ac0c6b0ba0505edead17046d4",
       "basis": "direct",
       "sources": [
         "lesson:4.4:point:2"
@@ -587,7 +587,7 @@
       "id": "4.5-a",
       "pool": "practice",
       "lesson": "4.5",
-      "itemDigest": "8f52de0204578de513949d1d6f519294d35650c21c67e66af333d2e1dcab0e22",
+      "itemDigest": "08dbc8071a5e410088b831954457e9328e2c4f0703e717823d32660c04868541",
       "basis": "direct",
       "sources": [
         "textbook:4.5:section:1",
@@ -599,7 +599,7 @@
       "id": "4.6-a",
       "pool": "practice",
       "lesson": "4.6",
-      "itemDigest": "70a3d6e3200ab85789452361fbc0dad266c8d930987ee2b8a3137fe58fd2f2b8",
+      "itemDigest": "98c81fd7f69946ed4206f7975f52147f3d8639044aea84dc681a9e174eb5e671",
       "basis": "direct",
       "sources": [
         "lesson:4.6:point:0"
@@ -610,7 +610,7 @@
       "id": "4.7-a",
       "pool": "practice",
       "lesson": "4.7",
-      "itemDigest": "5e18e16296c3aa9e22703b8564a0d5feaf0ba39d42203d8cd5e240643eaade1e",
+      "itemDigest": "8739cfdaf039851c1f05d357e8170f61edcb6140c199524aa6a0a6b21ccf93b4",
       "basis": "direct",
       "sources": [
         "lesson:4.7:point:2"
@@ -621,7 +621,7 @@
       "id": "4.8-a",
       "pool": "practice",
       "lesson": "4.8",
-      "itemDigest": "816560800a24fc61bbf993c060db62bb4516cd77c16bb1737d7153843d09bdb2",
+      "itemDigest": "010fce7f58acd996f0f959f99ea53cbfd99d21b71aa1cb6aec400477e3ca64fa",
       "basis": "direct",
       "sources": [
         "lesson:4.8:point:1"
@@ -632,7 +632,7 @@
       "id": "4.9-a",
       "pool": "practice",
       "lesson": "4.9",
-      "itemDigest": "45f33db4921f53b2cdeec9421dfe0f5d055e0571d5045cb8c645e332bdc1e8a0",
+      "itemDigest": "fdd90a04c34bfc0719a195511024ce9a747d8791730cf6a91af2284dea4e5353",
       "basis": "direct",
       "sources": [
         "lesson:4.9:point:0"
@@ -643,7 +643,7 @@
       "id": "5.1-a",
       "pool": "practice",
       "lesson": "5.1",
-      "itemDigest": "cd15ccb901cdccf828971b0011a8742d071d19e8380fe4c5f237afa2b1d0b54b",
+      "itemDigest": "484ba2bf68e87820dfe7f6722bb3f699011fc2026f7a609440b11d5f7c940a36",
       "basis": "direct",
       "sources": [
         "lesson:5.1:intro",
@@ -655,7 +655,7 @@
       "id": "5.2-a",
       "pool": "practice",
       "lesson": "5.2",
-      "itemDigest": "760e7b8bc28a7bf20c84276c7b58b2bec176d5fb734912fe6796a75ff2576323",
+      "itemDigest": "c0088e341bf89f9ac8d86f05dbe4f35fb6396c248a34182becb79463561a7408",
       "basis": "direct",
       "sources": [
         "lesson:5.2:point:0"
@@ -666,7 +666,7 @@
       "id": "5.3-a",
       "pool": "practice",
       "lesson": "5.3",
-      "itemDigest": "52e1cab2e922e6098db33aa9d216586e8654e5d2a861c45f32a0a3cc11b1186e",
+      "itemDigest": "2cae8c988f00bbf73ec0e9a912313f2bf564831598bbef565aae5b0ee3a786ec",
       "basis": "direct",
       "sources": [
         "lesson:5.3:point:2"
@@ -677,7 +677,7 @@
       "id": "5.4-a",
       "pool": "practice",
       "lesson": "5.4",
-      "itemDigest": "6b6d816e7ad67d1d237f3105ee2cd7afc3467cf3d54b2295c99ec5f0d57715a7",
+      "itemDigest": "aff2603aa0fcc0b04c139f0a31e5f1b5be5440ef38da36586020697316ddb7cc",
       "basis": "direct",
       "sources": [
         "lesson:5.4:point:1"
@@ -688,7 +688,7 @@
       "id": "5.5-a",
       "pool": "practice",
       "lesson": "5.5",
-      "itemDigest": "f87f50a58ed602c9aa1e70e8149b70b0e37e1ca99e6cdda5d216cd31190d2b22",
+      "itemDigest": "1782bafd13f11f0544c8795b28219ababc3cf0bdc775d8ae300765680c85996f",
       "basis": "direct",
       "sources": [
         "lesson:5.5:point:0"
@@ -699,7 +699,7 @@
       "id": "5.6-a",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "571e6f48ad8aae290a70c174b59102d16d334709c3b85db7b7ca287ad554c89f",
+      "itemDigest": "c71e7238ae13823dc8e5f4e02dfd1a50852d7b89ef66c809c69d25b984839deb",
       "basis": "direct",
       "sources": [
         "lesson:5.6:intro"
@@ -710,7 +710,7 @@
       "id": "5.7-a",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "6c6cea4e3b3c2b7b3b503b1c218b68e1b3e32e1f38d24b3b090073f3c0692bd4",
+      "itemDigest": "2de206e47d84f65ac1942d917f4ee071117d8777bb0d126ee484373934fbba07",
       "basis": "direct",
       "sources": [
         "lesson:5.7:point:1"
@@ -721,7 +721,7 @@
       "id": "5.8-a",
       "pool": "practice",
       "lesson": "5.8",
-      "itemDigest": "956c4f918e4633c710a7c0d498abc4b58e576b8de7beb737785265349cea223a",
+      "itemDigest": "851f38247f044c38e6e394080181c3fe17f4ea38faa4018a07c664bcb1fe0767",
       "basis": "direct",
       "sources": [
         "lesson:5.8:point:0"
@@ -732,7 +732,7 @@
       "id": "5.9-a",
       "pool": "practice",
       "lesson": "5.9",
-      "itemDigest": "5b9aef2ccc531af124a888baae66b99114df98fc9221853edeaf60391753fd2c",
+      "itemDigest": "91b3ac76178d361e6577ccd680d19968372181f1b5b50069578f7aa4b0c6d375",
       "basis": "direct",
       "sources": [
         "lesson:5.9:point:1"
@@ -743,7 +743,7 @@
       "id": "5.10-a",
       "pool": "practice",
       "lesson": "5.10",
-      "itemDigest": "47f061aa84037d6f9e27813699c80b88e3c34cffaf06225f0a5e3af05b4bdbd3",
+      "itemDigest": "05e5968b41054a56fea286d74e5ec7a1467d2cae8e55ddac5a5760c7d2642193",
       "basis": "direct",
       "sources": [
         "lesson:5.10:point:0"
@@ -754,7 +754,7 @@
       "id": "6.1-a",
       "pool": "practice",
       "lesson": "6.1",
-      "itemDigest": "2791048c3af7327ec1bd690860cfbdc861059e4cde20c0b84ae764275f365d7a",
+      "itemDigest": "24906fe07c4de42379eb9d55a85dacd4a4a628a26765cf508bfa0ca371faed07",
       "basis": "direct",
       "sources": [
         "guide:6.1:tip:0"
@@ -765,7 +765,7 @@
       "id": "6.2-a",
       "pool": "practice",
       "lesson": "6.2",
-      "itemDigest": "9e6d2b3f95f22658372e3f292e0cc804819ae4805466510fb10ed2bedf4c6f3b",
+      "itemDigest": "4f1962768d858786cb134f517e8dc3f650ebbbb66ef6cba99a1898078bce0121",
       "basis": "direct",
       "sources": [
         "lesson:6.2:point:0"
@@ -776,7 +776,7 @@
       "id": "6.3-a",
       "pool": "practice",
       "lesson": "6.3",
-      "itemDigest": "bfc2893462d5a175f02fab8914732f85189969df6618b89100446a6e09818e95",
+      "itemDigest": "6163da43bf06b65c437434e9b7785842a0043cc059d27ec186b90b1397d92b55",
       "basis": "direct",
       "sources": [
         "lesson:6.3:point:0"
@@ -787,7 +787,7 @@
       "id": "6.4-a",
       "pool": "practice",
       "lesson": "6.4",
-      "itemDigest": "cb29f67dd0aa5ab3d8cbdd32b8b7d6a59151a056aa928065b906c5a29240867f",
+      "itemDigest": "b9bc3c472a8183983f410cc0fcca59c656c2666102f433c953d44c350d4dfdd4",
       "basis": "direct",
       "sources": [
         "lesson:6.4:point:0"
@@ -798,7 +798,7 @@
       "id": "6.5-a",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "4239ca0fb450fcb99b025d44d74ef9732e703a045091f975dd30a0f9f479371e",
+      "itemDigest": "7ac443d8c2f772d4b74f9427a3f42f771e363577d986ed7c48bbb684737f17e3",
       "basis": "direct",
       "sources": [
         "lesson:6.5:point:0"
@@ -809,7 +809,7 @@
       "id": "6.6-a",
       "pool": "practice",
       "lesson": "6.6",
-      "itemDigest": "2006e09e5813124121cdfb22b9357346fe52a255f31e2f29b336f1149e18e8ad",
+      "itemDigest": "ca3fc013e476cf0c8344fd55925e488f2b17d16e5e53488cdfc76123522d2985",
       "basis": "direct",
       "sources": [
         "lesson:6.6:point:1"
@@ -820,7 +820,7 @@
       "id": "6.7-a",
       "pool": "practice",
       "lesson": "6.7",
-      "itemDigest": "e048511aabed5f59fd0bc4f022ed97d5d5261c59dd34c8e1f6d887e925a9495f",
+      "itemDigest": "9803ac233b49dec7006ae2f56a0b9f14d6bb2117dc018c74a08c8dea67e75a99",
       "basis": "direct",
       "sources": [
         "lesson:6.7:point:0"
@@ -831,7 +831,7 @@
       "id": "extra-0",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "050c7142cb4286638f815e1cca0fa6bd2d5f4c65e3ce6c9d6bbc713fe8fcd9c3",
+      "itemDigest": "312c1240562c061fb46704598d3b39df1c1f4fe1289572c37a74231ed7f16aa0",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:0"
@@ -842,7 +842,7 @@
       "id": "extra-1",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "39ea68d746b19d2712582ad4b90b350864c6c357b78f7105daa527c80faa111f",
+      "itemDigest": "ee5eefc395525703e977dd7411c6b01d98037db1688e92f4ebbbbd0990274e1c",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:1",
@@ -854,7 +854,7 @@
       "id": "extra-2",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "679b64308337435831c5d78376eb1688c8249b3f0cd4188eb92aba868a4b6fd9",
+      "itemDigest": "d2addee08effdb285fba190315346d1ff6c110eac814dffe294b2827238da557",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:3"
@@ -866,7 +866,7 @@
       "id": "extra-3",
       "pool": "practice",
       "lesson": "1.5",
-      "itemDigest": "5fcb78aebdb4a8bfd2ce655c66df99a11cc73750bca3ce3e11c65510e501cf46",
+      "itemDigest": "1df7f7a13580ce423b89add26b176118a6d666b6ec70dd3e3b4f3ae0c839a375",
       "basis": "direct",
       "sources": [
         "lesson:1.5:point:0"
@@ -877,7 +877,7 @@
       "id": "extra-4",
       "pool": "practice",
       "lesson": "1.9",
-      "itemDigest": "0534331a0cf0cf2fa614aa524f52e40e0b6b603795cdf8feb4156f14d5347c6a",
+      "itemDigest": "04674b53baf6aef40b5042010d27cb11608272c2305bfda0360df16c0281b8e2",
       "basis": "direct",
       "sources": [
         "blueprint:1.9.c"
@@ -888,7 +888,7 @@
       "id": "extra-5",
       "pool": "practice",
       "lesson": "1.13",
-      "itemDigest": "5544496a2cf278e77397b2a9a83bcb7046f6299493c8db0265036d231025ac64",
+      "itemDigest": "22b72257fd8588e4e6d102e02c1a3de38b5f584520a21f52a99c9ae3a3afa691",
       "basis": "direct",
       "sources": [
         "blueprint:1.13.c"
@@ -899,7 +899,7 @@
       "id": "extra-6",
       "pool": "practice",
       "lesson": "2.2",
-      "itemDigest": "0460ca110de50a5315dd3b65fb8a404fd300cc39e557ec57ae858c88613c0947",
+      "itemDigest": "a21f5f9146cabd313a1c29b8030cb758faec4e380a94246abf9e5dda80c2d066",
       "basis": "direct",
       "sources": [
         "lesson:2.2:point:1"
@@ -910,7 +910,7 @@
       "id": "extra-7",
       "pool": "practice",
       "lesson": "2.4",
-      "itemDigest": "9df9b1010186c46056b5b98b897b1a5dbd4eb119808ff5cc25567e7c923963af",
+      "itemDigest": "4fec49a26ef564746966ff8626afbda1e3870e5b7607906416f031c912dcef24",
       "basis": "direct",
       "sources": [
         "lesson:2.4:point:2"
@@ -921,7 +921,7 @@
       "id": "extra-8",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "bb45af1408caefda51ab34a4780cbd78c153e3911fb3bedfa970b33009380295",
+      "itemDigest": "fe8a20dca5736c922a31e5406c62c1f526d4275f28c9ffd1f7506d207b7dc508",
       "basis": "direct",
       "sources": [
         "blueprint:2.5.d"
@@ -932,7 +932,7 @@
       "id": "extra-9",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "babed2e3bcc7ad6cac98c667e7c7f6d466ab7d8a7275a98dc4012b7827a02891",
+      "itemDigest": "f82d6579aa782d6ec0b524a4d4c10d197188466260f60d04291a5f390406c010",
       "basis": "direct",
       "sources": [
         "blueprint:2.5.b"
@@ -943,7 +943,7 @@
       "id": "extra-10",
       "pool": "practice",
       "lesson": "3.2",
-      "itemDigest": "7e4547474d7841b0611966762161234dc84ae95b74d25c864ba12fed84a25741",
+      "itemDigest": "0c343b5161dd91ba39c787ca0c4e8154ac7a6ffd6b93f9334d637a208a2c868d",
       "basis": "direct",
       "sources": [
         "lesson:3.2:point:1"
@@ -954,7 +954,7 @@
       "id": "extra-11",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "9131945745bd4d7b81781136e1cae998bbd12afe6032522e482e297133761437",
+      "itemDigest": "01fba3ef32b5f09aa3fe1418da44632258ed97f837f175ed34ea1ea61da730d0",
       "basis": "direct",
       "sources": [
         "lesson:3.4:point:1"
@@ -965,7 +965,7 @@
       "id": "extra-12",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "5fd336eecea760efc9bc380e63d670423b2de3e523525627aa98db84441c092c",
+      "itemDigest": "7f6c7b4d96ec4dcc4b8df91fe8da67792898c041f49391afa7e8454d64d6bb49",
       "basis": "direct",
       "sources": [
         "blueprint:3.4.c"
@@ -976,7 +976,7 @@
       "id": "extra-13",
       "pool": "practice",
       "lesson": "3.3",
-      "itemDigest": "e9d6dd4177a5a8f02e6c50b8d0f1832194af593a212fbd03f1d8b29f304382d6",
+      "itemDigest": "49ffc74c7c9e20ff96e7f7adc3759083873c6e29f1786c399b5f389bd1e8bc00",
       "basis": "direct",
       "sources": [
         "blueprint:3.3.a"
@@ -987,7 +987,7 @@
       "id": "extra-14",
       "pool": "practice",
       "lesson": "4.1",
-      "itemDigest": "ea7b5ccdf0823a24255a8ceb3243f9fcb95603aaff0f479d966be85972679934",
+      "itemDigest": "7eabb3121b28d6839b9f77c27b6a5dbedae05a6d285a61d523b4fea237667f34",
       "basis": "direct",
       "sources": [
         "lesson:4.1:point:2"
@@ -998,7 +998,7 @@
       "id": "extra-15",
       "pool": "practice",
       "lesson": "4.2",
-      "itemDigest": "c235e923ee0da9aa97da06e38161dd463c49a49158649307dce66d0656fdf1bd",
+      "itemDigest": "e4b55b2132c647230e066df88ad8db0b7f7e30fdfecd200150860924eddf7cd5",
       "basis": "direct",
       "sources": [
         "lesson:4.2:intro"
@@ -1009,7 +1009,7 @@
       "id": "extra-16",
       "pool": "practice",
       "lesson": "4.3",
-      "itemDigest": "0ddd34bf7256ee0d4d3695a00c9306e8deca7254d19e3b52a8090f97bc32b017",
+      "itemDigest": "335b74612b9484867b8b7d997aaaf4d864d7b1b21afed6de0e8a623c29452865",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:0"
@@ -1020,7 +1020,7 @@
       "id": "extra-17",
       "pool": "practice",
       "lesson": "4.4",
-      "itemDigest": "e95631e08df2a929d95f201744c8fe397637eb8937cf835dfccd8f5362da758c",
+      "itemDigest": "b2b5bc6fe63d1bf55bdfea90a112c4748729c88a014a02bdbed01e5981569e3d",
       "basis": "direct",
       "sources": [
         "lesson:4.4:point:1"
@@ -1031,7 +1031,7 @@
       "id": "extra-18",
       "pool": "practice",
       "lesson": "4.5",
-      "itemDigest": "5d0b26de489c0365b4f0ca4f807ff299452405589460b821d514f172400f1a8d",
+      "itemDigest": "90320ae61c8a31f945de058195b7aed273f561206a4085c6a425788d4cd861b0",
       "basis": "direct",
       "sources": [
         "textbook:4.5:section:1"
@@ -1042,7 +1042,7 @@
       "id": "extra-19",
       "pool": "practice",
       "lesson": "4.7",
-      "itemDigest": "5b6f0b665118267d562a3502acb9e1281c50aed01563f47c111a9f90776cb9ff",
+      "itemDigest": "32d070a4d8ce7f347e3993e9edeea763b8e4942e2ceb426612449cae53911a37",
       "basis": "direct",
       "sources": [
         "lesson:4.7:point:2"
@@ -1053,7 +1053,7 @@
       "id": "extra-20",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "369ad0635c2e3a33ca4939e1058b3fd4d0441bc8434eae0f38e7c9dcf485ac7c",
+      "itemDigest": "8506dd354da85c91d96e4230ff9729b2e07b6659e82fd9c5f2019ec32062be49",
       "basis": "direct",
       "sources": [
         "lesson:5.6:point:0"
@@ -1064,7 +1064,7 @@
       "id": "extra-21",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "49321b307262f4b7fcb3f7337a8f16f51e71452b92aad8b1046f23455de82d2a",
+      "itemDigest": "d86a99ed00c5a715ad88663baff9073ae0ab71fe8cb8dbe3199d7bf646d0e27f",
       "basis": "direct",
       "sources": [
         "lesson:5.6:point:0"
@@ -1075,7 +1075,7 @@
       "id": "extra-22",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "e790925972f1002d1a2ba4d30b648b61900404ae4499c3688ebd955ab42d2f31",
+      "itemDigest": "059efabf6a5b0d577744e2bd7318796a82e1b0f9b33a09d941f277eb02050ddf",
       "basis": "direct",
       "sources": [
         "textbook:5.7:section:1"
@@ -1086,7 +1086,7 @@
       "id": "extra-23",
       "pool": "practice",
       "lesson": "5.8",
-      "itemDigest": "a44fbe299ef566a4a254005b07eff22abc9da0bc5af34ca76b06bb30b48cf44c",
+      "itemDigest": "239ea3589cede2239d270952dc845e55c3647affdc4b2f519df7d0b4cc698823",
       "basis": "direct",
       "sources": [
         "lesson:5.8:point:1"
@@ -1097,7 +1097,7 @@
       "id": "extra-24",
       "pool": "practice",
       "lesson": "5.9",
-      "itemDigest": "8145368a73671b5874505c1a36d7aeba2f19c8f7f017460c6e72cc447226a68f",
+      "itemDigest": "b3c33f064a9296839d8a708f94599a1688753b9c6eb53263113bee42db7af122",
       "basis": "direct",
       "sources": [
         "lesson:5.9:point:2"
@@ -1108,7 +1108,7 @@
       "id": "extra-25",
       "pool": "practice",
       "lesson": "6.3",
-      "itemDigest": "31edcbaeaa46b8ff6d1a557e324c750e265c10e2c717575fe04f36f351503ae8",
+      "itemDigest": "008eb73302d51679d878b78d36f0695b032156a23f7b0756b7dc644912f31560",
       "basis": "direct",
       "sources": [
         "lesson:6.3:point:1"
@@ -1119,7 +1119,7 @@
       "id": "extra-26",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "7b51601b8112d1913780e907c101b44b3fa92750e688929f370c937546bd8ec8",
+      "itemDigest": "2ff3bbe6d8cf6969cfe9e681430d8766cfe31b34db51763d3e3dc21d1d5ba907",
       "basis": "direct",
       "sources": [
         "lesson:6.5:point:1"
@@ -1130,7 +1130,7 @@
       "id": "extra-27",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "c7d6a3bb705510561153becd847a513047bfa8b3c239f01228199f1167cfb057",
+      "itemDigest": "ae91e35fe277f22d4ec6895173820b1c881621dfa0ce2aaf63d0fd4a4f9fe31b",
       "basis": "direct",
       "sources": [
         "lesson:6.5:point:0"
@@ -1141,7 +1141,7 @@
       "id": "extra-28",
       "pool": "practice",
       "lesson": "6.7",
-      "itemDigest": "dd0a455042d5d3fc094cfea04c982bee90c12f8bf90e1ec828a6ef0606bfc7b2",
+      "itemDigest": "c949f79cacbb1553b3d00e256c0c1bd207b6b0c0fe4edaa8f09ec5e6a407c5bc",
       "basis": "direct",
       "sources": [
         "lesson:6.7:point:0",
@@ -1154,7 +1154,7 @@
       "id": "alignment-1",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "dfba57279759583c5cea2a84494318a18e313d45d1601aa90e1389bde3ab3caf",
+      "itemDigest": "76ba4565667b060238ac2d6a98e855346d1eaf38df2e76935b2a6d12348818e5",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:0",
@@ -1166,7 +1166,7 @@
       "id": "alignment-2",
       "pool": "practice",
       "lesson": "1.13",
-      "itemDigest": "f8970f2f0d71619492760a4ac58f44dc99520c185deda1bd66cb9ea9461a9333",
+      "itemDigest": "52741421a5f2015eb3375ee239ee10a3bd61c5f525c57532a83b15888faa95c1",
       "basis": "derived",
       "sources": [
         "textbook:1.13:section:1"
@@ -1177,7 +1177,7 @@
       "id": "alignment-3",
       "pool": "practice",
       "lesson": "1.10",
-      "itemDigest": "fe79ebc8be6a3170ce5caf780638bd151da169d204016a0e574d53e38a82817e",
+      "itemDigest": "3abb141eb363dfe64e5da6edf22e70a18b5315ac53af440c7467a61fe9330154",
       "basis": "derived",
       "sources": [
         "textbook:1.10:section:1"
@@ -1188,7 +1188,7 @@
       "id": "alignment-5",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "dba11ae0bf25c3dc91cb13127ce7a9c3102b51661d6ed90c164ed44dec5e4c55",
+      "itemDigest": "bad928fe0241297e3a8ec9ce45bd7097165406657db40b40ae0b6cde064b254b",
       "basis": "derived",
       "sources": [
         "textbook:2.5:section:0"
@@ -1199,7 +1199,7 @@
       "id": "alignment-6",
       "pool": "practice",
       "lesson": "2.9",
-      "itemDigest": "9f3d94b311e2beb8f16f0ab64cbf64dd5462029aca056d9f7913b6c749de947d",
+      "itemDigest": "27a288753227ea09b864e1503b34bc3e714d8eab248cd31fd11a1c8a16c3317e",
       "basis": "derived",
       "sources": [
         "textbook:2.9:section:0"
@@ -1210,7 +1210,7 @@
       "id": "alignment-8",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "bc9318f46576fdc6eed6a9e2ff1d697db83ac7b3a8697eb8006aa43556f0884c",
+      "itemDigest": "20a84b906d10ad6600b5a3ba11a9fe869749fd8b4e54f9252d5d3092f019048b",
       "basis": "derived",
       "sources": [
         "textbook:3.4:section:0"
@@ -1221,7 +1221,7 @@
       "id": "alignment-9",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "99865bb50a0e13c973a082acd82921cc5df66ba1c0993c853d3dbb45f6e83373",
+      "itemDigest": "ec877483e37106fb94ca961f77e7237073d312c55895b506a075c5a517fce3b2",
       "basis": "derived",
       "sources": [
         "textbook:3.4:section:1"
@@ -1232,7 +1232,7 @@
       "id": "alignment-10",
       "pool": "practice",
       "lesson": "4.1",
-      "itemDigest": "19bf3d558592a49757b07fd343caea730014a0156d5ad77c2f0f4d2cc59fc2a5",
+      "itemDigest": "a85831febc68c2307f296aee444a6e9b08a0489cf72bfff2723a9c6d9aefad72",
       "basis": "derived",
       "sources": [
         "textbook:4.1:section:0"
@@ -1243,7 +1243,7 @@
       "id": "alignment-12",
       "pool": "practice",
       "lesson": "4.7",
-      "itemDigest": "d6a30cef59032541ccd79a584822bac2fe8391e3bf150afa18ca9e6958030afc",
+      "itemDigest": "a22b22ad22aa4f2787bd0ad2ecf68b80baec3fde3d094e509a5583d8af5f9fbc",
       "basis": "direct",
       "sources": [
         "textbook:4.7:section:0"
@@ -1254,7 +1254,7 @@
       "id": "alignment-13",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "03ba02c83b7fe4c229be8c7d538400e2706ccd006006c6f1653d287c13432133",
+      "itemDigest": "29a5554c5a0f361f1744f1154576923a1958d66d57bbd30b05aebc611e26514b",
       "basis": "derived",
       "sources": [
         "textbook:5.6:section:0"
@@ -1265,7 +1265,7 @@
       "id": "alignment-14",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "c5350c6a37d8c1d1f46f6070a6b9e182027710fb1825e17b1110b1916d8d51c3",
+      "itemDigest": "9a93a0fe0e4be2b28a50e9f7978bfedf75f8b1d60335d6a46a230f94176b652c",
       "basis": "derived",
       "sources": [
         "textbook:5.7:section:0"
@@ -1276,7 +1276,7 @@
       "id": "alignment-15",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "30969d80a0a7d0486802eb7ba4d47ad2301a61372d1aac1e030c41c1eb67ae08",
+      "itemDigest": "ab84aa6f1661a25020ca17d325ffcb5764532cd3a9a0aecaf2b677ea494c755d",
       "basis": "derived",
       "sources": [
         "textbook:5.7:section:1"
@@ -1287,7 +1287,7 @@
       "id": "alignment-16",
       "pool": "practice",
       "lesson": "6.4",
-      "itemDigest": "4dcae486ccefac3831ab39c7b5f17ef2f6e5448cfe07e321dfb79d68d5ce0fd2",
+      "itemDigest": "652ef26dbcfa1904309848822d818126f7570ce9c420c26eea210d60f9a827e2",
       "basis": "derived",
       "sources": [
         "guide:6.4:block:1:why",
@@ -1299,7 +1299,7 @@
       "id": "alignment-17",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "8bf4c9909bc08ab0545b33213865ccd24c6080f0cb629d430008173048c7b7a7",
+      "itemDigest": "bcae0f2127758ad18078e51a2d5001a7261af0a83872537f268e8bf7fe15a129",
       "basis": "derived",
       "sources": [
         "lesson:6.5:point:1"
@@ -1310,7 +1310,7 @@
       "id": "expanded-1.1-poe-budget",
       "pool": "practice",
       "lesson": "1.1",
-      "itemDigest": "645e9c5fe0dadeefe69fbd8ee93c0c344bd22873bbb28ea7ae646d71dd73c434",
+      "itemDigest": "8721b9a7c59c7b5efe90d9cde6182c24bcef60bad9fcccf96410664fdf232ff0",
       "basis": "derived",
       "sources": [
         "blueprint:1.1.h"
@@ -1321,7 +1321,7 @@
       "id": "expanded-1.1-inline-ips",
       "pool": "practice",
       "lesson": "1.1",
-      "itemDigest": "edf8347d68f0bb80dfdf9858a879ba3e7b270fc38bfe755287a917cbcb281f89",
+      "itemDigest": "7e733f3966a9f05d274a8786c105b2ec33b8742e5f3209cfa38f4af2af5f3664",
       "basis": "direct",
       "sources": [
         "blueprint:1.1.c"
@@ -1332,7 +1332,7 @@
       "id": "expanded-1.1-server-versus-network",
       "pool": "practice",
       "lesson": "1.1",
-      "itemDigest": "196019056240e48d90c02dfe98d53358e9d38a76a6749b691397322ddf17792c",
+      "itemDigest": "c8445fb50344b78314ec297b123b8d355c97f2c93a0cb0a8e6e236e7d6279623",
       "basis": "derived",
       "sources": [
         "blueprint:1.1.g"
@@ -1343,7 +1343,7 @@
       "id": "expanded-1.2-collapsed-core-roles",
       "pool": "practice",
       "lesson": "1.2",
-      "itemDigest": "a08cbab65a2c0151759b6fb10f2d50cb4231520d4886e73d399ba1e378d68839",
+      "itemDigest": "bb3fd16fd4d94dc3b9bad210c9f4d8a4b8e7a76ca34db3a362cd22e226dcb418",
       "basis": "direct",
       "sources": [
         "blueprint:1.2.a"
@@ -1354,7 +1354,7 @@
       "id": "expanded-1.2-cloud-responsibility",
       "pool": "practice",
       "lesson": "1.2",
-      "itemDigest": "534489b2ac0062f0641bd3051b180fb8282f014ff4721ebc3174ba5942922b3c",
+      "itemDigest": "a32859ede7431ae28cdc0a82e4e69a056853d1cdf34d9ef2a5773475cda48849",
       "basis": "direct",
       "sources": [
         "lesson:1.2:point:3"
@@ -1366,7 +1366,7 @@
       "id": "expanded-1.2-three-tier-core",
       "pool": "practice",
       "lesson": "1.2",
-      "itemDigest": "a77985b571d411946ee3e88b2bbf93c7df89604018571d8e870378393a71c0de",
+      "itemDigest": "6cab9fe91a85dceb43434b0606ae956cadaa41091db1fdfd6f96544518765141",
       "basis": "direct",
       "sources": [
         "blueprint:1.2.b",
@@ -1378,7 +1378,7 @@
       "id": "expanded-1.3-optical-compatibility",
       "pool": "practice",
       "lesson": "1.3",
-      "itemDigest": "1d477f55e1ac3d12a8ad402445978170087d33f1216c4812a1335288dd9bbfe0",
+      "itemDigest": "f3c3ed68cba16c67f4ff9fa8fec5e7281f14f3776c816c09d808ca526f7e50d3",
       "basis": "derived",
       "sources": [
         "lesson:1.3:point:1"
@@ -1389,7 +1389,7 @@
       "id": "expanded-1.3-copper-interference",
       "pool": "practice",
       "lesson": "1.3",
-      "itemDigest": "c1b5a0526b0cb738131e0d22f06765c7f477426dcd6384216c771cfd849002f6",
+      "itemDigest": "579d92c20d74ced244b0d7b4437029f9441e3b1c2dfbeb097f97862887ea8adc",
       "basis": "derived",
       "sources": [
         "lesson:1.3:point:0",
@@ -1401,7 +1401,7 @@
       "id": "expanded-1.4-duplex-mismatch",
       "pool": "practice",
       "lesson": "1.4",
-      "itemDigest": "897bce24f6ddfa22aad34430b5104328c6ea0ec4003ceb67e6934230f104021b",
+      "itemDigest": "7231c3542a2d86bfba550e253e5dbe5d4b191de5f50b2631bee0e22528fb29ee",
       "basis": "derived",
       "sources": [
         "lesson:1.4:point:2"
@@ -1412,7 +1412,7 @@
       "id": "expanded-1.4-administrative-shutdown",
       "pool": "practice",
       "lesson": "1.4",
-      "itemDigest": "fe1b100f624e8711f745eb04351181c50185ad0a6ee17c8717a57c07513ac4e5",
+      "itemDigest": "0956af8aa6f03c5a3f2562b54a9999d4c6ae750fc669950dfc25f7bd4069cf41",
       "basis": "derived",
       "sources": [
         "textbook:1.4:section:0"
@@ -1423,7 +1423,7 @@
       "id": "expanded-1.5-dhcp-udp",
       "pool": "practice",
       "lesson": "1.5",
-      "itemDigest": "4a5a2d3ca7ee703ec7f8419dbf9649077945aed018009318db02fde1a33dfa43",
+      "itemDigest": "7a8a40c53586856499d1cf6e9fb306a7b06c3c2d3ad7bce69793ab49d95d4f66",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:0",
@@ -1435,7 +1435,7 @@
       "id": "expanded-1.5-udp-application-reliability",
       "pool": "practice",
       "lesson": "1.5",
-      "itemDigest": "22b05e318c4145d42b725ebf1f3e78ee4cf6358e5d7cd0db2ef54075098b1af2",
+      "itemDigest": "7095c057fa971175b61558592d4aa98aa0c2581fb3d298e2a350fc34c4c7bf77",
       "basis": "direct",
       "sources": [
         "lesson:1.5:point:1"
@@ -1446,7 +1446,7 @@
       "id": "expanded-1.6-gateway-same-subnet",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "6315e77f68c85e6c94f7fdd0201ddcff7b1f7756e39eca8596e1fc8f60155aa8",
+      "itemDigest": "efadc6bfe0bd53a62db320f5ab1b25c7f6c201629dcb2dfe1639dbad8ab71abe",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:1",
@@ -1458,7 +1458,7 @@
       "id": "expanded-1.6-vlsm-nonoverlap",
       "pool": "practice",
       "lesson": "1.6",
-      "itemDigest": "c2d76d8538310b6fe277dad35aa1c2f1536a309df061dd911d33e23cff15bdb3",
+      "itemDigest": "16278d966b0917691459bc86a7d60c7af10a02601cd8a5d168739a8a67b9b942",
       "basis": "derived",
       "sources": [
         "textbook:1.6:section:1",
@@ -1470,7 +1470,7 @@
       "id": "expanded-1.7-private-address-security",
       "pool": "practice",
       "lesson": "1.7",
-      "itemDigest": "c724c49629019254ba7937a962a658ec3107dc8e12208c40d50a17987d3aeb01",
+      "itemDigest": "f0896cfeb2d58a78eaa0b58bca516084cf395d69dff58c998077b8da915e734a",
       "basis": "derived",
       "sources": [
         "lesson:1.7:point:1"
@@ -1481,7 +1481,7 @@
       "id": "expanded-1.7-private-site-overlap",
       "pool": "practice",
       "lesson": "1.7",
-      "itemDigest": "5cd93ca0222d05f45bd6a4bad99970449b1df2376c8e4afc20270dbbb90eb088",
+      "itemDigest": "09574b9ee42a8b51571a38e3cf2214a8929cda2ab74989b9b0b355a286c7422a",
       "basis": "derived",
       "sources": [
         "textbook:1.7:section:1"
@@ -1492,7 +1492,7 @@
       "id": "expanded-1.8-ipv6-default-router-ra",
       "pool": "practice",
       "lesson": "1.8",
-      "itemDigest": "2cbbe8b8eac977eff62f43adbb577419790f41832934fa642e2b64f2ff3ccb50",
+      "itemDigest": "b34b7787719c26a555c69c3286e58d75c2487ab2cd91b748fd8a65820ddabbee",
       "basis": "direct",
       "sources": [
         "lesson:1.8:point:3"
@@ -1504,7 +1504,7 @@
       "id": "expanded-1.8-ios-ipv6-routing",
       "pool": "practice",
       "lesson": "1.8",
-      "itemDigest": "29b9a0bce18b9f46fc868ed774b5d1e602992de6ad505d23e92c67a7baf7fd6a",
+      "itemDigest": "be262890cbfeb4e29486796f841942c6dd4b38528f8c2ce95380ed22192e0f24",
       "basis": "direct",
       "sources": [
         "lesson:1.8:point:1"
@@ -1515,7 +1515,7 @@
       "id": "expanded-1.9-modified-eui64",
       "pool": "practice",
       "lesson": "1.9",
-      "itemDigest": "f45b15547a65b3013fef0cb2c435bf6394caff74f4bf81a48d38461ae8ba61a4",
+      "itemDigest": "f157305c2663ef4f5e4170b57032b327b6f3e5832112acb7a7bb9327c9e85b68",
       "basis": "derived",
       "sources": [
         "blueprint:1.9.d"
@@ -1526,7 +1526,7 @@
       "id": "expanded-1.9-anycast-delivery",
       "pool": "practice",
       "lesson": "1.9",
-      "itemDigest": "e3a1712b8a67ccff6a7296727455ec8f9b304bea84b6844b8e2756f9035d0b18",
+      "itemDigest": "1876a470ee577df728add35015c5d5b7b2cab0226dc350ec70e1e0d7a317cf44",
       "basis": "direct",
       "sources": [
         "blueprint:1.9.b"
@@ -1537,7 +1537,7 @@
       "id": "expanded-1.9-unique-local-scope",
       "pool": "practice",
       "lesson": "1.9",
-      "itemDigest": "e9ae4dbbcf2add9fe75322e58c48feedce5dcd2ec53f7cdafe8c2829d1c63e46",
+      "itemDigest": "77826e33224494877d1fa9fe358aed1479d10ef93074a334b6dd17172741cb40",
       "basis": "derived",
       "sources": [
         "lesson:1.9:point:3"
@@ -1549,7 +1549,7 @@
       "id": "expanded-1.10-linux-route-check",
       "pool": "practice",
       "lesson": "1.10",
-      "itemDigest": "f600d0b993d68726d88aebd68e5a6e77f5e561bede3bae19b6c6d0ecd32360d5",
+      "itemDigest": "65e47ccf97b42e99b88f401f237143eb78464d869bd4cef2d86b696a4e6a15e3",
       "basis": "derived",
       "sources": [
         "lesson:1.10:point:0",
@@ -1561,7 +1561,7 @@
       "id": "expanded-1.10-macos-interface-check",
       "pool": "practice",
       "lesson": "1.10",
-      "itemDigest": "61f4f245a34d62669442e4bfa28eb02e854c50e6f6d66490a09054d13ba876ba",
+      "itemDigest": "1f4d748d44d2e5040fbbdc741a10cdb87a2eddf8eb75a874e842d676c87c0945",
       "basis": "derived",
       "sources": [
         "lesson:1.10:point:0",
@@ -1573,7 +1573,7 @@
       "id": "expanded-1.11-ssid-versus-encryption",
       "pool": "practice",
       "lesson": "1.11",
-      "itemDigest": "c55d0fab0242579483609260036fcce8515db7198182cac851dad847fa5d3b5a",
+      "itemDigest": "5c441912ff070201939ebf52e76f9db6e67343ccee6060a842d7dac487b47ae3",
       "basis": "direct",
       "sources": [
         "blueprint:1.11.b"
@@ -1584,7 +1584,7 @@
       "id": "expanded-1.11-channel-width-reuse",
       "pool": "practice",
       "lesson": "1.11",
-      "itemDigest": "d61104525342698dabc333305eb665da3d9a74900f27eb653b00e714288e4b6a",
+      "itemDigest": "af06e07899d6154fc3ce150d2e87b78f13712f3a7d6979286fe707c95fb3d301",
       "basis": "direct",
       "sources": [
         "blueprint:1.11.a"
@@ -1595,7 +1595,7 @@
       "id": "expanded-1.12-container-versus-vm",
       "pool": "practice",
       "lesson": "1.12",
-      "itemDigest": "c2638db86b20a3d649e9a8621bc77d21be43bf2ae11948709f6aba4b1453ad84",
+      "itemDigest": "db54b8cad2c8eb4167ff17c4d31e9dedde5e0b8c3f2cbd2c7bb69767f24575a3",
       "basis": "direct",
       "sources": [
         "lesson:1.12:point:1",
@@ -1607,7 +1607,7 @@
       "id": "expanded-1.12-hypervisor-role",
       "pool": "practice",
       "lesson": "1.12",
-      "itemDigest": "1023714cd843c02f899bf819ab7f65f7175849dc0f51e861aa5472911415e1dc",
+      "itemDigest": "5747bbcb828f812a9c6c803943d61bc9c3e3bf62b07f46a5e79183a88939d985",
       "basis": "direct",
       "sources": [
         "lesson:1.12:point:3"
@@ -1619,7 +1619,7 @@
       "id": "expanded-1.13-same-port-filter",
       "pool": "practice",
       "lesson": "1.13",
-      "itemDigest": "111fdde8ba893f79312b5b8ff9b52b6b86f926d3c69b5d280043803789d8338a",
+      "itemDigest": "bb2cd7a1f7a23844b7e41d000a850aaf2eceea841f4b8420e94f5cbe19b9552e",
       "basis": "direct",
       "sources": [
         "lesson:1.13:point:2"
@@ -1630,7 +1630,7 @@
       "id": "expanded-1.13-mac-move-and-aging",
       "pool": "practice",
       "lesson": "1.13",
-      "itemDigest": "efc1db6e2e402bdec987190d07075ff7f4db408ac737b2f1496bcc9fbc307aa2",
+      "itemDigest": "fe484a94e7edde2b057230cce53b0ed40d588dd263477d0a250e35f96b62d489",
       "basis": "derived",
       "sources": [
         "blueprint:1.13.a",
@@ -1642,7 +1642,7 @@
       "id": "expanded-2.1-access-membership-verification",
       "pool": "practice",
       "lesson": "2.1",
-      "itemDigest": "39da446dcdb6b890eb1e83c20cbf84bbb8b49600cf6871c90cd96bd38b88ccb7",
+      "itemDigest": "99f9d52f992dfcab3ed89e03bde33b0ba82d4a37cc57f1d39c42dbb5b04b7117",
       "basis": "derived",
       "sources": [
         "lesson:2.1:point:2",
@@ -1654,7 +1654,7 @@
       "id": "expanded-2.1-selective-intervlan-policy",
       "pool": "practice",
       "lesson": "2.1",
-      "itemDigest": "de9dcfcd2225ef1beff5a32c8af45ded35b7417827abbe06905cfcd30379a78c",
+      "itemDigest": "59aee5743c9301f1ee3fdcc6d52066ca3e1fc01ea6df0706ea589dbe830d8145",
       "basis": "derived",
       "sources": [
         "blueprint:2.1.c",
@@ -1666,7 +1666,7 @@
       "id": "expanded-2.2-allowed-vlan-add",
       "pool": "practice",
       "lesson": "2.2",
-      "itemDigest": "8b57ec52d882fcbf8690e239e7a30bc6cf44266495525e112ffd878bbd935f59",
+      "itemDigest": "a0ce59ff0a328533dd486d1d100e1a52bf3a674a8ea9b5959820600df27a6cbf",
       "basis": "derived",
       "sources": [
         "guide:2.2:block:2:code",
@@ -1678,7 +1678,7 @@
       "id": "expanded-2.2-trunk-operational-check",
       "pool": "practice",
       "lesson": "2.2",
-      "itemDigest": "73a9770ed0feb7068d54953f6faca94824c5a74dfc435c5a231bff99ecdaf9a8",
+      "itemDigest": "fa4d8fba80c8a8f93a904a5ea11392c1534ed44c608d72ccdeef08218dc7fdfd",
       "basis": "derived",
       "sources": [
         "guide:2.2:block:1:code",
@@ -1690,7 +1690,7 @@
       "id": "expanded-2.3-neighbor-information-limit",
       "pool": "practice",
       "lesson": "2.3",
-      "itemDigest": "5316232185f588e3f21f3ff07972a78c85557cd50e03e05e86b1db8ac2c517b1",
+      "itemDigest": "11cadbe8236cd60880bcfbb63d11909219650ca4ce341d1c51f185d62d53d788",
       "basis": "direct",
       "sources": [
         "lesson:2.3:intro",
@@ -1702,7 +1702,7 @@
       "id": "expanded-2.3-interface-discovery-control",
       "pool": "practice",
       "lesson": "2.3",
-      "itemDigest": "b8ba217e3bc5128fdd30437e5c398fb1ba2d2101f1c415c170d0a267a474dad7",
+      "itemDigest": "5eba311e5de0a6292d49581b42e99fec300de7eb410d6ab5f9de39d3a25c4a6a",
       "basis": "direct",
       "sources": [
         "lesson:2.3:point:3"
@@ -1714,7 +1714,7 @@
       "id": "expanded-2.4-routed-port-channel",
       "pool": "practice",
       "lesson": "2.4",
-      "itemDigest": "3ab53619181d5d791cb00a8a3da84a21a874fd0c9e9cef7fe1fc0110d59570b0",
+      "itemDigest": "571ec3cc8633af4f4e15966e9479ec98d90b61d24591e8d4cfe41841faa12307",
       "basis": "direct",
       "sources": [
         "lesson:2.4:point:2",
@@ -1726,7 +1726,7 @@
       "id": "expanded-2.4-bundle-consistency",
       "pool": "practice",
       "lesson": "2.4",
-      "itemDigest": "9478eb8ca61ef194d07c61e7416fa8b70f6a762afe90180529b003bdca73cce5",
+      "itemDigest": "1d8be7f735e3d336d49669b8143657dc664bd43733826c06dc3b15f420ce3af3",
       "basis": "derived",
       "sources": [
         "lesson:2.4:point:1"
@@ -1737,7 +1737,7 @@
       "id": "expanded-2.5-root-guard-purpose",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "565f0153e20469640433633fec6469522cfb3e82e9f28f796c6ac8e562396028",
+      "itemDigest": "ac9390e803b051151c89177f04776deb2b9ee0eddac903dcad247a810e0e503a",
       "basis": "direct",
       "sources": [
         "blueprint:2.5.d"
@@ -1748,7 +1748,7 @@
       "id": "expanded-2.5-loop-guard-purpose",
       "pool": "practice",
       "lesson": "2.5",
-      "itemDigest": "b6cfb2a631f09f87fc9d5acf0431d0339cc4098edb831222d9952f770b40599c",
+      "itemDigest": "aa0e7b1bac3e5db969a6ea9157dc97aab431d6034d1bc6f6ef1f6125d4bd75f1",
       "basis": "direct",
       "sources": [
         "blueprint:2.5.d"
@@ -1759,7 +1759,7 @@
       "id": "expanded-2.6-monitor-mode-ap",
       "pool": "practice",
       "lesson": "2.6",
-      "itemDigest": "ef07b1b09f74c35c8f46a628a56443d4b730297228f3e94229b4c570732fee15",
+      "itemDigest": "3c5cb1becb2f2b5dc3794dd12490e8d24eefa48ec799327e2199c284e781a108",
       "basis": "direct",
       "sources": [
         "lesson:2.6:point:2"
@@ -1770,7 +1770,7 @@
       "id": "expanded-2.6-controller-and-autonomous",
       "pool": "practice",
       "lesson": "2.6",
-      "itemDigest": "590bda3d4f926f1a13522d5d812d3526d9d9c1345832e7a6cf4320e81949d92f",
+      "itemDigest": "0f731024b7c1a8b7c70dbbaffd2b1557468c1228b7c51d291cd87861db0d96c0",
       "basis": "direct",
       "sources": [
         "lesson:2.6:point:0",
@@ -1782,7 +1782,7 @@
       "id": "expanded-2.7-ap-poe-and-uplink",
       "pool": "practice",
       "lesson": "2.7",
-      "itemDigest": "c84c127e149b79e0f0f805645e2e03851043c1a14c4a3d9c431d9f012d24ca1f",
+      "itemDigest": "d626d487042dda0b54c01fefda6d9de74603faeff10f2f75692f848a2523dd1c",
       "basis": "derived",
       "sources": [
         "lesson:2.7:point:2",
@@ -1794,7 +1794,7 @@
       "id": "expanded-2.7-central-switching-path",
       "pool": "practice",
       "lesson": "2.7",
-      "itemDigest": "29a91e1c5d3380617264e9bcb211f0ddd680b3859cbeabd23fa7ba97c4af5aea",
+      "itemDigest": "a080bbd4b9ba47c1193bab93f405b0dbd4b17b9e8c87eb439f8c1756610bb275",
       "basis": "derived",
       "sources": [
         "textbook:2.7:section:0",
@@ -1806,7 +1806,7 @@
       "id": "expanded-2.8-https-management",
       "pool": "practice",
       "lesson": "2.8",
-      "itemDigest": "2a12d92b66b3f55615fca319149a0a574e20b6beeea16992b514287a09092df5",
+      "itemDigest": "34d75ce9985beefd8d56e0275680a32764bdb660e9c6c604d0feb6381bfdda11",
       "basis": "direct",
       "sources": [
         "lesson:2.8:point:0"
@@ -1817,7 +1817,7 @@
       "id": "expanded-2.8-out-of-band-console",
       "pool": "practice",
       "lesson": "2.8",
-      "itemDigest": "8101980a4f0cc418382d07a768ad869741f49a5dc6ef0598cea30e2870e4cd1f",
+      "itemDigest": "4b53a1121a8168d6324553509d0c7b69b4dcdd1e4e3a68f1d2015caf50a04e9d",
       "basis": "direct",
       "sources": [
         "lesson:2.8:point:0"
@@ -1828,7 +1828,7 @@
       "id": "expanded-2.9-wlan-id-versus-ssid",
       "pool": "practice",
       "lesson": "2.9",
-      "itemDigest": "5c771864d555b5d9e632d69b225648e167da7800faec96a9dc2bbe8dffa602a9",
+      "itemDigest": "773e1d6019a66f800a605e3880cd80576a100e44522d85a134a3a6b2f86a2e62",
       "basis": "derived",
       "sources": [
         "lesson:1.11:point:0",
@@ -1840,7 +1840,7 @@
       "id": "expanded-2.9-gui-change-verification",
       "pool": "practice",
       "lesson": "2.9",
-      "itemDigest": "0583af3224805f153598319e25b60da8a2f721a731ea2605c8f06169924575a9",
+      "itemDigest": "ce73a307e74e79c997f06acaefed57ef7895311946d2419800655065b10438d6",
       "basis": "derived",
       "sources": [
         "lesson:2.9:point:2",
@@ -1852,7 +1852,7 @@
       "id": "expanded-3.1-connected-and-local-routes",
       "pool": "practice",
       "lesson": "3.1",
-      "itemDigest": "954b84958bf2b225979143e18f3cb542904dc94f859b974d618eaa6c14a72e18",
+      "itemDigest": "e79a7ec71695e0f2a07fb973cee73a9d5493652c19aeca2aa9f710f4462dacc9",
       "basis": "derived",
       "sources": [
         "textbook:3.1:section:0",
@@ -1864,7 +1864,7 @@
       "id": "expanded-3.1-next-hop-versus-exit",
       "pool": "practice",
       "lesson": "3.1",
-      "itemDigest": "cb25faa3010314d21f1ebf3a577b05e235d115b3656dc73576dabc209b3cb89e",
+      "itemDigest": "a494cbbb380015419d4347f406fad42395502849999b1b064021c6b51ea733f4",
       "basis": "direct",
       "sources": [
         "blueprint:3.1.d",
@@ -1876,7 +1876,7 @@
       "id": "expanded-3.2-no-match-no-default",
       "pool": "practice",
       "lesson": "3.2",
-      "itemDigest": "8c972e4021cae1be3311c439f95e1f881e76ea28d66d5f96533c5ec6fe6c2cab",
+      "itemDigest": "687653af8d840d4da05b137cbec2133b5ed9c806476c7990fa39d5b7d096bce9",
       "basis": "direct",
       "sources": [
         "textbook:3.2:section:1"
@@ -1887,7 +1887,7 @@
       "id": "expanded-3.2-same-protocol-metric",
       "pool": "practice",
       "lesson": "3.2",
-      "itemDigest": "47eead98acbbe894e219c100fd3fa8ea32e620adb315da90b46439434dbf9fb6",
+      "itemDigest": "35d498a7609c910974ec2b0eb629a9297846b66aa19f173e74f9569ec86a372d",
       "basis": "derived",
       "sources": [
         "lesson:3.2:point:3"
@@ -1899,7 +1899,7 @@
       "id": "expanded-3.3-ipv4-default-static-command",
       "pool": "practice",
       "lesson": "3.3",
-      "itemDigest": "14b08cdeb7827b12b81c61d11ec84bb7f3bdd74913ed48723873f529ef4406c8",
+      "itemDigest": "8a8791ccc077d51dadec361a89bc0e5ce456050d3216c432cd5176b72045c567",
       "basis": "derived",
       "sources": [
         "guide:3.3:block:0:code",
@@ -1911,7 +1911,7 @@
       "id": "expanded-3.3-ipv6-link-local-next-hop",
       "pool": "practice",
       "lesson": "3.3",
-      "itemDigest": "91beb9c5c11c96b40ff6fbe9db8fd01372266cdc1ee4f6664945a9136494ef40",
+      "itemDigest": "8d5d1d6add7240920b60cc47e095fa6ef98ec48b9b32a2de3e909e6d3764448e",
       "basis": "direct",
       "sources": [
         "lesson:3.3:point:2"
@@ -1922,7 +1922,7 @@
       "id": "expanded-3.4-ospf-hello-area-mismatch",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "da66a1e885079c571d8863a6cd86efe18bc9101b60eefc10ad6b8ce8132afd90",
+      "itemDigest": "bcc189df3f07d6f2f35f39ed27217f1b376d420e5b6736d46ea53ebbfd32dfee",
       "basis": "derived",
       "sources": [
         "lesson:3.4:point:0",
@@ -1934,7 +1934,7 @@
       "id": "expanded-3.4-ospf-router-id-selection",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "15e5b7f81be632b3d3f1c384ebc714becf5e7aa59a381f539e9242939ceb0993",
+      "itemDigest": "b34b78773e70f730a85191776d7e7d1accf6195965671884c367e36d50e145d4",
       "basis": "derived",
       "sources": [
         "blueprint:3.4.d"
@@ -1945,7 +1945,7 @@
       "id": "expanded-3.4-ospf-mtu-exchange",
       "pool": "practice",
       "lesson": "3.4",
-      "itemDigest": "d44366b06b0a24a1088b80847f185375b16d077fec64a89ec4b0be76a96b37ce",
+      "itemDigest": "9770049daed1d9b9cd68b951f5f4347370d9eb8569afc5965478cc84ad48c110",
       "basis": "derived",
       "sources": [
         "blueprint:3.4.a",
@@ -1957,7 +1957,7 @@
       "id": "expanded-3.5-fhrp-failover-arp",
       "pool": "practice",
       "lesson": "3.5",
-      "itemDigest": "17c67c436c26e7528fc76b5e225900642d26363ed88619a9a550550221a92d7e",
+      "itemDigest": "524c8f284ee86dd1e10ff2c1cd322c664f70c6b4db03ab013250e24801cb0bc6",
       "basis": "direct",
       "sources": [
         "lesson:3.5:point:1"
@@ -1968,7 +1968,7 @@
       "id": "expanded-3.5-fhrp-upstream-health",
       "pool": "practice",
       "lesson": "3.5",
-      "itemDigest": "2ae1c6a17861964ad98a91acffa5ecaadd94c3ad6752c5fdb4cfcd88d8eba975",
+      "itemDigest": "d53314d6f25bcfdfec19993186a8842f2f00accbb5ed4b6a0697f949f55284c2",
       "basis": "derived",
       "sources": [
         "textbook:3.5:section:1",
@@ -1980,7 +1980,7 @@
       "id": "expanded-4.1-nat-address-perspective",
       "pool": "practice",
       "lesson": "4.1",
-      "itemDigest": "833cf4f1c4514861194a71953c9ca08c962bdd4ed3df0c0d5fd901017530120b",
+      "itemDigest": "6ff68711c92a8e6210c96e7f42b8dd59a18c1f042ca1cce11835c2923dc6eaa4",
       "basis": "derived",
       "sources": [
         "lesson:4.1:intro"
@@ -1991,7 +1991,7 @@
       "id": "expanded-4.1-nat-acl-selection",
       "pool": "practice",
       "lesson": "4.1",
-      "itemDigest": "dbd645c4ea17eb016716b2b6808baf76ae0897569bb84486cd44fb55eeeaef45",
+      "itemDigest": "a00586736368be52bd30dbad5909dcf877e2e4c6b2eb2b04ad4efdfa38e305d4",
       "basis": "direct",
       "sources": [
         "lesson:4.1:point:1"
@@ -2002,7 +2002,7 @@
       "id": "expanded-4.2-ntp-stratum",
       "pool": "practice",
       "lesson": "4.2",
-      "itemDigest": "8960fea108f0f1a038e8b53979b9cea2551df8acd67632f3a3254740a00d41c0",
+      "itemDigest": "9ce19f2ae0004c8f76edf91647d88513d2ff81fefb535795785767a399937197",
       "basis": "derived",
       "sources": [
         "lesson:4.2:point:3"
@@ -2014,7 +2014,7 @@
       "id": "expanded-4.2-ntp-association-verification",
       "pool": "practice",
       "lesson": "4.2",
-      "itemDigest": "8ee6f341b61ffdbf557a88e8cd701b9b2e26260a25058935801cda4417aaa85a",
+      "itemDigest": "de452d611c5d542cc631ba64a3b07dcc20653791b0c8f18e02dc92b9e5a19f02",
       "basis": "derived",
       "sources": [
         "textbook:4.2:section:0",
@@ -2026,7 +2026,7 @@
       "id": "expanded-4.3-dns-alias-record",
       "pool": "practice",
       "lesson": "4.3",
-      "itemDigest": "a80f45cc8ee8e27a7f972e0e8558b42298f8dadb9079d319a3b6dc0e9e8030c2",
+      "itemDigest": "695e7c329f4a972a08e286ab004e2a03c0f6b5a3919e1b6f35c33b438ae3d535",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:1"
@@ -2037,7 +2037,7 @@
       "id": "expanded-4.3-dhcp-offer-versus-ack",
       "pool": "practice",
       "lesson": "4.3",
-      "itemDigest": "fceb3a91e2244482f4bf37c6745d843c5d28463d0dadb06b34799078e22664ad",
+      "itemDigest": "25a8dfbaa63b1a4aee16406472589d7f6cb4050291e18155da8ca61a2fa4d4b4",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:3"
@@ -2049,7 +2049,7 @@
       "id": "expanded-4.4-snmp-manager-agent",
       "pool": "practice",
       "lesson": "4.4",
-      "itemDigest": "bf204428f30b7a9c7e28dfa29c7874de2b431fd56d50ab8b977a6afa93d5694a",
+      "itemDigest": "cbbb79f69920454d9ccfc1f63b2d76a5c3997b59c5832eab84e9b6252a9f01b1",
       "basis": "direct",
       "sources": [
         "lesson:4.4:point:0"
@@ -2060,7 +2060,7 @@
       "id": "expanded-4.4-snmp-read-only-access",
       "pool": "practice",
       "lesson": "4.4",
-      "itemDigest": "00570c2103aa1374839d53d00990ec84b1b405f1f3034f71e526461c422fe5cf",
+      "itemDigest": "ee22e25d570d69bcd10443bd1b65d93aed42dbb4d6a6a25b53200c69da4fe884",
       "basis": "direct",
       "sources": [
         "guide:4.4:block:0:why",
@@ -2072,7 +2072,7 @@
       "id": "expanded-4.5-syslog-facility-severity",
       "pool": "practice",
       "lesson": "4.5",
-      "itemDigest": "88e99c9da35afe0d0351eec3ad23f1535c27fadca131f7878237b4e963853362",
+      "itemDigest": "354624ad823c414f97126b8c7972cdcdac81bfae37d7ed9301cf1fab87e77363",
       "basis": "direct",
       "sources": [
         "textbook:4.5:section:0"
@@ -2083,7 +2083,7 @@
       "id": "expanded-4.5-syslog-timestamps",
       "pool": "practice",
       "lesson": "4.5",
-      "itemDigest": "42f72947b5a60eeafa90be9b5a8dbaaf580620ca24366b8217f3a1f3429a2e15",
+      "itemDigest": "92bdfd9e84f3e09bcc65870c61235684cc309af29f2e402d143d47a5fd7fdcf7",
       "basis": "derived",
       "sources": [
         "lesson:4.5:point:2",
@@ -2095,7 +2095,7 @@
       "id": "expanded-4.6-relay-giaddr",
       "pool": "practice",
       "lesson": "4.6",
-      "itemDigest": "b25b78b8734c02cd3e19fa5d113985d8fecb8cd8d13f5e448bc019a68c24afde",
+      "itemDigest": "dad844334592bbd5c913cfd702d0c30655a1d034d6166f174575ab36a5c96fc1",
       "basis": "derived",
       "sources": [
         "lesson:4.6:point:1"
@@ -2106,7 +2106,7 @@
       "id": "expanded-4.6-ios-dhcp-client",
       "pool": "practice",
       "lesson": "4.6",
-      "itemDigest": "543cf949dd20b50dc8de51aa715211393116e766b9777b04599212651ed51b42",
+      "itemDigest": "2f8bbc8028342b416599200e31ee483101d1230e3102f0c9e74c0f3b56da22b6",
       "basis": "direct",
       "sources": [
         "lesson:4.6:point:0"
@@ -2117,7 +2117,7 @@
       "id": "expanded-4.7-classification-versus-marking",
       "pool": "practice",
       "lesson": "4.7",
-      "itemDigest": "73e5dfda9b29167cf4e7d8cc39c36835917519f5cb91f5ac432ce525c2de161d",
+      "itemDigest": "8954324dc5593cadf1371fd7a7ad4bfe5094063f39aca0a389898393353ad12d",
       "basis": "direct",
       "sources": [
         "lesson:4.7:point:0"
@@ -2128,7 +2128,7 @@
       "id": "expanded-4.7-priority-queue-limits",
       "pool": "practice",
       "lesson": "4.7",
-      "itemDigest": "b0d010f93b427f2613bf5b458ba89a042982a4f7b03c5ab71cddc6b941aaef78",
+      "itemDigest": "c3575a179c0ee7f81f2caa1685d3a8fd89a9155643089ddaec495dba95a90d93",
       "basis": "direct",
       "sources": [
         "lesson:4.7:point:1"
@@ -2139,7 +2139,7 @@
       "id": "expanded-4.8-ssh-local-login",
       "pool": "practice",
       "lesson": "4.8",
-      "itemDigest": "a90e6c13f4e2b7453b93221c54f9f575928f91f1beaf0c7caad0f2720861b4c8",
+      "itemDigest": "319b17ad03104881f0c6c9c1ac9a336c98e54288e7ba40609a5b27d93d0cea7e",
       "basis": "direct",
       "sources": [
         "lesson:4.8:point:1"
@@ -2150,7 +2150,7 @@
       "id": "expanded-4.8-ssh-host-identity",
       "pool": "practice",
       "lesson": "4.8",
-      "itemDigest": "b87d382a3ce7104e9d6216607167fc3c513bf1574b32cc6173766cc0bde0f60b",
+      "itemDigest": "1488789b1ef1ef46b3b2c67b5a5b5d48178a49f47812927073d4e55d74fb58da",
       "basis": "direct",
       "sources": [
         "lesson:4.8:point:3"
@@ -2162,7 +2162,7 @@
       "id": "expanded-4.9-ftp-control-data",
       "pool": "practice",
       "lesson": "4.9",
-      "itemDigest": "9d639038e60af429e225faa5fa7ea3acfa2599fd9322d84ad566145c47a872a4",
+      "itemDigest": "e632f2457d312dcd5a0ace52f0445ec74ba31bd4a5c5c3c3ad498274390a3783",
       "basis": "derived",
       "sources": [
         "textbook:4.9:section:0",
@@ -2174,7 +2174,7 @@
       "id": "expanded-4.9-plain-ftp-confidentiality",
       "pool": "practice",
       "lesson": "4.9",
-      "itemDigest": "558855254af6eb99760ae93a5ceed244a9652018cae32acc008c3d8b8bf4a03e",
+      "itemDigest": "cb3a253cc61e647ad21dfcc78171e20e88f6fc2f479b82f719d68d252da5a146",
       "basis": "direct",
       "sources": [
         "lesson:4.9:point:1"
@@ -2185,7 +2185,7 @@
       "id": "expanded-5.1-threat-versus-risk",
       "pool": "practice",
       "lesson": "5.1",
-      "itemDigest": "f7c7a3c5e981c2eaf577d94bb86db1712bf6eba66c2717598c8e1ddef3008d74",
+      "itemDigest": "55dd38dd98db4eabdcbb282bed0645089c297c69dc0fdd3577feac25560edd48",
       "basis": "derived",
       "sources": [
         "lesson:5.1:intro",
@@ -2197,7 +2197,7 @@
       "id": "expanded-5.1-mitigation-versus-elimination",
       "pool": "practice",
       "lesson": "5.1",
-      "itemDigest": "e7b8b782293e0ea3176bfba93be0044fc8a7cf6a10731c8774079f02bb728be1",
+      "itemDigest": "e0a72e98148f43fc08a9e85650e31484540cdbd02e0daf421189e12cc072a148",
       "basis": "derived",
       "sources": [
         "lesson:5.1:point:2",
@@ -2209,7 +2209,7 @@
       "id": "expanded-5.2-tailgating-control",
       "pool": "practice",
       "lesson": "5.2",
-      "itemDigest": "2b70ae4997aa5c43a10c8f4ea8023a090d8ae33a505d93530e5901f95e47002e",
+      "itemDigest": "bcf6cfefbf92fdceabd82c7864a09fb9ef122f4877a2e2f05e4d0ec025bbd95c",
       "basis": "direct",
       "sources": [
         "lesson:5.2:point:1"
@@ -2220,7 +2220,7 @@
       "id": "expanded-5.2-rack-physical-control",
       "pool": "practice",
       "lesson": "5.2",
-      "itemDigest": "1444430e75cd4c5bcd99d1467c970149678065d65dae8a3dd9738afabf2e3291",
+      "itemDigest": "4e827db1b88d46598a7b84af4bd46310420b1e275ec07704e19e7ec7eac9883a",
       "basis": "direct",
       "sources": [
         "lesson:5.2:point:1"
@@ -2231,7 +2231,7 @@
       "id": "expanded-5.3-enable-secret-role",
       "pool": "practice",
       "lesson": "5.3",
-      "itemDigest": "f2915bbd08ad307d1459fc053f26b29e24e64fc53676adfc0dbffb78680b9bb5",
+      "itemDigest": "2deba3b57c9319d93305d47be196e42d201c398f28f89300d4191007c37742fb",
       "basis": "direct",
       "sources": [
         "lesson:5.3:point:0"
@@ -2242,7 +2242,7 @@
       "id": "expanded-5.3-console-login-local",
       "pool": "practice",
       "lesson": "5.3",
-      "itemDigest": "7d758a625fa96d39e3c2eab8341d895428326e6c85bf0f3fb354661d3020ba87",
+      "itemDigest": "14f2743fe0185b1fab3ffdaf37fbe9510855639145e3aff01b2343f25f7ef76e",
       "basis": "derived",
       "sources": [
         "lesson:5.3:point:1"
@@ -2253,7 +2253,7 @@
       "id": "expanded-5.4-password-reuse-policy",
       "pool": "practice",
       "lesson": "5.4",
-      "itemDigest": "abbc23d08d418615ce355bd8170169451581baa1446b31bdc58c21d4961df05f",
+      "itemDigest": "1e42fe1eac42e562d8e06276d0f3e6adfc20defeb39bc95871604aa14c94608e",
       "basis": "derived",
       "sources": [
         "lesson:5.4:point:0",
@@ -2265,7 +2265,7 @@
       "id": "expanded-5.4-certificate-possession",
       "pool": "practice",
       "lesson": "5.4",
-      "itemDigest": "7fdeba452ff264c8a1efaea8ab44569ee5d13786f9775ad4b30ae0628bebf1a6",
+      "itemDigest": "946a78f6f05085cbd5a6ab723bcb05621a450c47e3d2fd85ea0a9f2c545d76c6",
       "basis": "direct",
       "sources": [
         "textbook:5.4:section:0"
@@ -2276,7 +2276,7 @@
       "id": "expanded-5.5-ipsec-protection-scope",
       "pool": "practice",
       "lesson": "5.5",
-      "itemDigest": "a81456bbaca0d1e3b3c9408a5e8d63e6d9f33b25b566785aff491cb5297172ab",
+      "itemDigest": "fd68342d441923621df0b7a6c94f2cfaaeed18a3a6ab366a1456fd38ea9fa87b",
       "basis": "derived",
       "sources": [
         "lesson:5.5:point:3"
@@ -2288,7 +2288,7 @@
       "id": "expanded-5.5-remote-access-vpn-user",
       "pool": "practice",
       "lesson": "5.5",
-      "itemDigest": "c5f8672bbf4916c0a61a99aadeeb7839125ba16efd66260b7cf83839b62b7246",
+      "itemDigest": "0ca183543c52e0edea1f00cd4e4f09045f0282d8df00f0c14d5e523664ea3250",
       "basis": "direct",
       "sources": [
         "lesson:5.5:point:0"
@@ -2299,7 +2299,7 @@
       "id": "expanded-5.6-acl-interface-direction",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "ec69d35bafd4b489cf42b277055b633d58eed7cd0a3715e79ce4d7372ad469bc",
+      "itemDigest": "07874bbe7c7b8111de9347aec612125bd463b52dca4aedcab1b569ac04ad7c71",
       "basis": "derived",
       "sources": [
         "lesson:5.6:point:1"
@@ -2310,7 +2310,7 @@
       "id": "expanded-5.6-acl-defined-not-applied",
       "pool": "practice",
       "lesson": "5.6",
-      "itemDigest": "e0475ef7c42fdb0e5ed0a05164f0b1e3f325706f8af3154f0515d5d754a83772",
+      "itemDigest": "be040dc97f241757050cdeaaa9b82cb1ec819a3ef12fd478534d9c8184af36f5",
       "basis": "derived",
       "sources": [
         "lesson:5.6:point:2"
@@ -2321,7 +2321,7 @@
       "id": "expanded-5.7-port-security-restrict",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "5730cbc98aa6b5f2ac25012d50db1abf184ab97fe3bf585aa73d2ca7839c6375",
+      "itemDigest": "b2b1148225ff7db96163ef56a94c0ddbc8090f09bb4956082bd0240dd971be70",
       "basis": "derived",
       "sources": [
         "guide:5.7:block:0:why",
@@ -2333,7 +2333,7 @@
       "id": "expanded-5.7-sticky-mac-persistence",
       "pool": "practice",
       "lesson": "5.7",
-      "itemDigest": "a870d7ea896b3488a54f20d54668cb02f7f76c2bc4b3905782ad6c3484af71d8",
+      "itemDigest": "be3ac5d7bff8a6853f8e7110e1b2edb3ce339fe4ec550c35285fec6cf7d92df8",
       "basis": "derived",
       "sources": [
         "textbook:5.7:section:1",
@@ -2345,7 +2345,7 @@
       "id": "expanded-5.8-aaa-accounting",
       "pool": "practice",
       "lesson": "5.8",
-      "itemDigest": "8344a5114086c8e02a7e1f88f5e48cabf206b12eb5b6d664ab00591e6880d514",
+      "itemDigest": "7ebefba055df37ec9b06f1551733bee2f8f729212fa909defc02624ffb07c54b",
       "basis": "direct",
       "sources": [
         "lesson:5.8:point:0"
@@ -2356,7 +2356,7 @@
       "id": "expanded-5.8-aaa-error-versus-reject",
       "pool": "practice",
       "lesson": "5.8",
-      "itemDigest": "116e6803c1c41ee5bbc945bcd1756a44aac98a7042c032e8917010605c29b220",
+      "itemDigest": "2b58e3b7e7a0cafb01f75234afc4f7e4905b38eac9c4a9df86461641e362586e",
       "basis": "derived",
       "sources": [
         "textbook:5.8:section:1"
@@ -2367,7 +2367,7 @@
       "id": "expanded-5.9-sae-offline-resistance",
       "pool": "practice",
       "lesson": "5.9",
-      "itemDigest": "0f61b1ef148f5e10ae390ed08c0cb5bfb99c3dbed9fa6ce27a291e5aa70774ab",
+      "itemDigest": "1d2c3d91d885ca8e8ac743136f80b64e37caad3ae250dd0be3ba8dc42eda0903",
       "basis": "direct",
       "sources": [
         "lesson:5.9:point:1"
@@ -2378,7 +2378,7 @@
       "id": "expanded-5.9-enterprise-server-validation",
       "pool": "practice",
       "lesson": "5.9",
-      "itemDigest": "4555eaaef507639648e052717fa227ec04788939241adace00bea66fe14f0e03",
+      "itemDigest": "6a70d1b7b5c00e66d87ba5e1619d51b934da8e96d7fcf950a3ca6064e0441191",
       "basis": "direct",
       "sources": [
         "lesson:5.9:point:3"
@@ -2390,7 +2390,7 @@
       "id": "expanded-5.10-psk-passphrase-validation",
       "pool": "practice",
       "lesson": "5.10",
-      "itemDigest": "54c34b7e4f2f125b136309e6d84d57a8432b2d029e12cbd3d28c4989b9fcb69b",
+      "itemDigest": "57f11b545228e9c4977f8851cbd7ca338df6e40ce53200459f4886284c319b0c",
       "basis": "derived",
       "sources": [
         "textbook:5.10:section:1"
@@ -2401,7 +2401,7 @@
       "id": "expanded-5.10-personal-versus-8021x-gui",
       "pool": "practice",
       "lesson": "5.10",
-      "itemDigest": "972fab158eb1ae0419a98788223721b90268502724230422b11432b2bb976ea6",
+      "itemDigest": "5f494105fc0d5ef36661c29acb9d2a24bd8b750d5ab8ad5754fcf6adc176c628",
       "basis": "derived",
       "sources": [
         "textbook:5.9:section:0",
@@ -2413,7 +2413,7 @@
       "id": "expanded-6.1-automation-drift",
       "pool": "practice",
       "lesson": "6.1",
-      "itemDigest": "5da47b14a5ea4289704ad2d89d1e8e99cf2ee3c04b471444d77f52df190f3c5a",
+      "itemDigest": "5405d000ca40714c68a777e914cdfe095580b41d5cc0f62cca01e3e6f6d6343d",
       "basis": "direct",
       "sources": [
         "lesson:6.1:point:2"
@@ -2424,7 +2424,7 @@
       "id": "expanded-6.1-automation-staged-change",
       "pool": "practice",
       "lesson": "6.1",
-      "itemDigest": "be5d5ee786c27016cce50620796ebfa9a94eb0d9a7126b2543e37379cefdfb20",
+      "itemDigest": "1b469e48c85c6d936686b300e1f3a76c84148521cf9ca685301bcccf52e54782",
       "basis": "derived",
       "sources": [
         "lesson:6.1:point:1",
@@ -2436,7 +2436,7 @@
       "id": "expanded-6.2-controller-outage-forwarding",
       "pool": "practice",
       "lesson": "6.2",
-      "itemDigest": "6182cde74b3c95136fa5b9742d3fac02e191f5a21f4019e16688cd9604872d63",
+      "itemDigest": "be37884aac62bf3d5f2a1326bfb4420ff84f7520c6cf5e5987d88a36903c5c04",
       "basis": "derived",
       "sources": [
         "textbook:6.2:section:1"
@@ -2447,7 +2447,7 @@
       "id": "expanded-6.2-managed-device-software",
       "pool": "practice",
       "lesson": "6.2",
-      "itemDigest": "9e0459d8c498055b5ec8309c9137a755194703fe95c0d73a87c23643cbf97e5c",
+      "itemDigest": "8a513b3fb8127456a8dd55d8ba7b5a7845f6bbac46febaec850b1f27687f9d3e",
       "basis": "derived",
       "sources": [
         "lesson:6.2:point:3"
@@ -2459,7 +2459,7 @@
       "id": "expanded-6.3-northbound-southbound-relationship",
       "pool": "practice",
       "lesson": "6.3",
-      "itemDigest": "a495e64dad579d88450dd25e0f52a36228aff3fc308c1bb848da8da2338a8879",
+      "itemDigest": "bfd79ecdbcbd1e6887598187c35f59af900ccb0f7fc74459ca6fd0d2acdf7c45",
       "basis": "direct",
       "sources": [
         "lesson:6.3:point:2"
@@ -2470,7 +2470,7 @@
       "id": "expanded-6.3-management-plane-observation",
       "pool": "practice",
       "lesson": "6.3",
-      "itemDigest": "9994c89ab6d9e945a1640d4a83c68b578feb93f8746af00c16be959216a023e9",
+      "itemDigest": "0a87cf841528712321803d4b86bf84ab0c7cd11014155ef96fcf80d20c553c80",
       "basis": "direct",
       "sources": [
         "lesson:6.3:point:0"
@@ -2481,7 +2481,7 @@
       "id": "expanded-6.4-generative-ai-role",
       "pool": "practice",
       "lesson": "6.4",
-      "itemDigest": "bb603696aabc7a10140d28403258401b03e895f7d38a1ecc0978a29025735f7a",
+      "itemDigest": "ff3d2d5c90e2ba3d36804efb2fe2932430cba3b1f19522d476aac32ec79f28df",
       "basis": "direct",
       "sources": [
         "lesson:6.4:point:0"
@@ -2492,7 +2492,7 @@
       "id": "expanded-6.4-ml-training-coverage",
       "pool": "practice",
       "lesson": "6.4",
-      "itemDigest": "9ff3650d0ac73adfcdac85eb894447db7cb943f5f41e784797bedf6d6bd92274",
+      "itemDigest": "f7f176a793a8fe0f9927928614ed3527ddb2f6ca386ee9b0a2b99189c948e7f3",
       "basis": "derived",
       "sources": [
         "lesson:6.4:point:1",
@@ -2504,7 +2504,7 @@
       "id": "expanded-6.5-http-media-headers",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "d6525fde00a71a1e7ae9c5ee2ca9e4a1b1a03be609d8edad5181deb372af8002",
+      "itemDigest": "1820f19025d0118d146683ab2723150d6d269c340b1169207a688a9db8170a10",
       "basis": "derived",
       "sources": [
         "lesson:6.5:point:3",
@@ -2517,7 +2517,7 @@
       "id": "expanded-6.5-http-rate-limit",
       "pool": "practice",
       "lesson": "6.5",
-      "itemDigest": "236278fbed551a597526495cf0768ff24cb7e6620959630d48b874a16644f96b",
+      "itemDigest": "7097606d3f22957f7454328f640a2de1370cbb2a7e9f6b0e2e9f8f46a6a1536b",
       "basis": "derived",
       "sources": [
         "lesson:6.5:point:4"
@@ -2529,7 +2529,7 @@
       "id": "expanded-6.6-ansible-inventory-playbook",
       "pool": "practice",
       "lesson": "6.6",
-      "itemDigest": "46a8b549142ec0d9922cef40bba6e51accc62c669a49bcfd5698b6f17e2f9d75",
+      "itemDigest": "143bac6688b5ec8af412f3042b54350a5e4cc272b5ba04af48802a1b58a3985c",
       "basis": "direct",
       "sources": [
         "lesson:6.6:point:0"
@@ -2540,7 +2540,7 @@
       "id": "expanded-6.6-terraform-state-purpose",
       "pool": "practice",
       "lesson": "6.6",
-      "itemDigest": "71150d3de372140717234f19f292bc84d28db1e71dc9e9fbbaf3687b52de7dc0",
+      "itemDigest": "1c9c76456940c238a49f4df08672fc6bcc96e14f066245457e96d0ac86342948",
       "basis": "direct",
       "sources": [
         "lesson:6.6:point:1",
@@ -2552,7 +2552,7 @@
       "id": "expanded-6.7-json-boolean-string",
       "pool": "practice",
       "lesson": "6.7",
-      "itemDigest": "ef8edb5d2b44a1dbb017c14515cc3197ab358d28b33460c881128a7ceff48872",
+      "itemDigest": "b6290f25ebb49f13e025dd441111315c2e01e3460ea4d311bb82ef1ddb08fb18",
       "basis": "derived",
       "sources": [
         "textbook:6.7:section:0"
@@ -2563,7 +2563,7 @@
       "id": "expanded-6.7-json-null-versus-absent",
       "pool": "practice",
       "lesson": "6.7",
-      "itemDigest": "2b8bf7dadb426f066cbe168c1cda2eab2bc65628488712b3406aecbcfd5c192b",
+      "itemDigest": "b14842e698b755fb29a543ebfcb3c405abc09171c5968316044173e226016925",
       "basis": "derived",
       "sources": [
         "textbook:6.7:section:0"
@@ -2574,7 +2574,7 @@
       "id": "lesson-check-1.1",
       "pool": "lesson",
       "lesson": "1.1",
-      "itemDigest": "af018b7c46da716325e78780ef4a392da7abd69b5d7d7a758ff3115b4853c7a2",
+      "itemDigest": "ca9025e26468aca3d3d81a7857e44abefce75658a3ea9ec5fef7f9936d6cccc7",
       "basis": "direct",
       "sources": [
         "lesson:1.1:point:0"
@@ -2585,7 +2585,7 @@
       "id": "lesson-check-1.2",
       "pool": "lesson",
       "lesson": "1.2",
-      "itemDigest": "19248d2a06b44b7458f633f621fbd481428e69fa5d7c23d2d559ff04bbfff8eb",
+      "itemDigest": "259da6e9614904de18dd617150206975636c67b55726f2ab4520a66377de835d",
       "basis": "direct",
       "sources": [
         "lesson:1.2:point:1"
@@ -2596,7 +2596,7 @@
       "id": "lesson-check-1.3",
       "pool": "lesson",
       "lesson": "1.3",
-      "itemDigest": "6b09fec858bed26a906f85409515938032072aee01de39fc33ca5ad9e40a6ce7",
+      "itemDigest": "c0d7a94b2a2cd481f45db229d27560d75a4dc742ed42fb5330d37e22fcb44f06",
       "basis": "direct",
       "sources": [
         "lesson:1.3:point:1"
@@ -2607,7 +2607,7 @@
       "id": "lesson-check-1.4",
       "pool": "lesson",
       "lesson": "1.4",
-      "itemDigest": "dd2d0a0ddbe8613329d911cb77a1efe95c96d5b13afbfa0f7fcb0c0fda839a76",
+      "itemDigest": "d1af0e5a3e6975d1bb2e132dc2e59925a83855aee22cbc424a551db63dacf843",
       "basis": "direct",
       "sources": [
         "lesson:1.4:point:1"
@@ -2618,7 +2618,7 @@
       "id": "lesson-check-1.5",
       "pool": "lesson",
       "lesson": "1.5",
-      "itemDigest": "3704d82ecb08e370127ba8429b62da20c93219dba338031f9f4cff95107639ca",
+      "itemDigest": "903c6b3b1fac13d9e48fa13ad8edd1ac24f7de581f335100f8127d5f12704801",
       "basis": "direct",
       "sources": [
         "lesson:1.5:point:0"
@@ -2629,7 +2629,7 @@
       "id": "lesson-check-1.6",
       "pool": "lesson",
       "lesson": "1.6",
-      "itemDigest": "4d517a599c721d3ef674a19d2eaf3af661c5ff297ea0fccb36f67f95170b540c",
+      "itemDigest": "4046c5a5ad95e699cde4b631b26d7e425da1557b668c8a46a6a0d54188756f84",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:1"
@@ -2640,7 +2640,7 @@
       "id": "lesson-check-1.7",
       "pool": "lesson",
       "lesson": "1.7",
-      "itemDigest": "8cea55769f97813d1a34c7684cf87ee18d6c02a25f0d3ea30d8dee7015a073e2",
+      "itemDigest": "07d836ded8ac92e343fab24eb0d98781d2033cfc1a8a047503efd708c8abc5b3",
       "basis": "direct",
       "sources": [
         "lesson:1.7:point:0"
@@ -2651,7 +2651,7 @@
       "id": "lesson-check-1.8",
       "pool": "lesson",
       "lesson": "1.8",
-      "itemDigest": "faf25753bdcc297bb22a1e169d3d354e0c376353f3e163fc37053462b76a2c89",
+      "itemDigest": "7fc5965db296fb450006c3c9b0e8de5654e25210ecd7ba31214af40a60da06bd",
       "basis": "direct",
       "sources": [
         "lesson:1.8:point:0"
@@ -2662,7 +2662,7 @@
       "id": "lesson-check-1.9",
       "pool": "lesson",
       "lesson": "1.9",
-      "itemDigest": "4ebb4e0aa508731db54aa190ebfe535ae31b440adef93ba32d4badf0df93399d",
+      "itemDigest": "308e4cb38f32553182fe870063b3a62ff56ff3c5b24c226518add1b6272f88df",
       "basis": "direct",
       "sources": [
         "lesson:1.9:point:0"
@@ -2673,7 +2673,7 @@
       "id": "lesson-check-1.10",
       "pool": "lesson",
       "lesson": "1.10",
-      "itemDigest": "82e154f1e2ae6dcfbebf8b6eb03766ab8a04c2833f927345d0c7f09e657717ad",
+      "itemDigest": "c2f05ecba64a2f6abd6ad3fe5acec41f0619177293ac3c8d5aca0076fb82a8c9",
       "basis": "direct",
       "sources": [
         "lesson:1.10:point:1"
@@ -2684,7 +2684,7 @@
       "id": "lesson-check-1.11",
       "pool": "lesson",
       "lesson": "1.11",
-      "itemDigest": "b74b3df4bcc41c5e474e8955d471abf15e1f540a103465870e0d1cfb09df7be4",
+      "itemDigest": "20989db8e9064df6dcc0b7ed290c4dbcc5a3cd1f2c9157e45ba1b3c16c484e68",
       "basis": "direct",
       "sources": [
         "lesson:1.11:point:1"
@@ -2695,7 +2695,7 @@
       "id": "lesson-check-1.12",
       "pool": "lesson",
       "lesson": "1.12",
-      "itemDigest": "d87142ec54e7b474fe03987b070168598ca818cddd1df3f2f5ad600cad954f53",
+      "itemDigest": "7f049a089e2b883817dfd6b849e4fcbd6f0f36f3297d477b1c403ea22e586013",
       "basis": "direct",
       "sources": [
         "lesson:1.12:point:2"
@@ -2706,7 +2706,7 @@
       "id": "lesson-check-1.13",
       "pool": "lesson",
       "lesson": "1.13",
-      "itemDigest": "d13299e9ffefb0cc77fa2b5a8a2d573c0ef8fb8a53064f652be47be90848d042",
+      "itemDigest": "a2aab5ff2435c63946d821327b89355242c45bacb4527b34c2475ffa412fe0b3",
       "basis": "direct",
       "sources": [
         "lesson:1.13:point:0"
@@ -2717,7 +2717,7 @@
       "id": "lesson-check-2.1",
       "pool": "lesson",
       "lesson": "2.1",
-      "itemDigest": "93337ba7925e617898a05eb12f3b663e016d2804673449813e37111444da20eb",
+      "itemDigest": "ad71d545d72fdc0d9bacc741dd859ceb59ddfb6bce6ac4776c489ca2f93c64f1",
       "basis": "direct",
       "sources": [
         "lesson:2.1:intro"
@@ -2728,7 +2728,7 @@
       "id": "lesson-check-2.2",
       "pool": "lesson",
       "lesson": "2.2",
-      "itemDigest": "4ad1865c1f7bcb52cbf488a7fa7e9d3b8cefe075575f6acfc7529f2d79eb7474",
+      "itemDigest": "2613a30a9e9c379f15061edab457d4df5aebd146097345f7d3dd22dcef71a9e1",
       "basis": "direct",
       "sources": [
         "lesson:2.2:point:1"
@@ -2739,7 +2739,7 @@
       "id": "lesson-check-2.3",
       "pool": "lesson",
       "lesson": "2.3",
-      "itemDigest": "58ac46f116793e20aebed1b5646db7c9905ad3e59d18ccd3658ac7142837326b",
+      "itemDigest": "217e84b41e36f63761eadbadb645167716d9e15f563eb71e63bf39c26d9c9828",
       "basis": "direct",
       "sources": [
         "lesson:2.3:point:0"
@@ -2750,7 +2750,7 @@
       "id": "lesson-check-2.4",
       "pool": "lesson",
       "lesson": "2.4",
-      "itemDigest": "63d9afefea062462861dc5c479e7bf62a1a4a958370f72b25d7227ebd54fec9d",
+      "itemDigest": "6e2f2506de5f5183d56f89364fbeb581e867e9f750222bcd4b9efd41c9f8c129",
       "basis": "direct",
       "sources": [
         "lesson:2.4:point:0"
@@ -2761,7 +2761,7 @@
       "id": "lesson-check-2.5",
       "pool": "lesson",
       "lesson": "2.5",
-      "itemDigest": "149f09a51c071aeb4bbd6ce470f7b3f9be36946d8eb925383916257a087d681b",
+      "itemDigest": "23ef3b655e2de4e1fb657b21e757b7a5fb6653601fd4967109df113e74bd0357",
       "basis": "direct",
       "sources": [
         "lesson:2.5:point:0"
@@ -2772,7 +2772,7 @@
       "id": "lesson-check-2.6",
       "pool": "lesson",
       "lesson": "2.6",
-      "itemDigest": "013ef5a1583a14f009df2cdce4b3057074638099218af27074619f1fb7664ebd",
+      "itemDigest": "2c1443f49cfd35c2cda4c5a45e50af8f039bcb8977e0c7946cc717d93a1a5809",
       "basis": "direct",
       "sources": [
         "lesson:2.6:point:1"
@@ -2783,7 +2783,7 @@
       "id": "lesson-check-2.7",
       "pool": "lesson",
       "lesson": "2.7",
-      "itemDigest": "86ecd0c0aed165ba47717e30970d0c79f8e9380453f20e6f5b08978160cf618e",
+      "itemDigest": "44bad461ebe44c0f6f5c1259fa6a62e909b5892f67c649b00cb7a490e050230a",
       "basis": "direct",
       "sources": [
         "lesson:2.7:point:2",
@@ -2795,7 +2795,7 @@
       "id": "lesson-check-2.8",
       "pool": "lesson",
       "lesson": "2.8",
-      "itemDigest": "4a35d925e0135f160240c91bf2feccf0ee862a63c58c2b656805ea3a399778ec",
+      "itemDigest": "8f2f72129af7f4d98bd4ed315b44700400095d18a46fa2d6b0ac32636e6b9f86",
       "basis": "direct",
       "sources": [
         "lesson:2.8:point:0"
@@ -2806,7 +2806,7 @@
       "id": "lesson-check-2.9",
       "pool": "lesson",
       "lesson": "2.9",
-      "itemDigest": "601002e6762db3137084d87da777a57be6f96ff4fcec026996801a6eac281808",
+      "itemDigest": "d7e130b9f410e451e7dbe1d07a3d9163e0aa6d5fb7d249b3e7eac5b8cf423385",
       "basis": "direct",
       "sources": [
         "lesson:2.9:point:0"
@@ -2817,7 +2817,7 @@
       "id": "lesson-check-3.1",
       "pool": "lesson",
       "lesson": "3.1",
-      "itemDigest": "7189328c0a12b72232ed5c293e8847ce38b238df2214de22ed8ee303f769237a",
+      "itemDigest": "c1da6f65d5f42d1945e96d3c23c30e0426772f6a927068136fae5df0361ddfe7",
       "basis": "direct",
       "sources": [
         "lesson:3.1:point:1"
@@ -2828,7 +2828,7 @@
       "id": "lesson-check-3.2",
       "pool": "lesson",
       "lesson": "3.2",
-      "itemDigest": "c89564f26a915e45a6d3baf5a2613a5459f1eb3aaf2cd93d7634c4735ac12924",
+      "itemDigest": "bc621fe5d28d5a7a7ec4811329f1c3985f9e589eb8678ec63f378137cba9e45f",
       "basis": "direct",
       "sources": [
         "lesson:3.2:point:0"
@@ -2839,7 +2839,7 @@
       "id": "lesson-check-3.3",
       "pool": "lesson",
       "lesson": "3.3",
-      "itemDigest": "f1865509a3786b89f7f2c4ad8ed9ee32de48fd65f944483adeddbd2e83729c53",
+      "itemDigest": "6f59de65c9f69542209bdf18118c568254934d4941b85cf6dd1825c3c8159a36",
       "basis": "direct",
       "sources": [
         "lesson:3.3:point:1"
@@ -2850,7 +2850,7 @@
       "id": "lesson-check-3.4",
       "pool": "lesson",
       "lesson": "3.4",
-      "itemDigest": "d22bc9764496ac4f56669937883f21c137135f704da7e1e2979676f5f2b9f650",
+      "itemDigest": "aae19df651f472b5ac66addff76c6b23f2693f1f5dcedcfb37dce11c82dd7ea6",
       "basis": "direct",
       "sources": [
         "lesson:3.4:point:1"
@@ -2861,7 +2861,7 @@
       "id": "lesson-check-3.5",
       "pool": "lesson",
       "lesson": "3.5",
-      "itemDigest": "b8058d98fd8c715854f4d6409e654edcbeb3294e69b845e3d2404d6dfca8c994",
+      "itemDigest": "bb94bcbde2959dbbe30b73eb84981a2dd694e6128dcd9aefc7cab727ca629b19",
       "basis": "direct",
       "sources": [
         "lesson:3.5:point:1"
@@ -2872,7 +2872,7 @@
       "id": "lesson-check-4.1",
       "pool": "lesson",
       "lesson": "4.1",
-      "itemDigest": "35bf101352b24a06a51c6c4e84f3beafc831457a1ba59020cf4b548270b2ebd7",
+      "itemDigest": "f8e451cb04fed42e11514e86096b89d8425887c6e0a3d3e40ddd04b14869c59d",
       "basis": "direct",
       "sources": [
         "lesson:4.1:point:0"
@@ -2883,7 +2883,7 @@
       "id": "lesson-check-4.2",
       "pool": "lesson",
       "lesson": "4.2",
-      "itemDigest": "d6a427446e17ca4072e8e8da70bc143c733fa9d781d9112934c4298b3d592bca",
+      "itemDigest": "d31ca02918ae3508e337ee4b2d917ca99ab0704000f4bf0f38f7e116e6731b3e",
       "basis": "direct",
       "sources": [
         "lesson:4.2:point:0"
@@ -2894,7 +2894,7 @@
       "id": "lesson-check-4.3",
       "pool": "lesson",
       "lesson": "4.3",
-      "itemDigest": "f8379ba93193a621e84ecdbb3b31ac3a1501df1166754b27d93471b4d9ba059c",
+      "itemDigest": "bf26f3b5a684d0b2c58d259ae9ae027eac1e8a96c37ebddc9a60872b5c74c173",
       "basis": "direct",
       "sources": [
         "lesson:4.3:point:1"
@@ -2905,7 +2905,7 @@
       "id": "lesson-check-4.4",
       "pool": "lesson",
       "lesson": "4.4",
-      "itemDigest": "628b5f8a7c6684ec211c04dabb9991ebab821fb1126d814b95233d95dce8ccf3",
+      "itemDigest": "b137e1112474ac64cff9e0433741d5882651c36fc2b9fb55e2be9f3bf6113941",
       "basis": "direct",
       "sources": [
         "lesson:4.4:point:2"
@@ -2916,7 +2916,7 @@
       "id": "lesson-check-4.5",
       "pool": "lesson",
       "lesson": "4.5",
-      "itemDigest": "9f0e48dacdf007cf41ca044d7cf2300e1df6083615c906f1c317c5a8a0e65a0c",
+      "itemDigest": "3068e078d4bc1783439c5c3f6d2868ce443e92854ad07afe2aae449ce00d7a01",
       "basis": "direct",
       "sources": [
         "textbook:4.5:section:1",
@@ -2928,7 +2928,7 @@
       "id": "lesson-check-4.6",
       "pool": "lesson",
       "lesson": "4.6",
-      "itemDigest": "f15e1091ad06a0b0d545d6ab8b6720090b92f6a6091d99448fa847e8497599eb",
+      "itemDigest": "3c56a05f0668fd2dff56e08f355ba6d42d52fca2f18c35668931b9957e4983bc",
       "basis": "direct",
       "sources": [
         "lesson:4.6:point:0"
@@ -2939,7 +2939,7 @@
       "id": "lesson-check-4.7",
       "pool": "lesson",
       "lesson": "4.7",
-      "itemDigest": "c2eca0c11219268b058e6a3db7dd409ee271e122a1dda7a1f018714657a0093f",
+      "itemDigest": "6b59f18d2bf9e5e794551eac741c2dbfb0f2cf67ccd93d294ed9e371f767724e",
       "basis": "direct",
       "sources": [
         "lesson:4.7:point:2"
@@ -2950,7 +2950,7 @@
       "id": "lesson-check-4.8",
       "pool": "lesson",
       "lesson": "4.8",
-      "itemDigest": "2dcf9a34ffeb94d12f2e1eb08ae4e150104dd7e0156a056e03ec5fbe563c366d",
+      "itemDigest": "4c878d8badee3768be19887637ef04d6213d58503f4c66633f2c502b35abf0f5",
       "basis": "direct",
       "sources": [
         "lesson:4.8:point:1"
@@ -2961,7 +2961,7 @@
       "id": "lesson-check-4.9",
       "pool": "lesson",
       "lesson": "4.9",
-      "itemDigest": "ac0da15da12c4f3126d69dfc8ec4a3b6c78349de14756bb17e75e4cb1ed67055",
+      "itemDigest": "baf59597a90ce2dbead938d0ee865f9e90a08f85f49e0fb65bea7ac4e87e6b25",
       "basis": "direct",
       "sources": [
         "lesson:4.9:point:0"
@@ -2972,7 +2972,7 @@
       "id": "lesson-check-5.1",
       "pool": "lesson",
       "lesson": "5.1",
-      "itemDigest": "b8e61f63cb3d49db436cca79e7131bd6de49a44785442d6cbf96f256c2933554",
+      "itemDigest": "0191c86711ee8ed82dfee16a4fadc92c9d2648bcdd36c36ab5f75393e6a3a570",
       "basis": "direct",
       "sources": [
         "lesson:5.1:intro",
@@ -2984,7 +2984,7 @@
       "id": "lesson-check-5.2",
       "pool": "lesson",
       "lesson": "5.2",
-      "itemDigest": "262ea2674bee47e6bdf60f5d177118765cbaca4c29f8d3fc97f03a737c6c1bc7",
+      "itemDigest": "2a1c33b08d70fdacd52156f8fd3d9c336de693fe83eaa7fe9295755b0efcb412",
       "basis": "direct",
       "sources": [
         "lesson:5.2:point:0"
@@ -2995,7 +2995,7 @@
       "id": "lesson-check-5.3",
       "pool": "lesson",
       "lesson": "5.3",
-      "itemDigest": "42fa86e0d430b4ddf85583aee9feb6b6d4e5c9aad7dfecfd6617875a36602859",
+      "itemDigest": "b01e4635649b5330ed6d093c2ffe188c92b39890a2b98ec957347be167e646f4",
       "basis": "direct",
       "sources": [
         "lesson:5.3:point:2"
@@ -3006,7 +3006,7 @@
       "id": "lesson-check-5.4",
       "pool": "lesson",
       "lesson": "5.4",
-      "itemDigest": "f51137781c3cd2f0be263689914f0596fb5359ab80d8d215591d4b15fadd534d",
+      "itemDigest": "76cb7379757cd36f7ce994125f3be5bf11174d7d3ee729ad105cda2e820aae7b",
       "basis": "direct",
       "sources": [
         "lesson:5.4:point:1"
@@ -3017,7 +3017,7 @@
       "id": "lesson-check-5.5",
       "pool": "lesson",
       "lesson": "5.5",
-      "itemDigest": "b8f057fa6114b9fdf744203f491c61762570dc27e3dc6ced08081ed72fb071d4",
+      "itemDigest": "584b4010542ed8fcc91d24aecfda50cf6a7db4add30f79166161ad412004b43b",
       "basis": "direct",
       "sources": [
         "lesson:5.5:point:0"
@@ -3028,7 +3028,7 @@
       "id": "lesson-check-5.6",
       "pool": "lesson",
       "lesson": "5.6",
-      "itemDigest": "ca7f1444be9153c39d35a1735478ed992e22bf965ba0ab0173c2207de08255d9",
+      "itemDigest": "97fb61f3e7b9db37b274de534c9abc0a44c71bc614f5f875fba4bed87ea28ddb",
       "basis": "direct",
       "sources": [
         "lesson:5.6:intro"
@@ -3039,7 +3039,7 @@
       "id": "lesson-check-5.7",
       "pool": "lesson",
       "lesson": "5.7",
-      "itemDigest": "a4c7ffdb569720180df6c7227de1860e2765dd83f8dd1a22865ca50fa2520a45",
+      "itemDigest": "b4446bc70bb235dad70386d8480e94e90b1c9e1d0178ea45ca695b3401f23ea3",
       "basis": "direct",
       "sources": [
         "lesson:5.7:point:1"
@@ -3050,7 +3050,7 @@
       "id": "lesson-check-5.8",
       "pool": "lesson",
       "lesson": "5.8",
-      "itemDigest": "8d7870f26d2cd681608c4d03b25d294762ac2dd05eebf8a1f1551fac439f31c7",
+      "itemDigest": "15dc2a22470a98b96ff396e89d3b379b57476722d7a8944a77981d85105ebfa3",
       "basis": "direct",
       "sources": [
         "lesson:5.8:point:0"
@@ -3061,7 +3061,7 @@
       "id": "lesson-check-5.9",
       "pool": "lesson",
       "lesson": "5.9",
-      "itemDigest": "1491833ce0a9da20456b67c2c0c975467d2537d71762a0916c81de6ec47869f1",
+      "itemDigest": "9ac9102a96c6edf79ac99fbcbcea3e26ec3407d23d37af2540268235dd489cbc",
       "basis": "direct",
       "sources": [
         "lesson:5.9:point:1"
@@ -3072,7 +3072,7 @@
       "id": "lesson-check-5.10",
       "pool": "lesson",
       "lesson": "5.10",
-      "itemDigest": "383563129c668fea1265d16afafd8873563c935509b9456d732e8b0b29d7ad98",
+      "itemDigest": "809b8881afae45b9cb7cb3a01b5af9c6037a276f4693f7d4671e92dbd34c7573",
       "basis": "direct",
       "sources": [
         "lesson:5.10:point:0"
@@ -3083,7 +3083,7 @@
       "id": "lesson-check-6.1",
       "pool": "lesson",
       "lesson": "6.1",
-      "itemDigest": "a492c7aa1758bcc439d1a30d3fa3734e31d83ee7b8461c0f5934f7708b3a1591",
+      "itemDigest": "5d2d7959e84eb2dc53d95e6bb3a734885ccd4f6f97db0b3f7f7e530675375fa3",
       "basis": "direct",
       "sources": [
         "guide:6.1:tip:0"
@@ -3094,7 +3094,7 @@
       "id": "lesson-check-6.2",
       "pool": "lesson",
       "lesson": "6.2",
-      "itemDigest": "15e57020ba3d7b7e1fef951636f8acd2130ebdfc1f1245e449daa4dab39448e1",
+      "itemDigest": "541d2842f64f43aa4417a28ec3a21a44c6783036508518bdc60c2dc6c493c102",
       "basis": "direct",
       "sources": [
         "lesson:6.2:point:0"
@@ -3105,7 +3105,7 @@
       "id": "lesson-check-6.3",
       "pool": "lesson",
       "lesson": "6.3",
-      "itemDigest": "e272aaa6e00fccbe82adbf7a69d75a75bde47658a4eb354b7a9399692ae8afd6",
+      "itemDigest": "7e65435b5b45e3104744a32c539801841ef076bf4ee07549fb276f2764194402",
       "basis": "direct",
       "sources": [
         "lesson:6.3:point:0"
@@ -3116,7 +3116,7 @@
       "id": "lesson-check-6.4",
       "pool": "lesson",
       "lesson": "6.4",
-      "itemDigest": "5578086741911291e8d39eaa86509a673629627ee175fb99f60348c3fa6ccfbc",
+      "itemDigest": "f388f8c6d96b121a0d2983a6454ae7fdfbe5bb1e9ffd2de56c5a3c4a2c1c9f95",
       "basis": "direct",
       "sources": [
         "lesson:6.4:point:0"
@@ -3127,7 +3127,7 @@
       "id": "lesson-check-6.5",
       "pool": "lesson",
       "lesson": "6.5",
-      "itemDigest": "f0b6c23101590c0165a293fc82f7b7ae34e13538f17b27f896d0e3ed5eab76c7",
+      "itemDigest": "931e1c24e503ab8fb6fc30a22c38d7ff321e30911b467bed6ed7e9f070b9f33a",
       "basis": "direct",
       "sources": [
         "lesson:6.5:point:0"
@@ -3138,7 +3138,7 @@
       "id": "lesson-check-6.6",
       "pool": "lesson",
       "lesson": "6.6",
-      "itemDigest": "a704c09e20bb2c90774b7abc89ba009b39db8d8877faca6e982d7e3d1961741c",
+      "itemDigest": "8c4cf8609ce7b781a136bf0bfdd869fcb3b53efc8f913ee1b8f6254720892a8c",
       "basis": "direct",
       "sources": [
         "lesson:6.6:point:1"
@@ -3149,7 +3149,7 @@
       "id": "lesson-check-6.7",
       "pool": "lesson",
       "lesson": "6.7",
-      "itemDigest": "585e3b3ec16bfab3b6f3e70e74b7197f7d02930e26c5d19f3caa052fb0772e7e",
+      "itemDigest": "43ae01236f12897241c85348a21e2661c5e7fa7540eab43a3645934d638a3fe6",
       "basis": "direct",
       "sources": [
         "lesson:6.7:point:0"
@@ -3160,7 +3160,7 @@
       "id": "worked-check-1.1",
       "pool": "worked",
       "lesson": "1.1",
-      "itemDigest": "2cbf2684f5fa29c4034be2b83df6291172b73852b2d1248a0d2a0c9e46ac2a78",
+      "itemDigest": "7067bf6fe64ee430e87df57c61a01e86bffcdc5d698c86bff4dc9d16fd458d12",
       "basis": "derived",
       "sources": [
         "textbook:1.10:section:0",
@@ -3172,7 +3172,7 @@
       "id": "worked-check-1.2",
       "pool": "worked",
       "lesson": "1.2",
-      "itemDigest": "14b76445208527a8a25d44d4ce34bd0aadcf32849acc1ccd1112aaed2fffb302",
+      "itemDigest": "4ae1dd3cb8e1b6bc8efd8173d4261a4f680e893609d2d2973fb87a257a4ba570",
       "basis": "derived",
       "sources": [
         "lesson:1.7:point:1",
@@ -3184,7 +3184,7 @@
       "id": "worked-check-1.3",
       "pool": "worked",
       "lesson": "1.3",
-      "itemDigest": "82058137975fd775827ad17815f32b7fedd6b778293ef2e9a92973c88ade2845",
+      "itemDigest": "d553f3d69e5fd38cde7ab32ec909253303d6ee566d0b56fe6e509be3f5f36563",
       "basis": "derived",
       "sources": [
         "textbook:1.3:section:0"
@@ -3195,7 +3195,7 @@
       "id": "worked-check-1.4",
       "pool": "worked",
       "lesson": "1.4",
-      "itemDigest": "0a4d8e50470db36fd52d96cf6d673aad859c335b6d87c3bbb7e92f23ea10fe47",
+      "itemDigest": "acf9db807c7bf795405a5b2845d98efc5f26178ab0781c49f579e4236380a3d0",
       "basis": "derived",
       "sources": [
         "lesson:1.4:point:2",
@@ -3208,7 +3208,7 @@
       "id": "worked-check-1.5",
       "pool": "worked",
       "lesson": "1.5",
-      "itemDigest": "d453973bcb3ede514b85407cac5293f3c8783d920f915d1c8cd01feb20226578",
+      "itemDigest": "ccec78ab0403692569f39ce5aba863ba3732377469988d7789cb72eec01eb444",
       "basis": "derived",
       "sources": [
         "lesson:1.5:point:3"
@@ -3220,7 +3220,7 @@
       "id": "worked-check-1.6",
       "pool": "worked",
       "lesson": "1.6",
-      "itemDigest": "a44c62a33a44c5c4f6951189d465081290d671b6bc6d0922abf8e34388b0db63",
+      "itemDigest": "31c830a8128cb0e52e6b6b469e0540cfddcb80ea5478fb9be7ef7ce31c73833c",
       "basis": "derived",
       "sources": [
         "lesson:1.6:point:0",
@@ -3232,7 +3232,7 @@
       "id": "worked-check-1.7",
       "pool": "worked",
       "lesson": "1.7",
-      "itemDigest": "0a850be4aaf166690dbc55d56e1416ea51f1e18d44e1f4acde580965d3f7c110",
+      "itemDigest": "446ddc1f6ce3f99a3437e985aea6ad6197b108729ab68caa128d579743da3ddd",
       "basis": "derived",
       "sources": [
         "lesson:1.7:point:0"
@@ -3243,7 +3243,7 @@
       "id": "worked-check-1.8",
       "pool": "worked",
       "lesson": "1.8",
-      "itemDigest": "4acc80913d9e67439fa612a49d28deb4ffa5ccef90fd337c368478f3fb487463",
+      "itemDigest": "449b7c09e89b7f936451137f53d4f26f33bc6d83b5a9be572a4b29d4c66572ed",
       "basis": "derived",
       "sources": [
         "lesson:1.8:point:2",
@@ -3256,7 +3256,7 @@
       "id": "worked-check-1.9",
       "pool": "worked",
       "lesson": "1.9",
-      "itemDigest": "039c1b983d4d95095884a51b9b04a14c2c2f2af441f0579fc9e45a85870b1198",
+      "itemDigest": "095c03692353a5e77d61d28e99cfcac39faa91d02512d6d99f096292ec50fcba",
       "basis": "derived",
       "sources": [
         "textbook:1.9:section:1"
@@ -3267,7 +3267,7 @@
       "id": "worked-check-1.10",
       "pool": "worked",
       "lesson": "1.10",
-      "itemDigest": "a95e7aeb3aaf2d5d2dce3b27cd6b0410e3f9acae0d01753bcc8a66447d470843",
+      "itemDigest": "042d6aec7c80a13c735d9e4d2c14abb82fe4274460f3ab257be420c4f286c13c",
       "basis": "derived",
       "sources": [
         "textbook:1.10:section:1"
@@ -3278,7 +3278,7 @@
       "id": "worked-check-1.11",
       "pool": "worked",
       "lesson": "1.11",
-      "itemDigest": "8ae3800224d96f9716aea8e516a0b6d7f528f22f6d1aa1eed2c59f71b626c40d",
+      "itemDigest": "f1713ed61e41b306dbd4fad30bcb803b7e9bbafb6f19b3474ae3bcd1085d3897",
       "basis": "derived",
       "sources": [
         "textbook:1.11:section:1",
@@ -3290,7 +3290,7 @@
       "id": "worked-check-1.12",
       "pool": "worked",
       "lesson": "1.12",
-      "itemDigest": "fc90809dd060c15615103f9e15ce247a4cc3042ec645f48cee4330c9bbdba1c3",
+      "itemDigest": "8e712d977155d7acebb737587d1e739d5d369268532f337077ff9bc8a926123e",
       "basis": "derived",
       "sources": [
         "textbook:1.12:section:0",
@@ -3302,7 +3302,7 @@
       "id": "worked-check-1.13",
       "pool": "worked",
       "lesson": "1.13",
-      "itemDigest": "d2512971806e33f4c879a8670fceda542c5b644a6ae6944542e982b8460b5ccd",
+      "itemDigest": "7ee197e4c72be5e733280d29525a6e0b1a120e1aff379d34d6f1093da20458b3",
       "basis": "derived",
       "sources": [
         "lesson:1.13:point:2"
@@ -3313,7 +3313,7 @@
       "id": "worked-check-2.1",
       "pool": "worked",
       "lesson": "2.1",
-      "itemDigest": "1875fe508c33fa2f1ec51879d9a8b58410712f69afc34a2d9f024589505dce37",
+      "itemDigest": "b83b828d89aebef1327d1d7f9b55fdaffd0a32dfa2da7d87a7ef80a1c2be34c9",
       "basis": "derived",
       "sources": [
         "textbook:2.1:section:1",
@@ -3325,7 +3325,7 @@
       "id": "worked-check-2.2",
       "pool": "worked",
       "lesson": "2.2",
-      "itemDigest": "3aee7b58e75c350f11a0834827792e89dc0d79a027b6e409269bb009d97e50b7",
+      "itemDigest": "44de3ed7b9a1fb12dbf63c8ad15049f2ddbcd13d1679fb0526a6010cdfc23fe4",
       "basis": "derived",
       "sources": [
         "guide:2.2:block:2:code",
@@ -3337,7 +3337,7 @@
       "id": "worked-check-2.3",
       "pool": "worked",
       "lesson": "2.3",
-      "itemDigest": "30161b2a04913102421da5dd2ba3e3880d69acbe75e80f2324c754ebb226b41c",
+      "itemDigest": "f7f147062bb9a1c39cdfb47bf233f0597d5b1f478218cf9069d78299e3bc5b6f",
       "basis": "derived",
       "sources": [
         "textbook:2.3:section:0",
@@ -3349,7 +3349,7 @@
       "id": "worked-check-2.4",
       "pool": "worked",
       "lesson": "2.4",
-      "itemDigest": "8d2906081cd7abdf9c449b742dc041cfa74ccbeb09fecc1e8cebc329bb101e42",
+      "itemDigest": "9223b117528b787f0da21a1c2deb1f7968f129ad7a16c0a4a55c87c650e0887d",
       "basis": "derived",
       "sources": [
         "lesson:2.4:point:0"
@@ -3360,7 +3360,7 @@
       "id": "worked-check-2.5",
       "pool": "worked",
       "lesson": "2.5",
-      "itemDigest": "4bac0e7a4a37fdccc1d79f4b0045850408cda90b1cbf9f23767e27e32ce30b24",
+      "itemDigest": "8aebfc55ecdb1efc13ff15b26f80625be02b5e5e59ef51ad921fc8e28c266c93",
       "basis": "derived",
       "sources": [
         "blueprint:2.5.c"
@@ -3371,7 +3371,7 @@
       "id": "worked-check-2.6",
       "pool": "worked",
       "lesson": "2.6",
-      "itemDigest": "42c76deb49d9cbe227c6b75c946dfecb9b5cc9959296525063bd8e7dab3b1f37",
+      "itemDigest": "4d62ba3c3294dbe8ea57138be7e9c24d64d44843fa8b20073394550fc496b6e0",
       "basis": "derived",
       "sources": [
         "lesson:2.6:point:2"
@@ -3382,7 +3382,7 @@
       "id": "worked-check-2.7",
       "pool": "worked",
       "lesson": "2.7",
-      "itemDigest": "87ab20bfc3ff9e96c9e9053a651382e79b0ae213113e1c4daa7df94ac2b1082f",
+      "itemDigest": "eddc4ad1824c013657585bd4b2cd2b9bbe3a2bf2a85da643d336d54c382a9eb0",
       "basis": "derived",
       "sources": [
         "textbook:2.7:section:0",
@@ -3394,7 +3394,7 @@
       "id": "worked-check-2.8",
       "pool": "worked",
       "lesson": "2.8",
-      "itemDigest": "8e16bc64e996e71ddeb8669fa09d41d5544fc2719cac4a727aa2d06972dd8d77",
+      "itemDigest": "b2e8084305023dd0fe1d64020a70a185ec1d6bacf3216071f487b5aa6745f138",
       "basis": "derived",
       "sources": [
         "textbook:2.8:section:0"
@@ -3405,7 +3405,7 @@
       "id": "worked-check-2.9",
       "pool": "worked",
       "lesson": "2.9",
-      "itemDigest": "d9eba4bdd35d59d48902753d1ac83f3598a0709b44ad17b2ae4353242310931a",
+      "itemDigest": "503b5efeb2c5566b932bcb9f52db8ccbb738ae4af5c97292d9c9b50b060bc73e",
       "basis": "derived",
       "sources": [
         "textbook:2.9:section:0"
@@ -3416,7 +3416,7 @@
       "id": "worked-check-3.1",
       "pool": "worked",
       "lesson": "3.1",
-      "itemDigest": "3b0ff1f5851e35615cf705817a2bb91874184b124b986abd23c50db805f1520e",
+      "itemDigest": "ac049f0ab8a9fcfd25b03765c80260e401a65b8e1162d2550aa1a573f212dc83",
       "basis": "derived",
       "sources": [
         "textbook:3.1:section:0"
@@ -3427,7 +3427,7 @@
       "id": "worked-check-3.2",
       "pool": "worked",
       "lesson": "3.2",
-      "itemDigest": "97ecf5a8b0de12784e7a6390a672362a66a65252f31605eebcc63185b2a1f5a3",
+      "itemDigest": "28b6059d61472f279aa8f1b309b9a9828a9e118669213fb24be6996af43c9542",
       "basis": "derived",
       "sources": [
         "blueprint:3.1.b",
@@ -3439,7 +3439,7 @@
       "id": "worked-check-3.3",
       "pool": "worked",
       "lesson": "3.3",
-      "itemDigest": "3f30a235f8b6155f6af912aa82d74e58ffd9856ae38f0aba54f470fb4ff3fd35",
+      "itemDigest": "aaf0694a17ec9113e1be2c240b48f2e3039b2d8840307625c717dca57e2a0a99",
       "basis": "derived",
       "sources": [
         "lesson:3.3:point:1",
@@ -3451,7 +3451,7 @@
       "id": "worked-check-3.4",
       "pool": "worked",
       "lesson": "3.4",
-      "itemDigest": "6be8d20f327e78826ae1a61ec41898fb98ecfcaff83ded6c10bd42ffe09d99d0",
+      "itemDigest": "a233d87ba18fb622296a4ff9e522d9701d9e56f0fc31c4574f53023f66989730",
       "basis": "derived",
       "sources": [
         "textbook:3.4:section:1"
@@ -3462,7 +3462,7 @@
       "id": "worked-check-3.5",
       "pool": "worked",
       "lesson": "3.5",
-      "itemDigest": "2a5542c7b635979326baf1fb9bce343f8ee1bf248445a6b0aa58950f22b72a97",
+      "itemDigest": "6aebcfd9edff864846a5ceeeba723a47391636ec0e2e6ebde75b068a1a15f2b8",
       "basis": "derived",
       "sources": [
         "textbook:3.5:section:0",
@@ -3474,7 +3474,7 @@
       "id": "worked-check-4.1",
       "pool": "worked",
       "lesson": "4.1",
-      "itemDigest": "bbadf668d61c1af3ebc9c799e89f6919dca55584d331483e6487e50e435dfecd",
+      "itemDigest": "009b6382650cbb28a7759e7d8781f64f700aace1ea98f2480b6214da8f2091bc",
       "basis": "derived",
       "sources": [
         "textbook:4.1:section:0"
@@ -3485,7 +3485,7 @@
       "id": "worked-check-4.2",
       "pool": "worked",
       "lesson": "4.2",
-      "itemDigest": "9b1d6c15e649b5cfcc830a023a6b0c8facfa1d8395ecf6c0d88fa11110587c47",
+      "itemDigest": "8b073b0423848c7a30c9d26f7afbc76e1b99599aa325c6c53d864d83f036be41",
       "basis": "derived",
       "sources": [
         "textbook:4.2:section:1"
@@ -3496,7 +3496,7 @@
       "id": "worked-check-4.3",
       "pool": "worked",
       "lesson": "4.3",
-      "itemDigest": "474e124251a0ee6db97983af4ab9c111caeab73aa97d3ad2ca25e28a7d8c86b4",
+      "itemDigest": "c7ac9dda0f69b93de1163e58a0ac3e960bb06a1f15a8b766197f97a0af82bfef",
       "basis": "derived",
       "sources": [
         "textbook:4.3:section:1"
@@ -3507,7 +3507,7 @@
       "id": "worked-check-4.4",
       "pool": "worked",
       "lesson": "4.4",
-      "itemDigest": "e96b62ea2ef15a9a18254ec762ad027c53df4631506185af40ba7ee79b64fd05",
+      "itemDigest": "214dbc94aa82a1bda49ba25555cf14de5bc06f71e57e9d4bde2206026a82ef3c",
       "basis": "derived",
       "sources": [
         "textbook:4.4:section:1"
@@ -3518,7 +3518,7 @@
       "id": "worked-check-4.5",
       "pool": "worked",
       "lesson": "4.5",
-      "itemDigest": "c496a0d8b9f23511de59d1968de9de308540c97555bd93975cf0f5aeadd9f3fe",
+      "itemDigest": "4168cd95b4b08fbf66c1b5d77c121dd1aeca6956e081d5a1dc65f747a9c8bf9b",
       "basis": "derived",
       "sources": [
         "textbook:4.5:section:1"
@@ -3529,7 +3529,7 @@
       "id": "worked-check-4.6",
       "pool": "worked",
       "lesson": "4.6",
-      "itemDigest": "8826c47877cd463b4927bb8187f7426bba45987faf8378b89a09e7c30920e5be",
+      "itemDigest": "25fcebdfd70d97c65714a8fd1d6dc3ef3ee638a2fb3a7d0364c908cfe57cb7aa",
       "basis": "derived",
       "sources": [
         "lesson:4.6:point:0",
@@ -3541,7 +3541,7 @@
       "id": "worked-check-4.7",
       "pool": "worked",
       "lesson": "4.7",
-      "itemDigest": "2707cc52c0b39154d242241cb8308cb6628ed82f2e82e802d4ca4474f02c82f8",
+      "itemDigest": "462d61354d4441c553af3ab792d73137b69c15c3ce8c2910a4106ea7c3307624",
       "basis": "derived",
       "sources": [
         "lesson:4.7:point:2",
@@ -3553,7 +3553,7 @@
       "id": "worked-check-4.8",
       "pool": "worked",
       "lesson": "4.8",
-      "itemDigest": "69b46ebafbbf5efcac10a7f1c367eed791a183f8363ca50e34a45c0977f2fa21",
+      "itemDigest": "821db46009e31eda2e5847873da8665f67db83f0645158f4d995590e978b1117",
       "basis": "derived",
       "sources": [
         "textbook:4.8:section:1"
@@ -3564,7 +3564,7 @@
       "id": "worked-check-4.9",
       "pool": "worked",
       "lesson": "4.9",
-      "itemDigest": "fb86603c1fabce91bee03a23b0f11c532a858b1ff078469742ba1dc60925580b",
+      "itemDigest": "418d45b1d45e05893f56542e42d1f167431550f621121e51821c3ad6283ead90",
       "basis": "derived",
       "sources": [
         "textbook:4.9:section:0",
@@ -3576,7 +3576,7 @@
       "id": "worked-check-5.1",
       "pool": "worked",
       "lesson": "5.1",
-      "itemDigest": "a190841c5f24bb5369bb322918cbe67168d770ebf4dcad299092623f10a8e002",
+      "itemDigest": "fbe08d909a66ec0cf9da1c530065dcff8ff1628025dbe0315da557c84e37de6b",
       "basis": "derived",
       "sources": [
         "textbook:5.1:section:1"
@@ -3587,7 +3587,7 @@
       "id": "worked-check-5.2",
       "pool": "worked",
       "lesson": "5.2",
-      "itemDigest": "e56a2b5513d020e9c31aefb6702e693a5444c5841be3a0fe51fd1d706a8cb6f8",
+      "itemDigest": "bcd45d7f6862e21f2d647e1950519b45ffc8b7fcf6eb6f64852359aaca82bb73",
       "basis": "derived",
       "sources": [
         "textbook:5.2:section:0",
@@ -3599,7 +3599,7 @@
       "id": "worked-check-5.3",
       "pool": "worked",
       "lesson": "5.3",
-      "itemDigest": "d3008845d00532325e6d19da699b71fc27fb0d01b7f6b328961d476ec7c20ccc",
+      "itemDigest": "bd1ba21bdb7f77e8457777f8368bd4b43a62de6d65cbc65bd48ea2f0be302162",
       "basis": "derived",
       "sources": [
         "textbook:5.3:section:0",
@@ -3611,7 +3611,7 @@
       "id": "worked-check-5.4",
       "pool": "worked",
       "lesson": "5.4",
-      "itemDigest": "b8108ae75dc7fa42db752f0717be3b372ffa7f8fb0a98eaad6f91f236ca88c1c",
+      "itemDigest": "767c0da96c7ec477a92d28b01eece8b32b02431a660913b178912c0ca8c36661",
       "basis": "derived",
       "sources": [
         "lesson:5.4:point:3"
@@ -3623,7 +3623,7 @@
       "id": "worked-check-5.5",
       "pool": "worked",
       "lesson": "5.5",
-      "itemDigest": "257aff4f1f4ad9bd4d62290cfa34ca8136d5a2d50c89346f7317e24479b0d480",
+      "itemDigest": "dc7face71416f384b8f760549ed7c8ba7f877ba9dfdf9bbf404c51dd0a08f7ef",
       "basis": "derived",
       "sources": [
         "textbook:5.5:section:0",
@@ -3635,7 +3635,7 @@
       "id": "worked-check-5.6",
       "pool": "worked",
       "lesson": "5.6",
-      "itemDigest": "976080c502f79e98becb8ea277b5a99bb14b241dcca7ca85ab67bf4cfe6564ae",
+      "itemDigest": "a78a97171469a3856abe66003054e653c5696a1bb429c9024be5febe4b779944",
       "basis": "derived",
       "sources": [
         "lesson:5.6:intro",
@@ -3648,7 +3648,7 @@
       "id": "worked-check-5.7",
       "pool": "worked",
       "lesson": "5.7",
-      "itemDigest": "9fd1afa65ff856a6ffe6462e1c67d063cb9efc81396b1142c5dbc3ec92acfd1c",
+      "itemDigest": "0e3c7b512ca659b80db8ea3df6a642a51b3d618c2bcf2d52d8f62b29aceab49d",
       "basis": "derived",
       "sources": [
         "textbook:5.7:section:1"
@@ -3659,7 +3659,7 @@
       "id": "worked-check-5.8",
       "pool": "worked",
       "lesson": "5.8",
-      "itemDigest": "fe7c68c7f5b9f24648a48f439d415ea4e4e2666381396ee95e77a7126baba33e",
+      "itemDigest": "ec6926edfde77a6c92b6a6b6de7c88d082cab12ac31a4b773070bc2ffaa8ef69",
       "basis": "derived",
       "sources": [
         "textbook:5.8:section:1"
@@ -3670,7 +3670,7 @@
       "id": "worked-check-5.9",
       "pool": "worked",
       "lesson": "5.9",
-      "itemDigest": "a0d7dbdb577574c43ef744516dd8ae111f516f17d64e0121b33e153e66cf0f90",
+      "itemDigest": "ffb75cea79e3ac92fa6fec2c1446693f629f8ab2cf231e5eaabc872ae7ede9db",
       "basis": "derived",
       "sources": [
         "textbook:5.9:section:1"
@@ -3681,7 +3681,7 @@
       "id": "worked-check-5.10",
       "pool": "worked",
       "lesson": "5.10",
-      "itemDigest": "889486f24793b899ace6f96c75760585dc38bc0b4588e16daa5b46ba0c233b2a",
+      "itemDigest": "5ea95a08b2c03610adf644e941668ef93ff9fa0031e93828abde0b747ec07dca",
       "basis": "derived",
       "sources": [
         "lesson:5.10:point:1",
@@ -3694,7 +3694,7 @@
       "id": "worked-check-6.1",
       "pool": "worked",
       "lesson": "6.1",
-      "itemDigest": "d02495d69056d9636500f84b1754ffb269343158364a3770617d8f2fcfd90819",
+      "itemDigest": "f5761ec2fccfca19665ddd8eecc1b3c44d21d9d93413a12d7decc341d771455a",
       "basis": "derived",
       "sources": [
         "lesson:6.1:point:1",
@@ -3706,7 +3706,7 @@
       "id": "worked-check-6.2",
       "pool": "worked",
       "lesson": "6.2",
-      "itemDigest": "2d11d201c7899a0741cfb9bf495fcf6cd3a23b41dad7a385e484e6d437339d86",
+      "itemDigest": "27948ff3067cb5a2cb0c2fb920d945aa1067159e22df7365aa46a8a0edfaaa50",
       "basis": "derived",
       "sources": [
         "lesson:6.3:point:2",
@@ -3718,7 +3718,7 @@
       "id": "worked-check-6.3",
       "pool": "worked",
       "lesson": "6.3",
-      "itemDigest": "a8f66611a22a1ed067871192d235f596ab2a4ed5893b4b22fdad26fd23bf6bb7",
+      "itemDigest": "8a38b440f63970ce9d39c8f4d7ecfcca12c4c86bbb33e70e0649df277cbb9a91",
       "basis": "derived",
       "sources": [
         "lesson:6.3:point:1",
@@ -3730,7 +3730,7 @@
       "id": "worked-check-6.4",
       "pool": "worked",
       "lesson": "6.4",
-      "itemDigest": "08e703e556aa36c14020cb28db0090ed1a8484706c340a6b67aa761768483b9b",
+      "itemDigest": "29dc1aa35e81afdaae469d34c373e4755473b8c0c5b83ca59e0302198ead826a",
       "basis": "derived",
       "sources": [
         "guide:6.4:block:1:why"
@@ -3741,7 +3741,7 @@
       "id": "worked-check-6.5",
       "pool": "worked",
       "lesson": "6.5",
-      "itemDigest": "078be67ab319a656b58ae6d999cf6c0bf3323ba9aba86c2019aa51bee7ae8c5a",
+      "itemDigest": "5d261d58bb65a71247d023c040489cad0ac5f14b0f5205cd4ce5d0d0ddeb6763",
       "basis": "derived",
       "sources": [
         "lesson:6.5:point:1"
@@ -3752,7 +3752,7 @@
       "id": "worked-check-6.6",
       "pool": "worked",
       "lesson": "6.6",
-      "itemDigest": "687efbf050723497d43958d119cfc5665bd8816b08576d24b737da3275847b98",
+      "itemDigest": "8c72f49e4b03a1ae1d184772d283f5d79dc6772563d9499f238307f97d178d59",
       "basis": "derived",
       "sources": [
         "textbook:6.6:section:1"
@@ -3763,7 +3763,7 @@
       "id": "worked-check-6.7",
       "pool": "worked",
       "lesson": "6.7",
-      "itemDigest": "24aa7200091c9c5ea508ad443b698497eac5222b38acae276c49b9b195da9b3e",
+      "itemDigest": "78eaf5e7d47df0dfe1d52ee65041677218f9c331ece985d0c3d70ea1d0ee133f",
       "basis": "derived",
       "sources": [
         "lesson:6.7:point:0",
@@ -3772,5 +3772,10 @@
       ],
       "baseline": "supported"
     }
-  ]
+  ],
+  "editorialReview": {
+    "date": "2026-10-28",
+    "scope": "Beginner-language review of all 206 bank rationales, 53 lesson explanations and 53 worked answers. Prompts, choices, selected answer indexes, IDs and existing cited teaching passages were retained. Worked-answer wording was revised after checking its reasoning against the same teaching evidence.",
+    "reviewer": "AI-assisted editorial content review; comprehension has not been tested with novice learners."
+  }
 }

@@ -17,6 +17,7 @@ This guide applies to the entire Packetwise CCNA Study Lab repository. Read it b
 | `src/main.ts` | Bootstrap, providers and hash routes. |
 | `src/app/app.component.*`, `src/styles.css` | Site shell, navigation, sidebar and responsive presentation. |
 | `src/app/blueprint.data.ts` | Official objective hierarchy, skill verbs and subtopic explanations. |
+| `src/app/beginner.data.ts`, `src/app/beginner-note.component.ts` | Beginner introductions, vocabulary, numbered walkthroughs and captions; shared foundation definitions. |
 | `src/app/data.ts`, `src/app/models.ts` | Domains, lesson records, questions, command guides, sources, labs and types. |
 | `src/app/textbook.data.ts`, `public/textbook-alignment-review.md` | Book crosswalk, original depth notes, worked checks and review limitations. |
 | `src/app/lesson.component.*`, `src/app/lesson-article.component.*` | Continuous domain reader, deep links, scrolling highlights and lesson controls. |
@@ -29,7 +30,7 @@ This guide applies to the entire Packetwise CCNA Study Lab repository. Read it b
 | `public/assessment-coverage-report.md`, `public/assessment-coverage.csv` | Generated self-test findings and complete teaching evidence. |
 | `src/app/network-utils.ts`, `src/app/labs.component.*` | Network calculations and educational lab models. |
 | `tests/`, `tests/fixtures/ccna-v1.1-identifiers.json` | Content/logic tests and the sourced blueprint inventory. |
-| `scripts/sync-docs.mjs` | Generates the curriculum shadow copy and README statistics. |
+| `scripts/sync-docs.mjs` | Generates Learning Path and full question shadow copies, catalog, coverage reports and README statistics. |
 | `scripts/package.mjs`, `.github/workflows/pages.yml` | Offline/source ZIP packaging and GitHub Pages deployment. |
 | `public/network-hero.png` | Network illustration; packaging embeds it in the offline HTML. |
 
@@ -46,18 +47,19 @@ Some data files contain very large single-line arrays. Inspect specific exported
 7. Make network examples internally consistent. Distinguish switching within a VLAN from routing between VLANs. For selective inter-VLAN access, explain addressing, gateways, trunks, routing, filtering and expected allowed/denied tests. Keep worked answers consistent with the topology and command text.
 8. Keep guided CLI exercises and the VLAN explorer described as educational models. They are not full Cisco device emulators.
 9. Give every active question a unique `concept` learning-goal key and the correct objective reference. Review meaning as well as wording: changing only numbers, addresses or names does not justify another question. If retiring a duplicate, maintain a direct alias to its retained question in `question-aliases.ts`; preserve raw saved records and exports. The active review view merges legacy ratings without counting duplicates or unknown cards.
-10. Keep every bank, lesson and worked assessment supported by accessible teaching material. Review its decisive facts/reasoning and maintain the curated references in `tests/fixtures/assessment-coverage.json`. Never cite a quiz rationale, answer key or worked solution as its own teaching evidence. A new question, changed question/answer or changed cited paragraph requires fresh content review before updating the relevant fingerprints; do not bulk-refresh hashes merely to silence a failure. `coverage:check` checks evidence integrity and drift, not semantic truth or exam readiness.
+10. Introduce concepts for readers without a technical background. Define local vocabulary, use concrete examples and explain the reading order and meaning of each diagram. Every objective needs a `BEGINNER_GUIDES` entry; subtopic, depth-section and command-block `plain` fields live with their source passage. The Learning Path snapshot also includes the shared CLI primer, VLAN-diagram reading notes and glossary definitions so they remain available offline. Keep exam terminology and exact commands, adding plain-language explanation before detail. Work calculations step by step. Do not claim a readability score or test proves novice comprehension.
+11. Keep every bank, lesson and worked assessment supported by accessible teaching material. Review its decisive facts/reasoning and maintain the curated references in `tests/fixtures/assessment-coverage.json`. Never cite a quiz rationale, answer key or worked solution as its own teaching evidence. A new question, changed question/answer or changed cited paragraph requires fresh content review before updating the relevant fingerprints; do not bulk-refresh hashes merely to silence a failure. `coverage:check` checks evidence integrity and drift, not semantic truth or exam readiness.
 
 ## Generated documentation
 
-`LEARNING_PATH.md` is a generated shadow copy, not a second editable curriculum. Change the source data and then run:
+`LEARNING_PATH.md`, `QUESTION_POOL.md` and `QUESTION_POOL.json` are generated shadow copies, not separate editable curricula. The JSON preserves the bank, lesson checks and worked checks with stable IDs; multiple-choice answer indexes start at zero. Change the source data and then run:
 
 ```sh
 npm run docs:sync
 npm run docs:check
 ```
 
-Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md`, `public/question-bank-catalog.csv`, `public/assessment-coverage-report.md`, `public/assessment-coverage.csv` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text. Documentation sync validates the coverage fixture but never approves or rewrites its review fingerprints. The external source audit is a frozen review snapshot, not a live import or dependency of the question bank.
+Commit affected source records and the regenerated documentation together. Do not hand-edit `LEARNING_PATH.md`, `QUESTION_POOL.md`, `QUESTION_POOL.json`, `public/question-bank-catalog.csv`, `public/assessment-coverage-report.md`, `public/assessment-coverage.csv` or the README block between `BEGIN GENERATED CURRICULUM STATS` and `END GENERATED CURRICULUM STATS`; the next sync replaces them. Other README sections are maintained manually. If the data schema or snapshot format changes, update `scripts/sync-docs.mjs` as well. Keep output deterministic and preserve command text. Documentation sync validates the coverage fixture but never approves or rewrites its review fingerprints. The external source audit is a frozen review snapshot, not a live import or dependency of the question bank.
 
 ## UI and data behavior to preserve
 
@@ -98,7 +100,7 @@ The existing tests use Node's test runner and native TypeScript stripping. Add m
 
 - `build/` is generated and ignored. Do not hand-edit it or commit `node_modules/`.
 - `build:pages` uses a relative base URL. Packaging currently needs a single eager-loaded application bundle for the self-contained offline HTML; account for that constraint before introducing lazy chunks.
-- `npm run package` adds the offline HTML, static/source ZIPs and published README/Learning Path copies. The source ZIP includes these agent guides automatically.
+- `npm run package` adds the offline HTML, static/source ZIPs and published README/Learning Path and full question copies. The source ZIP includes these agent guides automatically.
 - GitHub Pages deploys through `.github/workflows/pages.yml` on pushes to `main` or a manual workflow dispatch. It checks documentation, runs tests, builds, packages and deploys `build/`.
 - Follow the user's requested delivery scope. Inspect the working tree, preserve unrelated edits and avoid force-pushing shared history. When publishing is requested, check the Actions result and the affected live artifact before reporting deployment complete. Creating documentation alone is not a standing instruction for future agents to publish unrelated work.
 - In the handoff, state what changed, what was verified and any material limitation. Distinguish files created, code pushed and deployment confirmed.
