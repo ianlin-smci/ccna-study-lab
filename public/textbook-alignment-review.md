@@ -8,12 +8,27 @@ The site contains lessons for all 53 top-level v1.1 objectives. Its original sum
 
 The full paid volumes were not supplied. The comparison uses public publisher contents, selected public OSPF/FHRP samples, published errata, the Cisco blueprint and selected Cisco technical documentation. A page-by-page comparison of the complete books and all companion exercises/updates was not performed. Configuration examples have not been executed on physical equipment; the site's CLI exercises are educational simulations.
 
+## What the comparison establishes
+
+This is a public-source chapter/topic crosswalk and a set of targeted teaching improvements. A matching chapter reference does not verify that every concept, illustration or exercise in that chapter is present or adequately introduced on the site. It must not be described as a complete audit of both books.
+
+The answer-coverage check starts from existing assessments and asks whether their answers have supporting teaching. It cannot discover a subject absent from both the lessons and the question pool. Blueprint inventory, chapter mapping, answer support and beginner teaching depth are separate checks.
+
+## OSI and VTP follow-up
+
+The earlier layering notes named OSI/TCP-IP but did not provide a dedicated seven-layer introduction. VTP was missing. The current follow-up adds:
+
+- [OSI foundation under objective 1.1](https://ianlin-smci.github.io/ccna-study-lab/#/lesson/1.1/osi-model): seven layer roles, transport units/addresses, an encapsulation walkthrough, TCP/IP mapping and troubleshooting limits.
+- [VTP supporting guide under objective 2.1](https://ianlin-smci.github.io/ccna-study-lab/#/lesson/2.1/vtp): modes, versions, a separate VTPv3 server/client lab, primary takeover, verification and transparent/off alternatives, sourced to Cisco documentation. VTP is supporting study; it is not an explicitly named configuration objective in v1.1. This addition does not claim a full-text VTP comparison with the paid volumes.
+
+Both guides have named links in the Learning Path, lesson navigation, site search and command library. They are included in the generated Markdown shadow copy. Their commands are documented examples, not physical-device validation.
+
 ## Findings and changes
 
 | Area | Finding | Implemented change |
 | --- | --- | --- |
 | Book navigation | No topic-to-book mapping | References for all 53 lessons; domain/volume/search filters |
-| Foundations | Layering and routed encapsulation were largely implicit | Added OSI/TCP-IP, Ethernet framing, ARP/ND and per-hop changes |
+| Foundations | Layering was implicit and later notes still lacked a dedicated OSI introduction | Named seven-layer OSI foundation plus Ethernet framing, ARP/ND and per-hop explanations |
 | Addressing | Limited subnet-design practice | Added VLSM allocation, mask design and IPv6 /48-to-/64 reasoning |
 | OSPF/routing | Limited adjacency and next-hop interpretation | Added states, normal DROther 2-Way, local process IDs, router-ID selection and return-path cases |
 | IPv6 static routes | No explicit IPv6 floating example in the guide | Added a separate AD 200 backup and limits of untracked failover |
@@ -21,9 +36,9 @@ The full paid volumes were not supplied. The comparison uses public publisher co
 | DAI | Short concept example mixed contexts and omitted separate DAI uplink trust | Corrected the short example; the existing full guide already configured both trusts |
 | Wireless GUI | Object relationships and platform differences abbreviated | Added 9800 profile/tag/AP mapping, AireOS differences, WMM and client verification |
 | Services/automation | Several summaries needed operational reasoning | Added DSCP/CoS, NTP trust, SNMP levels, FTP channels, AAA fallback, REST, AI and Terraform state cases |
-| Practice variety | Repeated generated subnet/lookup patterns | Added 18 original scenarios; total bank now 136 questions |
+| Practice variety | Repeated generated subnet/lookup patterns | Initial review added scenarios; the later [question-bank review](question-bank-review.md) consolidated variants and expanded the active bank to 206 original questions |
 
-Every lesson now has two additional original explanations and one worked check: 106 explanation sections and 53 review checks. The command guides now contain 136 modules. Existing progress IDs remain valid. Questions and teaching paragraphs are independently authored, not copies of Pearson's bank.
+Every lesson now has two additional original explanations and one worked check: 106 explanation sections and 53 review checks. The core objective command guides contain 136 modules; the OSI/VTP supporting guides add 10 separate documented command steps. Existing progress IDs remain valid. Questions and teaching paragraphs are independently authored, not copies of Pearson's bank.
 
 ## Errata and platform context
 

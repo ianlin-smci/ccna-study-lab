@@ -1,0 +1,30 @@
+@for(t of topics();track t.slug){
+ <section class="supporting-topic" [id]="anchor(t.lesson,t.slug)" [attr.data-study-topic]="t.slug" [attr.aria-labelledby]="'study-heading-'+t.slug">
+  <div class="eyebrow"><pw-term-text [text]="t.label"/></div>
+  <h2 [id]="'study-heading-'+t.slug"><pw-term-text [text]="t.title"/></h2>
+  <p class="study-scope"><pw-term-text [text]="t.scope"/></p>
+  <p class="plain-language-lead"><pw-term-text [text]="t.intro"/></p>
+  @for(s of t.sections;track s.heading){<section class="study-section">
+   <h3><pw-term-text [text]="s.heading"/></h3>
+   @for(p of s.paragraphs;track p){<p><pw-term-text [text]="p"/></p>}
+   @if(s.cards){<ol class="osi-layer-cards" aria-label="OSI layers, from seven down to one">
+    @for(c of s.cards;track c.title){<li><h4><pw-term-text [text]="c.title"/></h4><p><pw-term-text [text]="c.body"/></p><p class="study-detail"><pw-term-text [text]="c.detail"/></p></li>}
+   </ol>}
+   @if(s.table;as table){<div class="table-scroll"><table class="output-table study-table"><caption class="sr-only"><pw-term-text [text]="s.heading"/></caption><thead><tr>@for(h of table.headers;track h){<th scope="col"><pw-term-text [text]="h"/></th>}</tr></thead><tbody>@for(row of table.rows;track $index){<tr>@for(c of row;track $index){<td><pw-term-text [text]="c"/></td>}</tr>}</tbody></table></div>}
+   @if(s.steps){<ol class="study-steps">@for(step of s.steps;track step){<li><pw-term-text [text]="step"/></li>}</ol>}
+   @if(s.caption){<p class="study-caption"><strong>How to read this: </strong><pw-term-text [text]="s.caption"/></p>}
+  </section>}
+  @if(t.commands.length){<div class="study-commands">
+   <div class="section-heading"><h3>Commands and expected checks</h3><button class="btn small" [attr.aria-expanded]="expanded()" (click)="expanded.set(!expanded())">{{expanded()?'Collapse':'Expand'}} all steps</button></div>
+   <p class="mini-note">Use the named device and command mode for each block. Commands take effect immediately; comments start with ! and placeholders must be replaced. This is documented lab guidance, not a device emulator.</p>
+   @for(b of t.commands;track b.title;let i=$index){<details class="command-module" [open]="expanded()||i===0">
+    <summary><span class="command-kind"><pw-term-text [text]="b.kind.toUpperCase()" [interactive]="true"/></span><span><pw-term-text [text]="b.title" [interactive]="true"/></span></summary>
+    <div class="command-body"><div class="command-platform"><pw-term-text [text]="b.where"/></div><p class="plain-language-lead"><pw-term-text [text]="b.plain"/></p><p><pw-term-text [text]="b.why"/></p>
+     <div class="command-code"><button class="copy-command" (click)="copy(t.slug+'-'+i,b.code,code)">{{copied()===t.slug+'-'+i?'Copied':'Copy commands'}}</button><pre><code #code><pw-term-text [text]="b.code"/></code></pre></div>
+     <div class="expected-result"><strong>What you should see</strong><p><pw-term-text [text]="b.expected"/></p></div>
+    </div>
+   </details>}
+  </div>}
+  <div class="guide-sources"><h3>References for this guide</h3>@for(s of t.sources;track s.url){<a [href]="s.url" target="_blank" rel="noopener noreferrer"><pw-term-text [text]="s.title+' ↗'" [interactive]="true"/></a>}</div>
+ </section>
+}

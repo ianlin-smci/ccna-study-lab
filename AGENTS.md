@@ -18,6 +18,7 @@ This guide applies to the entire Packetwise CCNA Study Lab repository. Read it b
 | `src/app/app.component.*`, `src/styles.css` | Site shell, navigation, sidebar and responsive presentation. |
 | `src/app/blueprint.data.ts` | Official objective hierarchy, skill verbs and subtopic explanations. |
 | `src/app/beginner.data.ts`, `src/app/beginner-note.component.ts` | Beginner introductions, vocabulary, numbered walkthroughs and captions; shared foundation definitions. |
+| `src/app/supporting-topics.data.ts`, `src/app/supporting-topic.component.*` | Named OSI/VTP supporting sections, rendering, command-copy controls and source links. |
 | `src/app/data.ts`, `src/app/models.ts` | Domains, lesson records, questions, command guides, sources, labs and types. |
 | `src/app/textbook.data.ts`, `public/textbook-alignment-review.md` | Book crosswalk, original depth notes, worked checks and review limitations. |
 | `src/app/lesson.component.*`, `src/app/lesson-article.component.*` | Continuous domain reader, deep links, scrolling highlights and lesson controls. |
@@ -38,7 +39,7 @@ Some data files contain very large single-line arrays. Inspect specific exported
 
 ## Curriculum rules
 
-1. Keep objective IDs, lettered IDs, order, domain weights and skill targets aligned with the linked [Cisco v1.1 blueprint](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf). Use the fixture to check the inventory. Do not invent lettered IDs for inline scope terms or silently move to another exam version.
+1. Keep objective IDs, lettered IDs, order, domain weights and skill targets aligned with the linked [Cisco v1.1 blueprint](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf). Use the fixture to check the inventory. Named supporting guides use descriptive slugs under existing objectives (`1.1/osi-model`, `2.1/vtp`), never extra blueprint numbers. VTP is supplemental to the v1.1 list. Do not invent lettered IDs for inline scope terms or silently move to another exam version.
 2. Keep lesson IDs and titles consistent between the blueprint and lesson records. Preserve existing lesson/question identifiers, routes and references because saved progress and links depend on them. If a requested change needs a migration, implement and document it.
 3. Write original explanations, examples and questions. Use official Cisco references for technical claims and publisher sources for chapter references. Do not reproduce paid textbook chapters or exam/question-bank material.
 4. Describe textbook alignment accurately: the existing review uses public contents, selected samples and errata, plus Cisco references. A chapter mapping does not establish complete coverage or exam readiness. Do not claim to have inspected a book or source that was not available.
@@ -63,7 +64,7 @@ Commit affected source records and the regenerated documentation together. Do no
 
 ## UI and data behavior to preserve
 
-- Routes use hashes so deep links work on static hosting. Preserve objective, subtopic, short subtopic alias and command-section links; see the README's route examples.
+- Routes use hashes so deep links work on static hosting. Preserve objective, subtopic, short subtopic alias, named supporting-guide and command-section links; see the README's route examples.
 - The domain reader is continuous. Both objective and subtopic highlights must follow the visible content while scrolling; avoid adding a browser-history entry for every scroll position.
 - Term hints use dotted indicators and support hover, keyboard focus and tap. The site-level switch belongs in the fixed sidebar controls and its preference persists independently of study progress.
 - Use `GlossaryTextComponent` (`<pw-term-text [text]="value"/>`) for new displayed text that should have hints. Inside a link, button, label or summary, set `[interactive]="true"` to avoid nested buttons. Keep editors/input values and definition pop-up text plain. Copy controls must copy original command text.

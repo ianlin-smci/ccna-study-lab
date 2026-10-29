@@ -6,6 +6,7 @@ import {ProgressService} from './progress.service';
 import {IconComponent} from './ui';
 import {GlossaryTextComponent} from './glossary-text.component';
 import {LessonArticleComponent} from './lesson-article.component';
+import {supportingTopicsFor,supportingTopicAnchor} from './supporting-topics.data';
 import {BLUEPRINT} from './blueprint.data';
 
 @Component({
@@ -17,6 +18,8 @@ export class LessonComponent {
   readonly id=signal('1.1');
   readonly activeId=signal('1.1');
   readonly activeTopic=signal('');
+  readonly activeStudy=signal('');
+  readonly supporting=supportingTopicsFor;
   readonly blueprint=BLUEPRINT;
   readonly lesson=computed(()=>LESSONS.find(l=>l.id===this.id()));
   readonly domain=computed(()=>DOMAINS[(this.lesson()?.d||1)-1]);
@@ -32,7 +35,7 @@ export class LessonComponent {
     inject(ActivatedRoute).paramMap.pipe(takeUntilDestroyed()).subscribe(p=>{
       const raw=p.get('id')||'1.1',parent=raw.match(/^(\d+\.\d+)\.[a-z]$/)?.[1];
       const alias=parent&&BLUEPRINT[parent]?.subtopics.some(t=>t.id===raw);
-      this.id.set(alias?parent!:raw);this.activeId.set(this.id());this.activeTopic.set('');
+      this.id.set(alias?parent!:raw);this.activeId.set(this.id());this.activeTopic.set('');this.activeStudy.set('');
       this.section=alias?raw:p.get('section')||'';
     });
     // Run after the router's normal viewport restoration, once the domain is rendered.
@@ -52,7 +55,7 @@ export class LessonComponent {
       for(const article of articles)this.resizeObserver.observe(article.nativeElement);
       this.scheduleMeasurement();
     });
-    afterRenderEffect(()=>this.keepHighlightVisible(this.activeId(),this.activeTopic()));
+    afterRenderEffect(()=>this.keepHighlightVisible(this.activeId(),this.activeTopic(),this.activeStudy()));
     const onScroll=()=>this.scheduleMeasurement();
     window.addEventListener('scroll',onScroll,{passive:true});
     window.addEventListener('resize',onScroll,{passive:true});
@@ -70,6 +73,8 @@ export class LessonComponent {
   }
 
   private target(id=this.id(),section=this.section){
+    const study=supportingTopicAnchor(id,section);
+    if(study)return document.getElementById(study);
     const topic=BLUEPRINT[id]?.subtopics.some(t=>t.id===section);
     return document.getElementById((section==='commands'?'command-guide-':topic?'topic-':'lesson-')+(topic?section:id))||document.getElementById('lesson-'+id);
   }
@@ -95,12 +100,14 @@ export class LessonComponent {
       const box=t.getBoundingClientRect();return box.top<=readingLine&&box.bottom>readingLine;
     });
     this.activeTopic.set(topic?.dataset['blueprintTopic']||'');
+    const study=Array.from(active.querySelectorAll<HTMLElement>('[data-study-topic]')).find(t=>{const box=t.getBoundingClientRect();return box.top<=readingLine&&box.bottom>readingLine;});
+    this.activeStudy.set(study?.dataset['studyTopic']||'');
   }
 
-  private keepHighlightVisible(id:string,topic:string){
+  private keepHighlightVisible(id:string,topic:string,study:string){
     const nav=this.lessonNav()?.nativeElement;
     if(!nav?.clientHeight)return;
-    const link=Array.from(nav.querySelectorAll<HTMLAnchorElement>('a')).find(a=>topic?a.dataset['subtopicId']===topic:a.dataset['lessonId']===id);
+    const link=Array.from(nav.querySelectorAll<HTMLAnchorElement>('a')).find(a=>study?a.dataset['studyTopicLink']===study:topic?a.dataset['subtopicId']===topic:a.dataset['lessonId']===id);
     if(!link)return;
     const box=nav.getBoundingClientRect(),item=link.getBoundingClientRect();
     if(item.top<box.top+8)nav.scrollTop+=item.top-box.top-8;

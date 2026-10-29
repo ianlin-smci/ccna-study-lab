@@ -2,21 +2,22 @@ import {Component,computed,inject,signal} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {ActivatedRoute,RouterLink} from '@angular/router';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
-import {DOMAINS,LESSONS} from './data';
+import {DOMAINS,LESSONS,QUESTIONS} from './data';
 import {BOOKS,TEXTBOOK_REVIEWS} from './textbook.data';
 import {GlossaryTextComponent} from './glossary-text.component';
 @Component({standalone:true,imports:[FormsModule,RouterLink,GlossaryTextComponent],templateUrl:'./textbook.component.html'})
 export class TextbookComponent {
- books=BOOKS;domains=DOMAINS;query=signal('');domain=signal(0);volume=signal(0);
+ books=BOOKS;domains=DOMAINS;questionCount=QUESTIONS.length;query=signal('');domain=signal(0);volume=signal(0);
  rows=LESSONS.map(l=>({...l,review:TEXTBOOK_REVIEWS[l.id]}));
  results=computed(()=>{const q=this.query().trim().toLowerCase(),d=+this.domain(),v=+this.volume();return this.rows.filter(l=>(!d||l.d===d)&&(!v||(v===1?l.review.v1:l.review.v2).length>0)&&(!q||[l.id,l.title,l.review.focus,...l.review.sections.map(s=>s.heading+' '+s.body)].join(' ').toLowerCase().includes(q)));});
  findings=[
- {topic:'Foundations and subnet design',before:'Layering and packet encapsulation were mostly implicit, and subnet planning practice was limited.',after:'Added OSI/TCP-IP roles, frame changes, binary mask planning, VLSM allocation, IPv6 prefix reasoning and worked checks.',lessons:['1.1','1.3','1.6','1.8','1.13']},
+ {topic:'Foundations and subnet design',before:'Layering and packet encapsulation were mostly implicit, and subnet planning practice was limited.',after:'Added a named seven-layer OSI foundation with encapsulation and TCP/IP mapping, alongside frame changes, binary mask planning, VLSM and IPv6 prefix reasoning.',lessons:['1.1','1.3','1.6','1.8','1.13']},
+ {topic:'VTP as supporting VLAN study',before:'There was no VTP introduction or setup example.',after:'Added modes, versions, a separate two-switch VTPv3 lab, primary-role setup and verification. VTP remains supporting material rather than an invented v1.1 objective.',lessons:['2.1']},
  {topic:'Routing and OSPF',before:'Core concepts were present but adjacency interpretation and backup-route behavior needed depth.',after:'Added neighbor states, normal DROther 2-Way, process-ID scope, router-ID selection, return-path reasoning and an IPv6 floating-static example.',lessons:['1.10','3.1','3.2','3.3','3.4']},
  {topic:'ACLs and Layer 2 security',before:'The guide emphasized extended ACLs; the short DAI example mixed contexts and omitted DAI uplink trust.',after:'Corrected the DAI example; added a standard ACL/VTY module and explained trust boundaries, static-host bindings, rule order and stateless return traffic.',lessons:['4.8','5.6','5.7','5.8']},
  {topic:'Wireless controller interpretation',before:'GUI summaries did not fully trace how the AP receives its WLAN/VLAN mapping.',after:'Added the 9800 profile/tag/AP chain, AireOS interface differences, WMM categories and validation beyond association.',lessons:['2.6','2.7','2.9','5.9','5.10']},
  {topic:'Services, security and automation',before:'Several summaries named features without enough operational interpretation.',after:'Added QoS bit fields, NTP trust, SNMP protection, FTP channels, AAA fallback, REST semantics, AI validation and Terraform state cases.',lessons:['4.1','4.2','4.4','4.7','4.9','5.3','6.4','6.5','6.6','6.7']},
- {topic:'Reading references and assessment depth',before:'There was no book crosswalk; many extra questions repeated subnet and prefix patterns.',after:'Added reading references, two original explanations and a worked check per lesson, plus 18 original scenario questions in the practice bank.',lessons:[]}
+ {topic:'Reading references and assessment depth',before:'There was no book crosswalk; many extra questions repeated subnet and prefix patterns.',after:'Added reading references, two original explanations and a worked check per lesson, and later consolidated repeated variants and expanded the active original question bank.',lessons:[]}
  ];
  sources=[
  {title:'Cisco v1.1 exam objectives',url:'https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf',detail:'Exam scope and objective verbs remain the exam authority.'},

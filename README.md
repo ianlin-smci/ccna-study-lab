@@ -12,15 +12,17 @@ An interactive Angular study workspace for **CCNA 200-301 v1.1**, organized by C
 | --- | --- |
 | Exam blueprint | 6 domains · 53 objectives · 58 lettered subtopics |
 | Beginner support | 53 introductions and labeled walkthroughs · plain-language leads for every subtopic, depth section and command module |
-| Commands | 136 platform-labeled command modules |
+| Commands | 136 objective command modules · 10 supporting command modules |
+| Supporting guides | OSI model: seven jobs behind one network conversation · VTP: share the VLAN directory between switches |
 | Practice | 206 original questions · 60-question, 120-minute mock exams |
 | Textbook support | 106 explanation sections · 53 worked review checks |
-| Glossary | 197 abbreviation entries with optional definition hints |
+| Glossary | 198 abbreviation entries with optional definition hints |
 | Guided CLI | 5 scripted lab exercises |
 
 <!-- END GENERATED CURRICULUM STATS -->
 
 - Beginner introductions, locally defined vocabulary, numbered walkthroughs and example captions for all 53 objectives. Every subtopic, depth section and command module starts with a plain-language lead. Question explanations spell out reasoning, including subnet calculation steps. All 197 glossary definitions were also rewritten for clarity.
+- Named supporting guides: [OSI model](https://ianlin-smci.github.io/ccna-study-lab/#/lesson/1.1/osi-model) explains all seven layers, TCP/IP mapping and encapsulation. [VTP](https://ianlin-smci.github.io/ccna-study-lab/#/lesson/2.1/vtp) adds modes, a VTPv3 two-switch lab, verification and local-management alternatives. Both appear in the Learning Path, lesson navigation, search and command library without changing official objective numbering.
 - Continuous domain reading, with objective and subtopic highlights that follow scrolling.
 - A separate searchable abbreviation glossary with standalone plain-language definitions. Dotted terms open definitions on hover, keyboard focus or tap; the fixed sidebar switch controls hints across the site.
 - Practice questions, flashcards and timed mock exams with the blueprint’s domain weighting.
@@ -107,6 +109,7 @@ Each active question has a unique learning-goal `concept` and an objective refer
 | File or directory | Responsibility |
 | --- | --- |
 | [src/app/blueprint.data.ts](src/app/blueprint.data.ts) | v1.1 hierarchy, objective skill verbs and lettered subtopic explanations. |
+| [src/app/supporting-topics.data.ts](src/app/supporting-topics.data.ts) | Named supporting OSI/VTP guides, diagrams, platform-labeled commands and sources; no extra blueprint IDs. |
 | [src/app/beginner.data.ts](src/app/beginner.data.ts) | Everyday-language objective introductions, local vocabulary, numbered walkthroughs and example captions. |
 | [src/app/data.ts](src/app/data.ts) | Domains, lesson overviews, questions, command guides, sources and guided labs. |
 | [src/app/textbook.data.ts](src/app/textbook.data.ts) | Second Edition chapter references, original depth notes, plain-language section leads and worked review checks. |
@@ -134,6 +137,8 @@ Hash routes work on GitHub Pages without server rewrite rules:
 - `/#/path/2` — one domain.
 - `/#/lesson/2.1` — an objective within its continuous domain page.
 - `/#/lesson/2.1/2.1.c` — a lettered subtopic; `/#/lesson/2.1.c` is also supported.
+- `/#/lesson/1.1/osi-model` — the seven-layer foundation guide.
+- `/#/lesson/2.1/vtp` — the supporting VTP explanation and separate VTPv3 lab.
 - `/#/lesson/2.1/commands` — the objective’s command guide.
 - `/#/glossary` — abbreviation reference.
 - `/#/textbook` — Second Edition topic crosswalk and review findings.
@@ -178,6 +183,8 @@ The app does not upload these records to an account service, and personal browse
 ## Curriculum and textbook references
 
 The Learning Path targets [Cisco’s CCNA 200-301 v1.1 objectives](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf). Numbering and skill targets follow that inventory; study labels and teaching explanations are independently worded. Confirm the exam version for your testing date before using this curriculum.
+
+A chapter match establishes a suggested reading relationship, not that the site introduces every topic or matches the chapter’s depth. The assessment self-test checks existing questions; it cannot detect a subject absent from both lessons and questions.
 
 The [textbook alignment page](https://ianlin-smci.github.io/ccna-study-lab/#/textbook) maps lessons to **CCNA 200-301 Official Cert Guide, Second Edition, Volumes 1 and 2**. It uses the publisher’s public contents, selected public samples and errata, plus Cisco references. The complete paid books were not supplied for page-by-page comparison; chapter references establish suggested reading relationships, not equal coverage or exam readiness. Full findings and source links are in [the review report](public/textbook-alignment-review.md).
 

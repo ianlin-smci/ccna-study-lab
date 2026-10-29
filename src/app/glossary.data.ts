@@ -977,6 +977,11 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     "plural": true
   },
   {
+    "abbreviation": "VTP",
+    "fullName": "VLAN Trunking Protocol",
+    "explanation": "A Cisco protocol sharing VLAN definitions, such as IDs and names, between participating switches over trunks. It does not create the trunk, assign host ports or route between VLANs. Version 3 uses a primary editing role for shared database changes."
+  },
+  {
     "abbreviation": "VTY",
     "fullName": "Virtual Teletype",
     "explanation": "A logical remote-terminal connection on an IOS-style device. Its settings choose login behavior and allowed transports such as SSH; it is not a physical cable socket."

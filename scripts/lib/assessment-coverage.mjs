@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {DOMAINS,LESSONS,QUESTIONS,COMMAND_GUIDES} from '../../src/app/data.ts';
 import {BEGINNER_GUIDES} from '../../src/app/beginner.data.ts';
+import {supportingTopicsFor} from '../../src/app/supporting-topics.data.ts';
 import {BLUEPRINT} from '../../src/app/blueprint.data.ts';
 import {TEXTBOOK_REVIEWS} from '../../src/app/textbook.data.ts';
 
@@ -20,6 +21,18 @@ export function buildAssessmentCorpus(){
   for(const field of ['idea','example','caption','remember','exampleCaption'])add(`beginner:${l.id}:${field}`,beginner[field],'Beginner guide · '+field);
   beginner.steps.forEach((step,i)=>add(`beginner:${l.id}:step:${i}`,step.body,'Beginner walkthrough · '+step.title));
   beginner.words.forEach((word,i)=>add(`beginner:${l.id}:word:${i}`,word.meaning,'Beginner word · '+word.term));
+  for(const topic of supportingTopicsFor(l.id)){
+   const section=topic.slug;
+   add(`supporting:${l.id}:${section}:intro`,topic.intro,topic.title,section);
+   topic.sections.forEach((s,i)=>{
+    s.paragraphs.forEach((text,j)=>add(`supporting:${l.id}:${section}:section:${i}:paragraph:${j}`,text,s.heading,section));
+    s.cards?.forEach((card,j)=>add(`supporting:${l.id}:${section}:section:${i}:card:${j}`,card.body+' '+card.detail,card.title,section));
+    s.steps?.forEach((text,j)=>add(`supporting:${l.id}:${section}:section:${i}:step:${j}`,text,s.heading+' · step '+(j+1),section));
+    if(s.table)add(`supporting:${l.id}:${section}:section:${i}:table`,s.table.rows.map(row=>row.join(' | ')).join('\n'),s.heading,section);
+    if(s.caption)add(`supporting:${l.id}:${section}:section:${i}:caption`,s.caption,s.heading+' · reading note',section);
+   });
+   topic.commands.forEach((b,i)=>{for(const field of ['code','why','expected','plain'])add(`supporting:${l.id}:${section}:block:${i}:${field}`,b[field],b.title+' · '+field,section);});
+  }
   l.points.forEach((p,i)=>add(`lesson:${l.id}:point:${i}`,p,`Core explanation ${i+1}`));
   for(const t of BLUEPRINT[l.id].subtopics){add('blueprint:'+t.id,t.body,t.id+' '+t.title,t.id);add('blueprint:'+t.id+':plain',t.plain,t.id+' · Plain-language lead',t.id);}
   TEXTBOOK_REVIEWS[l.id].sections.forEach((s,i)=>{add(`textbook:${l.id}:section:${i}`,s.body,s.heading);add(`textbook:${l.id}:section:${i}:plain`,s.plain,s.heading+' · Plain-language lead');});
@@ -93,7 +106,7 @@ Reviewed ${data.manifest.reviewedAt}. Target: CCNA 200-301 v1.1. **${data.items.
 
 The practice, mock-exam and flashcard modes share one question bank. Each bank question was checked once. The audit also includes every lesson knowledge check and worked review check. Lesson questions that repeat a bank item remain separate assessment occurrences; the evidence was reused only after comparing their question, options and answer.
 
-Only material rendered as beginner guides and plain-language leads, lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
+Only material rendered as named supporting guides, beginner guides and plain-language leads, lesson introductions, core explanations, blueprint subtopics, explanatory textbook sections and current platform-labeled command guides counts as evidence. Quiz answer explanations, lesson answer keys, worked solutions, this report, external links and book chapter references do not count. The private external bank reviewed previously is outside this test. For objectives with lettered subtopics, expand **Objective overview** to read the core explanations. The evidence labels identify the relevant paragraph, subtopic or command module.
 
 ${table(['Pool','Items','Initially supported','Initially partial','Initially missing','Now supported'],coverageSummary(data).map(s=>[names[s.pool],s.total,s.initiallySupported,s.initiallyPartial,s.initiallyMissing,s.total]))}
 
